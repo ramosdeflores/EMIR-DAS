@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structFRAME" kind="struct" prot="public">
+    <compoundname>FRAME</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structFRAME_1311e229fbfc4a1ea86b6f1524e502da4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FRAME::writeF</definition>
+        <argsstring></argsstring>
+        <name>writeF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="73" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_142d76ad6d3e57fc4a683fa7e74b5b68a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char FRAME::fileName[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="74" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_185201c45e1d68ed79a15bca9673368e4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FRAME::number[NUM_FBUFFS]</definition>
+        <argsstring>[NUM_FBUFFS]</argsstring>
+        <name>number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="75" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_1854166166ddb459b91ba20bee20b23bd" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* FRAME::buffer[NUM_FBUFFS]</definition>
+        <argsstring>[NUM_FBUFFS]</argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="76" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_192da7ca5031f89f318c89e7147483fbb" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long FRAME::secstamp[NUM_FBUFFS]</definition>
+        <argsstring>[NUM_FBUFFS]</argsstring>
+        <name>secstamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="77" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_19630387ccf500a113b2a5d38f2fa7234" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long FRAME::nsecstamp[NUM_FBUFFS]</definition>
+        <argsstring>[NUM_FBUFFS]</argsstring>
+        <name>nsecstamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="78" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_15f49d8079d087ba05d8bae4a7c14b123" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FRAME::bufSize</definition>
+        <argsstring></argsstring>
+        <name>bufSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="79" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_1b102e3ba4a01a0910b86a042b2c0aef9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FRAME::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="80" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_130545225c4832513bcbf46c9814ce81a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FRAME::numBuffs</definition>
+        <argsstring></argsstring>
+        <name>numBuffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="81" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_188f21e0cd6fab1981debc8a3814796a9" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int FRAME::xSize</definition>
+        <argsstring></argsstring>
+        <name>xSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="82" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_15473deedf7b1649316a5f07e7940fc7f" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int FRAME::ySize</definition>
+        <argsstring></argsstring>
+        <name>ySize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="83" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFRAME_10d49a608f12e08e088e3f915f2865e99" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int FRAME::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="84" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="72" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="72" bodyend="85"/>
+    <listofallmembers>
+      <member refid="structFRAME_1854166166ddb459b91ba20bee20b23bd" prot="public" virt="non-virtual"><scope>FRAME</scope><name>buffer</name></member>
+      <member refid="structFRAME_15f49d8079d087ba05d8bae4a7c14b123" prot="public" virt="non-virtual"><scope>FRAME</scope><name>bufSize</name></member>
+      <member refid="structFRAME_142d76ad6d3e57fc4a683fa7e74b5b68a" prot="public" virt="non-virtual"><scope>FRAME</scope><name>fileName</name></member>
+      <member refid="structFRAME_10d49a608f12e08e088e3f915f2865e99" prot="public" virt="non-virtual"><scope>FRAME</scope><name>index</name></member>
+      <member refid="structFRAME_19630387ccf500a113b2a5d38f2fa7234" prot="public" virt="non-virtual"><scope>FRAME</scope><name>nsecstamp</name></member>
+      <member refid="structFRAME_185201c45e1d68ed79a15bca9673368e4" prot="public" virt="non-virtual"><scope>FRAME</scope><name>number</name></member>
+      <member refid="structFRAME_130545225c4832513bcbf46c9814ce81a" prot="public" virt="non-virtual"><scope>FRAME</scope><name>numBuffs</name></member>
+      <member refid="structFRAME_192da7ca5031f89f318c89e7147483fbb" prot="public" virt="non-virtual"><scope>FRAME</scope><name>secstamp</name></member>
+      <member refid="structFRAME_1b102e3ba4a01a0910b86a042b2c0aef9" prot="public" virt="non-virtual"><scope>FRAME</scope><name>state</name></member>
+      <member refid="structFRAME_1311e229fbfc4a1ea86b6f1524e502da4" prot="public" virt="non-virtual"><scope>FRAME</scope><name>writeF</name></member>
+      <member refid="structFRAME_188f21e0cd6fab1981debc8a3814796a9" prot="public" virt="non-virtual"><scope>FRAME</scope><name>xSize</name></member>
+      <member refid="structFRAME_15473deedf7b1649316a5f07e7940fc7f" prot="public" virt="non-virtual"><scope>FRAME</scope><name>ySize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

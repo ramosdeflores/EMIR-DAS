@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="EMIRDasFrame_8h" kind="file">
+    <compoundname>EMIRDasFrame.h</compoundname>
+    <includes local="yes">TimeValue.h</includes>
+    <includedby refid="EMIRDasController_8cpp" local="yes">EMIRDasController.cpp</includedby>
+    <includedby refid="SimpleStorageManager_8h" local="yes">SimpleStorageManager.h</includedby>
+    <incdepgraph>
+      <node id="1253">
+        <label>TimeValue.h</label>
+      </node>
+      <node id="1252">
+        <label>EMIRDasFrame.h</label>
+        <link refid="EMIRDasFrame.h"/>
+        <childnode refid="1253" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1256">
+        <label>SimpleStorageManager.h</label>
+        <link refid="SimpleStorageManager_8h"/>
+        <childnode refid="1255" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+      </node>
+      <node id="1255">
+        <label>EMIRDasController.cpp</label>
+        <link refid="EMIRDasController_8cpp"/>
+      </node>
+      <node id="1257">
+        <label>SimpleStorageManager.cpp</label>
+        <link refid="SimpleStorageManager_8cpp"/>
+      </node>
+      <node id="1254">
+        <label>EMIRDasFrame.h</label>
+        <link refid="EMIRDasFrame.h"/>
+        <childnode refid="1255" relation="include">
+        </childnode>
+        <childnode refid="1256" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structEMIRFrame">EMIRFrame</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="EMIRDasFrame_8h_1bc743ce126c3ada10501baffb3ca2295" prot="public" static="no">
+        <name>INT16</name>
+        <initializer>short</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="7" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="EMIRDasFrame_8h_1d31fa9a36b40ed56e7677aa70c8b93f1" prot="public" static="no">
+        <name>SDSU_HEADER_SIZE</name>
+        <initializer>24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="10" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="EMIRDasFrame_8h_1b61ea9d1e0596ea2a04fe31a60bbb24e" prot="public" static="no">
+        <name>DETECTOR_SIZE</name>
+        <initializer>2048 * 2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="11" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="EMIRDasFrame_8h_1e26b0a7f2ca5ca79827e7858f80461a2" prot="public" static="no">
+        <name>SDSU_TOTAL_SIZE</name>
+        <initializer>DETECTOR_SIZE + SDSU_HEADER_SIZE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="12" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_EMIRFRAME_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_EMIRFRAME_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TimeValue.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>VXWORKS</highlight></codeline>
+<codeline lineno="7" refid="EMIRDasFrame_8h_1bc743ce126c3ada10501baffb3ca2295" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INT16<sp/><sp/><sp/>short</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="EMIRDasFrame_8h_1d31fa9a36b40ed56e7677aa70c8b93f1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SDSU_HEADER_SIZE<sp/><sp/><sp/><sp/>24</highlight></codeline>
+<codeline lineno="11" refid="EMIRDasFrame_8h_1b61ea9d1e0596ea2a04fe31a60bbb24e" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DETECTOR_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>2048<sp/>*<sp/>2048</highlight></codeline>
+<codeline lineno="12" refid="EMIRDasFrame_8h_1e26b0a7f2ca5ca79827e7858f80461a2" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SDSU_TOTAL_SIZE<sp/><sp/><sp/><sp/><sp/>DETECTOR_SIZE<sp/>+<sp/>SDSU_HEADER_SIZE</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="structEMIRFrame" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structEMIRFrame" kindref="compound">EMIRFrame</ref><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="structEMIRFrame_1ec163847a80ae1e7a52e74c0c1cb6502" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_1ec163847a80ae1e7a52e74c0c1cb6502" kindref="member">imageName</ref>[256];</highlight></codeline>
+<codeline lineno="16" refid="structEMIRFrame_17a3c0ce9674a76252ea193061c20fdc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_17a3c0ce9674a76252ea193061c20fdc4" kindref="member">readoutmodeval</ref>;</highlight></codeline>
+<codeline lineno="17" refid="structEMIRFrame_1b2c5efde9da556c08af70ab901da518c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_1b2c5efde9da556c08af70ab901da518c" kindref="member">exposuretime</ref>;</highlight></codeline>
+<codeline lineno="18" refid="structEMIRFrame_15fbd1725c1296c674143cd0ae01a7c55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_15fbd1725c1296c674143cd0ae01a7c55" kindref="member">x_size</ref>;</highlight></codeline>
+<codeline lineno="19" refid="structEMIRFrame_1d4ec436d41616ed15c240b25021c6ab9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_1d4ec436d41616ed15c240b25021c6ab9" kindref="member">y_size</ref>;</highlight></codeline>
+<codeline lineno="20" refid="structEMIRFrame_17af13317c1936036e0f8d676d1e9fe29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_17af13317c1936036e0f8d676d1e9fe29" kindref="member">windowMode</ref>;</highlight></codeline>
+<codeline lineno="21" refid="structEMIRFrame_1400f9a72477e85b48b9dee100c3fcee2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_1400f9a72477e85b48b9dee100c3fcee2" kindref="member">nsec</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>sequences<sp/>in<sp/>an<sp/>observation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="structEMIRFrame_14a817a526fbe151cab1ebe3a23ea2fb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_14a817a526fbe151cab1ebe3a23ea2fb5" kindref="member">optrst</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Type<sp/>of<sp/>detector<sp/>resets<sp/>to<sp/>be<sp/>performed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="structEMIRFrame_19ebee29afba17cc8b73a3b960e0d4555" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_19ebee29afba17cc8b73a3b960e0d4555" kindref="member">nrst</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>detector<sp/>resets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structEMIRFrame_179f6f02ed7d1d603332af95aae376b73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_179f6f02ed7d1d603332af95aae376b73" kindref="member">nrdbl</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>detector<sp/>resets<sp/>before<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="structEMIRFrame_1d70a2e5d0cb5e2c49e3bd38ec95336b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_1d70a2e5d0cb5e2c49e3bd38ec95336b5" kindref="member">nrdbl_nd</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Detectors<sp/>resets<sp/>before<sp/>the<sp/>loop<sp/>with<sp/>no<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="structEMIRFrame_1fd99838252dc37d44be0df8c84a21e93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_1fd99838252dc37d44be0df8c84a21e93" kindref="member">numExp</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>expositions<sp/>per<sp/>sequence</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structEMIRFrame_166de048958491d59b0cc9ec13293159f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_166de048958491d59b0cc9ec13293159f" kindref="member">nrdil</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>detector<sp/>resets<sp/>inside<sp/>the<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="structEMIRFrame_15d0dee8463dceabd438678519cb5d75b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_15d0dee8463dceabd438678519cb5d75b" kindref="member">nrdil_nd</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Detector<sp/>resets<sp/>inside<sp/>the<sp/>loop<sp/>with<sp/>no<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="structEMIRFrame_151803bfe5d7732b6d4cb084d5505ba54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_151803bfe5d7732b6d4cb084d5505ba54" kindref="member">nparam_x</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>dummy<sp/>readouts<sp/>of<sp/>a<sp/>line</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="structEMIRFrame_1110227b1020ffc3943f67b5c75970bed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structEMIRFrame_1110227b1020ffc3943f67b5c75970bed" kindref="member">currentFrame</ref>;</highlight></codeline>
+<codeline lineno="31" refid="structEMIRFrame_13f62e57bc9cf889150ddf78019480a24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>time_t<sp/><ref refid="structEMIRFrame_13f62e57bc9cf889150ddf78019480a24" kindref="member">timeStamp</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="structEMIRFrame_1f15b4a43f787755c1fd5588649709599" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="EMIRDasFrame_8h_1bc743ce126c3ada10501baffb3ca2295" kindref="member">INT16</ref><sp/>*<ref refid="structEMIRFrame_1f15b4a43f787755c1fd5588649709599" kindref="member">DetectorData</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_EMIRFRAME_<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h"/>
+  </compounddef>
+</doxygen>

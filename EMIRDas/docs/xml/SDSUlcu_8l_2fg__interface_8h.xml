@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="SDSUlcu_8l_2fg__interface_8h" kind="file">
+    <compoundname>SDSUlcu.l/fg_interface.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="SDSUlcu_8l_2fg__interface_8h_1ea784b8df04465e35756163cfb4b59cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fgread</definition>
+        <argsstring>(int id, void *buffer, int size)</argsstring>
+        <name>fgread</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/fg_interface.h" line="1" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/fg_interface.cpp" bodystart="19" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUlcu_8l_2fg__interface_8h_11993022b5f23372f2fce417c7e10ddae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fgioctl</definition>
+        <argsstring>(int id, int request, void *args)</argsstring>
+        <name>fgioctl</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/fg_interface.h" line="3" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/fg_interface.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUlcu_8l_2fg__interface_8h_1c0689e0cb236f78a0d48447a43f609c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fgopen</definition>
+        <argsstring>(char *device, unsigned int mask)</argsstring>
+        <name>fgopen</name>
+        <param>
+          <type>char *</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/fg_interface.h" line="5" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/fg_interface.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUlcu_8l_2fg__interface_8h_10625f7ca69bc6745410b48eee68786ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fgclose</definition>
+        <argsstring>(int fd)</argsstring>
+        <name>fgclose</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/fg_interface.h" line="7" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/fg_interface.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1ea784b8df04465e35756163cfb4b59cc" kindref="member">fgread</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_11993022b5f23372f2fce417c7e10ddae" kindref="member">fgioctl</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>request,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*args);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1c0689e0cb236f78a0d48447a43f609c1" kindref="member">fgopen</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*device,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_10625f7ca69bc6745410b48eee68786ec" kindref="member">fgclose</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd);</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/fg_interface.h"/>
+  </compounddef>
+</doxygen>

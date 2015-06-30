@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structSDSU__FIFODEV" kind="struct" prot="public">
+    <compoundname>SDSU_FIFODEV</compoundname>
+    <includes refid="SDSUlcu_8l_2ct__interface_8h" local="no">ct_interface.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSDSU__FIFODEV_19e64f47fe1ffc875bd3a6e3c80a12659" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char SDSU_FIFODEV::name</definition>
+        <argsstring>[SDSU_FIFO_LEN]</argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>Device file name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="246" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__FIFODEV_1c0ade3ce9110d6af6a995abe5a0c477d" prot="public" static="no" mutable="no">
+        <type>MSG_Q_ID</type>
+        <definition>MSG_Q_ID SDSU_FIFODEV::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>FIFO ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="247" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>FIFO data structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="245" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="245" bodyend="248"/>
+    <listofallmembers>
+      <member refid="structSDSU__FIFODEV_1c0ade3ce9110d6af6a995abe5a0c477d" prot="public" virt="non-virtual"><scope>SDSU_FIFODEV</scope><name>id</name></member>
+      <member refid="structSDSU__FIFODEV_19e64f47fe1ffc875bd3a6e3c80a12659" prot="public" virt="non-virtual"><scope>SDSU_FIFODEV</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

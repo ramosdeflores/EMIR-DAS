@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="SimpleMemoryManager_8cpp" kind="file">
+    <compoundname>SimpleMemoryManager.cpp</compoundname>
+    <includes refid="SimpleMemoryManager_8h" local="yes">SimpleMemoryManager.h</includes>
+    <includes local="yes">iostream.h</includes>
+    <incdepgraph>
+      <node id="1293">
+        <label>ace/Semaphore.h</label>
+      </node>
+      <node id="1295">
+        <label>Trace.h</label>
+      </node>
+      <node id="1290">
+        <label>SimpleMemoryManager.cpp</label>
+        <link refid="SimpleMemoryManager.cpp"/>
+        <childnode refid="1291" relation="include">
+        </childnode>
+        <childnode refid="1296" relation="include">
+        </childnode>
+      </node>
+      <node id="1294">
+        <label>ace/Synch.h</label>
+      </node>
+      <node id="1296">
+        <label>iostream.h</label>
+      </node>
+      <node id="1291">
+        <label>SimpleMemoryManager.h</label>
+        <link refid="SimpleMemoryManager_8h"/>
+        <childnode refid="1292" relation="include">
+        </childnode>
+        <childnode refid="1293" relation="include">
+        </childnode>
+        <childnode refid="1294" relation="include">
+        </childnode>
+        <childnode refid="1295" relation="include">
+        </childnode>
+      </node>
+      <node id="1292">
+        <label>ace/Mutex.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="SimpleMemoryManager_8cpp_1e1b66b8df68990d8784a19666686d063" prot="public" static="no">
+        <name>SDSU_BURST_BLOCK</name>
+        <initializer>0x10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" line="4" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="SimpleMemoryManager_8h" kindref="compound">SimpleMemoryManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;iostream.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SDSU_BURST_BLOCK<sp/>0x10000</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="classSimpleMemoryManager_1eff6c756d8f4d66a11134a6b13495cff" kindref="member">SimpleMemoryManager::SimpleMemoryManager</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>size_t<sp/>size,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>poolSize)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/>err_index;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><ref refid="classSimpleMemoryManager_1fb40deed804b321ec1d3741067d2b924" kindref="member">trace_</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Trace(</highlight><highlight class="stringliteral">&quot;SimpleMemoryManager&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimpleMemoryManager::SimpleMemoryManager()&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>pool_size<sp/>=<sp/>poolSize;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>fullQueue<sp/>=<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)malloc(pool_size<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*));</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>freeQueue<sp/>=<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)malloc(pool_size<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*));</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimpleMemoryManager<sp/>2&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>index<sp/>=<sp/>0;<sp/>index<sp/>&lt;<sp/>pool_size;<sp/>++index)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>fullQueue[index]<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>size<sp/>is<sp/>0<sp/>then<sp/>the<sp/>freeQueue<sp/>will<sp/>loaded<sp/>by<sp/>the<sp/>calling<sp/>program.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>buffers<sp/>should<sp/>be<sp/>preserved<sp/>after<sp/>the<sp/>object<sp/>is<sp/>deleted,<sp/>then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>theh<sp/>queues<sp/>should<sp/>be<sp/>refilled<sp/>with<sp/>NULLs.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>size<sp/>==<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>freeQueue[index]<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((freeQueue[index]<sp/>=<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)ACE_OS::malloc(size))<sp/>==<sp/>NULL)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimpleMemoryManager::SimpleMemoryManager()<sp/>-<sp/>ERROR<sp/>allocating<sp/>memory&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>err_index<sp/>=<sp/>0;<sp/>err_index<sp/>&lt;<sp/>index;<sp/>++err_index)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(freeQueue[index]);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pool_size<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Need<sp/>to<sp/>send<sp/>error<sp/>up</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimpleMemoryManager<sp/>3&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>buffSize<sp/>=<sp/>size;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>freeHead<sp/>=<sp/>pool_size<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>fullHead<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>fullTail<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>freeTail<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>freeCount<sp/>=<sp/>pool_size;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>fullCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;SimpleMemoryManager::SimpleMemoryManager()<sp/>FREE<sp/>HEAD<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>freeHead<sp/>&lt;&lt;<sp/>&quot;<sp/>TAIL<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>freeTail<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;SimpleMemoryManager::SimpleMemoryManager()<sp/>FULL<sp/>HEAD<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>fullHead<sp/>&lt;&lt;<sp/>&quot;<sp/>TAIL<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>fullTail<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>freeSema_<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ACE_Semaphore(pool_size<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>fullSema_<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ACE_Semaphore(0);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><ref refid="classSimpleMemoryManager_1aa492310bdf8f421920594c7166260be" kindref="member">SimpleMemoryManager::~SimpleMemoryManager</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>buffers<sp/>should<sp/>be<sp/>preserved<sp/>after<sp/>the<sp/>object<sp/>is<sp/>deleted,<sp/>then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>queues<sp/>should<sp/>be<sp/>refilled<sp/>with<sp/>NULLs.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>pool_size<sp/>!=<sp/>-1<sp/>){</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>index<sp/>=<sp/>freeHead;<sp/>index<sp/>&lt;<sp/>freeTail;<sp/>++index)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>freeQueue[index]<sp/>!=<sp/>NULL<sp/>)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(freeQueue[index]);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>index<sp/>=<sp/>fullHead;<sp/>index<sp/>&lt;<sp/>fullTail;<sp/>++index)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>fullQueue[index]<sp/>!=<sp/>NULL<sp/>)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(fullQueue[index]);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>free(fullQueue);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>free(freeQueue);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="classSimpleMemoryManager_1d2fd83fde76e218a348d4647a5009589" kindref="member">SimpleMemoryManager::getFreeBuffer</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>wait)<sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;SimpleMemoryManager::getFreeBuffer()<sp/>START<sp/>HEAD<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>freeHead<sp/>&lt;&lt;<sp/>&quot;<sp/>TAIL<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>freeTail<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>freeMutex_.acquire();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>freeHead<sp/>==<sp/>freeTail<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>freeMutex_.release();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>--freeCount;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>=<sp/>freeQueue[freeTail];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>freeQueue[freeTail]<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>freeTail<sp/>=<sp/>(<sp/>freeTail<sp/>+<sp/>1<sp/>)<sp/>%<sp/>pool_size;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>freeMutex_.release();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;SimpleMemoryManager::getFreeBuffer()<sp/>HEAD<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>freeHead<sp/>&lt;&lt;<sp/>&quot;<sp/>TAIL<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>freeTail<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>buffer;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="classSimpleMemoryManager_12feb159fea934d91682c2661ccd7f34d" kindref="member">SimpleMemoryManager::getFullBuffer</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>wait)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>fullHead<sp/>==<sp/>fullTail<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>emptyMutex_.release();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>fullMutex_.release();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>--fullCount;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>=<sp/>fullQueue[fullTail];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>fullQueue[fullTail]<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>fullTail<sp/>=<sp/>(<sp/>fullTail<sp/>+<sp/>1<sp/>)<sp/>%<sp/>pool_size;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>fullMutex_.release();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;SimpleMemoryManager::getFullBuffer()<sp/>HEAD<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>fullHead<sp/>&lt;&lt;<sp/>&quot;<sp/>TAIL<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>fullTail<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>buffer;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_11c167a14b6ed8b8f6d384006fc0577be" kindref="member">SimpleMemoryManager::putFreeBuffer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer)<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>freeMutex_.acquire();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!<sp/>freeCount<sp/>)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>emptyMutex_.acquire();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>++freeCount;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>freeQueue[freeHead]<sp/>=<sp/>buffer;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>freeHead<sp/>=<sp/>(freeHead<sp/>+<sp/>1)<sp/>%<sp/>pool_size;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>freeMutex_.release();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>freeSema_-&gt;release();</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;SimpleMemoryManager::putFreeBuffer()<sp/>HEAD<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>freeHead<sp/>&lt;&lt;<sp/>&quot;<sp/>TAIL<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>freeTail<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pool_size<sp/>-<sp/>freeCount;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_157fa404c6e19bebe963d70a4b2085ebd" kindref="member">SimpleMemoryManager::putFullBuffer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer)<sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>fullMutex_.acquire();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>++fullCount;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/>fullQueue[fullHead]<sp/>=<sp/>buffer;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>fullHead<sp/>=<sp/>(fullHead<sp/>+<sp/>1)<sp/>%<sp/>pool_size;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>fullMutex_.release();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>fullSema_-&gt;release();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;SimpleMemoryManager::putFullBuffer()<sp/>HEAD<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>fullHead<sp/>&lt;&lt;<sp/>&quot;<sp/>TAIL<sp/>=<sp/>&quot;<sp/>&lt;&lt;<sp/>fullTail<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pool_size<sp/>-<sp/>freeCount;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1c94e4ebaea3bc04fc6e9c7d01b4356cb" kindref="member">SimpleMemoryManager::getBufferCount</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pool_size;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_11394991301a4fa9674b605574655bb13" kindref="member">SimpleMemoryManager::getFreeCount</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>freeCount;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1ee6a370f086d6421b47affb7ed8b2648" kindref="member">SimpleMemoryManager::getFullCount</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fullCount;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1b6e78519ed8a2a3af9d55e0c63aeed47" kindref="member">SimpleMemoryManager::getBufferSize</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>buffSize;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1c3464b914dfe6b0893125ca71e6c92a8" kindref="member">SimpleMemoryManager::waitForFull</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>fullSema_-&gt;acquire();</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1cdf2cf0b1fa21570ec613e1046c308bb" kindref="member">SimpleMemoryManager::waitForFree</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>freeSema_-&gt;acquire();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Block<sp/>until<sp/>full<sp/>queue<sp/>is<sp/>empty</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1eb596e40b3fcd62841e9c55e54f5ccb0" kindref="member">SimpleMemoryManager::waitForEmpty</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>emptyMutex_.acquire();</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>emptyMutex_.release();</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp"/>
+  </compounddef>
+</doxygen>

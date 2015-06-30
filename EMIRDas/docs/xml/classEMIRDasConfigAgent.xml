@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classEMIRDasConfigAgent" kind="class" prot="public">
+    <compoundname>EMIRDasConfigAgent</compoundname>
+    <includes refid="EMIRDasConfigAgent_8h" local="no">EMIRDasConfigAgent.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEMIRDasConfigAgent_1dde9838354b8ddb637a400ce3ac2352e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EMIRDasConfigAgent::EMIRDasConfigAgent</definition>
+        <argsstring>(EMIRDas *device, const int mode, TimerEngine *timer)</argsstring>
+        <name>EMIRDasConfigAgent</name>
+        <param>
+          <type><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref> *</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>TimerEngine *</type>
+          <declname>timer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.cpp" bodystart="10" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_189d94d8685283b2222923432d9e28a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>EMIRDasConfigAgent::~EMIRDasConfigAgent</definition>
+        <argsstring>()</argsstring>
+        <name>~EMIRDasConfigAgent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_16c329654bf8151e295e8d145f72ed096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EMIRDasConfigAgent::applyProperties</definition>
+        <argsstring>()</argsstring>
+        <name>applyProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="29" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.cpp" bodystart="34" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_13044c11f023607ab44e5637fa7005042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasConfigAgent::readProperties</definition>
+        <argsstring>()</argsstring>
+        <name>readProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="32" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.cpp" bodystart="57" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_1c4dec02e062b8aa54ba83a01b138a388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EMIRDasConfigAgent::toConfiguration</definition>
+        <argsstring>(CONFIG::Configuration &amp;c)</argsstring>
+        <name>toConfiguration</name>
+        <param>
+          <type>CONFIG::Configuration &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="35" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.cpp" bodystart="81" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_199221a85365e191aa35157e8e13c18d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EMIRDasConfigAgent::fromConfiguration</definition>
+        <argsstring>(const CONFIG::Configuration &amp;c)</argsstring>
+        <name>fromConfiguration</name>
+        <param>
+          <type>const CONFIG::Configuration &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="38" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.cpp" bodystart="106" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_1dde9838354b8ddb637a400ce3ac2352e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EMIRDasConfigAgent::EMIRDasConfigAgent</definition>
+        <argsstring>(EMIRDas *device, const int mode, TimerEngine *timer)</argsstring>
+        <name>EMIRDasConfigAgent</name>
+        <param>
+          <type><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref> *</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>TimerEngine *</type>
+          <declname>timer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRDasConfigAgent.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_1320282fcb702072d2df7c2df87d610d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>virtual EMIRDasConfigAgent::~EMIRDasConfigAgent</definition>
+        <argsstring>()</argsstring>
+        <name>~EMIRDasConfigAgent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRDasConfigAgent.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_16c329654bf8151e295e8d145f72ed096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EMIRDasConfigAgent::applyProperties</definition>
+        <argsstring>()</argsstring>
+        <name>applyProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRDasConfigAgent.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_13044c11f023607ab44e5637fa7005042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasConfigAgent::readProperties</definition>
+        <argsstring>()</argsstring>
+        <name>readProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRDasConfigAgent.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_1c4dec02e062b8aa54ba83a01b138a388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EMIRDasConfigAgent::toConfiguration</definition>
+        <argsstring>(CONFIG::Configuration &amp;c)</argsstring>
+        <name>toConfiguration</name>
+        <param>
+          <type>CONFIG::Configuration &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRDasConfigAgent.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasConfigAgent_199221a85365e191aa35157e8e13c18d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EMIRDasConfigAgent::fromConfiguration</definition>
+        <argsstring>(const CONFIG::Configuration &amp;c)</argsstring>
+        <name>fromConfiguration</name>
+        <param>
+          <type>const CONFIG::Configuration &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRDasConfigAgent.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classEMIRDasConfigAgent_1ecb929cdd3dd22df76f1ebee1781c01a" prot="protected" static="no" mutable="no">
+        <type>Trace</type>
+        <definition>Trace EMIRDasConfigAgent::trace_</definition>
+        <argsstring></argsstring>
+        <name>trace_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="45" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEMIRDasConfigAgent_1a0da8da8360d3fd179bde49ef86f0412" prot="private" static="no" mutable="no">
+        <type><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref> *</type>
+        <definition>EMIRDas* EMIRDasConfigAgent::device_</definition>
+        <argsstring></argsstring>
+        <name>device_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="51" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasConfigAgent_147636ec4bfcce129434b77d9b59eeb15" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String EMIRDasConfigAgent::poweronApp_</definition>
+        <argsstring></argsstring>
+        <name>poweronApp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="56" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasConfigAgent_178b391c1a64c32468bc1f0c9ae354115" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String EMIRDasConfigAgent::poweroffApp_</definition>
+        <argsstring></argsstring>
+        <name>poweroffApp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="57" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasConfigAgent_1ed594a8b240543134bc2dea47550a6a1" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String EMIRDasConfigAgent::adqApp_</definition>
+        <argsstring></argsstring>
+        <name>adqApp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="58" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasConfigAgent_1eda202d981c954a70f9199050193354e" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String EMIRDasConfigAgent::imgDir_</definition>
+        <argsstring></argsstring>
+        <name>imgDir_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="59" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasConfigAgent_10c69c62e9a56e06c900cc771ce4e22d1" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String EMIRDasConfigAgent::dataFactoryName_</definition>
+        <argsstring></argsstring>
+        <name>dataFactoryName_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="60" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasConfigAgent_1411e92837ab33808de2c60f019ed0d36" prot="private" static="no" mutable="no">
+        <type>short</type>
+        <definition>short EMIRDasConfigAgent::isDataFactoryEnabled_</definition>
+        <argsstring></argsstring>
+        <name>isDataFactoryEnabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="61" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasConfigAgent_1a0da8da8360d3fd179bde49ef86f0412" prot="private" static="no" mutable="no">
+        <type><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref> *</type>
+        <definition>EMIRDas* EMIRDasConfigAgent::device_</definition>
+        <argsstring></argsstring>
+        <name>device_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRDasConfigAgent.h" line="51" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRDasConfigAgent.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="160">
+        <label>EMIRDasConfigAgent</label>
+        <link refid="classEMIRDasConfigAgent"/>
+        <childnode refid="161" relation="usage">
+          <edgelabel>device_</edgelabel>
+        </childnode>
+      </node>
+      <node id="161">
+        <label>EMIRDas</label>
+        <link refid="classEMIRDas"/>
+        <childnode refid="162" relation="usage">
+          <edgelabel>controller_</edgelabel>
+        </childnode>
+        <childnode refid="166" relation="usage">
+          <edgelabel>currentConfiguration</edgelabel>
+        </childnode>
+      </node>
+      <node id="164">
+        <label>DetectorControllerApp</label>
+        <link refid="classDetectorControllerApp"/>
+      </node>
+      <node id="166">
+        <label>AcqConfig</label>
+        <link refid="structAcqConfig"/>
+      </node>
+      <node id="162">
+        <label>EMIRDasController</label>
+        <link refid="classEMIRDasController"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>dchardwarefacade_</edgelabel>
+        </childnode>
+        <childnode refid="165" relation="usage">
+          <edgelabel>memoryManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="165">
+        <label>SimpleMemoryManager</label>
+        <link refid="classSimpleMemoryManager"/>
+      </node>
+      <node id="163">
+        <label>EMIRDasControllerHw</label>
+        <link refid="classEMIRDasControllerHw"/>
+        <childnode refid="164" relation="usage">
+          <edgelabel>aquisitionCode</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" line="16" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasConfigAgent.h" bodystart="15" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classEMIRDasConfigAgent_1ed594a8b240543134bc2dea47550a6a1" prot="private" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>adqApp_</name></member>
+      <member refid="classEMIRDasConfigAgent_16c329654bf8151e295e8d145f72ed096" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>applyProperties</name></member>
+      <member refid="classEMIRDasConfigAgent_16c329654bf8151e295e8d145f72ed096" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>applyProperties</name></member>
+      <member refid="classEMIRDasConfigAgent_10c69c62e9a56e06c900cc771ce4e22d1" prot="private" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>dataFactoryName_</name></member>
+      <member refid="classEMIRDasConfigAgent_1a0da8da8360d3fd179bde49ef86f0412" prot="private" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>device_</name></member>
+      <member refid="classEMIRDasConfigAgent_1a0da8da8360d3fd179bde49ef86f0412" prot="private" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>device_</name></member>
+      <member refid="classEMIRDasConfigAgent_1dde9838354b8ddb637a400ce3ac2352e" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>EMIRDasConfigAgent</name></member>
+      <member refid="classEMIRDasConfigAgent_1dde9838354b8ddb637a400ce3ac2352e" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>EMIRDasConfigAgent</name></member>
+      <member refid="classEMIRDasConfigAgent_199221a85365e191aa35157e8e13c18d5" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>fromConfiguration</name></member>
+      <member refid="classEMIRDasConfigAgent_199221a85365e191aa35157e8e13c18d5" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>fromConfiguration</name></member>
+      <member refid="classEMIRDasConfigAgent_1eda202d981c954a70f9199050193354e" prot="private" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>imgDir_</name></member>
+      <member refid="classEMIRDasConfigAgent_1411e92837ab33808de2c60f019ed0d36" prot="private" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>isDataFactoryEnabled_</name></member>
+      <member refid="classEMIRDasConfigAgent_178b391c1a64c32468bc1f0c9ae354115" prot="private" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>poweroffApp_</name></member>
+      <member refid="classEMIRDasConfigAgent_147636ec4bfcce129434b77d9b59eeb15" prot="private" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>poweronApp_</name></member>
+      <member refid="classEMIRDasConfigAgent_13044c11f023607ab44e5637fa7005042" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>readProperties</name></member>
+      <member refid="classEMIRDasConfigAgent_13044c11f023607ab44e5637fa7005042" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>readProperties</name></member>
+      <member refid="classEMIRDasConfigAgent_1c4dec02e062b8aa54ba83a01b138a388" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>toConfiguration</name></member>
+      <member refid="classEMIRDasConfigAgent_1c4dec02e062b8aa54ba83a01b138a388" prot="public" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>toConfiguration</name></member>
+      <member refid="classEMIRDasConfigAgent_1ecb929cdd3dd22df76f1ebee1781c01a" prot="protected" virt="non-virtual"><scope>EMIRDasConfigAgent</scope><name>trace_</name></member>
+      <member refid="classEMIRDasConfigAgent_189d94d8685283b2222923432d9e28a99" prot="public" virt="virtual"><scope>EMIRDasConfigAgent</scope><name>~EMIRDasConfigAgent</name></member>
+      <member refid="classEMIRDasConfigAgent_1320282fcb702072d2df7c2df87d610d8" prot="public" virt="virtual"><scope>EMIRDasConfigAgent</scope><name>~EMIRDasConfigAgent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

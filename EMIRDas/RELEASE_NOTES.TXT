@@ -1,0 +1,39 @@
+RELEASE NOTES 1.0.3
+Interface
+
+Bugs
+
+Implementation
+
+- Added checking for accessibility of LOD files.
+
+Known errors
+
+
+RELEASE NOTES 1.0.2
+Interface
+
+Bugs
+
+Implementation
+
+Known errors
+
+RELEASE NOTES 1.0.1
+Interface
+
+Bugs
+
+Implementation
+
+Known errors
+
+RELEASE NOTES 1.0.0
+Interface
+
+Bugs
+
+Implementation
+
+Known errors
+

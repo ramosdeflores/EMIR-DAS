@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="sdsu__emir__platform_8h" kind="file">
+    <compoundname>sdsu_emir_platform.h</compoundname>
+    <includedby refid="SDSUlcu_8l_2ct__interface_8h" local="yes">ct_interface.h</includedby>
+    <invincdepgraph>
+      <node id="1289">
+        <label>ct_interface.h</label>
+        <link refid="SDSUlcu_8l_2ct__interface_8h"/>
+      </node>
+      <node id="1288">
+        <label>sdsu_emir_platform.h</label>
+        <link refid="sdsu_emir_platform.h"/>
+        <childnode refid="1289" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="sdsu__emir__platform_8h_14f03a37f3fe5cf59afb909fda9d07576" prot="public" static="no">
+        <name>SDSU_BIG_ENDIAN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="5" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_146ae51c0332e3b6b63013de688f357e0" prot="public" static="no">
+        <name>SEM_TIMOUT</name>
+        <initializer>ERROR</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="7" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1dc2e244e03d35db5a963ef383f06a7ef" prot="public" static="no">
+        <name>PCI_CMD_OK</name>
+        <initializer>OK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="9" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_155425682d229603b3ccd6a84dcec2b03" prot="public" static="no">
+        <name>PCI_REPLY_OK</name>
+        <initializer>OK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="10" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_16bf95d549d350261a69436d744572e05" prot="public" static="no">
+        <name>TIME_CMD_OK</name>
+        <initializer>OK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="11" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1f89981a3fc973143cfce7b32712c68a8" prot="public" static="no">
+        <name>TIME_REPLY_OK</name>
+        <initializer>OK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="12" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1342b25b959c3c14cd36bc371a307f23d" prot="public" static="no">
+        <name>CON_CMD_OK</name>
+        <initializer>OK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="13" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1b96f1bc4ccc963485f82cbe928d22a91" prot="public" static="no">
+        <name>HST_CMD_OK</name>
+        <initializer>OK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="14" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1dd10777716eb724e7235e65551aa5cda" prot="public" static="no">
+        <name>BUFFER_OK</name>
+        <initializer>OK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="15" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1df7c337590bfc04084f95588e8eccfdc" prot="public" static="no">
+        <name>SDSU_PCI_TASK</name>
+        <initializer>&quot;tSDSU_PCI&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="17" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1914d635549236860a92ee8f5b008115d" prot="public" static="no">
+        <name>SDSU_TIME_TASK</name>
+        <initializer>&quot;tSDSU_Time&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="18" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1cd52c401cd54865f3b9ca308124946f2" prot="public" static="no">
+        <name>SDSU_DATA_TASK</name>
+        <initializer>&quot;tSDSU_Data&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="19" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1de4bf28aa09992fa770f684d73213ebe" prot="public" static="no">
+        <name>POST_SEM</name>
+        <param><defname>a</defname></param>
+        <initializer>semGive(a)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="22" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_18296184ebdcd4a606fcb05bf5809c520" prot="public" static="no">
+        <name>WAIT_SEM</name>
+        <param><defname>a</defname></param>
+        <initializer>semTake(a, WAIT_FOREVER)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_17363158a2c7a92a42f75a8e051c0916f" prot="public" static="no">
+        <name>WAIT_SEM_TIMED</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>semTake(a,b*sysClkRateGet())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="24" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_144b3534401c947240f7d13c580560223" prot="public" static="no">
+        <name>SIGNAL_FIFO</name>
+        <param><defname>a</defname></param>
+        <initializer>semGive(a);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1f462b6da796c46b6515da74680affd94" prot="public" static="no">
+        <name>GET_FIFO</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>c</defname></param>
+        <initializer>msgQReceive(a.id,b,c,NO_WAIT)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="29" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1da88bf09f97cf2c94bee0c12e1dab7fb" prot="public" static="no">
+        <name>READ_FIFO</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>c</defname></param>
+        <initializer>msgQReceive(a.id,b,c,WAIT_FOREVER)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="30" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1154cb2d4f692f5aea7461f6100c2dafe" prot="public" static="no">
+        <name>READ_FIFO_TIMED</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>c</defname></param>
+        <param><defname>d</defname></param>
+        <initializer>msgQReceive(a.id,b,c,d*sysClkRateGet())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="31" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_12c49a36a81624a1f9a1336762c340d7f" prot="public" static="no">
+        <name>PUT_FIFO</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>c</defname></param>
+        <initializer>msgQSend(a.id,b,c,NO_WAIT,MSG_PRI_NORMAL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="32" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1f81529fad594fdf6ebb1932e398f1d96" prot="public" static="no">
+        <name>WRITE_FIFO</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>c</defname></param>
+        <initializer>msgQSend(a.id,b,c,WAIT_FOREVER,MSG_PRI_NORMAL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="33" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1e05fa51cf4f3e794f42ae6a360d10b9a" prot="public" static="no">
+        <name>WRITE_FIFO_TIMED</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>c</defname></param>
+        <param><defname>d</defname></param>
+        <initializer>msgQSend(a.id,b,c,d*sysClkRateGet(),MSG_PRI_NORMAL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="34" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1147bb30a014935e2644222ddb8925947" prot="public" static="no">
+        <name>INT_ENABLE</name>
+        <param><defname>a</defname></param>
+        <initializer>intEnable(a)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="36" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_175a54910a9cc39951394f95efa469f7e" prot="public" static="no">
+        <name>INT_ENABLE_AGAIN</name>
+        <param><defname>a</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="37" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_196f5da1ecb2796641d1304bc04e3c382" prot="public" static="no">
+        <name>INT_DISABLE</name>
+        <param><defname>a</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="38" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1bf78a7c81314b18ab062d5b8024b46af" prot="public" static="no">
+        <name>PCI_READ32</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>{sysPciRead32(a,b); DBGMSG(&quot;PCI_READ32&gt; value %#x read from address %#x\n&quot;,*(b),a); }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="40" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_16bd77d04c47013d4e5fc6321f8e7ae98" prot="public" static="no">
+        <name>PCI_WRITE32</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>{sysPciWrite32(a,b);DBGMSG(&quot;PCI_WRITE32&gt; value %#x written to address %#x\n&quot;,b,a);}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="41" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_1658718d5911e737c0726f2a3dab9cdb0" prot="public" static="no">
+        <name>DBGMSG</name>
+        <param><defname>x...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="48" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_12f1f0ca9d60ca4d2be923935ee346c9c" prot="public" static="no">
+        <name>ERRMSG</name>
+        <param><defname>x...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="54" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__platform_8h_114424c9dc95d99fe3bf959e160f4b3bb" prot="public" static="no">
+        <name>PHYS2BUSADR</name>
+        <param><defname>a</defname></param>
+        <initializer>(a);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="57" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="sdsu__emir__platform_8h_12666c6529cd8218fdf7a13627433f63e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IMPORT void</type>
+        <definition>IMPORT void sysPciWrite32</definition>
+        <argsstring>(UINT32, UINT32)</argsstring>
+        <name>sysPciWrite32</name>
+        <param>
+          <type>UINT32</type>
+        </param>
+        <param>
+          <type>UINT32</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__platform_8h_146747a438425f8300769298fbd05d041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IMPORT void</type>
+        <definition>IMPORT void sysPciRead32</definition>
+        <argsstring>(UINT32, UINT32 *)</argsstring>
+        <name>sysPciRead32</name>
+        <param>
+          <type>UINT32</type>
+        </param>
+        <param>
+          <type>UINT32 *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h" line="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__SDSU_PLATFORM_H__</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__SDSU_PLATFORM_H__</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Motorolla<sp/>architectures<sp/>are<sp/>big<sp/>endian<sp/>(left-to-right)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="sdsu__emir__platform_8h_14f03a37f3fe5cf59afb909fda9d07576" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SDSU_BIG_ENDIAN</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="sdsu__emir__platform_8h_146ae51c0332e3b6b63013de688f357e0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SEM_TIMOUT<sp/><sp/><sp/><sp/>ERROR</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="sdsu__emir__platform_8h_1dc2e244e03d35db5a963ef383f06a7ef" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PCI_CMD_OK<sp/><sp/><sp/><sp/>OK</highlight></codeline>
+<codeline lineno="10" refid="sdsu__emir__platform_8h_155425682d229603b3ccd6a84dcec2b03" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PCI_REPLY_OK<sp/><sp/>OK</highlight></codeline>
+<codeline lineno="11" refid="sdsu__emir__platform_8h_16bf95d549d350261a69436d744572e05" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TIME_CMD_OK<sp/><sp/><sp/>OK</highlight></codeline>
+<codeline lineno="12" refid="sdsu__emir__platform_8h_1f89981a3fc973143cfce7b32712c68a8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TIME_REPLY_OK<sp/>OK</highlight></codeline>
+<codeline lineno="13" refid="sdsu__emir__platform_8h_1342b25b959c3c14cd36bc371a307f23d" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CON_CMD_OK<sp/><sp/><sp/><sp/>OK</highlight></codeline>
+<codeline lineno="14" refid="sdsu__emir__platform_8h_1b96f1bc4ccc963485f82cbe928d22a91" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HST_CMD_OK<sp/><sp/><sp/><sp/>OK</highlight></codeline>
+<codeline lineno="15" refid="sdsu__emir__platform_8h_1dd10777716eb724e7235e65551aa5cda" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BUFFER_OK<sp/><sp/><sp/><sp/><sp/>OK</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="sdsu__emir__platform_8h_1df7c337590bfc04084f95588e8eccfdc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SDSU_PCI_TASK<sp/><sp/>&quot;tSDSU_PCI&quot;</highlight></codeline>
+<codeline lineno="18" refid="sdsu__emir__platform_8h_1914d635549236860a92ee8f5b008115d" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SDSU_TIME_TASK<sp/>&quot;tSDSU_Time&quot;</highlight></codeline>
+<codeline lineno="19" refid="sdsu__emir__platform_8h_1cd52c401cd54865f3b9ca308124946f2" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SDSU_DATA_TASK<sp/>&quot;tSDSU_Data&quot;</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>POSIX<sp/>semaphore<sp/>declarations<sp/>&quot;semPXLib&quot;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="sdsu__emir__platform_8h_1de4bf28aa09992fa770f684d73213ebe" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POST_SEM(a)<sp/><sp/><sp/><sp/><sp/>semGive(a)</highlight></codeline>
+<codeline lineno="23" refid="sdsu__emir__platform_8h_18296184ebdcd4a606fcb05bf5809c520" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WAIT_SEM(a)<sp/><sp/><sp/><sp/><sp/>semTake(a,<sp/>WAIT_FOREVER)</highlight></codeline>
+<codeline lineno="24" refid="sdsu__emir__platform_8h_17363158a2c7a92a42f75a8e051c0916f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WAIT_SEM_TIMED(a,b)<sp/>semTake(a,b*sysClkRateGet())</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="sdsu__emir__platform_8h_144b3534401c947240f7d13c580560223" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SIGNAL_FIFO(a)<sp/>semGive(a);</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>VxWorks<sp/>message<sp/>queue<sp/>&quot;msgQLib&quot;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="sdsu__emir__platform_8h_1f462b6da796c46b6515da74680affd94" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_FIFO(a,b,c)<sp/><sp/><sp/><sp/><sp/>msgQReceive(a.id,b,c,NO_WAIT)</highlight></codeline>
+<codeline lineno="30" refid="sdsu__emir__platform_8h_1da88bf09f97cf2c94bee0c12e1dab7fb" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READ_FIFO(a,b,c)<sp/><sp/><sp/><sp/>msgQReceive(a.id,b,c,WAIT_FOREVER)</highlight></codeline>
+<codeline lineno="31" refid="sdsu__emir__platform_8h_1154cb2d4f692f5aea7461f6100c2dafe" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READ_FIFO_TIMED(a,b,c,d)<sp/>msgQReceive(a.id,b,c,d*sysClkRateGet())</highlight></codeline>
+<codeline lineno="32" refid="sdsu__emir__platform_8h_12c49a36a81624a1f9a1336762c340d7f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PUT_FIFO(a,b,c)<sp/><sp/><sp/><sp/><sp/>msgQSend(a.id,b,c,NO_WAIT,MSG_PRI_NORMAL)</highlight></codeline>
+<codeline lineno="33" refid="sdsu__emir__platform_8h_1f81529fad594fdf6ebb1932e398f1d96" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WRITE_FIFO(a,b,c)<sp/><sp/><sp/>msgQSend(a.id,b,c,WAIT_FOREVER,MSG_PRI_NORMAL)</highlight></codeline>
+<codeline lineno="34" refid="sdsu__emir__platform_8h_1e05fa51cf4f3e794f42ae6a360d10b9a" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WRITE_FIFO_TIMED(a,b,c,d)<sp/>msgQSend(a.id,b,c,d*sysClkRateGet(),MSG_PRI_NORMAL)</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="sdsu__emir__platform_8h_1147bb30a014935e2644222ddb8925947" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT_ENABLE(a)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>intEnable(a)</highlight></codeline>
+<codeline lineno="37" refid="sdsu__emir__platform_8h_175a54910a9cc39951394f95efa469f7e" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INT_ENABLE_AGAIN(a)<sp/></highlight><highlight class="comment">/*<sp/>intEnable(a)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="sdsu__emir__platform_8h_196f5da1ecb2796641d1304bc04e3c382" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT_DISABLE(a)<sp/></highlight><highlight class="comment">/*<sp/>intDisable(a)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="sdsu__emir__platform_8h_1bf78a7c81314b18ab062d5b8024b46af" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PCI_READ32(a,b)<sp/><sp/><sp/><sp/><sp/>{sysPciRead32(a,b);<sp/>DBGMSG(&quot;PCI_READ32&gt;<sp/>value<sp/>%#x<sp/>read<sp/>from<sp/>address<sp/>%#x\n&quot;,*(b),a);<sp/>}</highlight></codeline>
+<codeline lineno="41" refid="sdsu__emir__platform_8h_16bd77d04c47013d4e5fc6321f8e7ae98" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PCI_WRITE32(a,b)<sp/><sp/><sp/><sp/>{sysPciWrite32(a,b);DBGMSG(&quot;PCI_WRITE32&gt;<sp/>value<sp/>%#x<sp/>written<sp/>to<sp/>address<sp/>%#x\n&quot;,b,a);}</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>int<sp/>printf(const<sp/>char<sp/>*fmt);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macro<sp/>for<sp/>printing<sp/>debug<sp/>statements<sp/>to<sp/>standard<sp/>output<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DEBUG_MESSAGE</highlight></codeline>
+<codeline lineno="46"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DBGMSG(x...)<sp/>printf(x)</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="48" refid="sdsu__emir__platform_8h_1658718d5911e737c0726f2a3dab9cdb0" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DBGMSG(x...)</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="50"><highlight class="preprocessor"></highlight><highlight class="comment">/*<sp/>Macro<sp/>for<sp/>printing<sp/>error<sp/>statements<sp/>to<sp/>standard<sp/>output<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ERROR_MESSAGE</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ERRMSG(x...)<sp/>printf(x)</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="54" refid="sdsu__emir__platform_8h_12f1f0ca9d60ca4d2be923935ee346c9c" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ERRMSG(x...)</highlight></codeline>
+<codeline lineno="55"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="sdsu__emir__platform_8h_114424c9dc95d99fe3bf959e160f4b3bb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PHYS2BUSADR(a)<sp/>(a);</highlight></codeline>
+<codeline lineno="58"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Using<sp/>local<sp/>prototypes<sp/>as<sp/>they<sp/>are<sp/>missing<sp/>in<sp/>VxWorks<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">IMPORT<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__platform_8h_12666c6529cd8218fdf7a13627433f63e" kindref="member">sysPciWrite32</ref>(<ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref>,<sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">IMPORT<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__platform_8h_146747a438425f8300769298fbd05d041" kindref="member">sysPciRead32</ref>(<ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref>,<sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>*);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__SDSU_PLATFORM_H__<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_platform.h"/>
+  </compounddef>
+</doxygen>

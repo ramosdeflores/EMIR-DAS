@@ -1,0 +1,14 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+  node [fontname="Helvetica",fontsize=10,shape=record];
+  Node1 [label="EMIRDas",height=0.2,width=0.4,color="white", fillcolor="black", style="filled" fontcolor="white"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize=10,style="dashed",label="controller_",fontname="Helvetica"];
+  Node2 [label="EMIRDasController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classEMIRDasController.html"];
+  Node3 -> Node2 [dir=back,color="darkorchid3",fontsize=10,style="dashed",label="dchardwarefacade_",fontname="Helvetica"];
+  Node3 [label="EMIRDasControllerHw",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classEMIRDasControllerHw.html"];
+  Node4 -> Node2 [dir=back,color="darkorchid3",fontsize=10,style="dashed",label="memoryManager",fontname="Helvetica"];
+  Node4 [label="SimpleMemoryManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSimpleMemoryManager.html"];
+  Node5 -> Node1 [dir=back,color="darkorchid3",fontsize=10,style="dashed",label="currentConfiguration",fontname="Helvetica"];
+  Node5 [label="AcqConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structAcqConfig.html"];
+}

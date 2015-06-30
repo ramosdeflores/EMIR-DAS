@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classdasApplication" kind="class" prot="public">
+    <compoundname>dasApplication</compoundname>
+    <includes refid="examples_2runEMIRDas_8p_8old_2dasApplication_8h" local="no">dasApplication.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdasApplication_1169bdd2a0bef9a6330c2a80cf274e032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dasApplication::dasApplication</definition>
+        <argsstring>(char *name)</argsstring>
+        <name>dasApplication</name>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.h" line="19" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.cpp" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasApplication_1bd24629e472a9fe190d44e114bcd56bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>dasApplication::~dasApplication</definition>
+        <argsstring>()</argsstring>
+        <name>~dasApplication</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.h" line="22" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasApplication_1d3684fdf1b603829db2d6ad6b0b62460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dasApplication::run</definition>
+        <argsstring>(int update=0)</argsstring>
+        <name>run</name>
+        <param>
+          <type>int</type>
+          <declname>update</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Creates devices. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.h" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.cpp" bodystart="20" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasApplication_1609cb9d2726b2f77e56fca301b408e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dasApplication::quit</definition>
+        <argsstring>()</argsstring>
+        <name>quit</name>
+        <briefdescription>
+<para>Destroy devices. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.h" line="28" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.cpp" bodystart="61" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasApplication_1169bdd2a0bef9a6330c2a80cf274e032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dasApplication::dasApplication</definition>
+        <argsstring>(char *name)</argsstring>
+        <name>dasApplication</name>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasApplication.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasApplication_100d7cab2a3b2938e173d9c34b6e3a321" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>virtual dasApplication::~dasApplication</definition>
+        <argsstring>()</argsstring>
+        <name>~dasApplication</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasApplication.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasApplication_1d3684fdf1b603829db2d6ad6b0b62460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dasApplication::run</definition>
+        <argsstring>(int update=0)</argsstring>
+        <name>run</name>
+        <param>
+          <type>int</type>
+          <declname>update</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Creates devices. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasApplication.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasApplication_1609cb9d2726b2f77e56fca301b408e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dasApplication::quit</definition>
+        <argsstring>()</argsstring>
+        <name>quit</name>
+        <briefdescription>
+<para>Destroy devices. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasApplication.h" line="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdasApplication_160d3a6b10b3db5b5ea7d890710afa691" prot="private" static="no" mutable="no">
+        <type><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref> *</type>
+        <definition>EMIRDas* dasApplication::DAS_</definition>
+        <argsstring></argsstring>
+        <name>DAS_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.h" line="34" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdasApplication_160d3a6b10b3db5b5ea7d890710afa691" prot="private" static="no" mutable="no">
+        <type><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref> *</type>
+        <definition>EMIRDas* dasApplication::DAS_</definition>
+        <argsstring></argsstring>
+        <name>DAS_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasApplication.h" line="34" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasApplication.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class manages a group of related Device instances. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="113">
+        <label>EMIRDas</label>
+        <link refid="classEMIRDas"/>
+        <childnode refid="114" relation="usage">
+          <edgelabel>controller_</edgelabel>
+        </childnode>
+        <childnode refid="118" relation="usage">
+          <edgelabel>currentConfiguration</edgelabel>
+        </childnode>
+      </node>
+      <node id="116">
+        <label>DetectorControllerApp</label>
+        <link refid="classDetectorControllerApp"/>
+      </node>
+      <node id="118">
+        <label>AcqConfig</label>
+        <link refid="structAcqConfig"/>
+      </node>
+      <node id="114">
+        <label>EMIRDasController</label>
+        <link refid="classEMIRDasController"/>
+        <childnode refid="115" relation="usage">
+          <edgelabel>dchardwarefacade_</edgelabel>
+        </childnode>
+        <childnode refid="117" relation="usage">
+          <edgelabel>memoryManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="117">
+        <label>SimpleMemoryManager</label>
+        <link refid="classSimpleMemoryManager"/>
+      </node>
+      <node id="112">
+        <label>dasApplication</label>
+        <link refid="classdasApplication"/>
+        <childnode refid="113" relation="usage">
+          <edgelabel>DAS_</edgelabel>
+        </childnode>
+      </node>
+      <node id="115">
+        <label>EMIRDasControllerHw</label>
+        <link refid="classEMIRDasControllerHw"/>
+        <childnode refid="116" relation="usage">
+          <edgelabel>aquisitionCode</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.h" line="15" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasApplication.h" bodystart="14" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classdasApplication_160d3a6b10b3db5b5ea7d890710afa691" prot="private" virt="non-virtual"><scope>dasApplication</scope><name>DAS_</name></member>
+      <member refid="classdasApplication_160d3a6b10b3db5b5ea7d890710afa691" prot="private" virt="non-virtual"><scope>dasApplication</scope><name>DAS_</name></member>
+      <member refid="classdasApplication_1169bdd2a0bef9a6330c2a80cf274e032" prot="public" virt="non-virtual"><scope>dasApplication</scope><name>dasApplication</name></member>
+      <member refid="classdasApplication_1169bdd2a0bef9a6330c2a80cf274e032" prot="public" virt="non-virtual"><scope>dasApplication</scope><name>dasApplication</name></member>
+      <member refid="classdasApplication_1609cb9d2726b2f77e56fca301b408e8e" prot="public" virt="non-virtual"><scope>dasApplication</scope><name>quit</name></member>
+      <member refid="classdasApplication_1609cb9d2726b2f77e56fca301b408e8e" prot="public" virt="non-virtual"><scope>dasApplication</scope><name>quit</name></member>
+      <member refid="classdasApplication_1d3684fdf1b603829db2d6ad6b0b62460" prot="public" virt="non-virtual"><scope>dasApplication</scope><name>run</name></member>
+      <member refid="classdasApplication_1d3684fdf1b603829db2d6ad6b0b62460" prot="public" virt="non-virtual"><scope>dasApplication</scope><name>run</name></member>
+      <member refid="classdasApplication_1bd24629e472a9fe190d44e114bcd56bf" prot="public" virt="virtual"><scope>dasApplication</scope><name>~dasApplication</name></member>
+      <member refid="classdasApplication_100d7cab2a3b2938e173d9c34b6e3a321" prot="public" virt="virtual"><scope>dasApplication</scope><name>~dasApplication</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

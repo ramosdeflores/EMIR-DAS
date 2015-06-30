@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structSDSU__CONTEXT" kind="struct" prot="public">
+    <compoundname>SDSU_CONTEXT</compoundname>
+    <includes refid="SDSUlcu_8l_2ct__interface_8h" local="no">ct_interface.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSDSU__CONTEXT_12e1fb11a85e1635be03d9772a7f398d0" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SDSU_CONTEXT::frameGrabber</definition>
+        <argsstring></argsstring>
+        <name>frameGrabber</name>
+        <initializer> OFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="252" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_1f26ef4f44d581b3c8bdcafe87ca643f7" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SDSU_CONTEXT::fgStatus</definition>
+        <argsstring></argsstring>
+        <name>fgStatus</name>
+        <initializer> OFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="253" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_1c862da9807a67f73cec6ffd061a9ef22" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SDSU_CONTEXT::fgMask</definition>
+        <argsstring></argsstring>
+        <name>fgMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="254" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_147d81541f720187530267ed5c861ba20" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char SDSU_CONTEXT::fHardwareInfo[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>fHardwareInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="255" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_1d1c50017f6720ce446be71d22671c307" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char SDSU_CONTEXT::fSoftwareInfo[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>fSoftwareInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="256" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_13d5aa31151330847f42b5b4354b330b7" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_CONTEXT::framesRead</definition>
+        <argsstring></argsstring>
+        <name>framesRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="257" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_1eb4bf2a86f1e28ab0af8c3f4af810b44" prot="public" static="no" mutable="no">
+        <type>UINT16</type>
+        <definition>UINT16 SDSU_CONTEXT::lastAqHeader[SDSU_HDRSIZE]</definition>
+        <argsstring>[SDSU_HDRSIZE]</argsstring>
+        <name>lastAqHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="258" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_1890ff0b7413b6e8678e9f922d5bafa78" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SDSU_CONTEXT::controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <initializer> OFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="260" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_1a04fd5c06b1ade597da333589f0d35df" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SDSU_CONTEXT::cStatus</definition>
+        <argsstring></argsstring>
+        <name>cStatus</name>
+        <initializer> OFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="261" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_1132c48f84a7a119f58151c063b7e5c0d" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SDSU_CONTEXT::cMask</definition>
+        <argsstring></argsstring>
+        <name>cMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="262" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_185c87de6f1550b097388036e546a42fb" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char SDSU_CONTEXT::cHardwareInfo[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>cHardwareInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="263" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_19f50e63d6cc79c32a18f9c6e86443b59" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char SDSU_CONTEXT::cSoftwareInfo[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>cSoftwareInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="264" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_13841c330389d027378de2181b2fefcd3" prot="public" static="no" mutable="no">
+        <type>UINT16</type>
+        <definition>UINT16 SDSU_CONTEXT::lastCtHeader[SDSU_HDRSIZE]</definition>
+        <argsstring>[SDSU_HDRSIZE]</argsstring>
+        <name>lastCtHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="265" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_1e3c8c8b5c96721baef9b204f4f1ff75a" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SDSU_CONTEXT::memType</definition>
+        <argsstring></argsstring>
+        <name>memType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="268" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_1a4e00206f6570b4114e3a3bde2634421" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_CONTEXT::memPos[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>memPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="269" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_14fe1b7d7ced7b8ee20b280fcc81f2bcf" prot="public" static="no" mutable="no">
+        <type><ref refid="structSDSU__FIFODEV" kindref="compound">SDSU_FIFODEV</ref></type>
+        <definition>SDSU_FIFODEV SDSU_CONTEXT::fifo</definition>
+        <argsstring>[SDSU_MAX_FIFO]</argsstring>
+        <name>fifo</name>
+        <briefdescription>
+<para>FIFOs. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="271" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__CONTEXT_114b8e524fca1f5dba22c6dfd5e4dc2d4" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_CONTEXT::mempos[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>mempos</name>
+        <initializer> { 0,0,0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="218" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>SDSU context structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="191">
+        <label>SDSU_FIFODEV</label>
+        <link refid="structSDSU__FIFODEV"/>
+      </node>
+      <node id="190">
+        <label>SDSU_CONTEXT</label>
+        <link refid="structSDSU__CONTEXT"/>
+        <childnode refid="191" relation="usage">
+          <edgelabel>fifo</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="251" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="251" bodyend="272"/>
+    <listofallmembers>
+      <member refid="structSDSU__CONTEXT_185c87de6f1550b097388036e546a42fb" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>cHardwareInfo</name></member>
+      <member refid="structSDSU__CONTEXT_1132c48f84a7a119f58151c063b7e5c0d" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>cMask</name></member>
+      <member refid="structSDSU__CONTEXT_1890ff0b7413b6e8678e9f922d5bafa78" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>controller</name></member>
+      <member refid="structSDSU__CONTEXT_19f50e63d6cc79c32a18f9c6e86443b59" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>cSoftwareInfo</name></member>
+      <member refid="structSDSU__CONTEXT_1a04fd5c06b1ade597da333589f0d35df" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>cStatus</name></member>
+      <member refid="structSDSU__CONTEXT_1c862da9807a67f73cec6ffd061a9ef22" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>fgMask</name></member>
+      <member refid="structSDSU__CONTEXT_1f26ef4f44d581b3c8bdcafe87ca643f7" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>fgStatus</name></member>
+      <member refid="structSDSU__CONTEXT_147d81541f720187530267ed5c861ba20" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>fHardwareInfo</name></member>
+      <member refid="structSDSU__CONTEXT_14fe1b7d7ced7b8ee20b280fcc81f2bcf" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>fifo</name></member>
+      <member refid="structSDSU__CONTEXT_12e1fb11a85e1635be03d9772a7f398d0" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>frameGrabber</name></member>
+      <member refid="structSDSU__CONTEXT_13d5aa31151330847f42b5b4354b330b7" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>framesRead</name></member>
+      <member refid="structSDSU__CONTEXT_1d1c50017f6720ce446be71d22671c307" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>fSoftwareInfo</name></member>
+      <member refid="structSDSU__CONTEXT_1eb4bf2a86f1e28ab0af8c3f4af810b44" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>lastAqHeader</name></member>
+      <member refid="structSDSU__CONTEXT_13841c330389d027378de2181b2fefcd3" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>lastCtHeader</name></member>
+      <member refid="structSDSU__CONTEXT_114b8e524fca1f5dba22c6dfd5e4dc2d4" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>mempos</name></member>
+      <member refid="structSDSU__CONTEXT_1a4e00206f6570b4114e3a3bde2634421" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>memPos</name></member>
+      <member refid="structSDSU__CONTEXT_1e3c8c8b5c96721baef9b204f4f1ff75a" prot="public" virt="non-virtual"><scope>SDSU_CONTEXT</scope><name>memType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

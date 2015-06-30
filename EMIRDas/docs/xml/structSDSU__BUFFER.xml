@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structSDSU__BUFFER" kind="struct" prot="public">
+    <compoundname>SDSU_BUFFER</compoundname>
+    <includes refid="SDSUlcu_8l_2ct__interface_8h" local="no">ct_interface.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSDSU__BUFFER_13d19406f2938db78c53412318007dee9" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>volatile UINT32 SDSU_BUFFER::bufphysadr</definition>
+        <argsstring></argsstring>
+        <name>bufphysadr</name>
+        <briefdescription>
+<para>Buffer physical memory address. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="239" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__BUFFER_1adf5c5972e61ed9df0519df630b9268f" prot="public" static="no" mutable="no">
+        <type>INT32</type>
+        <definition>volatile INT32 SDSU_BUFFER::bufsize</definition>
+        <argsstring></argsstring>
+        <name>bufsize</name>
+        <briefdescription>
+<para>Buffer size (bytes). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="240" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__BUFFER_1b48f3134e0cb42425abb0776e02281ec" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>volatile UINT32 SDSU_BUFFER::bufid</definition>
+        <argsstring></argsstring>
+        <name>bufid</name>
+        <briefdescription>
+<para>Buffer ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="241" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Data frame buffer structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="238" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="238" bodyend="242"/>
+    <listofallmembers>
+      <member refid="structSDSU__BUFFER_1b48f3134e0cb42425abb0776e02281ec" prot="public" virt="non-virtual"><scope>SDSU_BUFFER</scope><name>bufid</name></member>
+      <member refid="structSDSU__BUFFER_13d19406f2938db78c53412318007dee9" prot="public" virt="non-virtual"><scope>SDSU_BUFFER</scope><name>bufphysadr</name></member>
+      <member refid="structSDSU__BUFFER_1adf5c5972e61ed9df0519df630b9268f" prot="public" virt="non-virtual"><scope>SDSU_BUFFER</scope><name>bufsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

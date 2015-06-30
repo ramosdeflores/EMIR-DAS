@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classSimpleStorageManager" kind="class" prot="public">
+    <compoundname>SimpleStorageManager</compoundname>
+    <includes refid="SimpleStorageManager_8h" local="no">SimpleStorageManager.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSimpleStorageManager_1fd3c5536e98957df3bbd909f296b6e83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SimpleStorageManager::SimpleStorageManager</definition>
+        <argsstring>()</argsstring>
+        <name>SimpleStorageManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="29" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="69" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleStorageManager_15b614e508fe00f215cef41256c2c8bf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SimpleStorageManager::~SimpleStorageManager</definition>
+        <argsstring>()</argsstring>
+        <name>~SimpleStorageManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="31" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleStorageManager_1f180d856ade9d40baf616dde167f0878" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleStorageManager::initFrame</definition>
+        <argsstring>(string dataFactory, string imageDir)</argsstring>
+        <name>initFrame</name>
+        <param>
+          <type>string</type>
+          <declname>dataFactory</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>imageDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="33" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="80" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleStorageManager_18fe52e7d77ba47b3ec0119ad2e5ab1b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleStorageManager::initFits</definition>
+        <argsstring>(string imageDir)</argsstring>
+        <name>initFits</name>
+        <param>
+          <type>string</type>
+          <declname>imageDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleStorageManager_17df5cad0b8ca44089e723964aa0298c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleStorageManager::sendFrame</definition>
+        <argsstring>(EMIRFrame *frame, unsigned int op)</argsstring>
+        <name>sendFrame</name>
+        <param>
+          <type><ref refid="structEMIRFrame" kindref="compound">EMIRFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="35" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="120" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleStorageManager_12d06fb0e8947b5711d465676bd25f613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleStorageManager::saveFits</definition>
+        <argsstring>(EMIRFrame *frame)</argsstring>
+        <name>saveFits</name>
+        <param>
+          <type><ref refid="structEMIRFrame" kindref="compound">EMIRFrame</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSimpleStorageManager_106c5b43a892e206d20f9faeb1ce144d7" prot="private" static="no" mutable="no">
+        <type>short **</type>
+        <definition>short** SimpleStorageManager::tMatrix</definition>
+        <argsstring></argsstring>
+        <name>tMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="39" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleStorageManager_152d50f26e0023f3179c9c0ca58dee847" prot="private" static="no" mutable="no">
+        <type>short *</type>
+        <definition>short* SimpleStorageManager::oMatrix</definition>
+        <argsstring></argsstring>
+        <name>oMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="40" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleStorageManager_139fe235c98fc7d9bb094a7923595ab22" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SimpleStorageManager::baseDir</definition>
+        <argsstring></argsstring>
+        <name>baseDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="42" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleStorageManager_12dafc73776abb7fc38709b55fbcaebf1" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SimpleStorageManager::frameCount</definition>
+        <argsstring></argsstring>
+        <name>frameCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="43" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleStorageManager_14f134f3307f8cb7d76dda93bce453787" prot="private" static="no" mutable="no">
+        <type>Trace *</type>
+        <definition>Trace* SimpleStorageManager::trace_</definition>
+        <argsstring></argsstring>
+        <name>trace_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="44" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleStorageManager_1a7fce169e7ddceb2f374f844f926e686" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SimpleStorageManager::dataFactoryName_</definition>
+        <argsstring></argsstring>
+        <name>dataFactoryName_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="46" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.h" bodystart="25" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classSimpleStorageManager_139fe235c98fc7d9bb094a7923595ab22" prot="private" virt="non-virtual"><scope>SimpleStorageManager</scope><name>baseDir</name></member>
+      <member refid="classSimpleStorageManager_1a7fce169e7ddceb2f374f844f926e686" prot="private" virt="non-virtual"><scope>SimpleStorageManager</scope><name>dataFactoryName_</name></member>
+      <member refid="classSimpleStorageManager_12dafc73776abb7fc38709b55fbcaebf1" prot="private" virt="non-virtual"><scope>SimpleStorageManager</scope><name>frameCount</name></member>
+      <member refid="classSimpleStorageManager_18fe52e7d77ba47b3ec0119ad2e5ab1b8" prot="public" virt="non-virtual"><scope>SimpleStorageManager</scope><name>initFits</name></member>
+      <member refid="classSimpleStorageManager_1f180d856ade9d40baf616dde167f0878" prot="public" virt="non-virtual"><scope>SimpleStorageManager</scope><name>initFrame</name></member>
+      <member refid="classSimpleStorageManager_152d50f26e0023f3179c9c0ca58dee847" prot="private" virt="non-virtual"><scope>SimpleStorageManager</scope><name>oMatrix</name></member>
+      <member refid="classSimpleStorageManager_12d06fb0e8947b5711d465676bd25f613" prot="public" virt="non-virtual"><scope>SimpleStorageManager</scope><name>saveFits</name></member>
+      <member refid="classSimpleStorageManager_17df5cad0b8ca44089e723964aa0298c4" prot="public" virt="non-virtual"><scope>SimpleStorageManager</scope><name>sendFrame</name></member>
+      <member refid="classSimpleStorageManager_1fd3c5536e98957df3bbd909f296b6e83" prot="public" virt="non-virtual"><scope>SimpleStorageManager</scope><name>SimpleStorageManager</name></member>
+      <member refid="classSimpleStorageManager_106c5b43a892e206d20f9faeb1ce144d7" prot="private" virt="non-virtual"><scope>SimpleStorageManager</scope><name>tMatrix</name></member>
+      <member refid="classSimpleStorageManager_14f134f3307f8cb7d76dda93bce453787" prot="private" virt="non-virtual"><scope>SimpleStorageManager</scope><name>trace_</name></member>
+      <member refid="classSimpleStorageManager_15b614e508fe00f215cef41256c2c8bf6" prot="public" virt="non-virtual"><scope>SimpleStorageManager</scope><name>~SimpleStorageManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

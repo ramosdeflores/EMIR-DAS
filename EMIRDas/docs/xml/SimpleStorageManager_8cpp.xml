@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="SimpleStorageManager_8cpp" kind="file">
+    <compoundname>SimpleStorageManager.cpp</compoundname>
+    <includes refid="SimpleStorageManager_8h" local="yes">SimpleStorageManager.h</includes>
+    <includes local="yes">ErrorCode.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="yes">Frame.h</includes>
+    <includes local="yes">Keyword.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">fcntl.h</includes>
+    <includes refid="SDSUsim_8l_2ct__interface_8h" local="yes">../SDSUsim.l/ct_interface.h</includes>
+    <incdepgraph>
+      <node id="1335">
+        <label>ErrorCode.h</label>
+      </node>
+      <node id="1327">
+        <label>RawFrameReceiverC.h</label>
+      </node>
+      <node id="1337">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1324">
+        <label>SimpleStorageManager.h</label>
+        <link refid="SimpleStorageManager_8h"/>
+        <childnode refid="1325" relation="include">
+        </childnode>
+        <childnode refid="1326" relation="include">
+        </childnode>
+        <childnode refid="1327" relation="include">
+        </childnode>
+        <childnode refid="1328" relation="include">
+        </childnode>
+        <childnode refid="1329" relation="include">
+        </childnode>
+        <childnode refid="1330" relation="include">
+        </childnode>
+        <childnode refid="1331" relation="include">
+        </childnode>
+        <childnode refid="1332" relation="include">
+        </childnode>
+        <childnode refid="1333" relation="include">
+        </childnode>
+      </node>
+      <node id="1332">
+        <label>IDL_Adapters_DPKF.h</label>
+      </node>
+      <node id="1340">
+        <label>fcntl.h</label>
+      </node>
+      <node id="1334">
+        <label>TimeValue.h</label>
+      </node>
+      <node id="1325">
+        <label>Trace.h</label>
+      </node>
+      <node id="1326">
+        <label>GCSException.h</label>
+      </node>
+      <node id="1339">
+        <label>unistd.h</label>
+      </node>
+      <node id="1330">
+        <label>CORBARef.h</label>
+      </node>
+      <node id="1338">
+        <label>Keyword.h</label>
+      </node>
+      <node id="1341">
+        <label>../SDSUsim.l/ct_interface.h</label>
+        <link refid="SDSUsim_8l_2ct__interface_8h"/>
+      </node>
+      <node id="1323">
+        <label>SimpleStorageManager.cpp</label>
+        <link refid="SimpleStorageManager.cpp"/>
+        <childnode refid="1324" relation="include">
+        </childnode>
+        <childnode refid="1335" relation="include">
+        </childnode>
+        <childnode refid="1336" relation="include">
+        </childnode>
+        <childnode refid="1337" relation="include">
+        </childnode>
+        <childnode refid="1329" relation="include">
+        </childnode>
+        <childnode refid="1338" relation="include">
+        </childnode>
+        <childnode refid="1339" relation="include">
+        </childnode>
+        <childnode refid="1340" relation="include">
+        </childnode>
+        <childnode refid="1341" relation="include">
+        </childnode>
+      </node>
+      <node id="1328">
+        <label>GCSTypes.h</label>
+      </node>
+      <node id="1333">
+        <label>EMIRDasFrame.h</label>
+        <link refid="EMIRDasFrame_8h"/>
+        <childnode refid="1334" relation="include">
+        </childnode>
+      </node>
+      <node id="1336">
+        <label>stdio.h</label>
+      </node>
+      <node id="1331">
+        <label>IDL_Adapters_DGT.h</label>
+      </node>
+      <node id="1329">
+        <label>Frame.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_15c806da59879c51f17f1041febdc2056" prot="public" static="no">
+        <name>CPLUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="11" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_159990369239024c94cbe22080c9d29c3" prot="public" static="no">
+        <name>NLINES</name>
+        <initializer>1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="22" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_1ea6537a69c2bf4ebd4bf84ad9434b40c" prot="public" static="no">
+        <name>NPIX</name>
+        <initializer>4096</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_13cfd3aa62338d12609f6d65bce97e9cd" prot="public" static="no">
+        <name>ROWS</name>
+        <initializer>2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="24" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_1b59ad2ee1a48b83c2eef1f019ed8cc48" prot="public" static="no">
+        <name>COLS</name>
+        <initializer>2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_1b4b4eb149ff4fd1645a4fa867318274d" prot="public" static="no">
+        <name>CHANELS</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_1b8531da84fee22f0f80c511c1aee99de" prot="public" static="no">
+        <name>CCDS</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="27" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_13c239f91880ae7ebc5b3287e1659dd8b" prot="public" static="no">
+        <name>SDSU_SIZE</name>
+        <initializer>NLINES * NPIX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="28" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_195febca84b9b6b5b9cfd278e44ffc56f" prot="public" static="no">
+        <name>INVERT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="30" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_1602485a9a7a07988c1ae9fa5a19cb09a" prot="public" static="no">
+        <name>ADDSTRING</name>
+        <param><defname>val1</defname></param>
+        <param><defname>val2</defname></param>
+        <param><defname>val3</defname></param>
+        <param><defname>val4</defname></param>
+        <initializer>addKeyword(Keyword&lt;string&gt;(val1,val2,val3,val4));</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="32" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_11967baec1de06e69ab0bd1d37c3d2b00" prot="public" static="no">
+        <name>ADDLONG</name>
+        <param><defname>val1</defname></param>
+        <param><defname>val2</defname></param>
+        <param><defname>val3</defname></param>
+        <param><defname>val4</defname></param>
+        <initializer>addKeyword(Keyword&lt;long&gt;(val1,val2,val3,val4));</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="33" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SimpleStorageManager_8cpp_1ae67d7667e5a71067aa83a9df608c4b2" prot="public" static="no">
+        <name>ADDDOUBLE</name>
+        <param><defname>val1</defname></param>
+        <param><defname>val2</defname></param>
+        <param><defname>val3</defname></param>
+        <param><defname>val4</defname></param>
+        <initializer>addKeyword(Keyword&lt;double&gt;(val1,val2,val3,val4));</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="34" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="SimpleStorageManager_8cpp_186c61bbf5d2f069e6edba2b64033cb7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TinyVector&lt; unsigned long, 2 &gt;</type>
+        <definition>TinyVector&lt;unsigned long, 2&gt; frameDimension</definition>
+        <argsstring>(2048, 2048)</argsstring>
+        <name>frameDimension</name>
+        <param>
+          <type>2048</type>
+        </param>
+        <param>
+          <type>2048</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="SimpleStorageManager_8cpp_17481d3c80f9860b80a77abb0fefa05da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Frame&lt; INT16, 2 &gt;</type>
+        <definition>Frame&lt;INT16, 2&gt; frame</definition>
+        <argsstring>(frameDimension, NoErrors, BeginWithOne)</argsstring>
+        <name>frame</name>
+        <param>
+          <type>frameDimension</type>
+        </param>
+        <param>
+          <type>NoErrors</type>
+        </param>
+        <param>
+          <type>BeginWithOne</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="SimpleStorageManager_8cpp_1d07700456d9ab22900fb811ca87ca421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BuildTranMatrix</definition>
+        <argsstring>(INT16 **tMatrix, INT16 *oMatrix)</argsstring>
+        <name>BuildTranMatrix</name>
+        <param>
+          <type>INT16 **</type>
+          <declname>tMatrix</declname>
+        </param>
+        <param>
+          <type>INT16 *</type>
+          <declname>oMatrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" line="39" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp" bodystart="39" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="SimpleStorageManager_8h" kindref="compound">SimpleStorageManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ErrorCode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Frame.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Keyword.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fcntl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CPLUS</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#ifdef<sp/>VXWORKS</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;msgQLib.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../SDSUlcu.l/ct_interface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../SDSUlcu.l/sdsu_emir_driver.h&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>sdsu_init(),<sp/>sdsu_cleanup()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;../SDSUsim.l/ct_interface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NLINES<sp/><sp/>1024</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NPIX<sp/><sp/><sp/><sp/>4096</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ROWS<sp/><sp/><sp/><sp/>2048</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>COLS<sp/><sp/><sp/><sp/>2048</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CHANELS<sp/>8</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CCDS<sp/><sp/><sp/><sp/>4</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SDSU_SIZE<sp/><sp/><sp/>NLINES<sp/>*<sp/>NPIX</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INVERT</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADDSTRING(val1,val2,val3,val4)<sp/><sp/>addKeyword(Keyword&lt;string&gt;(val1,val2,val3,val4));</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ADDLONG(val1,val2,val3,val4)<sp/><sp/><sp/><sp/>addKeyword(Keyword&lt;long&gt;(val1,val2,val3,val4));</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ADDDOUBLE(val1,val2,val3,val4)<sp/><sp/>addKeyword(Keyword&lt;double&gt;(val1,val2,val3,val4));</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">TinyVector&lt;unsigned<sp/>long,<sp/>2&gt;<sp/><ref refid="SimpleStorageManager_8cpp_186c61bbf5d2f069e6edba2b64033cb7a" kindref="member">frameDimension</ref>(2048,<sp/>2048);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">Frame&lt;INT16,<sp/>2&gt;<sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>(<ref refid="SimpleStorageManager_8cpp_186c61bbf5d2f069e6edba2b64033cb7a" kindref="member">frameDimension</ref>,<sp/>NoErrors,<sp/>BeginWithOne);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="SimpleStorageManager_8cpp_1d07700456d9ab22900fb811ca87ca421" kindref="member">BuildTranMatrix</ref>(<ref refid="EMIRDasFrame_8h_1bc743ce126c3ada10501baffb3ca2295" kindref="member">INT16</ref><sp/>**tMatrix,<sp/><ref refid="EMIRDasFrame_8h_1bc743ce126c3ada10501baffb3ca2295" kindref="member">INT16</ref><sp/>*oMatrix)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ccdx[4],<sp/>ccdy[4],<sp/>ccdbase[4];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>p,<sp/>line,<sp/>chanel,<sp/>ccd,<sp/>pix;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>chanelStep,<sp/>schanel;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><ref refid="EMIRDasFrame_8h_1bc743ce126c3ada10501baffb3ca2295" kindref="member">INT16</ref><sp/>*baseChAdd;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/>schanel<sp/>=<sp/><ref refid="SimpleStorageManager_8cpp_1ea6537a69c2bf4ebd4bf84ad9434b40c" kindref="member">NPIX</ref><sp/>/<sp/><ref refid="SimpleStorageManager_8cpp_1b8531da84fee22f0f80c511c1aee99de" kindref="member">CCDS</ref><sp/>/<sp/><ref refid="SimpleStorageManager_8cpp_1b4b4eb149ff4fd1645a4fa867318274d" kindref="member">CHANELS</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/>ccdbase[0]<sp/>=<sp/><ref refid="SimpleStorageManager_8cpp_1b59ad2ee1a48b83c2eef1f019ed8cc48" kindref="member">COLS</ref><sp/>/<sp/>2<sp/>-<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ccdx[0]<sp/>=<sp/>-1;<sp/><sp/><sp/><sp/>ccdy[0]<sp/>=<sp/>+<ref refid="SimpleStorageManager_8cpp_1b59ad2ee1a48b83c2eef1f019ed8cc48" kindref="member">COLS</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/>ccdbase[1]<sp/>=<sp/><ref refid="SimpleStorageManager_8cpp_13c239f91880ae7ebc5b3287e1659dd8b" kindref="member">SDSU_SIZE</ref><sp/>/<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ccdx[1]<sp/>=<sp/>+<ref refid="SimpleStorageManager_8cpp_1b59ad2ee1a48b83c2eef1f019ed8cc48" kindref="member">COLS</ref>;<sp/>ccdy[1]<sp/>=<sp/>+1;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/>ccdbase[2]<sp/>=<sp/><ref refid="SimpleStorageManager_8cpp_13c239f91880ae7ebc5b3287e1659dd8b" kindref="member">SDSU_SIZE</ref><sp/>-<sp/>(<ref refid="SimpleStorageManager_8cpp_1b59ad2ee1a48b83c2eef1f019ed8cc48" kindref="member">COLS</ref><sp/>/<sp/>2);<sp/>ccdx[2]<sp/>=<sp/>+1;<sp/><sp/><sp/><sp/>ccdy[2]<sp/>=<sp/>-<ref refid="SimpleStorageManager_8cpp_1b59ad2ee1a48b83c2eef1f019ed8cc48" kindref="member">COLS</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/>ccdbase[3]<sp/>=<sp/><ref refid="SimpleStorageManager_8cpp_13c239f91880ae7ebc5b3287e1659dd8b" kindref="member">SDSU_SIZE</ref><sp/>/<sp/>2<sp/>-<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/>ccdx[3]<sp/>=<sp/>-<ref refid="SimpleStorageManager_8cpp_1b59ad2ee1a48b83c2eef1f019ed8cc48" kindref="member">COLS</ref>;<sp/>ccdy[3]<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(line<sp/>=<sp/>0;<sp/>line<sp/>&lt;<sp/><ref refid="SimpleStorageManager_8cpp_159990369239024c94cbe22080c9d29c3" kindref="member">NLINES</ref>;<sp/>++line)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(pix<sp/>=<sp/>0;<sp/>pix<sp/>&lt;<sp/>schanel;<sp/>++pix)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(ccd<sp/>=<sp/>0;<sp/>ccd<sp/>&lt;<sp/><ref refid="SimpleStorageManager_8cpp_1b8531da84fee22f0f80c511c1aee99de" kindref="member">CCDS</ref>;<sp/>++ccd)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>chanelStep<sp/>=<sp/>schanel<sp/>*<sp/>ccdx[ccd];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>ccdbase[ccd]<sp/>+<sp/>line<sp/>*<sp/>ccdy[ccd]<sp/>+<sp/>pix<sp/>*<sp/>ccdx[ccd];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>baseChAdd<sp/>=<sp/>oMatrix<sp/>+<sp/>p;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(chanel<sp/>=<sp/>0;<sp/>chanel<sp/>&lt;<sp/><ref refid="SimpleStorageManager_8cpp_1b4b4eb149ff4fd1645a4fa867318274d" kindref="member">CHANELS</ref>;<sp/>++chanel)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*tMatrix<sp/>=<sp/>baseChAdd<sp/>+<sp/>chanel<sp/>*<sp/>chanelStep;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++tMatrix;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><ref refid="classSimpleStorageManager_1fd3c5536e98957df3bbd909f296b6e83" kindref="member">SimpleStorageManager::SimpleStorageManager</ref>()</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>trace_<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Trace(</highlight><highlight class="stringliteral">&quot;SimpleStorageManager&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="classSimpleStorageManager_15b614e508fe00f215cef41256c2c8bf6" kindref="member">SimpleStorageManager::~SimpleStorageManager</ref>()</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleStorageManager_1f180d856ade9d40baf616dde167f0878" kindref="member">SimpleStorageManager::initFrame</ref>(string<sp/><ref refid="EMIRDasController_8cpp_1d2778d85ce6368749a5eae3264047cc1" kindref="member">dataFactoryName</ref>,<sp/>string<sp/>imageDir)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>code<sp/>here<sp/>to<sp/>check<sp/>for<sp/>access<sp/>to<sp/>the<sp/>directory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>baseDir<sp/>=<sp/>imageDir;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>frameCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>dataFactoryName_<sp/>=<sp/>dataFactoryName;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;SimpleStorageManager::initFrame()&quot;<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>tMatrix<sp/>=<sp/>(<ref refid="EMIRDasFrame_8h_1bc743ce126c3ada10501baffb3ca2295" kindref="member">INT16</ref><sp/>**)malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="EMIRDasFrame_8h_1bc743ce126c3ada10501baffb3ca2295" kindref="member">INT16</ref><sp/>**)<sp/>*<sp/><ref refid="SimpleStorageManager_8cpp_13c239f91880ae7ebc5b3287e1659dd8b" kindref="member">SDSU_SIZE</ref>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>DPKArray&lt;INT16,<sp/>2&gt;&amp;<sp/>dataArray<sp/>=<sp/>frame.data();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>oMatrix<sp/>=<sp/>(INT16<sp/>*)<ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.data().begin();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDSTRING(</highlight><highlight class="stringliteral">&quot;WINMODE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;NONE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;WHOLE<sp/>DETECTOR<sp/>OR<sp/>A<sp/>WINDOW&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDSTRING(</highlight><highlight class="stringliteral">&quot;READMODE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;NONE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Detector<sp/>readout<sp/>mode&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;NSEC&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;NUMBER<sp/>OF<sp/>SEQUENCES<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;NLOPP&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;NUMBER<sp/>OF<sp/>EXPOSITIONS<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;NRST&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;NUMBER<sp/>OF<sp/>RESETS<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;NRDBL_ND&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;RESETS<sp/>BEFORE<sp/>LOOP<sp/>(NO<sp/>DATA)<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;NRDBL&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;RESETS<sp/>BEFORE<sp/>LOOP<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;NRDIL_ND&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;RESETS<sp/>INSIDE<sp/>LOOP<sp/>(NO<sp/>DATA)<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;NRDIL&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;RESETS<sp/>INSIDE<sp/>LOOP<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;X_SIZE&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;ROWS<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;Y_SIZE&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;COLUMS<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;Y_SIZE_B&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;USED<sp/>FOR<sp/>WINDOW<sp/>(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;NPARAM_X&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;(ENG)&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;EXPOSE&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;EXPOSE<sp/>TIME&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;MS&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;OPTRST&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;RESET<sp/>MODE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;TSTAMP&quot;</highlight><highlight class="normal">,-1,</highlight><highlight class="stringliteral">&quot;Time<sp/>stamp<sp/>in<sp/>UTC&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;S&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Will<sp/>be<sp/>removed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDLONG(</highlight><highlight class="stringliteral">&quot;BZERO1&quot;</highlight><highlight class="normal">,(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)32768,</highlight><highlight class="stringliteral">&quot;STANDARD<sp/>FITS&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.ADDDOUBLE(</highlight><highlight class="stringliteral">&quot;BSCALE1&quot;</highlight><highlight class="normal">,1.0,</highlight><highlight class="stringliteral">&quot;STANDARD<sp/>FITS&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><ref refid="SimpleStorageManager_8cpp_1d07700456d9ab22900fb811ca87ca421" kindref="member">BuildTranMatrix</ref>(tMatrix,<sp/>oMatrix);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleStorageManager_17df5cad0b8ca44089e723964aa0298c4" kindref="member">SimpleStorageManager::sendFrame</ref>(<ref refid="structEMIRFrame" kindref="compound">EMIRFrame</ref><sp/>*emirFrame,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>oper)<sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">register</highlight><highlight class="normal"><sp/>INT16<sp/>*sP;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">register</highlight><highlight class="normal"><sp/>INT16<sp/>**tP;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/>fileName[256];</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*readModes[5]<sp/>=<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;SINGLE&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;CDS&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;FOWLER&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;RAMP&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;HDR_SIMPLE&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*windowMode[2]<sp/>=<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;FULL&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;WINDOW&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*fp;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*format_str<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;%-8s=<sp/>%-20s<sp/>/<sp/>%-47s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*format_int<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;%-8s=<sp/>%-20d<sp/>/<sp/>%-47s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*format_end<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;%-8s<sp/><sp/>%-20s<sp/><sp/><sp/>%-47s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fillIn<sp/>=<sp/>36;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;SimpleStorageManager::saveFrame()&quot;<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;WINMODE&quot;</highlight><highlight class="normal">,<sp/>windowMode[emirFrame-&gt;<ref refid="structEMIRFrame_17af13317c1936036e0f8d676d1e9fe29" kindref="member">windowMode</ref>]);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;NSEC&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1400f9a72477e85b48b9dee100c3fcee2" kindref="member">nsec</ref>);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;NLOPP&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1fd99838252dc37d44be0df8c84a21e93" kindref="member">numExp</ref>);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;NRST&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_19ebee29afba17cc8b73a3b960e0d4555" kindref="member">nrst</ref>);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;NRDBL_ND&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1d70a2e5d0cb5e2c49e3bd38ec95336b5" kindref="member">nrdbl_nd</ref>);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;NRDBL&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_179f6f02ed7d1d603332af95aae376b73" kindref="member">nrdbl</ref>);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;NRDIL_ND&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_15d0dee8463dceabd438678519cb5d75b" kindref="member">nrdil_nd</ref>);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;NRDIL&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_166de048958491d59b0cc9ec13293159f" kindref="member">nrdil</ref>);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;X_SIZE&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_15fbd1725c1296c674143cd0ae01a7c55" kindref="member">x_size</ref>);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;Y_SIZE&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1d4ec436d41616ed15c240b25021c6ab9" kindref="member">y_size</ref>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;Y_SIZE_B&quot;</highlight><highlight class="normal">,1024<sp/>-<sp/>emirFrame-&gt;<ref refid="structEMIRFrame_1d4ec436d41616ed15c240b25021c6ab9" kindref="member">y_size</ref>);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;NPARAM_X&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_151803bfe5d7732b6d4cb084d5505ba54" kindref="member">nparam_x</ref>);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;EXPOSE&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1b2c5efde9da556c08af70ab901da518c" kindref="member">exposuretime</ref>);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;OPTRST&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_14a817a526fbe151cab1ebe3a23ea2fb5" kindref="member">optrst</ref>);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;READMODE&quot;</highlight><highlight class="normal">,readModes[emirFrame-&gt;<ref refid="structEMIRFrame_17a3c0ce9674a76252ea193061c20fdc4" kindref="member">readoutmodeval</ref>]);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><ref refid="ui_8cpp_1bd93ff6adc8cd42c959e4814c6f6758c" kindref="member">frame</ref>.modifyKeyword(</highlight><highlight class="stringliteral">&quot;TSTAMP&quot;</highlight><highlight class="normal">,(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)emirFrame-&gt;<ref refid="structEMIRFrame_13f62e57bc9cf889150ddf78019480a24" kindref="member">timeStamp</ref>);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>tP<sp/>=<sp/>tMatrix;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>oper<sp/>&amp;<sp/><ref refid="SimpleStorageManager_8h_1e4b8463cdd61cdc280dd90d024bc1c11" kindref="member">INVER</ref><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>sP<sp/>=<sp/>(INT16<sp/>*)emirFrame-&gt;<ref refid="structEMIRFrame_1f15b4a43f787755c1fd5588649709599" kindref="member">DetectorData</ref><sp/>+<sp/>SDSU_SIZE<sp/>+<sp/><ref refid="EMIRDasFrame_8h_1d31fa9a36b40ed56e7677aa70c8b93f1" kindref="member">SDSU_HEADER_SIZE</ref><sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>for<sp/>(<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>SDSU_SIZE;<sp/>++i)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>**tP++<sp/>=<sp/>*sP--<sp/>-<sp/>32768;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>sP<sp/>=<sp/>(INT16<sp/>*)emirFrame-&gt;<ref refid="structEMIRFrame_1f15b4a43f787755c1fd5588649709599" kindref="member">DetectorData</ref><sp/>+<sp/><ref refid="EMIRDasFrame_8h_1d31fa9a36b40ed56e7677aa70c8b93f1" kindref="member">SDSU_HEADER_SIZE</ref><sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>for<sp/>(<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>SDSU_SIZE;<sp/>++i)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>**tP++<sp/>=<sp/>*sP++<sp/>-<sp/>32768;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>oper<sp/>&amp;<sp/><ref refid="SimpleStorageManager_8h_1d8abdebbc12dc650825a6c2d1b46cc22" kindref="member">MAKEFITS</ref><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>sprintf(fileName,<sp/></highlight><highlight class="stringliteral">&quot;%s/%s_%05d.fits&quot;</highlight><highlight class="normal">,<sp/>baseDir.c_str(),<sp/>emirFrame-&gt;<ref refid="structEMIRFrame_1ec163847a80ae1e7a52e74c0c1cb6502" kindref="member">imageName</ref>,<sp/>emirFrame-&gt;<ref refid="structEMIRFrame_1110227b1020ffc3943f67b5c75970bed" kindref="member">currentFrame</ref>);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">printf(</highlight><highlight class="stringliteral">&quot;saveFrame:<sp/>Filename<sp/>=<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>fileName);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>unlink(fileName);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/><sp/>frame.toFits(fileName);*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((fp<sp/>=<sp/>fopen(fileName,<sp/></highlight><highlight class="stringliteral">&quot;wb&quot;</highlight><highlight class="normal">))<sp/>==<sp/>NULL)<sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;saveFrameTask&gt;<sp/>error<sp/>open<sp/>file<sp/>%s.\n&quot;</highlight><highlight class="normal">,<sp/>fileName);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;SIMPLE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;T&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;BITPIX&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;16&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;NAXIS&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;2&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;NAXIS1&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;2048&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;NAXIS2&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;2048&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;ORIGIN&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;IAC&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;TELESCOP&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;AIV&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;INSTRUME&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;EMIR&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;BSCALE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;1.0&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;BZERO&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;32768&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;WINMODE&quot;</highlight><highlight class="normal">,<sp/>windowMode[emirFrame-&gt;<ref refid="structEMIRFrame_17af13317c1936036e0f8d676d1e9fe29" kindref="member">windowMode</ref>],</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;NSEC&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1400f9a72477e85b48b9dee100c3fcee2" kindref="member">nsec</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;NLOPP&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1fd99838252dc37d44be0df8c84a21e93" kindref="member">numExp</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;NRST&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_19ebee29afba17cc8b73a3b960e0d4555" kindref="member">nrst</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;NRDBL_ND&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1d70a2e5d0cb5e2c49e3bd38ec95336b5" kindref="member">nrdbl_nd</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;NRDBL&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_179f6f02ed7d1d603332af95aae376b73" kindref="member">nrdbl</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;NRDIL_ND&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_15d0dee8463dceabd438678519cb5d75b" kindref="member">nrdil_nd</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;NRDIL&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_166de048958491d59b0cc9ec13293159f" kindref="member">nrdil</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;X_SIZE&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_15fbd1725c1296c674143cd0ae01a7c55" kindref="member">x_size</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;Y_SIZE&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1d4ec436d41616ed15c240b25021c6ab9" kindref="member">y_size</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;Y_SIZE_B&quot;</highlight><highlight class="normal">,1024<sp/>-<sp/>emirFrame-&gt;<ref refid="structEMIRFrame_1d4ec436d41616ed15c240b25021c6ab9" kindref="member">y_size</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;NPARAM_X&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_151803bfe5d7732b6d4cb084d5505ba54" kindref="member">nparam_x</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;EXPOSE&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_1b2c5efde9da556c08af70ab901da518c" kindref="member">exposuretime</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;OPTRST&quot;</highlight><highlight class="normal">,emirFrame-&gt;<ref refid="structEMIRFrame_14a817a526fbe151cab1ebe3a23ea2fb5" kindref="member">optrst</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;DETVER&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;NONE&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_str,<sp/></highlight><highlight class="stringliteral">&quot;READMODE&quot;</highlight><highlight class="normal">,readModes[emirFrame-&gt;<ref refid="structEMIRFrame_17a3c0ce9674a76252ea193061c20fdc4" kindref="member">readoutmodeval</ref>],</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_int,<sp/></highlight><highlight class="stringliteral">&quot;TSTAMP&quot;</highlight><highlight class="normal">,(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)emirFrame-&gt;<ref refid="structEMIRFrame_13f62e57bc9cf889150ddf78019480a24" kindref="member">timeStamp</ref>,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,<sp/>format_end,<sp/></highlight><highlight class="stringliteral">&quot;END&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);--fillIn;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>fillIn;<sp/>i++)</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,</highlight><highlight class="stringliteral">&quot;%-80s&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fseek(fp,<sp/>2880,<sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_10d112bae8fd35be772185b6ec6bcbe64" kindref="member">SEEK_SET</ref>);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fwrite((</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>oMatrix,<sp/>1,<sp/>SDSU_SIZE<sp/>*<sp/>2,<sp/>fp);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(fp);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>oper<sp/>&amp;<sp/><ref refid="SimpleStorageManager_8h_1d6e0adedb830fcb0415d6d32ee127ec3" kindref="member">SENDFRAME</ref><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>EMIRDFAgent::receiveFrame(<sp/>const<sp/>DDPKF::Frame&amp;<sp/>idlNoKeywordsFrame,<sp/>int<sp/>currentWindow,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>numWindows,<sp/>const<sp/>DGT::TinyVector&amp;<sp/>idlTopLeft,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/>DGT::TinyVector&amp;<sp/>idlBottomRight,<sp/>const<sp/>DGT::TimeValue&amp;<sp/>idlTimestamp,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/>DGT::TimeValue&amp;<sp/>idlExposureTime,<sp/>const<sp/>char*<sp/>cameraId<sp/>)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/>++frameCount;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleStorageManager.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,2 @@
+CPPFLAGS += -O -fimplicit-templates 
+LIBS += -lDFAgent

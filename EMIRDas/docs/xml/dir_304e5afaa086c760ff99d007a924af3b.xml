@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="dir_304e5afaa086c760ff99d007a924af3b" kind="dir">
+    <compoundname>EMIRDas.l.old/</compoundname>
+    <innerfile refid="old_2AcquisitionParameters_8h">old/AcquisitionParameters.h</innerfile>
+    <innerfile refid="old_2EMIRDas_8cpp">old/EMIRDas.cpp</innerfile>
+    <innerfile refid="old_2EMIRDas_8h">old/EMIRDas.h</innerfile>
+    <innerfile refid="EMIRDas_8l_8old_2EMIRDAS_8idl">EMIRDas.l.old/EMIRDAS.idl</innerfile>
+    <innerfile refid="old_2EMIRDasAdapter_8cpp">old/EMIRDasAdapter.cpp</innerfile>
+    <innerfile refid="old_2EMIRDasAdapter_8h">old/EMIRDasAdapter.h</innerfile>
+    <innerfile refid="old_2EMIRDasConfigAgent_8cpp">old/EMIRDasConfigAgent.cpp</innerfile>
+    <innerfile refid="old_2EMIRDasConfigAgent_8h">old/EMIRDasConfigAgent.h</innerfile>
+    <innerfile refid="old_2EMIRTYPES_8idl">old/EMIRTYPES.idl</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/"/>
+  </compounddef>
+</doxygen>

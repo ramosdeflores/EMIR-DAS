@@ -1,0 +1,578 @@
+package gtc.DSL.CK.GDEV;
+
+public abstract class EMIRDas
+{
+
+  /**
+  * Setup the intrument detector.
+  *
+  * @param acquisitionConfiguration As their name tell us is the configuration of an acquisition..
+  */
+  void setupDetector(struct_AcquisitionConfiguration acquisitionConfiguration);
+ 
+ 
+ /**
+  * Instructs the detector controller to start taking the specified number of
+  * images.
+  *
+  *@ Repeats last configuration.
+  */
+  void  expose();           
+ 
+ 
+  /**
+  * Setup the readout mode.
+  *
+  * @param readoutMode Readout mode.
+  *
+  */
+  void  setupReadoutMode(enum_ReadoutMode readoutmodeval);
+
+ /**
+  * Setup exposureId
+  *
+  * @param exposureId Sets the acquisitionId
+  *
+  */
+  void  setupImageTitle(String  exposureId);
+
+
+/**
+  * Setup exposureTime.
+  *
+  * @param exposureTime Sets the desired exposure time
+  *
+  */
+  void  setupExposureTime(long exposureTime);
+
+
+  /**
+  * Setup the window mode
+  *
+  * @param window mode
+  *
+  */
+  void  setupWindowMode(boolean windowmode);
+
+  /**
+  * Setup the NSEC controller parameter
+  *
+  * @param nsec
+  *
+  */
+  void  setupNSEC(long nsec);
+ 
+  /**
+  * Setup the NO_EXPOSURES controller parameter
+  *
+  * @param nexp
+  *
+  */
+  void  setupNO_EXPOSURES(long nexp);
+ 
+  /**
+  * Setup the NRDBL controller parameter
+  *
+  * @param nrdbl
+  *
+  */
+  void  setupNRDBL(long nrdbl);
+ 
+  /**
+  * Setup the NRDBL_ND controller parameter
+  *
+  * @param nrdbl_nd
+  *
+  */
+  void  setupNRDBL_ND(long nrdbl_nd);
+ 
+  /**
+  * Setup the NRST controller parameter
+  *
+  * @param nrst
+  *
+  */
+  void  setupNRST(long nrst);
+ 
+  /**
+  * Setup the NPARAM_X controller parameter
+  *
+  * @param nparam_x
+  *
+  */
+  void  setupNPARAM_X(long nparam_x);
+
+  /**
+  * Setup the NRDIL controller parameter
+  *
+  * @param nrdil
+  *
+  */
+  void  setupNRDIL(long nrdil);
+ 
+  /**
+  * Setup the NRDIL_ND controller parameter
+  *
+  * @param nrdil_nd
+  *
+  */
+  void  setupNRDIL_ND(long nrdil_nd);
+ 
+  /**
+  * Setup the OPTRST controller parameter
+  *
+  * @param optrst
+  *
+  */
+  void  setupOPTRST(long optrst);
+ 
+  /**
+  * Setup the X_SIZE controller parameter
+  *
+  * @param x_size
+  *
+  */
+  void  setupX_SIZE(long x_size);
+ 
+  /**
+  * Setup the Y_SIZE controller parameter
+  *
+  * @param y_size
+  *
+  */
+  void  setupY_SIZE(long y_size);
+ 
+  /**
+  * Setup the Y_SIZE_B controller parameter
+  *
+  * @param y_size_b
+  *
+  */
+  void  setupY_SIZE_B(long y_size_b);
+
+ 
+//----------------------------------------------------------------------
+  //  Device magnitudes
+  //----------------------------------------------------------------------
+
+  /**
+  * DAS is setting up.
+  * @magnitude
+  * @description It is true if DAS is applying the configuration.
+  * @maximum     true
+  * @minimum     false
+  * @units       None
+  * @sampling    0.0s
+  * @storage     0.0s
+  *
+  */
+  private boolean isSettingup;
+
+  /**
+  * DAS is configurationDone.
+  * @magnitude
+  * @description It is true if DAS is the configuration has been applied.
+  * @maximum     true
+  * @minimum     false
+  * @units       None
+  * @sampling    0.0s
+  * @storage     0.0s
+  *
+  */
+  private boolean isConfigurationDone;
+ 
+  /**
+  * DAS is exposing.
+  * @magnitude
+  * @description It is true if the CCD Controller is taking exposures.
+  * @maximum     true
+  * @minimum     false
+  * @units       None
+  * @sampling    0.0s
+  * @storage     0.0s
+  *
+  */
+  private boolean isExposing;
+
+
+  /**
+  * Detector controller is in idle.
+  * @magnitude
+  * @description It is true if the Acquisition system is in Idle mode.
+  * @maximum     true
+  * @minimum     false
+  * @units       None
+  * @sampling    0.0s
+  * @storage     0.0s
+  *
+  */
+  private boolean isDetectorControllerIdle;
+
+
+  /**
+  * Current readout mode
+  * @magnitude
+  * @description Readout mode.
+  * @maximum     7
+  * @minimum     1
+  * @units       None
+  * @sampling    0.0s
+  * @storage     0.0s
+  * @values      SINGLE, CDS, FOWLER, RAMP, HDR_SIMPLE, BIAS, MRAMP, NONE
+  *
+  */
+  private enum_ReadoutMode currentReadoutMode;      
+
+ 
+  /**
+  * Current SDSUController state
+  * @magnitude
+  * @description Current status SDSU Controller
+  * @maximum     4
+  * @minimum     1
+  * @units       None
+  * @sampling    0.0s
+  * @storage     0.0s
+  * @values      DETECTOR_IDLE, DETECTOR_ERROR, DETECTOR_RUNNING, DETECTOR_ENDS
+  */
+  private enum_SDSUControllerStatus  currentSDSUControllerStatus;
+
+  /**
+   * Elapsed Time
+   * @magnitude
+   * @description Current elapsed Time
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentElapsedTime;
+
+  /**
+   * Desired Exposure Time
+   * @magnitude
+   * @description Current Exposure Time
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentExposureTime;
+  
+  
+  /**
+   * Current Number of Images
+   * @magnitude
+   * @description Current number of images
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentNumberOfImages;
+  
+
+  /**
+   * Current NSEC
+   * @magnitude
+   * @description Current NSEC controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentNSEC;
+  
+  /**
+   * Current NO_EXPOSURES
+   * @magnitude
+   * @description Current NO_EXPOSURES controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentNO_EXPOSURES;
+  
+  /**
+   * Current NRDBL
+   * @magnitude
+   * @description Current NRDBL controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentNRDBL;
+  
+  /**
+   * Current NRDBL_ND
+   * @magnitude
+   * @description Current NRDBL_ND controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentNRDBL_ND;
+  
+  /**
+   * Current NPARAM_X
+   * @magnitude
+   * @description Current NPARAM_X controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentNPARAM_X;
+  
+  /**
+   * Current NRST
+   * @magnitude
+   * @description Current NRST controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentNRST;
+  
+  /**
+   * Current NRDIL
+   * @magnitude
+   * @description Current NRDIL controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentNRDIL;
+  
+  /**
+   * Current NRDIL_ND
+   * @magnitude
+   * @description Current NRDIL_ND controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentNRDIL_ND;
+  
+  /**
+   * Current OPTRST
+   * @magnitude
+   * @description Current OPTRST controller value
+   * @maximum    2
+   * @minimum     0
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentOPTRST;
+  
+  /**
+   * Current X_SIZE
+   * @magnitude
+   * @description Current X_SIZE controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentX_SIZE;
+  
+  /**
+   * Current Y_SIZE
+   * @magnitude
+   * @description Current Y_SIZE controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentY_SIZE;
+  
+  /**
+   * Current Y_SIZE_B
+   * @magnitude
+   * @description Current Y_SIZE_B controller value
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private long   currentY_SIZE_B;
+ 
+  //----------------------------------------------------------------------
+  //  Device Properties
+  //----------------------------------------------------------------------
+ 
+  /**
+   * Power on LOD
+   * @property
+   * @description Path to the power on controller program
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private String   poweronApp;
+  
+  /**
+   * Power off LOD
+   * @property
+   * @description Path to the power off controller program
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private String   poweroffApp;
+  
+  /**
+   * Adquisiton LOD
+   * @property
+   * @description Path to the adquisition controller program
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private String   adqApp;
+  
+  /**
+   * Strorage location
+   * @property
+   * @description Path to the image storage directory
+   * @maximum    1
+   * @minimum     1
+   * @units       None
+   * @sampling    0.0s
+   * @storage     0.0s
+   *
+   */
+  private String   imgDir;
+  
+  //----------------------------------------------------------------------
+  //  Device Alarms
+  //----------------------------------------------------------------------
+
+  /**
+  * Device Fault Alarm
+  * @alarm
+  * @description Raised when a Device enters the FAULT state
+  * @severity    LEVEL1
+  * @acknowledge Yes
+  * @actions     "Check this Device"
+  *
+  */
+  private Alarm DeviceFault;
+
+  /**
+  * Operation Failed Alarm
+  * @alarm
+  * @description Raised when a Device can't complete an operation
+  * @severity    LEVEL1
+  * @acknowledge Yes
+  * @actions     "Check this Device"
+  *
+  */
+  private Alarm operationFailed;
+
+    /**
+    * CommunicationFailure
+      * @alarm
+      * @description Communication Fails
+      * @severity Level5
+      * @acknowledge  Yes
+      * @actions "Check SDSU Controller"
+    */
+    private Alarm CommunicationFailure;    
+
+  //----------------------------------------------------------------------
+  //  Instances of class DAS
+  //----------------------------------------------------------------------
+  /**
+  * DAS device
+  * @instance
+  * @name     OSIRIS/DAS/DataAcquisition_1
+  * @mode     INTEGRATED
+  * @priority 99
+  * @threads  5
+  *
+  */
+  private Device DAS;
+
+
+  //----------------------------------------------------------------------
+  //  Application
+  //----------------------------------------------------------------------
+
+  /**
+  * The application is used to create the devices
+  * @application
+  * @name dasApplication
+  *
+  */
+
+  private Application das_application;
+
+
+  //----------------------------------------------------------------------
+  //  LCU
+  //----------------------------------------------------------------------
+
+  /**
+  * The LCU is used to create the applications
+  * @lcu
+  * @name dasLCU
+  *
+  */
+
+  private LCU das_lcu;
+}
+
+
+// Define new type as classes to avoid the warning: "cannot resolve symbol"
+
+class enum_SDSUControllerStatus{};
+class struct_AcquisitionConfiguration{};
+class enum_ReadoutMode{};
+

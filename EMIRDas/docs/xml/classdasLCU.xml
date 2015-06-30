@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classdasLCU" kind="class" prot="public">
+    <compoundname>dasLCU</compoundname>
+    <includes refid="examples_2runEMIRDas_8p_8old_2dasLCU_8h" local="no">dasLCU.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdasLCU_154f50bfbb71c34b9a6213e34c6e3d936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dasLCU::dasLCU</definition>
+        <argsstring>(char *name)</argsstring>
+        <name>dasLCU</name>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.h" line="20" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.cpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasLCU_14a3acc1bc9a2faafd54c9cbf7421b6dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>dasLCU::~dasLCU</definition>
+        <argsstring>()</argsstring>
+        <name>~dasLCU</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasLCU_1ee5b70fc925758bbe89a5bb1899277f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dasLCU::start</definition>
+        <argsstring>(int update=0)</argsstring>
+        <name>start</name>
+        <param>
+          <type>int</type>
+          <declname>update</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Start LCU services and applications. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.h" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasLCU.cpp" bodystart="26" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasLCU_11252577a8f5a6508053afddc02651185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dasLCU::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+<para>Stop LCU services and applications. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.h" line="29" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.cpp" bodystart="93" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasLCU_154f50bfbb71c34b9a6213e34c6e3d936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dasLCU::dasLCU</definition>
+        <argsstring>(char *name)</argsstring>
+        <name>dasLCU</name>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasLCU.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasLCU_1f140fc7f8607f188541d8efd307955b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>virtual dasLCU::~dasLCU</definition>
+        <argsstring>()</argsstring>
+        <name>~dasLCU</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasLCU.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasLCU_1ee5b70fc925758bbe89a5bb1899277f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dasLCU::start</definition>
+        <argsstring>(int update=0)</argsstring>
+        <name>start</name>
+        <param>
+          <type>int</type>
+          <declname>update</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Start LCU services and applications. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasLCU.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classdasLCU_11252577a8f5a6508053afddc02651185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dasLCU::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+<para>Stop LCU services and applications. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasLCU.h" line="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdasLCU_1b47c155f4ff13308c755da4ff199dc04" prot="private" static="no" mutable="no">
+        <type><ref refid="classdasApplication" kindref="compound">dasApplication</ref> *</type>
+        <definition>dasApplication* dasLCU::das_application_</definition>
+        <argsstring></argsstring>
+        <name>das_application_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.h" line="35" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdasLCU_1b47c155f4ff13308c755da4ff199dc04" prot="private" static="no" mutable="no">
+        <type><ref refid="classdasApplication" kindref="compound">dasApplication</ref> *</type>
+        <definition>dasApplication* dasLCU::das_application_</definition>
+        <argsstring></argsstring>
+        <name>das_application_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasLCU.h" line="35" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasLCU.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the LCU interface. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="122">
+        <label>EMIRDas</label>
+        <link refid="classEMIRDas"/>
+        <childnode refid="123" relation="usage">
+          <edgelabel>controller_</edgelabel>
+        </childnode>
+        <childnode refid="127" relation="usage">
+          <edgelabel>currentConfiguration</edgelabel>
+        </childnode>
+      </node>
+      <node id="125">
+        <label>DetectorControllerApp</label>
+        <link refid="classDetectorControllerApp"/>
+      </node>
+      <node id="127">
+        <label>AcqConfig</label>
+        <link refid="structAcqConfig"/>
+      </node>
+      <node id="123">
+        <label>EMIRDasController</label>
+        <link refid="classEMIRDasController"/>
+        <childnode refid="124" relation="usage">
+          <edgelabel>dchardwarefacade_</edgelabel>
+        </childnode>
+        <childnode refid="126" relation="usage">
+          <edgelabel>memoryManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="120">
+        <label>dasLCU</label>
+        <link refid="classdasLCU"/>
+        <childnode refid="121" relation="usage">
+          <edgelabel>das_application_</edgelabel>
+        </childnode>
+      </node>
+      <node id="126">
+        <label>SimpleMemoryManager</label>
+        <link refid="classSimpleMemoryManager"/>
+      </node>
+      <node id="121">
+        <label>dasApplication</label>
+        <link refid="classdasApplication"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>DAS_</edgelabel>
+        </childnode>
+      </node>
+      <node id="124">
+        <label>EMIRDasControllerHw</label>
+        <link refid="classEMIRDasControllerHw"/>
+        <childnode refid="125" relation="usage">
+          <edgelabel>aquisitionCode</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.h" line="16" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/runEMIRDas.p.old/dasLCU.h" bodystart="15" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classdasLCU_1b47c155f4ff13308c755da4ff199dc04" prot="private" virt="non-virtual"><scope>dasLCU</scope><name>das_application_</name></member>
+      <member refid="classdasLCU_1b47c155f4ff13308c755da4ff199dc04" prot="private" virt="non-virtual"><scope>dasLCU</scope><name>das_application_</name></member>
+      <member refid="classdasLCU_154f50bfbb71c34b9a6213e34c6e3d936" prot="public" virt="non-virtual"><scope>dasLCU</scope><name>dasLCU</name></member>
+      <member refid="classdasLCU_154f50bfbb71c34b9a6213e34c6e3d936" prot="public" virt="non-virtual"><scope>dasLCU</scope><name>dasLCU</name></member>
+      <member refid="classdasLCU_1ee5b70fc925758bbe89a5bb1899277f1" prot="public" virt="non-virtual"><scope>dasLCU</scope><name>start</name></member>
+      <member refid="classdasLCU_1ee5b70fc925758bbe89a5bb1899277f1" prot="public" virt="non-virtual"><scope>dasLCU</scope><name>start</name></member>
+      <member refid="classdasLCU_11252577a8f5a6508053afddc02651185" prot="public" virt="non-virtual"><scope>dasLCU</scope><name>stop</name></member>
+      <member refid="classdasLCU_11252577a8f5a6508053afddc02651185" prot="public" virt="non-virtual"><scope>dasLCU</scope><name>stop</name></member>
+      <member refid="classdasLCU_14a3acc1bc9a2faafd54c9cbf7421b6dd" prot="public" virt="virtual"><scope>dasLCU</scope><name>~dasLCU</name></member>
+      <member refid="classdasLCU_1f140fc7f8607f188541d8efd307955b5" prot="public" virt="virtual"><scope>dasLCU</scope><name>~dasLCU</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

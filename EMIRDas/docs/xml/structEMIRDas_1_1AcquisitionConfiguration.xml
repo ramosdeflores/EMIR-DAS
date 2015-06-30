@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structEMIRDas_1_1AcquisitionConfiguration" kind="struct" prot="public">
+    <compoundname>EMIRDas::AcquisitionConfiguration</compoundname>
+    <includes refid="EMIRDas_8h" local="no">EMIRDas.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDas.h" line="40" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDas.h" bodystart="39" bodyend="59"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

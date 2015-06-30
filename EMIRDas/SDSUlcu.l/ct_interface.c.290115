@@ -1,0 +1,134 @@
+/*#define DEBUG_MESSAGE 1  */
+#define ERROR_MESSAGE 1
+
+#include <stdlib.h>          /* getenv(), system() */
+
+/* Standard C libraries */
+#include <string.h>     /* strncmp() */
+
+/* VxWorks libraries */
+#include <semLib.h>     /* semGive() */
+#include <msgQLib.h>    /* msgQSend(), msgQReceive() */
+#include <sysLib.h>     /* sysClkRateGet() */
+#include <cacheLib.h>
+
+#include "ct_interface.h"
+
+int intBuffSize = SDSU_HDRSIZE;
+void *intVirBuff;
+void *intPhyBuff;
+SDSU_BUFFER intBuf;
+unsigned int timeMemType[3] = { SDSU_TIME_P_MEM,
+                                SDSU_TIME_X_MEM,
+                                SDSU_TIME_Y_MEM };
+
+
+SDSU_CONTEXT *context;
+
+extern SEM_ID pci_sem;  /**< USER/TIME task command to PCI task semaphore */
+extern SEM_ID time_sem; /**< USER command to TIME task semaphore */
+
+
+/* Position de memory address for writes to the controller 
+ *
+ * Parameters: id   - file descriptor (not used)
+ *             whence - action      = SEEK_SET  or SEEK_CUR
+ *             offset - memory offset
+ *
+ * Returns: NO_ERROR
+ *          BAD_TYPE   - if the value of type is not MEMP, MEMX or MEMY
+ *          BAD_WHENCE - if the valeu of whence is not SEEK_SET or SEEK_CUR
+ */
+UINT32 clseek(int id, const UINT32 offset, int whence)  {
+
+     return 0;
+}
+
+/* Write to the controller. Will write to memory address context->memPos[context->memType]
+ * (where context->memType is set by ioctl) set by lseek or by the last write.
+ * The normal procedure to set the memory address is ioctl follow by lseek.
+ *
+ * Parameters: id - file descriptor (not used)
+ *             *buffer - data to be writen
+ *             size - size of buffer
+ */
+
+int cwrite(int id, INT32 *buffer, int size) {
+
+     return 0;
+}
+
+/* Read from the controller
+ * 
+ */
+
+int cread(int id, INT32 *buffer, int size) {
+
+     return 0;
+}
+
+int cioctl(int fd, int request, void *args) {
+
+     return 0;
+}
+
+int copen(char *device, unsigned int mask) {
+
+     return 0;
+}
+
+int cclose(int fd) {
+
+     return 0;
+}
+
+/************************************************************************************/
+
+
+/* Read from the frame grabber
+ * 
+ */
+
+SDSU_BUFFER	fg_buf;
+int		bytes;
+void		*intFgPhBuff;
+
+int fgread(int id, void *buffer, int size) {
+
+     unsigned short *p;
+     unsigned short counter = 0;
+     int i;
+
+     if ( buffer == NULL ) {
+         printf("**** fgread: Gota a NULL buffer.\n");
+         return -1;
+     }
+
+     sprintf((char *)buffer, "%-24s", "** SDSU HEADER INFO **");
+     p = (unsigned short *)buffer + 12;
+
+     for (i = 0; i < size - 24; ++i) {
+        *p++ = counter;
+	counter = (counter + 1) % 65536;
+     }
+
+     sleep(1);
+
+     return size;
+}
+
+
+int fgioctl(int id, int request, void *args) {
+
+     return 0;
+}
+
+int fgopen(char *device, unsigned int mask) {
+
+     return 0;
+}
+
+int fgclose(int fd) {
+
+     return 0;
+}

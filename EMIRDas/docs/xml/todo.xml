@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="todo" kind="page">
+    <compoundname>todo</compoundname>
+    <title>Todo List</title>
+    <detaileddescription>
+<para><anchor id="todo_1_todo000001"/> <variablelist>
+<varlistentry><term>Member <ref refid="classEMIRDasController_13cc1efbd1d45ffd7499bb7a2c04a0a14" kindref="member">EMIRDasController::config</ref> (const <ref refid="structAcqConfig" kindref="compound">AcqConfig</ref> &amp;acqparameters) </term></varlistentry>
+<listitem><para>. In this function framegrabber timeouts are fixed. Change appropiately. </para><para>TimeoutBeforeCapture and TimeouDataTransfer. Possible Returns sending command.</para><para></para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

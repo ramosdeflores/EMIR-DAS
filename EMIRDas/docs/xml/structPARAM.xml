@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structPARAM" kind="struct" prot="public">
+    <compoundname>PARAM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPARAM_12c71784dc45fd9b8afde6399864fc661" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char PARAM::name[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="65" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPARAM_1c93493f6e4217cbdd6c34631d82a3a24" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PARAM::memType</definition>
+        <argsstring></argsstring>
+        <name>memType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="66" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPARAM_1b76319b12ef78978076630186d88e879" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 PARAM::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="67" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPARAM_12f4329dcf96b2ac4e8bf8998558e982f" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 PARAM::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="68" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPARAM_1c1a2fcc53819ff16859a5faed0753d3d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PARAM::readOnly</definition>
+        <argsstring></argsstring>
+        <name>readOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="69" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" line="64" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/test.l/ui.cpp" bodystart="64" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structPARAM_1b76319b12ef78978076630186d88e879" prot="public" virt="non-virtual"><scope>PARAM</scope><name>address</name></member>
+      <member refid="structPARAM_1c93493f6e4217cbdd6c34631d82a3a24" prot="public" virt="non-virtual"><scope>PARAM</scope><name>memType</name></member>
+      <member refid="structPARAM_12c71784dc45fd9b8afde6399864fc661" prot="public" virt="non-virtual"><scope>PARAM</scope><name>name</name></member>
+      <member refid="structPARAM_1c1a2fcc53819ff16859a5faed0753d3d" prot="public" virt="non-virtual"><scope>PARAM</scope><name>readOnly</name></member>
+      <member refid="structPARAM_12f4329dcf96b2ac4e8bf8998558e982f" prot="public" virt="non-virtual"><scope>PARAM</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

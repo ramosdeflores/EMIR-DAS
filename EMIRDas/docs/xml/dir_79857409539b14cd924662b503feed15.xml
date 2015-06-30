@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="dir_79857409539b14cd924662b503feed15" kind="dir">
+    <compoundname>SDSUsim.l/</compoundname>
+    <innerfile refid="ct__interface_8cpp">ct_interface.cpp</innerfile>
+    <innerfile refid="SDSUsim_8l_2ct__interface_8h">SDSUsim.l/ct_interface.h</innerfile>
+    <innerfile refid="fg__interface_8cpp">fg_interface.cpp</innerfile>
+    <innerfile refid="SDSUsim_8l_2fg__interface_8h">SDSUsim.l/fg_interface.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/"/>
+  </compounddef>
+</doxygen>

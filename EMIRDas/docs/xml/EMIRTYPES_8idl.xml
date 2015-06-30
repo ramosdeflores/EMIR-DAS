@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="EMIRTYPES_8idl" kind="file">
+    <compoundname>EMIRTYPES.idl</compoundname>
+    <includes local="yes">DGT.idl</includes>
+    <includedby refid="EMIRDas_8l_2EMIRDAS_8idl" local="yes">EMIRDAS.idl</includedby>
+    <incdepgraph>
+      <node id="1260">
+        <label>EMIRTYPES.idl</label>
+        <link refid="EMIRTYPES.idl"/>
+        <childnode refid="1261" relation="include">
+        </childnode>
+      </node>
+      <node id="1261">
+        <label>DGT.idl</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1262">
+        <label>EMIRTYPES.idl</label>
+        <link refid="EMIRTYPES.idl"/>
+        <childnode refid="1263" relation="include">
+        </childnode>
+      </node>
+      <node id="1263">
+        <label>EMIRDAS.idl</label>
+        <link refid="EMIRDas_8l_2EMIRDAS_8idl"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structEMIRTYPES_1_1NameValue">EMIRTYPES::NameValue</innerclass>
+    <innerclass refid="structEMIRTYPES_1_1AcquisitionConfiguration">EMIRTYPES::AcquisitionConfiguration</innerclass>
+    <innernamespace refid="namespaceEMIRTYPES">EMIRTYPES</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_EMIRTYPES_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_EMIRTYPES_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>prefix<sp/>&quot;gtc&quot;</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DGT.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespaceEMIRTYPES" refkind="compound"><highlight class="normal">module<sp/>EMIRTYPES<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504" kindref="member">ReadoutMode</ref><sp/>{<ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504943e2b464d9fba55c72974da430355ec" kindref="member">SINGLE</ref>,<sp/><ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504b22487943d228983bcedd2150772ca89" kindref="member">CDS</ref>,<sp/><ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a650400dc9ab3e281b845b34d98cff5c0c0c4" kindref="member">FOWLER</ref>,<sp/><ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a65042ec7efebb0cb3cb0280572c400030508" kindref="member">RAMP</ref>,<sp/><ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504f1653966ecfd93bd599d87b417f3b43e" kindref="member">HDR_SIMPLE</ref><sp/>};<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab1" kindref="member">SDSUControllerStatus</ref><sp/>{<sp/><ref refid="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab133366cc2e97a469d7898eebc20deee1e" kindref="member">DETECTOR_IDLE</ref>,<sp/><ref refid="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab118d1afcd6be2704a4d0d18c954d79143" kindref="member">DETECTOR_ERROR</ref>,<sp/><ref refid="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab14557a26b126eac1387ae0ee5cf850a6f" kindref="member">DETECTOR_RUNNING</ref>,<sp/><ref refid="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab13a9be86228922a95968a3bd26ecfc629" kindref="member">DETECTOR_ENDS</ref><sp/>};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="structEMIRTYPES_1_1NameValue" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structEMIRTYPES_1_1NameValue" kindref="compound">NameValue</ref><sp/>{</highlight></codeline>
+<codeline lineno="16" refid="structEMIRTYPES_1_1NameValue_15a4df71127b0e85929b9f17d06186440" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>string<sp/>name;</highlight></codeline>
+<codeline lineno="17" refid="structEMIRTYPES_1_1NameValue_1f010d8254c9332cba92e1b04758a985b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>any<sp/>value;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="19" refid="namespaceEMIRTYPES_17b54b23cf381ef104fe5b46616972002" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>sequence<sp/>&lt;NameValue&gt;<sp/><ref refid="namespaceEMIRTYPES_17b54b23cf381ef104fe5b46616972002" kindref="member">ParamList</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="structEMIRTYPES_1_1AcquisitionConfiguration" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structEMIRTYPES_1_1AcquisitionConfiguration" kindref="compound">AcquisitionConfiguration</ref><sp/>{</highlight></codeline>
+<codeline lineno="22" refid="structEMIRTYPES_1_1AcquisitionConfiguration_13359005eea5d90468fa0d0cceb598ba3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>string<sp/><ref refid="structAcquisitionConfiguration_160cc1008c55fd57449532a28bd6ecce0" kindref="member">title</ref>;</highlight></codeline>
+<codeline lineno="23" refid="structEMIRTYPES_1_1AcquisitionConfiguration_18b9b7afd9fb082d0c8ae5e74373ac57e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504" kindref="member">ReadoutMode</ref><sp/><ref refid="structAcquisitionConfiguration_1ef1623fdea29adf9b9c227d2ef8bc085" kindref="member">readoutmodeval</ref>;</highlight></codeline>
+<codeline lineno="24" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1cc1a9e4ef26dd0063af508fc4e0553b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><ref refid="structAcquisitionConfiguration_1efa7a8b600ebc6050901f013e017813b" kindref="member">exposuretime</ref>;</highlight></codeline>
+<codeline lineno="25" refid="structEMIRTYPES_1_1AcquisitionConfiguration_14cfdc1a038a3627dff7bca40ca65ce52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><ref refid="structAcquisitionConfiguration_12998539761b2e2bb239ff93356d4e0eb" kindref="member">x_size</ref>;</highlight></codeline>
+<codeline lineno="26" refid="structEMIRTYPES_1_1AcquisitionConfiguration_10c3fd9f7e9c8b00ea54ec0e94323523d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><ref refid="structAcquisitionConfiguration_1dd1007a0c7290609eb39b66f606efa78" kindref="member">y_size</ref>;</highlight></codeline>
+<codeline lineno="27" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1c30ed03722b774fc7d0163c103583213" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_1691d708d2b947f70860abba8568c80c3" kindref="member">windowMode</ref>;</highlight></codeline>
+<codeline lineno="28" refid="structEMIRTYPES_1_1AcquisitionConfiguration_120152434c3f5f8f31c77c1d567e5934d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_1f67e028868c18e2c83dcf586db28f99d" kindref="member">applyConfiguration</ref>;</highlight></codeline>
+<codeline lineno="29" refid="structEMIRTYPES_1_1AcquisitionConfiguration_12dd5bd086c6861b7e505f583646c7de7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>applySimulateImage;</highlight></codeline>
+<codeline lineno="30" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1e84c04688c5112f2058f8061bed41af3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>saveImages;</highlight></codeline>
+<codeline lineno="31" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1a93480fb4977cfba79a387c980a31338" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_18bf5593871d5a64718b246044d3813cf" kindref="member">nsec</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>sequences<sp/>in<sp/>an<sp/>observation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1e379c5964db7099c9ca018d70471e1da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_1931b806f860f9d2896cd83351263d847" kindref="member">optrst</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Type<sp/>of<sp/>detector<sp/>resets<sp/>to<sp/>be<sp/>performed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1454e855a4fd6d24203e22b940b99563f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_1b11585951294bd7c9aee0a0a989c034e" kindref="member">nrst</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>detector<sp/>resets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structEMIRTYPES_1_1AcquisitionConfiguration_147ccd9148f1a3f7d2da7a4dfed9d31c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_159003f748fca5cd2ae655e2fd96555c5" kindref="member">nrdbl</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>detector<sp/>resets<sp/>before<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1886a8f534a557d42a3a42830cbc38722" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_1080c97bd6acf59191c2e38a2ac42efa1" kindref="member">nrdbl_nd</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Detectors<sp/>resets<sp/>before<sp/>the<sp/>loop<sp/>with<sp/>no<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1869bae1a047b7c964453edc2e418bb05" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_1cc3e389cb4f267568677ad4dacc4ddd4" kindref="member">numExp</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>expositions<sp/>per<sp/>sequence</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1f32b1af27f5061e94037784f3f127d28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_101a3703609bd724ccadb1fcab3e40fe7" kindref="member">nrdil</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>detector<sp/>resets<sp/>inside<sp/>the<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="structEMIRTYPES_1_1AcquisitionConfiguration_1cf9742280c7d70ca971e935cd75b1f2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_15be2fbf8b5a1c78d5cdaead9d4dcc9f4" kindref="member">nrdil_nd</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Detector<sp/>resets<sp/>inside<sp/>the<sp/>loop<sp/>with<sp/>no<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="structEMIRTYPES_1_1AcquisitionConfiguration_188c2887cfcf5a183b2278385a878b819" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structAcquisitionConfiguration_1787d4a22c765148732ba830a0343878d" kindref="member">nparam_x</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>dummy<sp/>readouts<sp/>of<sp/>a<sp/>line</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_EMIRTYPES_<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl"/>
+  </compounddef>
+</doxygen>

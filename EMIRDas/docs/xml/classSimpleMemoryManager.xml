@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classSimpleMemoryManager" kind="class" prot="public">
+    <compoundname>SimpleMemoryManager</compoundname>
+    <includes refid="SimpleMemoryManager_8h" local="no">SimpleMemoryManager.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSimpleMemoryManager_1eff6c756d8f4d66a11134a6b13495cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SimpleMemoryManager::SimpleMemoryManager</definition>
+        <argsstring>(size_t size, unsigned int poolSize)</argsstring>
+        <name>SimpleMemoryManager</name>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>poolSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="16" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="6" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_1aa492310bdf8f421920594c7166260be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SimpleMemoryManager::~SimpleMemoryManager</definition>
+        <argsstring>()</argsstring>
+        <name>~SimpleMemoryManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="18" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="53" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_1d2fd83fde76e218a348d4647a5009589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * SimpleMemoryManager::getFreeBuffer</definition>
+        <argsstring>(bool wait)</argsstring>
+        <name>getFreeBuffer</name>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="20" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="74" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_12feb159fea934d91682c2661ccd7f34d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * SimpleMemoryManager::getFullBuffer</definition>
+        <argsstring>(bool wait)</argsstring>
+        <name>getFullBuffer</name>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="21" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="97" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_157fa404c6e19bebe963d70a4b2085ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::putFullBuffer</definition>
+        <argsstring>(void *buffer)</argsstring>
+        <name>putFullBuffer</name>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="22" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="135" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_11c167a14b6ed8b8f6d384006fc0577be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::putFreeBuffer</definition>
+        <argsstring>(void *buffer)</argsstring>
+        <name>putFreeBuffer</name>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="116" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_1c94e4ebaea3bc04fc6e9c7d01b4356cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::getBufferCount</definition>
+        <argsstring>()</argsstring>
+        <name>getBufferCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="24" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_1b6e78519ed8a2a3af9d55e0c63aeed47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::getBufferSize</definition>
+        <argsstring>()</argsstring>
+        <name>getBufferSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="167" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_11394991301a4fa9674b605574655bb13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::getFreeCount</definition>
+        <argsstring>()</argsstring>
+        <name>getFreeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_1ee6a370f086d6421b47affb7ed8b2648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::getFullCount</definition>
+        <argsstring>()</argsstring>
+        <name>getFullCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="27" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_1c3464b914dfe6b0893125ca71e6c92a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleMemoryManager::waitForFull</definition>
+        <argsstring>()</argsstring>
+        <name>waitForFull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="28" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_1cdf2cf0b1fa21570ec613e1046c308bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleMemoryManager::waitForFree</definition>
+        <argsstring>()</argsstring>
+        <name>waitForFree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="29" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="177" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimpleMemoryManager_1eb596e40b3fcd62841e9c55e54f5ccb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleMemoryManager::waitForEmpty</definition>
+        <argsstring>()</argsstring>
+        <name>waitForEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="30" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.cpp" bodystart="183" bodyend="187"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSimpleMemoryManager_1fb40deed804b321ec1d3741067d2b924" prot="public" static="no" mutable="no">
+        <type>Trace *</type>
+        <definition>Trace* SimpleMemoryManager::trace_</definition>
+        <argsstring></argsstring>
+        <name>trace_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="32" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSimpleMemoryManager_16aebe29d064e9f9fb91315c7f20b0545" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t SimpleMemoryManager::buffSize</definition>
+        <argsstring></argsstring>
+        <name>buffSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="36" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_104b9987f74fe3a7f3533dd4df6ec2050" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::pool_size</definition>
+        <argsstring></argsstring>
+        <name>pool_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="37" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_1f2fdf3397b33360440ee657f240be2ef" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::freeCount</definition>
+        <argsstring></argsstring>
+        <name>freeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="38" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_17049d789a57eca3128ebbfc47464c0fe" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::fullCount</definition>
+        <argsstring></argsstring>
+        <name>fullCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="39" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_13252e49cdc93bb60616aa08aa5a305b5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::freeHead</definition>
+        <argsstring></argsstring>
+        <name>freeHead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="40" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_10a321dc22bd7b44911440fe790bce4af" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::freeTail</definition>
+        <argsstring></argsstring>
+        <name>freeTail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="40" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_1ad90cbd5ded5b20bfc274ed11d3c46ba" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::fullHead</definition>
+        <argsstring></argsstring>
+        <name>fullHead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="41" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_167c74c231986b153a2ad3b81c9184619" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SimpleMemoryManager::fullTail</definition>
+        <argsstring></argsstring>
+        <name>fullTail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="41" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_1ae7a54621c9d957b7b690e9334171958" prot="private" static="no" mutable="no">
+        <type>void **</type>
+        <definition>void** SimpleMemoryManager::freeQueue</definition>
+        <argsstring></argsstring>
+        <name>freeQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="42" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_1905fe045659438ef4a7591373f33c1b9" prot="private" static="no" mutable="no">
+        <type>void **</type>
+        <definition>void ** SimpleMemoryManager::fullQueue</definition>
+        <argsstring></argsstring>
+        <name>fullQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="42" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_1192099688f568e89d52708c3969bfe78" prot="private" static="no" mutable="no">
+        <type>ACE_Thread_Mutex</type>
+        <definition>ACE_Thread_Mutex SimpleMemoryManager::fullMutex_</definition>
+        <argsstring></argsstring>
+        <name>fullMutex_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="44" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_1f2b1944c194b050b6bea20fa3c0a9613" prot="private" static="no" mutable="no">
+        <type>ACE_Thread_Mutex</type>
+        <definition>ACE_Thread_Mutex SimpleMemoryManager::freeMutex_</definition>
+        <argsstring></argsstring>
+        <name>freeMutex_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="45" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_1e2c8f5141d559af5f5e77b2ad8a0a458" prot="private" static="no" mutable="no">
+        <type>ACE_Thread_Mutex</type>
+        <definition>ACE_Thread_Mutex SimpleMemoryManager::emptyMutex_</definition>
+        <argsstring></argsstring>
+        <name>emptyMutex_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="46" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_1cba0aad113df5a5402d4714831c63cc8" prot="private" static="no" mutable="no">
+        <type>ACE_Semaphore *</type>
+        <definition>ACE_Semaphore* SimpleMemoryManager::fullSema_</definition>
+        <argsstring></argsstring>
+        <name>fullSema_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="47" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimpleMemoryManager_1eb6f51938ade6df390b9e49398a217f5" prot="private" static="no" mutable="no">
+        <type>ACE_Semaphore *</type>
+        <definition>ACE_Semaphore* SimpleMemoryManager::freeSema_</definition>
+        <argsstring></argsstring>
+        <name>freeSema_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="48" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" line="12" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h" bodystart="12" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classSimpleMemoryManager_16aebe29d064e9f9fb91315c7f20b0545" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>buffSize</name></member>
+      <member refid="classSimpleMemoryManager_1e2c8f5141d559af5f5e77b2ad8a0a458" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>emptyMutex_</name></member>
+      <member refid="classSimpleMemoryManager_1f2fdf3397b33360440ee657f240be2ef" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>freeCount</name></member>
+      <member refid="classSimpleMemoryManager_13252e49cdc93bb60616aa08aa5a305b5" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>freeHead</name></member>
+      <member refid="classSimpleMemoryManager_1f2b1944c194b050b6bea20fa3c0a9613" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>freeMutex_</name></member>
+      <member refid="classSimpleMemoryManager_1ae7a54621c9d957b7b690e9334171958" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>freeQueue</name></member>
+      <member refid="classSimpleMemoryManager_1eb6f51938ade6df390b9e49398a217f5" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>freeSema_</name></member>
+      <member refid="classSimpleMemoryManager_10a321dc22bd7b44911440fe790bce4af" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>freeTail</name></member>
+      <member refid="classSimpleMemoryManager_17049d789a57eca3128ebbfc47464c0fe" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>fullCount</name></member>
+      <member refid="classSimpleMemoryManager_1ad90cbd5ded5b20bfc274ed11d3c46ba" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>fullHead</name></member>
+      <member refid="classSimpleMemoryManager_1192099688f568e89d52708c3969bfe78" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>fullMutex_</name></member>
+      <member refid="classSimpleMemoryManager_1905fe045659438ef4a7591373f33c1b9" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>fullQueue</name></member>
+      <member refid="classSimpleMemoryManager_1cba0aad113df5a5402d4714831c63cc8" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>fullSema_</name></member>
+      <member refid="classSimpleMemoryManager_167c74c231986b153a2ad3b81c9184619" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>fullTail</name></member>
+      <member refid="classSimpleMemoryManager_1c94e4ebaea3bc04fc6e9c7d01b4356cb" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>getBufferCount</name></member>
+      <member refid="classSimpleMemoryManager_1b6e78519ed8a2a3af9d55e0c63aeed47" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>getBufferSize</name></member>
+      <member refid="classSimpleMemoryManager_1d2fd83fde76e218a348d4647a5009589" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>getFreeBuffer</name></member>
+      <member refid="classSimpleMemoryManager_11394991301a4fa9674b605574655bb13" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>getFreeCount</name></member>
+      <member refid="classSimpleMemoryManager_12feb159fea934d91682c2661ccd7f34d" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>getFullBuffer</name></member>
+      <member refid="classSimpleMemoryManager_1ee6a370f086d6421b47affb7ed8b2648" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>getFullCount</name></member>
+      <member refid="classSimpleMemoryManager_104b9987f74fe3a7f3533dd4df6ec2050" prot="private" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>pool_size</name></member>
+      <member refid="classSimpleMemoryManager_11c167a14b6ed8b8f6d384006fc0577be" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>putFreeBuffer</name></member>
+      <member refid="classSimpleMemoryManager_157fa404c6e19bebe963d70a4b2085ebd" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>putFullBuffer</name></member>
+      <member refid="classSimpleMemoryManager_1eff6c756d8f4d66a11134a6b13495cff" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>SimpleMemoryManager</name></member>
+      <member refid="classSimpleMemoryManager_1fb40deed804b321ec1d3741067d2b924" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>trace_</name></member>
+      <member refid="classSimpleMemoryManager_1eb596e40b3fcd62841e9c55e54f5ccb0" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>waitForEmpty</name></member>
+      <member refid="classSimpleMemoryManager_1cdf2cf0b1fa21570ec613e1046c308bb" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>waitForFree</name></member>
+      <member refid="classSimpleMemoryManager_1c3464b914dfe6b0893125ca71e6c92a8" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>waitForFull</name></member>
+      <member refid="classSimpleMemoryManager_1aa492310bdf8f421920594c7166260be" prot="public" virt="non-virtual"><scope>SimpleMemoryManager</scope><name>~SimpleMemoryManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

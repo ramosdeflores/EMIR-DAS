@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="SDSUsim_8l_2ct__interface_8h" kind="file">
+    <compoundname>SDSUsim.l/ct_interface.h</compoundname>
+    <includedby refid="DetectorControllerApp_8cpp" local="yes">DetectorControllerApp.cpp</includedby>
+    <includedby refid="EMIRDasController_8cpp" local="yes">EMIRDasController.cpp</includedby>
+    <includedby refid="EMIRDasControllerHw_8cpp" local="yes">EMIRDasControllerHw.cpp</includedby>
+    <includedby refid="SimpleStorageManager_8cpp" local="yes">SimpleStorageManager.cpp</includedby>
+    <includedby refid="ct__interface_8cpp" local="yes">ct_interface.cpp</includedby>
+    <includedby refid="fg__interface_8cpp" local="yes">fg_interface.cpp</includedby>
+    <includedby refid="ui_8cpp" local="yes">ui.cpp</includedby>
+    <invincdepgraph>
+      <node id="730">
+        <label>fg_interface.cpp</label>
+        <link refid="fg__interface_8cpp"/>
+      </node>
+      <node id="729">
+        <label>ct_interface.cpp</label>
+        <link refid="ct__interface_8cpp"/>
+      </node>
+      <node id="726">
+        <label>EMIRDasController.cpp</label>
+        <link refid="EMIRDasController_8cpp"/>
+      </node>
+      <node id="727">
+        <label>EMIRDasControllerHw.cpp</label>
+        <link refid="EMIRDasControllerHw_8cpp"/>
+      </node>
+      <node id="724">
+        <label>ct_interface.h</label>
+        <link refid="SDSUsim.l/ct_interface.h"/>
+        <childnode refid="725" relation="include">
+        </childnode>
+        <childnode refid="726" relation="include">
+        </childnode>
+        <childnode refid="727" relation="include">
+        </childnode>
+        <childnode refid="728" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="730" relation="include">
+        </childnode>
+        <childnode refid="731" relation="include">
+        </childnode>
+      </node>
+      <node id="728">
+        <label>SimpleStorageManager.cpp</label>
+        <link refid="SimpleStorageManager_8cpp"/>
+      </node>
+      <node id="725">
+        <label>DetectorControllerApp.cpp</label>
+        <link refid="DetectorControllerApp_8cpp"/>
+      </node>
+      <node id="731">
+        <label>ui.cpp</label>
+        <link refid="ui_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_16fa0e88c2f73f4e656831351dfdbf6e5" prot="public" static="no">
+        <name>CONTROLLER</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="3" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_17e3e78059ab51258ce05f37aa47645cb" prot="public" static="no">
+        <name>FRAME_GRABBER</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="4" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_1b702106cf3b3e96750b6845ded4e0299" prot="public" static="no">
+        <name>RESET</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="5" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_1655d905b2e863d733bfcd2b685b28313" prot="public" static="no">
+        <name>SET_MTYPE</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="6" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_1258bb72419ef143530a2f8f55e7d57af" prot="public" static="no">
+        <name>NO_ERROR</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="7" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_16d394ffbedc81cf95bfedd0c7e5efcfa" prot="public" static="no">
+        <name>STOP_SDSU</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="8" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_141cbdc5f05399be2f2cad39c8529028d" prot="public" static="no">
+        <name>START_SDSU</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="9" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_14e66f725d88be6142e50da0ea383612f" prot="public" static="no">
+        <name>START_AQU</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="10" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_1e1b66b8df68990d8784a19666686d063" prot="public" static="no">
+        <name>SDSU_BURST_BLOCK</name>
+        <initializer>0x10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="11" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_169afa2e50b905f4eab1f2df8a3fd9f23" prot="public" static="no">
+        <name>UINT32</name>
+        <initializer>unsigned int</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="14" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_1ac92c5ec332dafe0abb24688dad1b795" prot="public" static="no">
+        <name>INT32</name>
+        <initializer>int</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="15" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SDSUsim_8l_2ct__interface_8h_1bc743ce126c3ada10501baffb3ca2295" prot="public" static="no">
+        <name>INT16</name>
+        <initializer>short</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="16" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_12a456d41a1149f353e9fb428bd0ef6d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int copen</definition>
+        <argsstring>(char *device, unsigned int mask)</argsstring>
+        <name>copen</name>
+        <param>
+          <type>char *</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>Operation of controller device. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="19" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_1904279b18abec3c0affb82786648c1a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cclose</definition>
+        <argsstring>(int id)</argsstring>
+        <name>cclose</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="20" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_175a11b9bcecc37b6aba6b7241afea337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cread</definition>
+        <argsstring>(int id, INT32 *buffer, int size)</argsstring>
+        <name>cread</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>INT32 *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="21" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_1c169ab9a777ab8aaf26b1ead79313f19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cwrite</definition>
+        <argsstring>(int id, INT32 *buffer, int size)</argsstring>
+        <name>cwrite</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>INT32 *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="22" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_1734d691d64cc5dab9efb2acaf7bbf311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cioctl</definition>
+        <argsstring>(int id, int request, void *args)</argsstring>
+        <name>cioctl</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.cpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_139dba22715ec942c9b5779a88d3669c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UINT32</type>
+        <definition>UINT32 clseek</definition>
+        <argsstring>(int id, const UINT32 offset, int whence)</argsstring>
+        <name>clseek</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const UINT32</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>whence</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="24" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_1ea784b8df04465e35756163cfb4b59cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fgread</definition>
+        <argsstring>(int id, void *buffer, int size)</argsstring>
+        <name>fgread</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/fg_interface.cpp" bodystart="19" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_11993022b5f23372f2fce417c7e10ddae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fgioctl</definition>
+        <argsstring>(int id, int request, void *args)</argsstring>
+        <name>fgioctl</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/fg_interface.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_1c0689e0cb236f78a0d48447a43f609c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fgopen</definition>
+        <argsstring>(char *device, unsigned int mask)</argsstring>
+        <name>fgopen</name>
+        <param>
+          <type>char *</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="27" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/fg_interface.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="SDSUsim_8l_2ct__interface_8h_10625f7ca69bc6745410b48eee68786ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fgclose</definition>
+        <argsstring>(int fd)</argsstring>
+        <name>fgclose</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h" line="28" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/fg_interface.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__SDSU_INTERFACE_H__</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="SDSUsim_8l_2ct__interface_8h_16fa0e88c2f73f4e656831351dfdbf6e5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTROLLER<sp/><sp/>0</highlight></codeline>
+<codeline lineno="4" refid="SDSUsim_8l_2ct__interface_8h_17e3e78059ab51258ce05f37aa47645cb" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FRAME_GRABBER<sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="5" refid="SDSUsim_8l_2ct__interface_8h_1b702106cf3b3e96750b6845ded4e0299" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>RESET<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="6" refid="SDSUsim_8l_2ct__interface_8h_1655d905b2e863d733bfcd2b685b28313" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SET_MTYPE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight></codeline>
+<codeline lineno="7" refid="SDSUsim_8l_2ct__interface_8h_1258bb72419ef143530a2f8f55e7d57af" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NO_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/></highlight><highlight class="comment">/*<sp/>Successful<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="SDSUsim_8l_2ct__interface_8h_16d394ffbedc81cf95bfedd0c7e5efcfa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STOP_SDSU<sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight></codeline>
+<codeline lineno="9" refid="SDSUsim_8l_2ct__interface_8h_141cbdc5f05399be2f2cad39c8529028d" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>START_SDSU<sp/><sp/><sp/><sp/><sp/><sp/>6</highlight></codeline>
+<codeline lineno="10" refid="SDSUsim_8l_2ct__interface_8h_14e66f725d88be6142e50da0ea383612f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>START_AQU<sp/><sp/><sp/><sp/><sp/><sp/><sp/>11</highlight></codeline>
+<codeline lineno="11" refid="SDSUsim_8l_2ct__interface_8h_1e1b66b8df68990d8784a19666686d063" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SDSU_BURST_BLOCK<sp/>0x10000</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="SDSUsim_8l_2ct__interface_8h_169afa2e50b905f4eab1f2df8a3fd9f23" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UINT32<sp/><sp/><sp/><sp/><sp/><sp/>unsigned<sp/>int</highlight></codeline>
+<codeline lineno="15" refid="SDSUsim_8l_2ct__interface_8h_1ac92c5ec332dafe0abb24688dad1b795" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INT32<sp/><sp/><sp/><sp/><sp/><sp/><sp/>int</highlight></codeline>
+<codeline lineno="16" refid="SDSUsim_8l_2ct__interface_8h_1bc743ce126c3ada10501baffb3ca2295" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INT16<sp/><sp/><sp/><sp/><sp/><sp/><sp/>short</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_12a456d41a1149f353e9fb428bd0ef6d5" kindref="member">copen</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*device,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1904279b18abec3c0affb82786648c1a9" kindref="member">cclose</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_175a11b9bcecc37b6aba6b7241afea337" kindref="member">cread</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/>*buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1c169ab9a777ab8aaf26b1ead79313f19" kindref="member">cwrite</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/>*buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1734d691d64cc5dab9efb2acaf7bbf311" kindref="member">cioctl</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>request,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*args);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_139dba22715ec942c9b5779a88d3669c8" kindref="member">clseek</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>offset,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>whence);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1ea784b8df04465e35756163cfb4b59cc" kindref="member">fgread</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_11993022b5f23372f2fce417c7e10ddae" kindref="member">fgioctl</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>request,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*args);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1c0689e0cb236f78a0d48447a43f609c1" kindref="member">fgopen</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*device,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_10625f7ca69bc6745410b48eee68786ec" kindref="member">fgclose</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__SDSU_INTERFACE_H__<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUsim.l/ct_interface.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classEMIRDasControllerHw" kind="class" prot="public">
+    <compoundname>EMIRDasControllerHw</compoundname>
+    <includes refid="EMIRDasControllerHw_8h" local="no">EMIRDasControllerHw.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEMIRDasControllerHw_1c42e1c1e7743b8f521c119a90d95c00d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EMIRDasControllerHw::EMIRDasControllerHw</definition>
+        <argsstring>()</argsstring>
+        <name>EMIRDasControllerHw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="20" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_11a331ddae1797fa9325809c6f812640c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EMIRDasControllerHw::~EMIRDasControllerHw</definition>
+        <argsstring>()</argsstring>
+        <name>~EMIRDasControllerHw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="21" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="60" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_1afad173ac4f96eaae47d6794623a5907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="28" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="65" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_15bfad9f1136136a9d39d11149e77db67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::init</definition>
+        <argsstring>(const String powerOn, const String acqApp)</argsstring>
+        <name>init</name>
+        <param>
+          <type>const String</type>
+          <declname>powerOn</declname>
+        </param>
+        <param>
+          <type>const String</type>
+          <declname>acqApp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="34" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="86" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_1a3f0332ffd6c1cbfb12a76e8617f3b39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::config</definition>
+        <argsstring>(const AcqConfig &amp;acqparameters)</argsstring>
+        <name>config</name>
+        <param>
+          <type>const <ref refid="structAcqConfig" kindref="compound">AcqConfig</ref> &amp;</type>
+          <declname>acqparameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="38" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="132" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_19894db4e8e92a2020e9922a3ebdfc377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * EMIRDasControllerHw::report</definition>
+        <argsstring>(const short level)</argsstring>
+        <name>report</name>
+        <param>
+          <type>const short</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="41" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="170" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_14a85f8fea675388393b5148f74b01154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::check</definition>
+        <argsstring>()</argsstring>
+        <name>check</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="49" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="241" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_1b056ad124471e4738c0d9c18795cb01d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="52" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="178" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_17239004bc5ac9939d15b4340d0435924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::abort</definition>
+        <argsstring>()</argsstring>
+        <name>abort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="55" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="187" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_13da77ed698433c42b5f1745d62dd26fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::startRead</definition>
+        <argsstring>()</argsstring>
+        <name>startRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="58" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="218" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasControllerHw_14aff08e58b47c13925681c790136891c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::shutdown</definition>
+        <argsstring>(const String powerOff)</argsstring>
+        <name>shutdown</name>
+        <param>
+          <type>const String</type>
+          <declname>powerOff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="63" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="194" bodyend="216"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEMIRDasControllerHw_1f1634b8e73383c8781a362483b97e672" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="24" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasControllerHw_158dd2ea7cfd159cbadf7aa55e32af72a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EMIRDasControllerHw::frameGrabber</definition>
+        <argsstring></argsstring>
+        <name>frameGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasControllerHw_12660236e26d8249ef21ce86afe43d539" prot="public" static="no" mutable="no">
+        <type>Trace *</type>
+        <definition>Trace* EMIRDasControllerHw::trace_</definition>
+        <argsstring></argsstring>
+        <name>trace_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="65" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEMIRDasControllerHw_181e09fd98ffa7ff199d795533292ab7c" prot="private" static="no" mutable="no">
+        <type><ref refid="classDetectorControllerApp" kindref="compound">DetectorControllerApp</ref> *</type>
+        <definition>DetectorControllerApp* EMIRDasControllerHw::aquisitionCode</definition>
+        <argsstring></argsstring>
+        <name>aquisitionCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="69" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="174">
+        <label>DetectorControllerApp</label>
+        <link refid="classDetectorControllerApp"/>
+      </node>
+      <node id="173">
+        <label>EMIRDasControllerHw</label>
+        <link refid="classEMIRDasControllerHw"/>
+        <childnode refid="174" relation="usage">
+          <edgelabel>aquisitionCode</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" line="17" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.h" bodystart="17" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classEMIRDasControllerHw_17239004bc5ac9939d15b4340d0435924" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>abort</name></member>
+      <member refid="classEMIRDasControllerHw_181e09fd98ffa7ff199d795533292ab7c" prot="private" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>aquisitionCode</name></member>
+      <member refid="classEMIRDasControllerHw_14a85f8fea675388393b5148f74b01154" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>check</name></member>
+      <member refid="classEMIRDasControllerHw_1a3f0332ffd6c1cbfb12a76e8617f3b39" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>config</name></member>
+      <member refid="classEMIRDasControllerHw_1f1634b8e73383c8781a362483b97e672" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>controller</name></member>
+      <member refid="classEMIRDasControllerHw_1afad173ac4f96eaae47d6794623a5907" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>create</name></member>
+      <member refid="classEMIRDasControllerHw_1c42e1c1e7743b8f521c119a90d95c00d" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>EMIRDasControllerHw</name></member>
+      <member refid="classEMIRDasControllerHw_158dd2ea7cfd159cbadf7aa55e32af72a" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>frameGrabber</name></member>
+      <member refid="classEMIRDasControllerHw_15bfad9f1136136a9d39d11149e77db67" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>init</name></member>
+      <member refid="classEMIRDasControllerHw_19894db4e8e92a2020e9922a3ebdfc377" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>report</name></member>
+      <member refid="classEMIRDasControllerHw_1b056ad124471e4738c0d9c18795cb01d" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>reset</name></member>
+      <member refid="classEMIRDasControllerHw_14aff08e58b47c13925681c790136891c" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>shutdown</name></member>
+      <member refid="classEMIRDasControllerHw_13da77ed698433c42b5f1745d62dd26fd" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>startRead</name></member>
+      <member refid="classEMIRDasControllerHw_12660236e26d8249ef21ce86afe43d539" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>trace_</name></member>
+      <member refid="classEMIRDasControllerHw_11a331ddae1797fa9325809c6f812640c" prot="public" virt="non-virtual"><scope>EMIRDasControllerHw</scope><name>~EMIRDasControllerHw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

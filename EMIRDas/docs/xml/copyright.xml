@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="copyright" kind="page">
+    <compoundname>copyright</compoundname>
+    <title>Copyright Information</title>
+    <detaileddescription>
+<para><bold> Copyright (c) 2003 UK Astronomy Technology Centre (UK ATC) </bold></para><para><bold> All Rights Reserved </bold></para><para>THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE OF THE UK ATC</para><para>The copyright notice above does not evidence any actual or intended publication of such source code.</para><para><simplesect kind="attention"><para>SOURCE CODE IS PROVIDED &quot;AS IS&quot;. ALL EXPRESS OR IMPLIED CONDITIONS, REPRE­SENTATIONS, AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABIL­ITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULR PURPOSE, OR NON-INFRINGEMENT, ARE DISCLAIMED, EXCEPT TO THE EXTENT THAT SUCH DISCLAIMERS ARE HELD TO BE LEGALLY INVALID.</para></simplesect>
+</para><sect1 id="copyright_1Authors">
+<title>Authors</title>
+<para>David Atkinson, Steven Beard, Derek Ives, Stewart McLay, Chris Tierney, Andrew Vick </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

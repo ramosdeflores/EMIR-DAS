@@ -1,0 +1,485 @@
+In SimpleMemoryManager::SimpleMemoryManager - 1
+In SimpleMemoryManager::SimpleMemoryManager - 2
+Function zero starts.
+Thread ONE starts.
+In SimpleMemoryManager::getFreeBufer HEAD = 49, TAIL = 1
+In SimpleMemoryManager::putFullBuffer HEAD = 1, TAIL = 0
+In SimpleMemoryManager::getFullBufer HEAD = 1, TAIL = 1
+Got !Prueba 0! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 0, TAIL = 1
+In SimpleMemoryManager::getFreeBufer HEAD = 0, TAIL = 2
+In SimpleMemoryManager::putFullBuffer HEAD = 2, TAIL = 1
+In SimpleMemoryManager::getFreeBufer HEAD = 0, TAIL = 3
+In SimpleMemoryManager::putFullBuffer HEAD = 3, TAIL = 1
+In SimpleMemoryManager::getFullBufer HEAD = 3, TAIL = 2
+Got !Prueba 1! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 1, TAIL = 3
+In SimpleMemoryManager::getFreeBufer HEAD = 1, TAIL = 4
+In SimpleMemoryManager::putFullBuffer HEAD = 4, TAIL = 2
+In SimpleMemoryManager::getFreeBufer HEAD = 1, TAIL = 5
+In SimpleMemoryManager::putFullBuffer HEAD = 5, TAIL = 2
+In SimpleMemoryManager::getFullBufer HEAD = 5, TAIL = 3
+Got !Prueba 2! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 2, TAIL = 5
+In SimpleMemoryManager::getFreeBufer HEAD = 2, TAIL = 6
+In SimpleMemoryManager::putFullBuffer HEAD = 6, TAIL = 3
+In SimpleMemoryManager::getFreeBufer HEAD = 2, TAIL = 7
+In SimpleMemoryManager::putFullBuffer HEAD = 7, TAIL = 3
+In SimpleMemoryManager::getFullBufer HEAD = 7, TAIL = 4
+Got !Prueba 3! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 3, TAIL = 7
+In SimpleMemoryManager::getFreeBufer HEAD = 3, TAIL = 8
+In SimpleMemoryManager::putFullBuffer HEAD = 8, TAIL = 4
+In SimpleMemoryManager::getFreeBufer HEAD = 3, TAIL = 9
+In SimpleMemoryManager::putFullBuffer HEAD = 9, TAIL = 4
+In SimpleMemoryManager::getFullBufer HEAD = 9, TAIL = 5
+Got !Prueba 4! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 4, TAIL = 9
+In SimpleMemoryManager::getFreeBufer HEAD = 4, TAIL = 10
+In SimpleMemoryManager::putFullBuffer HEAD = 10, TAIL = 5
+In SimpleMemoryManager::getFreeBufer HEAD = 4, TAIL = 11
+In SimpleMemoryManager::putFullBuffer HEAD = 11, TAIL = 5
+In SimpleMemoryManager::getFullBufer HEAD = 11, TAIL = 6
+Got !Prueba 5! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 5, TAIL = 11
+In SimpleMemoryManager::getFreeBufer HEAD = 5, TAIL = 12
+In SimpleMemoryManager::putFullBuffer HEAD = 12, TAIL = 6
+In SimpleMemoryManager::getFreeBufer HEAD = 5, TAIL = 13
+In SimpleMemoryManager::putFullBuffer HEAD = 13, TAIL = 6
+In SimpleMemoryManager::getFullBufer HEAD = 13, TAIL = 7
+Got !Prueba 6! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 6, TAIL = 13
+In SimpleMemoryManager::getFreeBufer HEAD = 6, TAIL = 14
+In SimpleMemoryManager::putFullBuffer HEAD = 14, TAIL = 7
+In SimpleMemoryManager::getFreeBufer HEAD = 6, TAIL = 15
+In SimpleMemoryManager::putFullBuffer HEAD = 15, TAIL = 7
+In SimpleMemoryManager::getFullBufer HEAD = 15, TAIL = 8
+Got !Prueba 7! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 7, TAIL = 15
+In SimpleMemoryManager::getFreeBufer HEAD = 7, TAIL = 16
+In SimpleMemoryManager::putFullBuffer HEAD = 16, TAIL = 8
+In SimpleMemoryManager::getFreeBufer HEAD = 7, TAIL = 17
+In SimpleMemoryManager::putFullBuffer HEAD = 17, TAIL = 8
+In SimpleMemoryManager::getFullBufer HEAD = 17, TAIL = 9
+Got !Prueba 8! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 8, TAIL = 17
+In SimpleMemoryManager::getFreeBufer HEAD = 8, TAIL = 18
+In SimpleMemoryManager::putFullBuffer HEAD = 18, TAIL = 9
+In SimpleMemoryManager::getFreeBufer HEAD = 8, TAIL = 19
+In SimpleMemoryManager::putFullBuffer HEAD = 19, TAIL = 9
+Function zero starts.
+In SimpleMemoryManager::getFullBufer HEAD = 19, TAIL = 10
+Got !Prueba 9! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 9, TAIL = 19
+In SimpleMemoryManager::getFreeBufer HEAD = 9, TAIL = 20
+In SimpleMemoryManager::putFullBuffer HEAD = 20, TAIL = 10
+In SimpleMemoryManager::getFreeBufer HEAD = 9, TAIL = 21
+In SimpleMemoryManager::putFullBuffer HEAD = 21, TAIL = 10
+In SimpleMemoryManager::getFullBufer HEAD = 21, TAIL = 11
+Got !Prueba 10! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 10, TAIL = 21
+In SimpleMemoryManager::getFreeBufer HEAD = 10, TAIL = 22
+In SimpleMemoryManager::putFullBuffer HEAD = 22, TAIL = 11
+In SimpleMemoryManager::getFreeBufer HEAD = 10, TAIL = 23
+In SimpleMemoryManager::putFullBuffer HEAD = 23, TAIL = 11
+In SimpleMemoryManager::getFullBufer HEAD = 23, TAIL = 12
+Got !Prueba 11! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 11, TAIL = 23
+In SimpleMemoryManager::getFreeBufer HEAD = 11, TAIL = 24
+In SimpleMemoryManager::putFullBuffer HEAD = 24, TAIL = 12
+In SimpleMemoryManager::getFreeBufer HEAD = 11, TAIL = 25
+In SimpleMemoryManager::putFullBuffer HEAD = 25, TAIL = 12
+In SimpleMemoryManager::getFullBufer HEAD = 25, TAIL = 13
+Got !Prueba 12! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 12, TAIL = 25
+In SimpleMemoryManager::getFreeBufer HEAD = 12, TAIL = 26
+In SimpleMemoryManager::putFullBuffer HEAD = 26, TAIL = 13
+In SimpleMemoryManager::getFreeBufer HEAD = 12, TAIL = 27
+In SimpleMemoryManager::putFullBuffer HEAD = 27, TAIL = 13
+In SimpleMemoryManager::getFullBufer HEAD = 27, TAIL = 14
+Got !Prueba 13! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 13, TAIL = 27
+In SimpleMemoryManager::getFreeBufer HEAD = 13, TAIL = 28
+In SimpleMemoryManager::putFullBuffer HEAD = 28, TAIL = 14
+In SimpleMemoryManager::getFreeBufer HEAD = 13, TAIL = 29
+In SimpleMemoryManager::putFullBuffer HEAD = 29, TAIL = 14
+In SimpleMemoryManager::getFullBufer HEAD = 29, TAIL = 15
+Got !Prueba 14! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 14, TAIL = 29
+In SimpleMemoryManager::getFreeBufer HEAD = 14, TAIL = 30
+In SimpleMemoryManager::putFullBuffer HEAD = 30, TAIL = 15
+In SimpleMemoryManager::getFreeBufer HEAD = 14, TAIL = 31
+In SimpleMemoryManager::putFullBuffer HEAD = 31, TAIL = 15
+In SimpleMemoryManager::getFullBufer HEAD = 31, TAIL = 16
+Got !Prueba 15! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 15, TAIL = 31
+In SimpleMemoryManager::getFreeBufer HEAD = 15, TAIL = 32
+In SimpleMemoryManager::putFullBuffer HEAD = 32, TAIL = 16
+In SimpleMemoryManager::getFreeBufer HEAD = 15, TAIL = 33
+In SimpleMemoryManager::putFullBuffer HEAD = 33, TAIL = 16
+In SimpleMemoryManager::getFullBufer HEAD = 33, TAIL = 17
+Got !Prueba 16! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 16, TAIL = 33
+In SimpleMemoryManager::getFreeBufer HEAD = 16, TAIL = 34
+In SimpleMemoryManager::putFullBuffer HEAD = 34, TAIL = 17
+In SimpleMemoryManager::getFreeBufer HEAD = 16, TAIL = 35
+In SimpleMemoryManager::putFullBuffer HEAD = 35, TAIL = 17
+In SimpleMemoryManager::getFullBufer HEAD = 35, TAIL = 18
+Got !Prueba 17! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 17, TAIL = 35
+In SimpleMemoryManager::getFreeBufer HEAD = 17, TAIL = 36
+In SimpleMemoryManager::putFullBuffer HEAD = 36, TAIL = 18
+In SimpleMemoryManager::getFreeBufer HEAD = 17, TAIL = 37
+In SimpleMemoryManager::putFullBuffer HEAD = 37, TAIL = 18
+In SimpleMemoryManager::getFullBufer HEAD = 37, TAIL = 19
+Got !Prueba 18! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 18, TAIL = 37
+In SimpleMemoryManager::getFreeBufer HEAD = 18, TAIL = 38
+In SimpleMemoryManager::putFullBuffer HEAD = 38, TAIL = 19
+Function zero starts.
+In SimpleMemoryManager::getFreeBufer HEAD = 18, TAIL = 39
+In SimpleMemoryManager::putFullBuffer HEAD = 39, TAIL = 19
+In SimpleMemoryManager::getFullBufer HEAD = 39, TAIL = 20
+Got !Prueba 0! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 19, TAIL = 39
+In SimpleMemoryManager::getFreeBufer HEAD = 19, TAIL = 40
+In SimpleMemoryManager::putFullBuffer HEAD = 40, TAIL = 20
+In SimpleMemoryManager::getFreeBufer HEAD = 19, TAIL = 41
+In SimpleMemoryManager::putFullBuffer HEAD = 41, TAIL = 20
+In SimpleMemoryManager::getFullBufer HEAD = 41, TAIL = 21
+Got !Prueba 1! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 20, TAIL = 41
+In SimpleMemoryManager::getFreeBufer HEAD = 20, TAIL = 42
+In SimpleMemoryManager::putFullBuffer HEAD = 42, TAIL = 21
+In SimpleMemoryManager::getFreeBufer HEAD = 20, TAIL = 43
+In SimpleMemoryManager::putFullBuffer HEAD = 43, TAIL = 21
+In SimpleMemoryManager::getFullBufer HEAD = 43, TAIL = 22
+Got !Prueba 2! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 21, TAIL = 43
+In SimpleMemoryManager::getFreeBufer HEAD = 21, TAIL = 44
+In SimpleMemoryManager::putFullBuffer HEAD = 44, TAIL = 22
+In SimpleMemoryManager::getFreeBufer HEAD = 21, TAIL = 45
+In SimpleMemoryManager::putFullBuffer HEAD = 45, TAIL = 22
+In SimpleMemoryManager::getFullBufer HEAD = 45, TAIL = 23
+Got !Prueba 3! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 22, TAIL = 45
+In SimpleMemoryManager::getFreeBufer HEAD = 22, TAIL = 46
+In SimpleMemoryManager::putFullBuffer HEAD = 46, TAIL = 23
+In SimpleMemoryManager::getFreeBufer HEAD = 22, TAIL = 47
+In SimpleMemoryManager::putFullBuffer HEAD = 47, TAIL = 23
+In SimpleMemoryManager::getFullBufer HEAD = 47, TAIL = 24
+Got !Prueba 4! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 23, TAIL = 47
+In SimpleMemoryManager::getFreeBufer HEAD = 23, TAIL = 48
+In SimpleMemoryManager::putFullBuffer HEAD = 48, TAIL = 24
+In SimpleMemoryManager::getFreeBufer HEAD = 23, TAIL = 49
+In SimpleMemoryManager::putFullBuffer HEAD = 49, TAIL = 24
+In SimpleMemoryManager::getFullBufer HEAD = 49, TAIL = 25
+Got !Prueba 5! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 24, TAIL = 49
+In SimpleMemoryManager::getFreeBufer HEAD = 24, TAIL = 0
+In SimpleMemoryManager::putFullBuffer HEAD = 0, TAIL = 25
+In SimpleMemoryManager::getFreeBufer HEAD = 24, TAIL = 1
+In SimpleMemoryManager::putFullBuffer HEAD = 1, TAIL = 25
+In SimpleMemoryManager::getFullBufer HEAD = 1, TAIL = 26
+Got !Prueba 6! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 25, TAIL = 1
+In SimpleMemoryManager::getFreeBufer HEAD = 25, TAIL = 2
+In SimpleMemoryManager::putFullBuffer HEAD = 2, TAIL = 26
+In SimpleMemoryManager::getFreeBufer HEAD = 25, TAIL = 3
+In SimpleMemoryManager::putFullBuffer HEAD = 3, TAIL = 26
+In SimpleMemoryManager::getFullBufer HEAD = 3, TAIL = 27
+Got !Prueba 7! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 26, TAIL = 3
+In SimpleMemoryManager::getFreeBufer HEAD = 26, TAIL = 4
+In SimpleMemoryManager::putFullBuffer HEAD = 4, TAIL = 27
+In SimpleMemoryManager::getFreeBufer HEAD = 26, TAIL = 5
+In SimpleMemoryManager::putFullBuffer HEAD = 5, TAIL = 27
+In SimpleMemoryManager::getFullBufer HEAD = 5, TAIL = 28
+Got !Prueba 8! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 27, TAIL = 5
+In SimpleMemoryManager::getFreeBufer HEAD = 27, TAIL = 6
+In SimpleMemoryManager::putFullBuffer HEAD = 6, TAIL = 28
+In SimpleMemoryManager::getFreeBufer HEAD = 27, TAIL = 7
+In SimpleMemoryManager::putFullBuffer HEAD = 7, TAIL = 28
+Function zero starts.
+In SimpleMemoryManager::getFullBufer HEAD = 7, TAIL = 29
+Got !Prueba 9! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 28, TAIL = 7
+In SimpleMemoryManager::getFreeBufer HEAD = 28, TAIL = 8
+In SimpleMemoryManager::putFullBuffer HEAD = 8, TAIL = 29
+In SimpleMemoryManager::getFreeBufer HEAD = 28, TAIL = 9
+In SimpleMemoryManager::putFullBuffer HEAD = 9, TAIL = 29
+In SimpleMemoryManager::getFullBufer HEAD = 9, TAIL = 30
+Got !Prueba 10! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 29, TAIL = 9
+In SimpleMemoryManager::getFreeBufer HEAD = 29, TAIL = 10
+In SimpleMemoryManager::putFullBuffer HEAD = 10, TAIL = 30
+In SimpleMemoryManager::getFreeBufer HEAD = 29, TAIL = 11
+In SimpleMemoryManager::putFullBuffer HEAD = 11, TAIL = 30
+In SimpleMemoryManager::getFullBufer HEAD = 11, TAIL = 31
+Got !Prueba 11! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 30, TAIL = 11
+In SimpleMemoryManager::getFreeBufer HEAD = 30, TAIL = 12
+In SimpleMemoryManager::putFullBuffer HEAD = 12, TAIL = 31
+In SimpleMemoryManager::getFreeBufer HEAD = 30, TAIL = 13
+In SimpleMemoryManager::putFullBuffer HEAD = 13, TAIL = 31
+In SimpleMemoryManager::getFullBufer HEAD = 13, TAIL = 32
+Got !Prueba 12! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 31, TAIL = 13
+In SimpleMemoryManager::getFreeBufer HEAD = 31, TAIL = 14
+In SimpleMemoryManager::putFullBuffer HEAD = 14, TAIL = 32
+In SimpleMemoryManager::getFreeBufer HEAD = 31, TAIL = 15
+In SimpleMemoryManager::putFullBuffer HEAD = 15, TAIL = 32
+In SimpleMemoryManager::getFullBufer HEAD = 15, TAIL = 33
+Got !Prueba 13! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 32, TAIL = 15
+In SimpleMemoryManager::getFreeBufer HEAD = 32, TAIL = 16
+In SimpleMemoryManager::putFullBuffer HEAD = 16, TAIL = 33
+In SimpleMemoryManager::getFreeBufer HEAD = 32, TAIL = 17
+In SimpleMemoryManager::putFullBuffer HEAD = 17, TAIL = 33
+In SimpleMemoryManager::getFullBufer HEAD = 17, TAIL = 34
+Got !Prueba 14! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 33, TAIL = 17
+In SimpleMemoryManager::getFreeBufer HEAD = 33, TAIL = 18
+In SimpleMemoryManager::putFullBuffer HEAD = 18, TAIL = 34
+In SimpleMemoryManager::getFreeBufer HEAD = 33, TAIL = 19
+In SimpleMemoryManager::putFullBuffer HEAD = 19, TAIL = 34
+In SimpleMemoryManager::getFullBufer HEAD = 19, TAIL = 35
+Got !Prueba 15! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 34, TAIL = 19
+In SimpleMemoryManager::getFreeBufer HEAD = 34, TAIL = 20
+In SimpleMemoryManager::putFullBuffer HEAD = 20, TAIL = 35
+In SimpleMemoryManager::getFreeBufer HEAD = 34, TAIL = 21
+In SimpleMemoryManager::putFullBuffer HEAD = 21, TAIL = 35
+In SimpleMemoryManager::getFullBufer HEAD = 21, TAIL = 36
+Got !Prueba 16! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 35, TAIL = 21
+In SimpleMemoryManager::getFreeBufer HEAD = 35, TAIL = 22
+In SimpleMemoryManager::putFullBuffer HEAD = 22, TAIL = 36
+In SimpleMemoryManager::getFreeBufer HEAD = 35, TAIL = 23
+In SimpleMemoryManager::putFullBuffer HEAD = 23, TAIL = 36
+In SimpleMemoryManager::getFullBufer HEAD = 23, TAIL = 37
+Got !Prueba 17! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 36, TAIL = 23
+In SimpleMemoryManager::getFreeBufer HEAD = 36, TAIL = 24
+In SimpleMemoryManager::putFullBuffer HEAD = 24, TAIL = 37
+In SimpleMemoryManager::getFreeBufer HEAD = 36, TAIL = 25
+In SimpleMemoryManager::putFullBuffer HEAD = 25, TAIL = 37
+In SimpleMemoryManager::getFullBufer HEAD = 25, TAIL = 38
+Got !Prueba 18! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 37, TAIL = 25
+In SimpleMemoryManager::getFreeBufer HEAD = 37, TAIL = 26
+In SimpleMemoryManager::putFullBuffer HEAD = 26, TAIL = 38
+Function zero starts.
+In SimpleMemoryManager::getFreeBufer HEAD = 37, TAIL = 27
+In SimpleMemoryManager::putFullBuffer HEAD = 27, TAIL = 38
+In SimpleMemoryManager::getFullBufer HEAD = 27, TAIL = 39
+Got !Prueba 0! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 38, TAIL = 27
+In SimpleMemoryManager::getFreeBufer HEAD = 38, TAIL = 28
+In SimpleMemoryManager::putFullBuffer HEAD = 28, TAIL = 39
+In SimpleMemoryManager::getFreeBufer HEAD = 38, TAIL = 29
+In SimpleMemoryManager::putFullBuffer HEAD = 29, TAIL = 39
+In SimpleMemoryManager::getFullBufer HEAD = 29, TAIL = 40
+Got !Prueba 1! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 39, TAIL = 29
+In SimpleMemoryManager::getFreeBufer HEAD = 39, TAIL = 30
+In SimpleMemoryManager::putFullBuffer HEAD = 30, TAIL = 40
+In SimpleMemoryManager::getFreeBufer HEAD = 39, TAIL = 31
+In SimpleMemoryManager::putFullBuffer HEAD = 31, TAIL = 40
+In SimpleMemoryManager::getFullBufer HEAD = 31, TAIL = 41
+Got !Prueba 2! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 40, TAIL = 31
+In SimpleMemoryManager::getFreeBufer HEAD = 40, TAIL = 32
+In SimpleMemoryManager::putFullBuffer HEAD = 32, TAIL = 41
+In SimpleMemoryManager::getFreeBufer HEAD = 40, TAIL = 33
+In SimpleMemoryManager::putFullBuffer HEAD = 33, TAIL = 41
+In SimpleMemoryManager::getFullBufer HEAD = 33, TAIL = 42
+Got !Prueba 3! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 41, TAIL = 33
+In SimpleMemoryManager::getFreeBufer HEAD = 41, TAIL = 34
+In SimpleMemoryManager::putFullBuffer HEAD = 34, TAIL = 42
+In SimpleMemoryManager::getFreeBufer HEAD = 41, TAIL = 35
+In SimpleMemoryManager::putFullBuffer HEAD = 35, TAIL = 42
+In SimpleMemoryManager::getFullBufer HEAD = 35, TAIL = 43
+Got !Prueba 4! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 42, TAIL = 35
+In SimpleMemoryManager::getFreeBufer HEAD = 42, TAIL = 36
+In SimpleMemoryManager::putFullBuffer HEAD = 36, TAIL = 43
+In SimpleMemoryManager::getFreeBufer HEAD = 42, TAIL = 37
+In SimpleMemoryManager::putFullBuffer HEAD = 37, TAIL = 43
+In SimpleMemoryManager::getFullBufer HEAD = 37, TAIL = 44
+Got !Prueba 5! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 43, TAIL = 37
+In SimpleMemoryManager::getFreeBufer HEAD = 43, TAIL = 38
+In SimpleMemoryManager::putFullBuffer HEAD = 38, TAIL = 44
+In SimpleMemoryManager::getFreeBufer HEAD = 43, TAIL = 39
+In SimpleMemoryManager::putFullBuffer HEAD = 39, TAIL = 44
+In SimpleMemoryManager::getFullBufer HEAD = 39, TAIL = 45
+Got !Prueba 6! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 44, TAIL = 39
+In SimpleMemoryManager::getFreeBufer HEAD = 44, TAIL = 40
+In SimpleMemoryManager::putFullBuffer HEAD = 40, TAIL = 45
+In SimpleMemoryManager::getFreeBufer HEAD = 44, TAIL = 41
+In SimpleMemoryManager::putFullBuffer HEAD = 41, TAIL = 45
+In SimpleMemoryManager::getFullBufer HEAD = 41, TAIL = 46
+Got !Prueba 7! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 45, TAIL = 41
+In SimpleMemoryManager::getFreeBufer HEAD = 45, TAIL = 42
+In SimpleMemoryManager::putFullBuffer HEAD = 42, TAIL = 46
+In SimpleMemoryManager::getFreeBufer HEAD = 45, TAIL = 43
+In SimpleMemoryManager::putFullBuffer HEAD = 43, TAIL = 46
+In SimpleMemoryManager::getFullBufer HEAD = 43, TAIL = 47
+Got !Prueba 8! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 46, TAIL = 43
+In SimpleMemoryManager::getFreeBufer HEAD = 46, TAIL = 44
+In SimpleMemoryManager::putFullBuffer HEAD = 44, TAIL = 47
+In SimpleMemoryManager::getFreeBufer HEAD = 46, TAIL = 45
+In SimpleMemoryManager::putFullBuffer HEAD = 45, TAIL = 47
+Function zero starts.
+In SimpleMemoryManager::getFullBufer HEAD = 45, TAIL = 48
+Got !Prueba 9! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 47, TAIL = 45
+In SimpleMemoryManager::getFreeBufer HEAD = 47, TAIL = 46
+In SimpleMemoryManager::putFullBuffer HEAD = 46, TAIL = 48
+In SimpleMemoryManager::getFreeBufer HEAD = 47, TAIL = 47
+In SimpleMemoryManager::putFullBuffer HEAD = 47, TAIL = 48
+In SimpleMemoryManager::getFullBufer HEAD = 47, TAIL = 49
+Got !Prueba 10! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 48, TAIL = 47
+In SimpleMemoryManager::getFreeBufer HEAD = 48, TAIL = 48
+In SimpleMemoryManager::putFullBuffer HEAD = 48, TAIL = 49
+In SimpleMemoryManager::getFreeBufer - 5
+In SimpleMemoryManager::getFreeBufer HEAD = 48, TAIL = 49
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 49, TAIL = 49
+In SimpleMemoryManager::getFullBufer HEAD = 49, TAIL = 0
+Got !Prueba 11! should be 0
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 49, TAIL = 49
+In SimpleMemoryManager::getFreeBufer - 5
+In SimpleMemoryManager::getFreeBufer HEAD = 49, TAIL = 0
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 0, TAIL = 0
+In SimpleMemoryManager::getFreeBufer HEAD = 49, TAIL = 1
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 1, TAIL = 0
+In SimpleMemoryManager::getFullBufer HEAD = 1, TAIL = 1
+	thread_one::Got it wrong
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 0, TAIL = 1
+In SimpleMemoryManager::getFreeBufer HEAD = 0, TAIL = 2
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 2, TAIL = 1
+In SimpleMemoryManager::getFreeBufer HEAD = 0, TAIL = 3
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 3, TAIL = 1
+In SimpleMemoryManager::getFullBufer HEAD = 3, TAIL = 2
+	thread_one::Got it wrong
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 1, TAIL = 3
+In SimpleMemoryManager::getFreeBufer HEAD = 1, TAIL = 4
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 4, TAIL = 2
+In SimpleMemoryManager::getFreeBufer HEAD = 1, TAIL = 5
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 5, TAIL = 2
+In SimpleMemoryManager::getFullBufer HEAD = 5, TAIL = 3
+	thread_one::Got it wrong
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 2, TAIL = 5
+In SimpleMemoryManager::getFreeBufer HEAD = 2, TAIL = 6
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 6, TAIL = 3
+In SimpleMemoryManager::getFreeBufer HEAD = 2, TAIL = 7
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 7, TAIL = 3
+In SimpleMemoryManager::getFullBufer HEAD = 7, TAIL = 4
+	thread_one::Got it wrong
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 3, TAIL = 7
+In SimpleMemoryManager::getFreeBufer HEAD = 3, TAIL = 8
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 8, TAIL = 4
+In SimpleMemoryManager::getFreeBufer HEAD = 3, TAIL = 9
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 9, TAIL = 4
+In SimpleMemoryManager::getFullBufer HEAD = 9, TAIL = 5
+	thread_one::Got it wrong
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 4, TAIL = 9
+In SimpleMemoryManager::getFreeBufer HEAD = 4, TAIL = 10
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 10, TAIL = 5
+In SimpleMemoryManager::getFreeBufer HEAD = 4, TAIL = 11
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 11, TAIL = 5
+In SimpleMemoryManager::getFullBufer HEAD = 11, TAIL = 6
+	thread_one::Got it wrong
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 5, TAIL = 11
+In SimpleMemoryManager::getFreeBufer HEAD = 5, TAIL = 12
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 12, TAIL = 6
+In SimpleMemoryManager::getFreeBufer HEAD = 5, TAIL = 13
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 13, TAIL = 6
+In SimpleMemoryManager::getFullBufer HEAD = 13, TAIL = 7
+	thread_one::Got it wrong
+In SimpleMemoryManager::putFreeBuffer - 1
+In SimpleMemoryManager::putFreeBuffer HEAD = 6, TAIL = 13
+In SimpleMemoryManager::getFreeBufer HEAD = 6, TAIL = 14
+	thread_zero::Got it wrong
+In SimpleMemoryManager::putFullBuffer HEAD = 14, TAIL = 7
+Function zero starts.
+In SimpleMemoryManager::getFr

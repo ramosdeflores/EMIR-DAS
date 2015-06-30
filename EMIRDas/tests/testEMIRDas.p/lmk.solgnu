@@ -1,0 +1,1 @@
+LDLIBS += -lEMIRDas -lDCF -lSK -lDAF -lDGCSTypes -lTS -lTK $(TAO_LIBS) -lArray -lBasicTypes -lConfigFileMgr -lOSWrappers -lTrace

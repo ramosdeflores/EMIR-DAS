@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="dir_cf4fd73735e7b11ce09e711390fa6d1e" kind="dir">
+    <compoundname>runEMIRDas.p/</compoundname>
+    <innerfile refid="runEMIRDas_8p_2dasApplication_8cpp">runEMIRDas.p/dasApplication.cpp</innerfile>
+    <innerfile refid="runEMIRDas_8p_2dasApplication_8h">runEMIRDas.p/dasApplication.h</innerfile>
+    <innerfile refid="runEMIRDas_8p_2dasLCU_8cpp">runEMIRDas.p/dasLCU.cpp</innerfile>
+    <innerfile refid="runEMIRDas_8p_2dasLCU_8h">runEMIRDas.p/dasLCU.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/"/>
+  </compounddef>
+</doxygen>

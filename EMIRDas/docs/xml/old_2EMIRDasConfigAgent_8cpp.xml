@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="old_2EMIRDasConfigAgent_8cpp" kind="file">
+    <compoundname>old/EMIRDasConfigAgent.cpp</compoundname>
+    <includes refid="old_2EMIRDasConfigAgent_8h" local="yes">EMIRDasConfigAgent.h</includes>
+    <incdepgraph>
+      <node id="1100">
+        <label>EMIRDasControllerHw.h</label>
+        <link refid="EMIRDasControllerHw_8h"/>
+        <childnode refid="1099" relation="include">
+        </childnode>
+        <childnode refid="1093" relation="include">
+        </childnode>
+        <childnode refid="1101" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+      </node>
+      <node id="1087">
+        <label>EMIRDasConfigAgent.cpp</label>
+        <link refid="old/EMIRDasConfigAgent.cpp"/>
+        <childnode refid="1088" relation="include">
+        </childnode>
+      </node>
+      <node id="1097">
+        <label>ace/Semaphore.h</label>
+      </node>
+      <node id="1093">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1103">
+        <label>EMIRDasConf.h</label>
+        <link refid="EMIRDasConf_8h"/>
+        <childnode refid="1093" relation="include">
+        </childnode>
+      </node>
+      <node id="1102">
+        <label>string</label>
+      </node>
+      <node id="1099">
+        <label>Trace.h</label>
+      </node>
+      <node id="1105">
+        <label>ConfigAgent.h</label>
+      </node>
+      <node id="1104">
+        <label>ace/Thread_Manager.h</label>
+      </node>
+      <node id="1094">
+        <label>TimeService.h</label>
+      </node>
+      <node id="1088">
+        <label>EMIRDasConfigAgent.h</label>
+        <link refid="old_2EMIRDasConfigAgent_8h"/>
+        <childnode refid="1089" relation="include">
+        </childnode>
+        <childnode refid="1099" relation="include">
+        </childnode>
+        <childnode refid="1105" relation="include">
+        </childnode>
+      </node>
+      <node id="1098">
+        <label>ace/Synch.h</label>
+      </node>
+      <node id="1090">
+        <label>Device.h</label>
+      </node>
+      <node id="1101">
+        <label>DetectorControllerApp.h</label>
+        <link refid="DetectorControllerApp_8h"/>
+        <childnode refid="1102" relation="include">
+        </childnode>
+        <childnode refid="1099" relation="include">
+        </childnode>
+      </node>
+      <node id="1091">
+        <label>ConcreteArrays.h</label>
+      </node>
+      <node id="1089">
+        <label>EMIRDas.h</label>
+        <link refid="old_2EMIRDas_8h"/>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1091" relation="include">
+        </childnode>
+        <childnode refid="1092" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+      </node>
+      <node id="1095">
+        <label>SimpleMemoryManager.h</label>
+        <link refid="SimpleMemoryManager_8h"/>
+        <childnode refid="1096" relation="include">
+        </childnode>
+        <childnode refid="1097" relation="include">
+        </childnode>
+        <childnode refid="1098" relation="include">
+        </childnode>
+        <childnode refid="1099" relation="include">
+        </childnode>
+      </node>
+      <node id="1092">
+        <label>EMIRDasController.h</label>
+        <link refid="EMIRDasController_8h"/>
+        <childnode refid="1093" relation="include">
+        </childnode>
+        <childnode refid="1094" relation="include">
+        </childnode>
+        <childnode refid="1095" relation="include">
+        </childnode>
+        <childnode refid="1100" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+        <childnode refid="1104" relation="include">
+        </childnode>
+      </node>
+      <node id="1096">
+        <label>ace/Mutex.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2010<sp/>Gran<sp/>Telescopio<sp/>Canarias,<sp/>S.A.<sp/>(GRANTECAN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>Rights<sp/>Reserved</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="old_2EMIRDasConfigAgent_8h" kindref="compound">EMIRDasConfigAgent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="classEMIRDasConfigAgent_1dde9838354b8ddb637a400ce3ac2352e" kindref="member">EMIRDasConfigAgent::EMIRDasConfigAgent</ref>(<ref refid="classEMIRDas" kindref="compound">EMIRDas</ref>*<sp/>device,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mode,<sp/>TimerEngine*<sp/>timer)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/>:<sp/>ConfigAgent(device-&gt;name(),device-&gt;className(),mode,timer),trace_(device-&gt;name())</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>device_<sp/>=<sp/>device;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Assign<sp/>default<sp/>values<sp/>to<sp/>properties<sp/>so<sp/>they<sp/>never<sp/>contain<sp/>garbage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>poweronApp_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>poweroffApp_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>adqApp_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>imgDir_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>dataFactoryName_<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>isDataFactoryEnabled_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Destructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="classEMIRDasConfigAgent_189d94d8685283b2222923432d9e28a99" kindref="member">EMIRDasConfigAgent::~EMIRDasConfigAgent</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>applyProperties:<sp/>applies<sp/>the<sp/>stored<sp/>configuration<sp/>to<sp/>the<sp/>Device</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasConfigAgent_16c329654bf8151e295e8d145f72ed096" kindref="member">EMIRDasConfigAgent::applyProperties</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><ref refid="classEMIRDasConfigAgent_1ecb929cdd3dd22df76f1ebee1781c01a" kindref="member">trace_</ref>.out(</highlight><highlight class="stringliteral">&quot;EMIRDasConfigAgent::applyProperties()&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Apply<sp/>properties<sp/>one<sp/>by<sp/>one</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>device_-&gt;<ref refid="classEMIRDas_1962182b88e290faddbf3a32cd53020cb" kindref="member">poweronApp</ref>(this-&gt;poweronApp_);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>device_-&gt;<ref refid="classEMIRDas_140735d0cb25f53cc78101b5e87a5aa4f" kindref="member">poweroffApp</ref>(this-&gt;poweroffApp_);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>device_-&gt;<ref refid="classEMIRDas_1adbb4378caad991cdd3b6d0b3bff7b88" kindref="member">adqApp</ref>(this-&gt;adqApp_);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>device_-&gt;<ref refid="classEMIRDas_1dc6a3afc0e16ff7d6e30a731f7ab6cd6" kindref="member">imgDir</ref>(this-&gt;imgDir_);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>device_-&gt;<ref refid="classEMIRDas_107dfca8bb0bb360ce0494b11e5d02b0e" kindref="member">dataFactoryName</ref>(this-&gt;dataFactoryName_);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>device_-&gt;<ref refid="classEMIRDas_126ede92d2838cbaa2aa027d060599dfd" kindref="member">isDataFactoryEnabled</ref>(this-&gt;isDataFactoryEnabled_);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(GCSException&amp;<sp/>ex)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>ex.addToTrace(</highlight><highlight class="stringliteral">&quot;EMIRDasConfigAgent::applyProperties&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>readProperties:<sp/>obtains<sp/>the<sp/>property<sp/>values<sp/>from<sp/>the<sp/>Device</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasConfigAgent_13044c11f023607ab44e5637fa7005042" kindref="member">EMIRDasConfigAgent::readProperties</ref>()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><ref refid="classEMIRDasConfigAgent_1ecb929cdd3dd22df76f1ebee1781c01a" kindref="member">trace_</ref>.out(</highlight><highlight class="stringliteral">&quot;EMIRDasConfigAgent::readProperties()&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>properties<sp/>one<sp/>by<sp/>one</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;poweronApp_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>device_-&gt;<ref refid="classEMIRDas_1962182b88e290faddbf3a32cd53020cb" kindref="member">poweronApp</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;poweroffApp_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>device_-&gt;<ref refid="classEMIRDas_140735d0cb25f53cc78101b5e87a5aa4f" kindref="member">poweroffApp</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;adqApp_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>device_-&gt;<ref refid="classEMIRDas_1adbb4378caad991cdd3b6d0b3bff7b88" kindref="member">adqApp</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;imgDir_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>device_-&gt;<ref refid="classEMIRDas_1dc6a3afc0e16ff7d6e30a731f7ab6cd6" kindref="member">imgDir</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;dataFactoryName_<sp/><sp/><sp/><sp/><sp/>=<sp/>device_-&gt;<ref refid="classEMIRDas_107dfca8bb0bb360ce0494b11e5d02b0e" kindref="member">dataFactoryName</ref>();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;isDataFactoryEnabled_<sp/>=<sp/>device_-&gt;<ref refid="classEMIRDas_126ede92d2838cbaa2aa027d060599dfd" kindref="member">isDataFactoryEnabled</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(GCSException&amp;<sp/>ex)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>ex.addToTrace(</highlight><highlight class="stringliteral">&quot;EMIRDasConfigAgent::readProperties&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>toConfiguration:<sp/>Converts<sp/>the<sp/>Device<sp/>properties<sp/>to<sp/>a<sp/>Configuration</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasConfigAgent_1c4dec02e062b8aa54ba83a01b138a388" kindref="member">EMIRDasConfigAgent::toConfiguration</ref>(CONFIG::Configuration&amp;<sp/>c)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="classEMIRDasConfigAgent_1ecb929cdd3dd22df76f1ebee1781c01a" kindref="member">trace_</ref>.out(</highlight><highlight class="stringliteral">&quot;EMIRDasConfigAgent::toConfiguration()&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Let<sp/>ConfigAgent<sp/>base<sp/>class<sp/>do<sp/>the<sp/>common<sp/>stuff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;ConfigAgent::toConfiguration(c);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>addProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;poweronApp&quot;</highlight><highlight class="normal">,<sp/>poweronApp_);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>addProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;poweroffApp&quot;</highlight><highlight class="normal">,<sp/>poweroffApp_);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>addProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;adqApp&quot;</highlight><highlight class="normal">,<sp/>adqApp_);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>addProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;imgDir&quot;</highlight><highlight class="normal">,<sp/>imgDir_);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>addProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;dataFactoryName&quot;</highlight><highlight class="normal">,<sp/>dataFactoryName_);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>addProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;isDataFactoryEnabled&quot;</highlight><highlight class="normal">,<sp/>isDataFactoryEnabled_);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(GCSException&amp;<sp/>ex)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>ex.addToTrace(</highlight><highlight class="stringliteral">&quot;EMIRDasConfigAgent::toConfiguration&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>fromConfiguration:<sp/>Converts<sp/>the<sp/>configuration<sp/>to<sp/>the<sp/>Device<sp/>format</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasConfigAgent_199221a85365e191aa35157e8e13c18d5" kindref="member">EMIRDasConfigAgent::fromConfiguration</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CONFIG::Configuration&amp;<sp/>c)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><ref refid="classEMIRDasConfigAgent_1ecb929cdd3dd22df76f1ebee1781c01a" kindref="member">trace_</ref>.out(</highlight><highlight class="stringliteral">&quot;EMIRDasConfigAgent::fromConfiguration()&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Let<sp/>ConfigAgent<sp/>base<sp/>class<sp/>do<sp/>the<sp/>common<sp/>stuff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;ConfigAgent::fromConfiguration(c);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>extractProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;poweronApp&quot;</highlight><highlight class="normal">,<sp/>poweronApp_);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>extractProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;poweroffApp&quot;</highlight><highlight class="normal">,<sp/>poweroffApp_);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>extractProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;adqApp&quot;</highlight><highlight class="normal">,<sp/>adqApp_);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>extractProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;imgDir&quot;</highlight><highlight class="normal">,<sp/>imgDir_);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>extractProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;dataFactoryName&quot;</highlight><highlight class="normal">,<sp/>dataFactoryName_);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>extractProperty(c,<sp/></highlight><highlight class="stringliteral">&quot;isDataFactoryEnabled&quot;</highlight><highlight class="normal">,<sp/>isDataFactoryEnabled_);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(GCSException&amp;<sp/>ex)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>ex.addToTrace(</highlight><highlight class="stringliteral">&quot;EMIRDasConfigAgent::fromConfiguration&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRDasConfigAgent.cpp"/>
+  </compounddef>
+</doxygen>

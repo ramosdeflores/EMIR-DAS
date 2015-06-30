@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="runEMIRDas_8p_2dasLCU_8h" kind="file">
+    <compoundname>runEMIRDas.p/dasLCU.h</compoundname>
+    <includes local="yes">LCU.h</includes>
+    <includes local="yes">CommandLine.h</includes>
+    <includedby refid="runEMIRDas_8p_2dasLCU_8cpp" local="yes">dasLCU.cpp</includedby>
+    <incdepgraph>
+      <node id="807">
+        <label>dasLCU.h</label>
+        <link refid="runEMIRDas.p/dasLCU.h"/>
+        <childnode refid="808" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+      </node>
+      <node id="809">
+        <label>CommandLine.h</label>
+      </node>
+      <node id="808">
+        <label>LCU.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="810">
+        <label>dasLCU.h</label>
+        <link refid="runEMIRDas.p/dasLCU.h"/>
+        <childnode refid="811" relation="include">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>dasLCU.cpp</label>
+        <link refid="runEMIRDas_8p_2dasLCU_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classdasLCU">dasLCU</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2010<sp/>Gran<sp/>Telescopio<sp/>Canarias,<sp/>S.A.<sp/>(GRANTECAN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>Rights<sp/>Reserved</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_dasLCU_h_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_dasLCU_h_</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GCS<sp/>Includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;LCU.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CommandLine.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Forward<sp/>declarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdasApplication" kindref="compound">dasApplication</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdasLCU" kindref="compound">dasLCU</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>LCU</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><ref refid="classdasLCU_154f50bfbb71c34b9a6213e34c6e3d936" kindref="member">dasLCU</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classdasLCU_14a3acc1bc9a2faafd54c9cbf7421b6dd" kindref="member">~dasLCU</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdasLCU_1ee5b70fc925758bbe89a5bb1899277f1" kindref="member">start</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>update=0);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdasLCU_11252577a8f5a6508053afddc02651185" kindref="member">stop</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><ref refid="classdasApplication" kindref="compound">dasApplication</ref>*<sp/>das_application_;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>_dasLCU_h_</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasLCU.h"/>
+  </compounddef>
+</doxygen>

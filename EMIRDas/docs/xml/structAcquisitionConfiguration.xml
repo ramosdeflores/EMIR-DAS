@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structAcquisitionConfiguration" kind="struct" prot="public">
+    <compoundname>AcquisitionConfiguration</compoundname>
+    <includes refid="EMIRTypes_8h" local="no">EMIRTypes.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structAcquisitionConfiguration_160cc1008c55fd57449532a28bd6ecce0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AcquisitionConfiguration::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="12" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1ef1623fdea29adf9b9c227d2ef8bc085" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504" kindref="member">EMIRDAS::ReadoutMode</ref></type>
+        <definition>EMIRDAS::ReadoutMode AcquisitionConfiguration::readoutmodeval</definition>
+        <argsstring></argsstring>
+        <name>readoutmodeval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="13" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1efa7a8b600ebc6050901f013e017813b" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::exposuretime</definition>
+        <argsstring></argsstring>
+        <name>exposuretime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="14" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_12998539761b2e2bb239ff93356d4e0eb" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::x_size</definition>
+        <argsstring></argsstring>
+        <name>x_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="15" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1dd1007a0c7290609eb39b66f606efa78" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::y_size</definition>
+        <argsstring></argsstring>
+        <name>y_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="16" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_14e755d5955b457d8b6d2ba6ade65915a" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::y_size_b</definition>
+        <argsstring></argsstring>
+        <name>y_size_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="17" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1691d708d2b947f70860abba8568c80c3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AcquisitionConfiguration::windowMode</definition>
+        <argsstring></argsstring>
+        <name>windowMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="18" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1f67e028868c18e2c83dcf586db28f99d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AcquisitionConfiguration::applyConfiguration</definition>
+        <argsstring></argsstring>
+        <name>applyConfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="19" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_18bf5593871d5a64718b246044d3813cf" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::nsec</definition>
+        <argsstring></argsstring>
+        <name>nsec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="20" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1931b806f860f9d2896cd83351263d847" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::optrst</definition>
+        <argsstring></argsstring>
+        <name>optrst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="21" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1b11585951294bd7c9aee0a0a989c034e" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::nrst</definition>
+        <argsstring></argsstring>
+        <name>nrst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="22" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_159003f748fca5cd2ae655e2fd96555c5" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::nrdbl</definition>
+        <argsstring></argsstring>
+        <name>nrdbl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1080c97bd6acf59191c2e38a2ac42efa1" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::nrdbl_nd</definition>
+        <argsstring></argsstring>
+        <name>nrdbl_nd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="24" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1cc3e389cb4f267568677ad4dacc4ddd4" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::numExp</definition>
+        <argsstring></argsstring>
+        <name>numExp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_101a3703609bd724ccadb1fcab3e40fe7" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::nrdil</definition>
+        <argsstring></argsstring>
+        <name>nrdil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_15be2fbf8b5a1c78d5cdaead9d4dcc9f4" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::nrdil_nd</definition>
+        <argsstring></argsstring>
+        <name>nrdil_nd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="27" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structAcquisitionConfiguration_1787d4a22c765148732ba830a0343878d" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionConfiguration::nparam_x</definition>
+        <argsstring></argsstring>
+        <name>nparam_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="28" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" line="11" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRTypes.h" bodystart="10" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structAcquisitionConfiguration_1f67e028868c18e2c83dcf586db28f99d" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>applyConfiguration</name></member>
+      <member refid="structAcquisitionConfiguration_1efa7a8b600ebc6050901f013e017813b" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>exposuretime</name></member>
+      <member refid="structAcquisitionConfiguration_1787d4a22c765148732ba830a0343878d" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>nparam_x</name></member>
+      <member refid="structAcquisitionConfiguration_159003f748fca5cd2ae655e2fd96555c5" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>nrdbl</name></member>
+      <member refid="structAcquisitionConfiguration_1080c97bd6acf59191c2e38a2ac42efa1" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>nrdbl_nd</name></member>
+      <member refid="structAcquisitionConfiguration_101a3703609bd724ccadb1fcab3e40fe7" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>nrdil</name></member>
+      <member refid="structAcquisitionConfiguration_15be2fbf8b5a1c78d5cdaead9d4dcc9f4" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>nrdil_nd</name></member>
+      <member refid="structAcquisitionConfiguration_1b11585951294bd7c9aee0a0a989c034e" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>nrst</name></member>
+      <member refid="structAcquisitionConfiguration_18bf5593871d5a64718b246044d3813cf" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>nsec</name></member>
+      <member refid="structAcquisitionConfiguration_1cc3e389cb4f267568677ad4dacc4ddd4" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>numExp</name></member>
+      <member refid="structAcquisitionConfiguration_1931b806f860f9d2896cd83351263d847" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>optrst</name></member>
+      <member refid="structAcquisitionConfiguration_1ef1623fdea29adf9b9c227d2ef8bc085" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>readoutmodeval</name></member>
+      <member refid="structAcquisitionConfiguration_160cc1008c55fd57449532a28bd6ecce0" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>title</name></member>
+      <member refid="structAcquisitionConfiguration_1691d708d2b947f70860abba8568c80c3" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>windowMode</name></member>
+      <member refid="structAcquisitionConfiguration_12998539761b2e2bb239ff93356d4e0eb" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>x_size</name></member>
+      <member refid="structAcquisitionConfiguration_1dd1007a0c7290609eb39b66f606efa78" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>y_size</name></member>
+      <member refid="structAcquisitionConfiguration_14e755d5955b457d8b6d2ba6ade65915a" prot="public" virt="non-virtual"><scope>AcquisitionConfiguration</scope><name>y_size_b</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

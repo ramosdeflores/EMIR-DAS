@@ -1,0 +1,20 @@
+#-------------------------------------------------------------------------------
+# Application specific libraries
+#-------------------------------------------------------------------------------
+ld < libEMIRDas.so
+#cd "MODULE_DIR"
+ld < tests/testEMIRDas.p/vx.O/testEMIRDas
+ld < examples/runEMIRDas.p/vx.O/runEMIRDas
+#ld < examples/useEMIRDas.p/vx.O/useEMIRDas
+
+# moduleShow
+#-------------------------------------------------------------------------------
+# start_LCU    -> starts LCU services and applications
+# start_LCU(1) -> performs the update of the Devices
+
+# testEMIRDas DEVICE_NAME,UPDATE,MODE,PRIORITY,THREADS
+# testEMIRDas "OSIRIS/DAS/DataAcquisition_1",0,0,99,5
+# testEMIRDas "OSIRIS/DAS/DataAcquisition_1",1,1,99,5
+# testEMIRDas "OSIRIS/DAS/DataAcquisition_1",0,1,99,5
+
+#-------------------------------------------------------------------------------

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="runEMIRDas_8p_2dasApplication_8h" kind="file">
+    <compoundname>runEMIRDas.p/dasApplication.h</compoundname>
+    <includes local="yes">Application.h</includes>
+    <includedby refid="runEMIRDas_8p_2dasApplication_8cpp" local="yes">dasApplication.cpp</includedby>
+    <includedby refid="runEMIRDas_8p_2dasLCU_8cpp" local="yes">dasLCU.cpp</includedby>
+    <incdepgraph>
+      <node id="778">
+        <label>Application.h</label>
+      </node>
+      <node id="777">
+        <label>dasApplication.h</label>
+        <link refid="runEMIRDas.p/dasApplication.h"/>
+        <childnode refid="778" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="781">
+        <label>dasLCU.cpp</label>
+        <link refid="runEMIRDas_8p_2dasLCU_8cpp"/>
+      </node>
+      <node id="779">
+        <label>dasApplication.h</label>
+        <link refid="runEMIRDas.p/dasApplication.h"/>
+        <childnode refid="780" relation="include">
+        </childnode>
+        <childnode refid="781" relation="include">
+        </childnode>
+      </node>
+      <node id="780">
+        <label>dasApplication.cpp</label>
+        <link refid="runEMIRDas_8p_2dasApplication_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classdasApplication">dasApplication</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2010<sp/>Gran<sp/>Telescopio<sp/>Canarias,<sp/>S.A.<sp/>(GRANTECAN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>Rights<sp/>Reserved</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_dasApplication_h_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_dasApplication_h_</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GCS<sp/>Includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Application.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Forward<sp/>declarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdasApplication" kindref="compound">dasApplication</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Application</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><ref refid="classdasApplication_1169bdd2a0bef9a6330c2a80cf274e032" kindref="member">dasApplication</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classdasApplication_1bd24629e472a9fe190d44e114bcd56bf" kindref="member">~dasApplication</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdasApplication_1d3684fdf1b603829db2d6ad6b0b62460" kindref="member">run</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>update=0);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdasApplication_1609cb9d2726b2f77e56fca301b408e8e" kindref="member">quit</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref>*<sp/>DAS_;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>_dasApplication_h_</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/runEMIRDas.p/dasApplication.h"/>
+  </compounddef>
+</doxygen>

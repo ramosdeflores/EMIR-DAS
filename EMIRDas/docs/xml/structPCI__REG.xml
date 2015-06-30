@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structPCI__REG" kind="struct" prot="public">
+    <compoundname>PCI_REG</compoundname>
+    <includes refid="sdsu__emir__driver_8h" local="no">sdsu_emir_driver.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPCI__REG_1b90197dcec245ca9c9291f7c3af670bc" prot="public" static="no" mutable="no">
+        <type><ref refid="sdsu__emir__driver_8h_12caf5cd7bcdbe1eefa727f44ffb10bac" kindref="member">u32</ref></type>
+        <definition>volatile u32 PCI_REG::unused[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>unused</name>
+        <briefdescription>
+<para>Filler bytes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="120" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPCI__REG_1939301a80356026be75328a9b53bb840" prot="public" static="no" mutable="no">
+        <type><ref refid="sdsu__emir__driver_8h_12caf5cd7bcdbe1eefa727f44ffb10bac" kindref="member">u32</ref></type>
+        <definition>volatile u32 PCI_REG::hctr</definition>
+        <argsstring></argsstring>
+        <name>hctr</name>
+        <briefdescription>
+<para>Host control reg (base+$010). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="121" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPCI__REG_1bf3cff3fcb421b14b365042a302aa148" prot="public" static="no" mutable="no">
+        <type><ref refid="sdsu__emir__driver_8h_12caf5cd7bcdbe1eefa727f44ffb10bac" kindref="member">u32</ref></type>
+        <definition>volatile u32 PCI_REG::hstr</definition>
+        <argsstring></argsstring>
+        <name>hstr</name>
+        <briefdescription>
+<para>Host status reg (base+$014). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="122" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPCI__REG_146638446aac5c2129bd9d82d376af890" prot="public" static="no" mutable="no">
+        <type><ref refid="sdsu__emir__driver_8h_12caf5cd7bcdbe1eefa727f44ffb10bac" kindref="member">u32</ref></type>
+        <definition>volatile u32 PCI_REG::hcvr</definition>
+        <argsstring></argsstring>
+        <name>hcvr</name>
+        <briefdescription>
+<para>Host command vector reg (base+$018). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="123" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPCI__REG_1b1150e055355ac4ac868dc8503956211" prot="public" static="no" mutable="no">
+        <type><ref refid="sdsu__emir__driver_8h_12caf5cd7bcdbe1eefa727f44ffb10bac" kindref="member">u32</ref></type>
+        <definition>volatile u32 PCI_REG::htxr_hrxs[16377]</definition>
+        <argsstring>[16377]</argsstring>
+        <name>htxr_hrxs</name>
+        <briefdescription>
+<para>Host trasmit data, host slave receive reg(base+01c-$fffc). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="125" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>PCI memory address space register locations for the HTXR/HRXS mapping, two single read and write registers attached to the FIFOs. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="119" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="119" bodyend="126"/>
+    <listofallmembers>
+      <member refid="structPCI__REG_1939301a80356026be75328a9b53bb840" prot="public" virt="non-virtual"><scope>PCI_REG</scope><name>hctr</name></member>
+      <member refid="structPCI__REG_146638446aac5c2129bd9d82d376af890" prot="public" virt="non-virtual"><scope>PCI_REG</scope><name>hcvr</name></member>
+      <member refid="structPCI__REG_1bf3cff3fcb421b14b365042a302aa148" prot="public" virt="non-virtual"><scope>PCI_REG</scope><name>hstr</name></member>
+      <member refid="structPCI__REG_1b1150e055355ac4ac868dc8503956211" prot="public" virt="non-virtual"><scope>PCI_REG</scope><name>htxr_hrxs</name></member>
+      <member refid="structPCI__REG_1b90197dcec245ca9c9291f7c3af670bc" prot="public" virt="non-virtual"><scope>PCI_REG</scope><name>unused</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

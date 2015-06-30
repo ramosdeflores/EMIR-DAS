@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structSDSU__TIME__REPLY" kind="struct" prot="public">
+    <compoundname>SDSU_TIME_REPLY</compoundname>
+    <includes refid="SDSUlcu_8l_2ct__interface_8h" local="no">ct_interface.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSDSU__TIME__REPLY_106c1c7b4cb458223590f251291884072" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>volatile UINT32 SDSU_TIME_REPLY::cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <briefdescription>
+<para>2 char command encoded as 24-bit word </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="233" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__TIME__REPLY_1a0ef6034a34e0ad0d3b43ae0af900347" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>volatile UINT32 SDSU_TIME_REPLY::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+<para>Data argument. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="234" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Timing board reply structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="232" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="232" bodyend="235"/>
+    <listofallmembers>
+      <member refid="structSDSU__TIME__REPLY_106c1c7b4cb458223590f251291884072" prot="public" virt="non-virtual"><scope>SDSU_TIME_REPLY</scope><name>cmd</name></member>
+      <member refid="structSDSU__TIME__REPLY_1a0ef6034a34e0ad0d3b43ae0af900347" prot="public" virt="non-virtual"><scope>SDSU_TIME_REPLY</scope><name>data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

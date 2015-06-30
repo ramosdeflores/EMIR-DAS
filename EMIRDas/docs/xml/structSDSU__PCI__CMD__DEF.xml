@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structSDSU__PCI__CMD__DEF" kind="struct" prot="public">
+    <compoundname>SDSU_PCI_CMD_DEF</compoundname>
+    <includes refid="sdsu__emir__driver_8h" local="no">sdsu_emir_driver.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSDSU__PCI__CMD__DEF_10176fcdabc2bbe0d8edbba300c61bcde" prot="public" static="no" mutable="no">
+        <type><ref refid="sdsu__emir__driver_8h_12caf5cd7bcdbe1eefa727f44ffb10bac" kindref="member">u32</ref></type>
+        <definition>u32 SDSU_PCI_CMD_DEF::cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="155" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__PCI__CMD__DEF_1c093899ab91b714b43d2faf9fa6414da" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDSU_PCI_CMD_DEF::arg1</definition>
+        <argsstring></argsstring>
+        <name>arg1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="156" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__PCI__CMD__DEF_1642f5facebd38018b3e43dd81a5ac4d7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDSU_PCI_CMD_DEF::arg2</definition>
+        <argsstring></argsstring>
+        <name>arg2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="157" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__PCI__CMD__DEF_1fde33d720098f16c96c15c0c640cb16a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDSU_PCI_CMD_DEF::arg3</definition>
+        <argsstring></argsstring>
+        <name>arg3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="158" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__PCI__CMD__DEF_1461c3309d9f2f6eb62083ed98ce1d0af" prot="public" static="no" mutable="no">
+        <type><ref refid="sdsu__emir__driver_8h_12caf5cd7bcdbe1eefa727f44ffb10bac" kindref="member">u32</ref></type>
+        <definition>u32 SDSU_PCI_CMD_DEF::hcvr_vector</definition>
+        <argsstring></argsstring>
+        <name>hcvr_vector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="159" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>PCI card command structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="154" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="154" bodyend="160"/>
+    <listofallmembers>
+      <member refid="structSDSU__PCI__CMD__DEF_1c093899ab91b714b43d2faf9fa6414da" prot="public" virt="non-virtual"><scope>SDSU_PCI_CMD_DEF</scope><name>arg1</name></member>
+      <member refid="structSDSU__PCI__CMD__DEF_1642f5facebd38018b3e43dd81a5ac4d7" prot="public" virt="non-virtual"><scope>SDSU_PCI_CMD_DEF</scope><name>arg2</name></member>
+      <member refid="structSDSU__PCI__CMD__DEF_1fde33d720098f16c96c15c0c640cb16a" prot="public" virt="non-virtual"><scope>SDSU_PCI_CMD_DEF</scope><name>arg3</name></member>
+      <member refid="structSDSU__PCI__CMD__DEF_10176fcdabc2bbe0d8edbba300c61bcde" prot="public" virt="non-virtual"><scope>SDSU_PCI_CMD_DEF</scope><name>cmd</name></member>
+      <member refid="structSDSU__PCI__CMD__DEF_1461c3309d9f2f6eb62083ed98ce1d0af" prot="public" virt="non-virtual"><scope>SDSU_PCI_CMD_DEF</scope><name>hcvr_vector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

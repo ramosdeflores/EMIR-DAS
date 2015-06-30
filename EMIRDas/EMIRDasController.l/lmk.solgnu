@@ -1,0 +1,6 @@
+CPPFLAGS += -fimplicit-templates -I$(TAO)/include/tao -I$(ACE)/include/ace
+# LDLIBS = -lDAF  -lTS -lUtils $(TAO_LIBS)
+#LDLIBS +=   -lSDSUsim ${WCS_LIBS} ${TAO_LIBS} ${FITSIO_LIBS} ${GSL_LIBS} -lDPKF -lDAF -lTS -lConfigFileMgr -lBasicTypes -lOSWrappers $(TAO_LIBS)
+LDLIBS +=   -lSDSUsim ${WCS_LIBS} ${TAO_LIBS} ${GSL_LIBS} -lDPKF -lDAF -lTS -lConfigFileMgr -lBasicTypes -lOSWrappers $(TAO_LIBS) -lcfitsio
+#LDLIBS = -lDCM -lDAF  -lTS -lUtils -lNotify -lNaming -lTAO -lACE  
+

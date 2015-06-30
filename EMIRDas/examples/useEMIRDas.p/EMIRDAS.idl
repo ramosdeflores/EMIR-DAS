@@ -1,0 +1,108 @@
+// Copyright (c) 2010 Gran Telescopio Canarias, S.A. (GRANTECAN)
+// All Rights Reserved
+
+//$Log$
+
+
+#ifndef _EMIRDAS_idl_
+#define _EMIRDAS_idl_
+
+#include "DCF.idl"
+#include "EMIRTYPES.idl"
+
+#pragma prefix "gtc"
+
+module EMIRDAS
+{
+  interface EMIRDas_ifce : DCF::Device_ifce 
+  {
+    // Specific EMIRDas operations
+    void setupDetector(in EMIRTYPES::AcquisitionConfiguration acquisitionConfiguration) 
+			raises (DGT::GCSException); 
+
+    void expose() 
+			raises (DGT::GCSException); 
+
+    void setupReadoutMode(in EMIRTYPES::ReadoutMode readoutmodeval) 
+			raises (DGT::GCSException); 
+
+    void setupImageTitle(in string exposureId) 
+			raises (DGT::GCSException); 
+
+    void setupExposureTime(in long exposureTime) 
+			raises (DGT::GCSException); 
+
+    void setupWindowMode(in boolean windowmode) 
+			raises (DGT::GCSException); 
+
+    void setupNSEC(in long nsec) 
+			raises (DGT::GCSException); 
+
+    void setupNO_EXPOSURES(in long nexp) 
+			raises (DGT::GCSException); 
+
+    void setupNRDBL(in long nrdbl) 
+			raises (DGT::GCSException); 
+
+    void setupNRDBL_ND(in long nrdbl_nd) 
+			raises (DGT::GCSException); 
+
+    void setupNRST(in long nrst) 
+			raises (DGT::GCSException); 
+
+    void setupNPARAM_X(in long nparam_x) 
+			raises (DGT::GCSException); 
+
+    void setupNRDIL(in long nrdil) 
+			raises (DGT::GCSException); 
+
+    void setupNRDIL_ND(in long nrdil_nd) 
+			raises (DGT::GCSException); 
+
+    void setupOPTRST(in long optrst) 
+			raises (DGT::GCSException); 
+
+    void setupX_SIZE(in long x_size) 
+			raises (DGT::GCSException); 
+
+    void setupY_SIZE(in long y_size) 
+			raises (DGT::GCSException); 
+
+    void setupY_SIZE_B(in long y_size_b) 
+			raises (DGT::GCSException); 
+
+    // short check();
+
+    // Monitorable attributes (device magnitudes)
+    readonly attribute boolean              isSettingup;
+    readonly attribute boolean              isConfigurationDone;
+    readonly attribute boolean              isExposing;
+    readonly attribute boolean              isDetectorControllerIdle;
+    readonly attribute boolean              currentWindowMode;
+    readonly attribute EMIRTYPES::ReadoutMode          currentReadoutMode;
+    readonly attribute EMIRTYPES::SDSUControllerStatus currentSDSUControllerStatus;
+    readonly attribute long                 currentElapsedTime;
+    readonly attribute long                 currentExposureTime;
+    readonly attribute long                 currentNumberOfImages;
+    readonly attribute long                 currentNSEC;
+    readonly attribute long                 currentNO_EXPOSURES;
+    readonly attribute long                 currentNRDBL;
+    readonly attribute long                 currentNRDBL_ND;
+    readonly attribute long                 currentNPARAM_X;
+    readonly attribute long                 currentNRST;
+    readonly attribute long                 currentNRDIL;
+    readonly attribute long                 currentNRDIL_ND;
+    readonly attribute long                 currentOPTRST;
+    readonly attribute long                 currentX_SIZE;
+    readonly attribute long                 currentY_SIZE;
+    readonly attribute long                 currentY_SIZE_B;
+    
+    // Configurable attributes (device properties)
+    attribute string               poweronApp;
+    attribute string               poweroffApp;
+    attribute string               adqApp;
+    attribute string               imgDir;
+  };
+};
+#endif // _EMIRDAS_idl_ 
+

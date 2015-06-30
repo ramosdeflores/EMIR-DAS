@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structSDSU__TIME__CMD__DEF" kind="struct" prot="public">
+    <compoundname>SDSU_TIME_CMD_DEF</compoundname>
+    <includes refid="sdsu__emir__driver_8h" local="no">sdsu_emir_driver.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSDSU__TIME__CMD__DEF_14653d35bf2195a769f1ff2b4915c85a6" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char SDSU_TIME_CMD_DEF::cmd[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>cmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="164" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__TIME__CMD__DEF_11c9becc40a56c1f2967860642a4c14b2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDSU_TIME_CMD_DEF::arg1</definition>
+        <argsstring></argsstring>
+        <name>arg1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="165" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__TIME__CMD__DEF_1f855ddf30ef15153a23b207e75073d00" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDSU_TIME_CMD_DEF::arg2</definition>
+        <argsstring></argsstring>
+        <name>arg2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="166" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>SDSU controller command structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" line="163" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_driver.h" bodystart="163" bodyend="167"/>
+    <listofallmembers>
+      <member refid="structSDSU__TIME__CMD__DEF_11c9becc40a56c1f2967860642a4c14b2" prot="public" virt="non-virtual"><scope>SDSU_TIME_CMD_DEF</scope><name>arg1</name></member>
+      <member refid="structSDSU__TIME__CMD__DEF_1f855ddf30ef15153a23b207e75073d00" prot="public" virt="non-virtual"><scope>SDSU_TIME_CMD_DEF</scope><name>arg2</name></member>
+      <member refid="structSDSU__TIME__CMD__DEF_14653d35bf2195a769f1ff2b4915c85a6" prot="public" virt="non-virtual"><scope>SDSU_TIME_CMD_DEF</scope><name>cmd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structSDSU__TIME__CMD" kind="struct" prot="public">
+    <compoundname>SDSU_TIME_CMD</compoundname>
+    <includes refid="SDSUlcu_8l_2ct__interface_8h" local="no">ct_interface.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSDSU__TIME__CMD_14f22724a6a9bc279d5198e2a7bdf8341" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>volatile UINT32 SDSU_TIME_CMD::cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <briefdescription>
+<para>2 char command encoded as 24-bit word </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="226" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__TIME__CMD_1cf43ba73505c486430472be7f41428ed" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>volatile UINT32 SDSU_TIME_CMD::arg1</definition>
+        <argsstring></argsstring>
+        <name>arg1</name>
+        <briefdescription>
+<para>First argument. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="227" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__TIME__CMD_14dce96c847650317a43fb8b0b058acc9" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>volatile UINT32 SDSU_TIME_CMD::arg2</definition>
+        <argsstring></argsstring>
+        <name>arg2</name>
+        <briefdescription>
+<para>Second argument. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="228" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Timing board command structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="225" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="225" bodyend="229"/>
+    <listofallmembers>
+      <member refid="structSDSU__TIME__CMD_1cf43ba73505c486430472be7f41428ed" prot="public" virt="non-virtual"><scope>SDSU_TIME_CMD</scope><name>arg1</name></member>
+      <member refid="structSDSU__TIME__CMD_14dce96c847650317a43fb8b0b058acc9" prot="public" virt="non-virtual"><scope>SDSU_TIME_CMD</scope><name>arg2</name></member>
+      <member refid="structSDSU__TIME__CMD_14f22724a6a9bc279d5198e2a7bdf8341" prot="public" virt="non-virtual"><scope>SDSU_TIME_CMD</scope><name>cmd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

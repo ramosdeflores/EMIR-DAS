@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classEMIRDasAcqConfig" kind="class" prot="public">
+    <compoundname>EMIRDasAcqConfig</compoundname>
+    <includes refid="EMIRDasAcqConfig_8h" local="no">EMIRDasAcqConfig.h</includes>
+    <innerclass refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration">EMIRDasAcqConfig::AcquisitionConfiguration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="8" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="7" bodyend="33"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

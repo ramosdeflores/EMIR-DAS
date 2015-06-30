@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structSDSU__PCI__REPLY" kind="struct" prot="public">
+    <compoundname>SDSU_PCI_REPLY</compoundname>
+    <includes refid="SDSUlcu_8l_2ct__interface_8h" local="no">ct_interface.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSDSU__PCI__REPLY_1e67cfba3672f85e98afd2580d84671fd" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_PCI_REPLY::cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <briefdescription>
+<para>Three character command encoded as 24-bit word. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="219" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__PCI__REPLY_17c583ab8e6511d176c37c69ba3e74120" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_PCI_REPLY::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+<para>Three character status encoded as 24-bit word. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="220" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__PCI__REPLY_160de65edbe13eeaa62c4334a53b8fa20" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_PCI_REPLY::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+<para>Data argument. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="221" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>PCI reply data structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="218" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="218" bodyend="222"/>
+    <listofallmembers>
+      <member refid="structSDSU__PCI__REPLY_1e67cfba3672f85e98afd2580d84671fd" prot="public" virt="non-virtual"><scope>SDSU_PCI_REPLY</scope><name>cmd</name></member>
+      <member refid="structSDSU__PCI__REPLY_160de65edbe13eeaa62c4334a53b8fa20" prot="public" virt="non-virtual"><scope>SDSU_PCI_REPLY</scope><name>data</name></member>
+      <member refid="structSDSU__PCI__REPLY_17c583ab8e6511d176c37c69ba3e74120" prot="public" virt="non-virtual"><scope>SDSU_PCI_REPLY</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structEMIRTYPES_1_1NameValue" kind="struct" prot="public">
+    <compoundname>EMIRTYPES::NameValue</compoundname>
+    <includes refid="EMIRTYPES_8idl" local="no">EMIRTYPES.idl</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl" line="15" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl" bodystart="15" bodyend="18"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

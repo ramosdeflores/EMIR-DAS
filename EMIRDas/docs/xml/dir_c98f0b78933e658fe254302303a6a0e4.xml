@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="dir_c98f0b78933e658fe254302303a6a0e4" kind="dir">
+    <compoundname>EMIRDasController.l/</compoundname>
+    <innerfile refid="DetectorControllerApp_8cpp">DetectorControllerApp.cpp</innerfile>
+    <innerfile refid="DetectorControllerApp_8h">DetectorControllerApp.h</innerfile>
+    <innerfile refid="DetectorControllerDefs_8h">DetectorControllerDefs.h</innerfile>
+    <innerfile refid="EMIRDasAcqConfig_8h">EMIRDasAcqConfig.h</innerfile>
+    <innerfile refid="EMIRDasConf_8h">EMIRDasConf.h</innerfile>
+    <innerfile refid="EMIRDasController_8cpp">EMIRDasController.cpp</innerfile>
+    <innerfile refid="EMIRDasController_8h">EMIRDasController.h</innerfile>
+    <innerfile refid="EMIRDasControllerHw_8cpp">EMIRDasControllerHw.cpp</innerfile>
+    <innerfile refid="EMIRDasControllerHw_8h">EMIRDasControllerHw.h</innerfile>
+    <innerfile refid="EMIRDasFrame_8h">EMIRDasFrame.h</innerfile>
+    <innerfile refid="SimpleMemoryManager_8cpp">SimpleMemoryManager.cpp</innerfile>
+    <innerfile refid="SimpleMemoryManager_8h">SimpleMemoryManager.h</innerfile>
+    <innerfile refid="SimpleStorageManager_8cpp">SimpleStorageManager.cpp</innerfile>
+    <innerfile refid="SimpleStorageManager_8h">SimpleStorageManager.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/"/>
+  </compounddef>
+</doxygen>

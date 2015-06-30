@@ -1,0 +1,1588 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="sdsu__emir__interface_8h" kind="file">
+    <compoundname>sdsu_emir_interface.h</compoundname>
+    <includes local="yes">sdsu_platform.h</includes>
+    <incdepgraph>
+      <node id="1284">
+        <label>sdsu_emir_interface.h</label>
+        <link refid="sdsu_emir_interface.h"/>
+        <childnode refid="1285" relation="include">
+        </childnode>
+      </node>
+      <node id="1285">
+        <label>sdsu_platform.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structSDSU__PCI__CMD">SDSU_PCI_CMD</innerclass>
+    <innerclass refid="structSDSU__PCI__REPLY">SDSU_PCI_REPLY</innerclass>
+    <innerclass refid="structSDSU__TIME__CMD">SDSU_TIME_CMD</innerclass>
+    <innerclass refid="structSDSU__TIME__REPLY">SDSU_TIME_REPLY</innerclass>
+    <innerclass refid="structSDSU__BUFFER">SDSU_BUFFER</innerclass>
+    <innerclass refid="structSDSU__FIFODEV">SDSU_FIFODEV</innerclass>
+    <innerclass refid="structSDSU__CONTEXT">SDSU_CONTEXT</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1d7131843820ab8f351d2be9c47cd9449" prot="public" static="no">
+        <name>SDSU_LOW_PRIORITY</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="60" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_12149ad07e1ad2c01c55d62d6f6e9dc1f" prot="public" static="no">
+        <name>SDSU_LAST_BUFFER</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="61" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_129d42114f3a3d8e1a0acff2167dd031e" prot="public" static="no">
+        <name>SDSU_OK</name>
+        <initializer>0</initializer>
+        <briefdescription>
+<para>Successful. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="63" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1343348fb4ca310b4f57559e66c039ba8" prot="public" static="no">
+        <name>SDSU_ERR_BUFSIZE</name>
+        <initializer>-128</initializer>
+        <briefdescription>
+<para>Buffer size exceeds big physical memory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="64" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_14ea65111e404b2b2ce2a829636088842" prot="public" static="no">
+        <name>SDSU_ERR_CLOSEFIFO</name>
+        <initializer>-129</initializer>
+        <briefdescription>
+<para>Closing FIFO failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="65" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_18f6687b1cec522cc58714ea804475054" prot="public" static="no">
+        <name>SDSU_ERR_CLOSESDSU</name>
+        <initializer>-130</initializer>
+        <briefdescription>
+<para>Close SDSU device file failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="66" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1ee737cc0222a72d9eec3490438a42681" prot="public" static="no">
+        <name>SDSU_ERR_CMD</name>
+        <initializer>-131</initializer>
+        <briefdescription>
+<para>Command failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="67" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_16753e7cac2fe02fe37fea125f8da171a" prot="public" static="no">
+        <name>SDSU_ERR_DEVNAME</name>
+        <initializer>-132</initializer>
+        <briefdescription>
+<para>Device name too long. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="68" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_11a031c8be7a7eee09bd66875f242efbd" prot="public" static="no">
+        <name>SDSU_ERR_GETBUF</name>
+        <initializer>-133</initializer>
+        <briefdescription>
+<para>Get next buffer failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="69" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_12ae3014555b2256ebbc214ae5a9a0564" prot="public" static="no">
+        <name>SDSU_ERR_INSDRV</name>
+        <initializer>-134</initializer>
+        <briefdescription>
+<para>Inserting SDSU driver module failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="70" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_18affb6ca7aa7a4ba2d58b12c0ee3472f" prot="public" static="no">
+        <name>SDSU_ERR_INVCON</name>
+        <initializer>-135</initializer>
+        <briefdescription>
+<para>Context structure invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="71" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_15148f3e4051977a2b85a6ebfd383d7dd" prot="public" static="no">
+        <name>SDSU_ERR_KEY</name>
+        <initializer>-136</initializer>
+        <briefdescription>
+<para>Unique key value generation failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="72" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_181de4f777b1e6e0be265a15b8b082e1b" prot="public" static="no">
+        <name>SDSU_ERR_MALLOC</name>
+        <initializer>-137</initializer>
+        <briefdescription>
+<para>Dynamic memory allocation failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="73" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_18572b2c252273a373c3c8888f5b617d3" prot="public" static="no">
+        <name>SDSU_ERR_MAP</name>
+        <initializer>-138</initializer>
+        <briefdescription>
+<para>Mapping SDSU device file failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="74" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1487b8bd482cdde7edc7c4ef7a00f2c7d" prot="public" static="no">
+        <name>SDSU_ERR_MBUFF</name>
+        <initializer>-139</initializer>
+        <briefdescription>
+<para>Shared memory allocation failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="75" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1c2685aae5afd9ea0aa205ffdc3de034f" prot="public" static="no">
+        <name>SDSU_ERR_MUTEX</name>
+        <initializer>-140</initializer>
+        <briefdescription>
+<para>Mutual exclusion failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="76" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1e3dcaba05e3c9b563ea35275d685a1ce" prot="public" static="no">
+        <name>SDSU_ERR_NOCON</name>
+        <initializer>-141</initializer>
+        <briefdescription>
+<para>Context structure does not exist. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="77" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_14db3a1807786855395b36e35c95ca7a0" prot="public" static="no">
+        <name>SDSU_ERR_NOWRITER</name>
+        <initializer>-142</initializer>
+        <briefdescription>
+<para>Writer thread not running. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="78" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_170f72d6d8aecb1eb0c70f66bcfe5936e" prot="public" static="no">
+        <name>SDSU_ERR_NUMBUF</name>
+        <initializer>-143</initializer>
+        <briefdescription>
+<para>Number of buffers to low. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="79" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_18dbe3cc74e7739cb2871a3efb47dc261" prot="public" static="no">
+        <name>SDSU_ERR_OPENFIFO</name>
+        <initializer>-144</initializer>
+        <briefdescription>
+<para>Opening FIFO failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="80" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_167e9efb6ba6dbfb614df7ca07be45f52" prot="public" static="no">
+        <name>SDSU_ERR_OPENSDSU</name>
+        <initializer>-145</initializer>
+        <briefdescription>
+<para>Open SDSU device file failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="81" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1ff86ed11fe4ad7c481d2d6ac8149b36c" prot="public" static="no">
+        <name>SDSU_ERR_PROCRUN</name>
+        <initializer>-147</initializer>
+        <briefdescription>
+<para>Process still running. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="82" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_117acc488b32f5580374614e236d08278" prot="public" static="no">
+        <name>SDSU_ERR_READFIFO</name>
+        <initializer>-148</initializer>
+        <briefdescription>
+<para>Read FIFO failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="83" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1ca794f0d64b759738c30854f60a5097e" prot="public" static="no">
+        <name>SDSU_ERR_RMDRV</name>
+        <initializer>-149</initializer>
+        <briefdescription>
+<para>Removing SDSU driver module failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="84" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1a25e43d7a00d0a7ac69f00e4228c9a40" prot="public" static="no">
+        <name>SDSU_ERR_SEMID</name>
+        <initializer>-151</initializer>
+        <briefdescription>
+<para>Semaphore ID unrecognised. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="85" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_177684f4b49d524633652c5b7363cbbce" prot="public" static="no">
+        <name>SDSU_ERR_TIMEOUT</name>
+        <initializer>-154</initializer>
+        <briefdescription>
+<para>Timed out waiting for reply on FIFO. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="86" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1ad22857d515fbeae9051de757e738540" prot="public" static="no">
+        <name>SDSU_ERR_UNMAP</name>
+        <initializer>-155</initializer>
+        <briefdescription>
+<para>Unmapping SDSU device file failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="87" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_16c4b4f7fd018d96c8d44171916d4e5f8" prot="public" static="no">
+        <name>SDSU_ERR_USECON</name>
+        <initializer>-156</initializer>
+        <briefdescription>
+<para>Context already exists. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="88" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_189ce0f32116cb3107061b7ef8f1b0998" prot="public" static="no">
+        <name>SDSU_ERR_WRITEFIFO</name>
+        <initializer>-157</initializer>
+        <briefdescription>
+<para>Write FIFO failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="89" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_11f40133a1d98f499573477a364af1f74" prot="public" static="no">
+        <name>SDSU_ERR_WRITER</name>
+        <initializer>-158</initializer>
+        <briefdescription>
+<para>WRITER thread failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="90" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1c024d64e6b06ed085631dde6da87f41b" prot="public" static="no">
+        <name>SDSU_ERR_RESETFIFO</name>
+        <initializer>-160</initializer>
+        <briefdescription>
+<para>Flushing FIFO failed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="91" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1ac94620352e7b2bebab5598c1d381bab" prot="public" static="no">
+        <name>SDSU_DEVNAME_LEN</name>
+        <initializer>16</initializer>
+        <briefdescription>
+<para>Maximum length for device name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="93" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1aeacdb96ee8fb89fab3fa5e3084797ce" prot="public" static="no">
+        <name>SDSU_BUFNAME_LEN</name>
+        <initializer>20</initializer>
+        <briefdescription>
+<para>Maximum length for buffer name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="94" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1fe747636e3775a911fae186a17d492f5" prot="public" static="no">
+        <name>SDSU_FIFO_LEN</name>
+        <initializer>16</initializer>
+        <briefdescription>
+<para>Maximum length for FIFO device file name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="95" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1d2c154c2430d70dec37853781334a59c" prot="public" static="no">
+        <name>SDSU_PCI_X_MEM</name>
+        <initializer>0x00005f58</initializer>
+        <briefdescription>
+<para>PCI card X memory type word. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="97" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_148c23050a999cccd4334faee2664b074" prot="public" static="no">
+        <name>SDSU_PCI_Y_MEM</name>
+        <initializer>0x00005f59</initializer>
+        <briefdescription>
+<para>PCI card Y memory type word. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="98" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_151ba14722ad7fdd1b6ee0f539707515f" prot="public" static="no">
+        <name>SDSU_PCI_P_MEM</name>
+        <initializer>0x00005f50</initializer>
+        <briefdescription>
+<para>PCI card P memory type word. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="99" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1e6f8579cfac0ad89fecf43b5b242ba94" prot="public" static="no">
+        <name>SDSU_TIME_X_MEM</name>
+        <initializer>0x00200000</initializer>
+        <briefdescription>
+<para>PCI card X memory type word. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="101" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_14aaac20cdf18682c00e0cd7f642c723b" prot="public" static="no">
+        <name>SDSU_TIME_Y_MEM</name>
+        <initializer>0x00400000</initializer>
+        <briefdescription>
+<para>SDSU controller Y memory type word. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="102" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1c81c1d586a4418f79d1572d0944b2dcb" prot="public" static="no">
+        <name>SDSU_TIME_P_MEM</name>
+        <initializer>0x00100000</initializer>
+        <briefdescription>
+<para>SDSU controller P memory type word. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="103" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1fe0511d9fa20f3db5917d19fca9c6e1a" prot="public" static="no">
+        <name>SDSU_MAX_FIFO</name>
+        <initializer>11</initializer>
+        <briefdescription>
+<para>Maximum number of FIFOs. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="105" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_10e34daf62871a9daff732d9d9755e8ad" prot="public" static="no">
+        <name>SDSU_MAX_MSG</name>
+        <initializer>10</initializer>
+        <briefdescription>
+<para>Maximum number of FIFO messages. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="106" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_153c9c9cc19384a0704528d74ee3cfecb" prot="public" static="no">
+        <name>SDSU_MAX_BUFFER</name>
+        <initializer>100</initializer>
+        <briefdescription>
+<para>Maximum number of frame buffers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="107" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1ce24d1b69aa56130e0f389953aba86ed" prot="public" static="no">
+        <name>SDSU_MIN_BUFFER</name>
+        <initializer>2</initializer>
+        <briefdescription>
+<para>Minimum number of frame buffers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="108" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1092923959bc29ff546fcc5f952629f44" prot="public" static="no">
+        <name>SDSU_MUTEX_SEM_ID</name>
+        <initializer>11</initializer>
+        <briefdescription>
+<para>Unique ID for generating unique key. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="109" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1991cbd21f94b5bcc8313964e066d52ed" prot="public" static="no">
+        <name>SDSU_SYNC_SEM_ID</name>
+        <initializer>12</initializer>
+        <briefdescription>
+<para>Unique ID for generating unique key. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="110" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1d3b131d80e91b19ef20eb08fdb58d3a4" prot="public" static="no">
+        <name>SDSU_CMD_SEM_ID</name>
+        <initializer>13</initializer>
+        <briefdescription>
+<para>Unique ID for generating unique key. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="111" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_189903410253c2d503cc6c5e13fb9de87" prot="public" static="no">
+        <name>SDSU_DEV_FILE</name>
+        <initializer>&quot;/dev/sdsu&quot;</initializer>
+        <briefdescription>
+<para>Device file for SDSU driver module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="113" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_109a0348c5fcbf178203faea303e34eb5" prot="public" static="no">
+        <name>SDSU_DIR</name>
+        <initializer>&quot;ULTRACAM_TOP&quot;</initializer>
+        <briefdescription>
+<para>Base directory (system variable). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="114" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_14c3f00bfdbfe36e7ae6c68fd73be06e6" prot="public" static="no">
+        <name>SDSU_TRUE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+<para>TRUE status flag value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="116" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1168e43c87ec857eb975b28ce24e16429" prot="public" static="no">
+        <name>SDSU_FALSE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+<para>FALSE status flag value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="117" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1de001d191df4f985b96bb17ed92e1ea5" prot="public" static="no">
+        <name>SDSU_BIGPHYSAREA_PAGES</name>
+        <initializer>32769</initializer>
+        <briefdescription>
+<para>Number of &apos;big physical memory&apos; pages used for storing buffers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="120" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1e1b66b8df68990d8784a19666686d063" prot="public" static="no">
+        <name>SDSU_BURST_BLOCK</name>
+        <initializer>0x10000</initializer>
+        <briefdescription>
+<para>Burst mode writing on PCI bus uses 64MB block size to overcome 16 bit address limitation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="126" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_107acf38d2d0bbb76cabffbe975ea2098" prot="public" static="no">
+        <name>USER_DATA_EMPTY</name>
+        <initializer>0</initializer>
+        <briefdescription>
+<para>List of RTAI FIFO device file numbers called &quot;/dev/rtf#&quot; (where # represents the file number). USER-DATA empty buffer FIFO (external). </para>        </briefdescription>
+        <detaileddescription>
+<para>FIFOs may be calssified as either internal or external. Those that communicate between USER space and the RTAI SDSU driver are considered to be external where as all others are internally used by the RTAI SDSU driver. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="135" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1f430697b71d7bc744a6303177894fee0" prot="public" static="no">
+        <name>USER_DATA_FULL</name>
+        <initializer>1</initializer>
+        <briefdescription>
+<para>USER-DATA full buffer FIFO (external). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="136" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_11511e49937a80f3817cfd1e3d7f5bdf5" prot="public" static="no">
+        <name>USER_USER_EMPTY</name>
+        <initializer>2</initializer>
+        <briefdescription>
+<para>USER-USER empty buffer FIFO (external). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="137" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1b6b90cdf932136de6eb7649cfa842a97" prot="public" static="no">
+        <name>USER_PCI_CMD</name>
+        <initializer>3</initializer>
+        <briefdescription>
+<para>USER-PCI command FIFO (external). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="138" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1544cc7405dd3765aa0f6a5e6313961fb" prot="public" static="no">
+        <name>USER_PCI_REPLY</name>
+        <initializer>4</initializer>
+        <briefdescription>
+<para>USER-PCI reply FIFO (external). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="139" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1b75a350369654045bec99c838e6fb0d8" prot="public" static="no">
+        <name>USER_TIME_CMD</name>
+        <initializer>5</initializer>
+        <briefdescription>
+<para>USER-TIME command FIFO (external). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="140" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1e78f2d2d32721f9d02e0c86176cdb163" prot="public" static="no">
+        <name>USER_TIME_REPLY</name>
+        <initializer>6</initializer>
+        <briefdescription>
+<para>USER-TIME reply FIFO (external). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="141" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_15ce74e60af33eb8546e3c29352c1a531" prot="public" static="no">
+        <name>TIME_PCI_CMD</name>
+        <initializer>7</initializer>
+        <briefdescription>
+<para>TIME-PCI command FIFO (internal). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="142" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1b1a78537f88d5da00a871d2a0ba209f4" prot="public" static="no">
+        <name>TIME_PCI_REPLY</name>
+        <initializer>8</initializer>
+        <briefdescription>
+<para>TIME-PCI reply FIFO (internal). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="143" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_13c889ca5240d1379c6cee1315cae92ac" prot="public" static="no">
+        <name>DATA_PCI_CMD</name>
+        <initializer>9</initializer>
+        <briefdescription>
+<para>DATA-PCI command FIFO (internal). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="144" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1197f08674a0acd6c504c579c1c7245da" prot="public" static="no">
+        <name>DATA_PCI_REPLY</name>
+        <initializer>10</initializer>
+        <briefdescription>
+<para>DATA-PCI reply FIFO (internal). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="145" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1e0007399b618a5ff4c705d55f83a3436" prot="public" static="no">
+        <name>RDM</name>
+        <initializer>0x0052444d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="147" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_127ff13eae7dcd67652aa6b877d932994" prot="public" static="no">
+        <name>WRM</name>
+        <initializer>0x0057524d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="148" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1d099dd1c505022939dc9540cd00375f1" prot="public" static="no">
+        <name>GOA</name>
+        <initializer>0x00474f41</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="149" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1a53c70691ce2dc3e8f47abd5c7cb0b9b" prot="public" static="no">
+        <name>STP</name>
+        <initializer>0x00535450</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="150" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1c5d957e4fd3dc11cd97a54cf9ca057a4" prot="public" static="no">
+        <name>RST</name>
+        <initializer>0x00525354</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="151" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_18a0d2564a5ab8fa0a8a0581fba5453e2" prot="public" static="no">
+        <name>CON</name>
+        <initializer>0x00434f4e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="152" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_18a443f21b05fcec0aeed412c7613750a" prot="public" static="no">
+        <name>HST</name>
+        <initializer>0x00485354</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="153" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1354b6e10a51da524fa55ca6cb093145c" prot="public" static="no">
+        <name>RCO</name>
+        <initializer>0x0052434f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="154" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_138eb76aa0a9a1bb1dac30c75be4a05b6" prot="public" static="no">
+        <name>BIG</name>
+        <initializer>0x00424947</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="155" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_15b820ad3e625617dc4019e74e390cfc2" prot="public" static="no">
+        <name>WEE</name>
+        <initializer>0x00574545</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="156" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_16f6489887e08bff4887d0bc5dcf214d8" prot="public" static="no">
+        <name>ACK</name>
+        <initializer>0x0041434b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="157" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1da396e85378682c45cb58341ba3ee99d" prot="public" static="no">
+        <name>WM</name>
+        <initializer>0x4d570000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="159" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_14608958cdf4c8b8ff0a6e301c4c23ae1" prot="public" static="no">
+        <name>RM</name>
+        <initializer>0x4d520000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="160" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1277a950c725b69e43a1dae2993119fd4" prot="public" static="no">
+        <name>GO</name>
+        <initializer>0x4f470000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="161" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1b52cdc475a6866d1be7b5807fb623f50" prot="public" static="no">
+        <name>ST</name>
+        <initializer>0x54530000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="162" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1f8903d8eea3868940c60af887473b152" prot="public" static="no">
+        <name>RS</name>
+        <initializer>0x53520000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="163" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_121151d72f7cc58ba09ce95ec2fdbfd14" prot="public" static="no">
+        <name>ER</name>
+        <initializer>0x00004355</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="164" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1059504a6b56c0504be28dab77899f27a" prot="public" static="no">
+        <name>TCMD_OK</name>
+        <initializer>0x00004b4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="165" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_135beee7b0f2f3e294c4a4a69a5f02df4" prot="public" static="no">
+        <name>DUMMY</name>
+        <initializer>0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="166" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_1d76d1750a6cdeebd506bfcd6752554d2" prot="public" static="no">
+        <name>ON</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="168" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sdsu__emir__interface_8h_129e413f6725b2ba32d165ffaa35b01e5" prot="public" static="no">
+        <name>OFF</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="169" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1928bb4410cfd346610898f534bb490be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_create</definition>
+        <argsstring>(const char *devname, SDSU_CONTEXT **con)</argsstring>
+        <name>sdsu_create</name>
+        <param>
+          <type>const char *</type>
+          <declname>devname</declname>
+        </param>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> **</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new SDSU context and loads the RTAI SDSU driver module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="223"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1001ee257999cea614b734c621fc4ca3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_get_context</definition>
+        <argsstring>(const char *devname, SDSU_CONTEXT **con)</argsstring>
+        <name>sdsu_get_context</name>
+        <param>
+          <type>const char *</type>
+          <declname>devname</declname>
+        </param>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> **</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Attach to shared memory context structure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="226"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_10652ef8ddd12ba44189a99e5e4aea975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_free_context</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_free_context</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Free shared memory context structure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="229"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1969e3d6ceba3a77d1100e1becd3d595d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_free</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_free</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Unloads the RTAI SDSU driver module and removes the SDSU context. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="232"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1df21e3d12c564e47c074bc515cde96b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sdsu_display</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_display</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Write the contents of the SDSU context structure to standard output. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="235"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1f11035f4bc31f46275548a8a3cf93cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_write_pci</definition>
+        <argsstring>(SDSU_CONTEXT *con, const char memtype, const UINT32 memadr, const INT32 word)</argsstring>
+        <name>sdsu_write_pci</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <param>
+          <type>const char</type>
+          <declname>memtype</declname>
+        </param>
+        <param>
+          <type>const UINT32</type>
+          <declname>memadr</declname>
+        </param>
+        <param>
+          <type>const INT32</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+<para>Write a word to the PCI card memory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="239"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_16b003e31d31d813bbbf58def5ca50d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_read_pci</definition>
+        <argsstring>(SDSU_CONTEXT *con, const char memtype, const UINT32 memadr, INT32 *word)</argsstring>
+        <name>sdsu_read_pci</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <param>
+          <type>const char</type>
+          <declname>memtype</declname>
+        </param>
+        <param>
+          <type>const UINT32</type>
+          <declname>memadr</declname>
+        </param>
+        <param>
+          <type>INT32 *</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+<para>Read a word from the PCI card memory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="243"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_15118101422f966c4722755aacbb2dbfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_start_pci</definition>
+        <argsstring>(SDSU_CONTEXT *con, const INT32 id)</argsstring>
+        <name>sdsu_start_pci</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <param>
+          <type>const INT32</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Start an application loaded in the PCI card. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="246"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_18f7a6dde25f25b63eaa4bfb357f4a103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_stop_pci</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_stop_pci</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Stop an application running on the PCI card. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="249"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_132e1b4ccb67a5864d6df37e487df590e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_reset_pci</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_reset_pci</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Reset the PCI card. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="252"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1546eb975ff7bda9d91c8302fce746d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_rco_pci</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_rco_pci</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Hardware reset for the SDSU controller. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="255"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_15ffe01464fb78f5acf72ad6a3f77cf1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_big_endian_pci</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_big_endian_pci</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Big endian byte swapping for the PCI card. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="258"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1c9e289495dae5235cfde4450d9451764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_little_endian_pci</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_little_endian_pci</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Little endian byte swapping for the PCI card. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="261"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1532f6cd6e72bf965e6e935cd46cde2f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_write_sdsu</definition>
+        <argsstring>(SDSU_CONTEXT *con, const char memtype, const UINT32 memadr, const INT32 word)</argsstring>
+        <name>sdsu_write_sdsu</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <param>
+          <type>const char</type>
+          <declname>memtype</declname>
+        </param>
+        <param>
+          <type>const UINT32</type>
+          <declname>memadr</declname>
+        </param>
+        <param>
+          <type>const INT32</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+<para>Write a word to SDSU controller memory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="265"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_104ca139fc07cefcc57077f2951ef5d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_read_sdsu</definition>
+        <argsstring>(SDSU_CONTEXT *con, const char memtype, const UINT32 memadr, INT32 *word)</argsstring>
+        <name>sdsu_read_sdsu</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <param>
+          <type>const char</type>
+          <declname>memtype</declname>
+        </param>
+        <param>
+          <type>const UINT32</type>
+          <declname>memadr</declname>
+        </param>
+        <param>
+          <type>INT32 *</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+<para>Read a word from SDSU controller memory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="269"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_162218bf88b63dff839fed193d070bd9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_start_sdsu</definition>
+        <argsstring>(SDSU_CONTEXT *con, const INT32 id)</argsstring>
+        <name>sdsu_start_sdsu</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <param>
+          <type>const INT32</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Start an application loaded in the SDSU controller. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="272"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1c84da8ee2786d3cd8508700d5ce86979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_stop_sdsu</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_stop_sdsu</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Stop an application running on the SDSU controller. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="275"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_11f42f362c220e2b4e402e3f77678d9d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_reset_sdsu</definition>
+        <argsstring>(SDSU_CONTEXT *con)</argsstring>
+        <name>sdsu_reset_sdsu</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <briefdescription>
+<para>Reset the SDSU controller. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="278"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_1f30d040f0989bc074cb5d6579d98eb0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_write_data</definition>
+        <argsstring>(SDSU_CONTEXT *con, volatile const UINT32 bufphysadr, const INT32 bufsize, const UINT32 bufid)</argsstring>
+        <name>sdsu_write_data</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <param>
+          <type>volatile const UINT32</type>
+          <declname>bufphysadr</declname>
+        </param>
+        <param>
+          <type>const INT32</type>
+          <declname>bufsize</declname>
+        </param>
+        <param>
+          <type>const UINT32</type>
+          <declname>bufid</declname>
+        </param>
+        <briefdescription>
+<para>Send an empty data buffer to the SDSU driver. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="283"/>
+      </memberdef>
+      <memberdef kind="function" id="sdsu__emir__interface_8h_18cc68c6c26c622db747130d5c07b8426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sdsu_read_data</definition>
+        <argsstring>(SDSU_CONTEXT *con, volatile UINT32 *bufphysadr, INT32 *bufsize, UINT32 *bufid)</argsstring>
+        <name>sdsu_read_data</name>
+        <param>
+          <type><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref> *</type>
+          <declname>con</declname>
+        </param>
+        <param>
+          <type>volatile UINT32 *</type>
+          <declname>bufphysadr</declname>
+        </param>
+        <param>
+          <type>INT32 *</type>
+          <declname>bufsize</declname>
+        </param>
+        <param>
+          <type>UINT32 *</type>
+          <declname>bufid</declname>
+        </param>
+        <briefdescription>
+<para>Get a full data buffer from the SDSU driver. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h" line="287"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="55"><highlight class="preprocessor">#ifndef<sp/>__SDSU_INTERFACE_H__</highlight></codeline>
+<codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__SDSU_INTERFACE_H__</highlight></codeline>
+<codeline lineno="57"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sdsu_platform.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="sdsu__emir__interface_8h_1d7131843820ab8f351d2be9c47cd9449" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SDSU_LOW_PRIORITY<sp/>1</highlight></codeline>
+<codeline lineno="61" refid="sdsu__emir__interface_8h_12149ad07e1ad2c01c55d62d6f6e9dc1f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SDSU_LAST_BUFFER<sp/><sp/>1</highlight></codeline>
+<codeline lineno="62"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="sdsu__emir__interface_8h_129d42114f3a3d8e1a0acff2167dd031e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SDSU_OK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64" refid="sdsu__emir__interface_8h_1343348fb4ca310b4f57559e66c039ba8" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_BUFSIZE<sp/><sp/><sp/>-128<sp/></highlight></codeline>
+<codeline lineno="65" refid="sdsu__emir__interface_8h_14ea65111e404b2b2ce2a829636088842" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_CLOSEFIFO<sp/>-129<sp/></highlight></codeline>
+<codeline lineno="66" refid="sdsu__emir__interface_8h_18f6687b1cec522cc58714ea804475054" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_CLOSESDSU<sp/>-130<sp/></highlight></codeline>
+<codeline lineno="67" refid="sdsu__emir__interface_8h_1ee737cc0222a72d9eec3490438a42681" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_CMD<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-131<sp/></highlight></codeline>
+<codeline lineno="68" refid="sdsu__emir__interface_8h_16753e7cac2fe02fe37fea125f8da171a" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_DEVNAME<sp/><sp/><sp/>-132<sp/></highlight></codeline>
+<codeline lineno="69" refid="sdsu__emir__interface_8h_11a031c8be7a7eee09bd66875f242efbd" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_GETBUF<sp/><sp/><sp/><sp/>-133<sp/></highlight></codeline>
+<codeline lineno="70" refid="sdsu__emir__interface_8h_12ae3014555b2256ebbc214ae5a9a0564" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_INSDRV<sp/><sp/><sp/><sp/>-134<sp/></highlight></codeline>
+<codeline lineno="71" refid="sdsu__emir__interface_8h_18affb6ca7aa7a4ba2d58b12c0ee3472f" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_INVCON<sp/><sp/><sp/><sp/>-135<sp/></highlight></codeline>
+<codeline lineno="72" refid="sdsu__emir__interface_8h_15148f3e4051977a2b85a6ebfd383d7dd" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_KEY<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-136<sp/></highlight></codeline>
+<codeline lineno="73" refid="sdsu__emir__interface_8h_181de4f777b1e6e0be265a15b8b082e1b" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_MALLOC<sp/><sp/><sp/><sp/>-137<sp/></highlight></codeline>
+<codeline lineno="74" refid="sdsu__emir__interface_8h_18572b2c252273a373c3c8888f5b617d3" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_MAP<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-138<sp/></highlight></codeline>
+<codeline lineno="75" refid="sdsu__emir__interface_8h_1487b8bd482cdde7edc7c4ef7a00f2c7d" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_MBUFF<sp/><sp/><sp/><sp/><sp/>-139<sp/></highlight></codeline>
+<codeline lineno="76" refid="sdsu__emir__interface_8h_1c2685aae5afd9ea0aa205ffdc3de034f" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_MUTEX<sp/><sp/><sp/><sp/><sp/>-140<sp/></highlight></codeline>
+<codeline lineno="77" refid="sdsu__emir__interface_8h_1e3dcaba05e3c9b563ea35275d685a1ce" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_NOCON<sp/><sp/><sp/><sp/><sp/>-141<sp/></highlight></codeline>
+<codeline lineno="78" refid="sdsu__emir__interface_8h_14db3a1807786855395b36e35c95ca7a0" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_NOWRITER<sp/><sp/>-142<sp/></highlight></codeline>
+<codeline lineno="79" refid="sdsu__emir__interface_8h_170f72d6d8aecb1eb0c70f66bcfe5936e" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_NUMBUF<sp/><sp/><sp/><sp/>-143<sp/></highlight></codeline>
+<codeline lineno="80" refid="sdsu__emir__interface_8h_18dbe3cc74e7739cb2871a3efb47dc261" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_OPENFIFO<sp/><sp/>-144<sp/></highlight></codeline>
+<codeline lineno="81" refid="sdsu__emir__interface_8h_167e9efb6ba6dbfb614df7ca07be45f52" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_OPENSDSU<sp/><sp/>-145<sp/></highlight></codeline>
+<codeline lineno="82" refid="sdsu__emir__interface_8h_1ff86ed11fe4ad7c481d2d6ac8149b36c" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_PROCRUN<sp/><sp/><sp/>-147<sp/></highlight></codeline>
+<codeline lineno="83" refid="sdsu__emir__interface_8h_117acc488b32f5580374614e236d08278" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_READFIFO<sp/><sp/>-148<sp/></highlight></codeline>
+<codeline lineno="84" refid="sdsu__emir__interface_8h_1ca794f0d64b759738c30854f60a5097e" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_RMDRV<sp/><sp/><sp/><sp/><sp/>-149<sp/></highlight></codeline>
+<codeline lineno="85" refid="sdsu__emir__interface_8h_1a25e43d7a00d0a7ac69f00e4228c9a40" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_SEMID<sp/><sp/><sp/><sp/><sp/>-151<sp/></highlight></codeline>
+<codeline lineno="86" refid="sdsu__emir__interface_8h_177684f4b49d524633652c5b7363cbbce" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_TIMEOUT<sp/><sp/><sp/>-154<sp/></highlight></codeline>
+<codeline lineno="87" refid="sdsu__emir__interface_8h_1ad22857d515fbeae9051de757e738540" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_UNMAP<sp/><sp/><sp/><sp/><sp/>-155<sp/></highlight></codeline>
+<codeline lineno="88" refid="sdsu__emir__interface_8h_16c4b4f7fd018d96c8d44171916d4e5f8" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_USECON<sp/><sp/><sp/><sp/>-156<sp/></highlight></codeline>
+<codeline lineno="89" refid="sdsu__emir__interface_8h_189ce0f32116cb3107061b7ef8f1b0998" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_WRITEFIFO<sp/>-157<sp/></highlight></codeline>
+<codeline lineno="90" refid="sdsu__emir__interface_8h_11f40133a1d98f499573477a364af1f74" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_WRITER<sp/><sp/><sp/><sp/>-158<sp/></highlight></codeline>
+<codeline lineno="91" refid="sdsu__emir__interface_8h_1c024d64e6b06ed085631dde6da87f41b" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_ERR_RESETFIFO<sp/>-160<sp/></highlight></codeline>
+<codeline lineno="93" refid="sdsu__emir__interface_8h_1ac94620352e7b2bebab5598c1d381bab" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_DEVNAME_LEN<sp/><sp/><sp/>16<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="94" refid="sdsu__emir__interface_8h_1aeacdb96ee8fb89fab3fa5e3084797ce" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_BUFNAME_LEN<sp/><sp/><sp/>20<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95" refid="sdsu__emir__interface_8h_1fe747636e3775a911fae186a17d492f5" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_FIFO_LEN<sp/><sp/><sp/><sp/><sp/><sp/>16<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97" refid="sdsu__emir__interface_8h_1d2c154c2430d70dec37853781334a59c" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_PCI_X_MEM<sp/><sp/><sp/><sp/><sp/>0x00005f58<sp/></highlight></codeline>
+<codeline lineno="98" refid="sdsu__emir__interface_8h_148c23050a999cccd4334faee2664b074" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_PCI_Y_MEM<sp/><sp/><sp/><sp/><sp/>0x00005f59<sp/></highlight></codeline>
+<codeline lineno="99" refid="sdsu__emir__interface_8h_151ba14722ad7fdd1b6ee0f539707515f" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_PCI_P_MEM<sp/><sp/><sp/><sp/><sp/>0x00005f50<sp/></highlight></codeline>
+<codeline lineno="101" refid="sdsu__emir__interface_8h_1e6f8579cfac0ad89fecf43b5b242ba94" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_TIME_X_MEM<sp/><sp/><sp/><sp/>0x00200000<sp/></highlight></codeline>
+<codeline lineno="102" refid="sdsu__emir__interface_8h_14aaac20cdf18682c00e0cd7f642c723b" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_TIME_Y_MEM<sp/><sp/><sp/><sp/>0x00400000<sp/></highlight></codeline>
+<codeline lineno="103" refid="sdsu__emir__interface_8h_1c81c1d586a4418f79d1572d0944b2dcb" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_TIME_P_MEM<sp/><sp/><sp/><sp/>0x00100000<sp/></highlight></codeline>
+<codeline lineno="105" refid="sdsu__emir__interface_8h_1fe0511d9fa20f3db5917d19fca9c6e1a" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_MAX_FIFO<sp/><sp/><sp/><sp/><sp/><sp/>11<sp/><sp/></highlight></codeline>
+<codeline lineno="106" refid="sdsu__emir__interface_8h_10e34daf62871a9daff732d9d9755e8ad" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_MAX_MSG<sp/><sp/><sp/><sp/><sp/><sp/><sp/>10<sp/><sp/></highlight></codeline>
+<codeline lineno="107" refid="sdsu__emir__interface_8h_153c9c9cc19384a0704528d74ee3cfecb" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_MAX_BUFFER<sp/><sp/><sp/><sp/>100<sp/></highlight></codeline>
+<codeline lineno="108" refid="sdsu__emir__interface_8h_1ce24d1b69aa56130e0f389953aba86ed" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_MIN_BUFFER<sp/><sp/><sp/><sp/>2<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109" refid="sdsu__emir__interface_8h_1092923959bc29ff546fcc5f952629f44" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_MUTEX_SEM_ID<sp/><sp/>11<sp/><sp/></highlight></codeline>
+<codeline lineno="110" refid="sdsu__emir__interface_8h_1991cbd21f94b5bcc8313964e066d52ed" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_SYNC_SEM_ID<sp/><sp/><sp/>12<sp/><sp/></highlight></codeline>
+<codeline lineno="111" refid="sdsu__emir__interface_8h_1d3b131d80e91b19ef20eb08fdb58d3a4" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_CMD_SEM_ID<sp/><sp/><sp/><sp/>13<sp/><sp/></highlight></codeline>
+<codeline lineno="113" refid="sdsu__emir__interface_8h_189903410253c2d503cc6c5e13fb9de87" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_DEV_FILE<sp/>&quot;/dev/sdsu&quot;<sp/></highlight></codeline>
+<codeline lineno="114" refid="sdsu__emir__interface_8h_109a0348c5fcbf178203faea303e34eb5" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_DIR<sp/>&quot;ULTRACAM_TOP&quot;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116" refid="sdsu__emir__interface_8h_14c3f00bfdbfe36e7ae6c68fd73be06e6" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_TRUE<sp/><sp/>1<sp/></highlight></codeline>
+<codeline lineno="117" refid="sdsu__emir__interface_8h_1168e43c87ec857eb975b28ce24e16429" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_FALSE<sp/>0<sp/></highlight></codeline>
+<codeline lineno="120" refid="sdsu__emir__interface_8h_1de001d191df4f985b96bb17ed92e1ea5" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_BIGPHYSAREA_PAGES<sp/>32769<sp/></highlight><highlight class="comment">/*<sp/>128MB<sp/>+<sp/>2<sp/>pages<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="sdsu__emir__interface_8h_1e1b66b8df68990d8784a19666686d063" refkind="member"><highlight class="preprocessor">#define<sp/>SDSU_BURST_BLOCK<sp/>0x10000</highlight></codeline>
+<codeline lineno="127"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="135" refid="sdsu__emir__interface_8h_107acf38d2d0bbb76cabffbe975ea2098" refkind="member"><highlight class="preprocessor">#define<sp/>USER_DATA_EMPTY<sp/>0<sp/><sp/></highlight></codeline>
+<codeline lineno="136" refid="sdsu__emir__interface_8h_1f430697b71d7bc744a6303177894fee0" refkind="member"><highlight class="preprocessor">#define<sp/>USER_DATA_FULL<sp/><sp/>1<sp/><sp/></highlight></codeline>
+<codeline lineno="137" refid="sdsu__emir__interface_8h_11511e49937a80f3817cfd1e3d7f5bdf5" refkind="member"><highlight class="preprocessor">#define<sp/>USER_USER_EMPTY<sp/>2<sp/><sp/></highlight></codeline>
+<codeline lineno="138" refid="sdsu__emir__interface_8h_1b6b90cdf932136de6eb7649cfa842a97" refkind="member"><highlight class="preprocessor">#define<sp/>USER_PCI_CMD<sp/><sp/><sp/><sp/>3<sp/><sp/></highlight></codeline>
+<codeline lineno="139" refid="sdsu__emir__interface_8h_1544cc7405dd3765aa0f6a5e6313961fb" refkind="member"><highlight class="preprocessor">#define<sp/>USER_PCI_REPLY<sp/><sp/>4<sp/><sp/></highlight></codeline>
+<codeline lineno="140" refid="sdsu__emir__interface_8h_1b75a350369654045bec99c838e6fb0d8" refkind="member"><highlight class="preprocessor">#define<sp/>USER_TIME_CMD<sp/><sp/><sp/>5<sp/><sp/></highlight></codeline>
+<codeline lineno="141" refid="sdsu__emir__interface_8h_1e78f2d2d32721f9d02e0c86176cdb163" refkind="member"><highlight class="preprocessor">#define<sp/>USER_TIME_REPLY<sp/>6<sp/><sp/></highlight></codeline>
+<codeline lineno="142" refid="sdsu__emir__interface_8h_15ce74e60af33eb8546e3c29352c1a531" refkind="member"><highlight class="preprocessor">#define<sp/>TIME_PCI_CMD<sp/><sp/><sp/><sp/>7<sp/><sp/></highlight></codeline>
+<codeline lineno="143" refid="sdsu__emir__interface_8h_1b1a78537f88d5da00a871d2a0ba209f4" refkind="member"><highlight class="preprocessor">#define<sp/>TIME_PCI_REPLY<sp/><sp/>8<sp/><sp/></highlight></codeline>
+<codeline lineno="144" refid="sdsu__emir__interface_8h_13c889ca5240d1379c6cee1315cae92ac" refkind="member"><highlight class="preprocessor">#define<sp/>DATA_PCI_CMD<sp/><sp/><sp/><sp/>9<sp/><sp/></highlight></codeline>
+<codeline lineno="145" refid="sdsu__emir__interface_8h_1197f08674a0acd6c504c579c1c7245da" refkind="member"><highlight class="preprocessor">#define<sp/>DATA_PCI_REPLY<sp/><sp/>10<sp/></highlight></codeline>
+<codeline lineno="147" refid="sdsu__emir__interface_8h_1e0007399b618a5ff4c705d55f83a3436" refkind="member"><highlight class="preprocessor">#define<sp/>RDM<sp/>0x0052444d</highlight></codeline>
+<codeline lineno="148" refid="sdsu__emir__interface_8h_127ff13eae7dcd67652aa6b877d932994" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WRM<sp/>0x0057524d</highlight></codeline>
+<codeline lineno="149" refid="sdsu__emir__interface_8h_1d099dd1c505022939dc9540cd00375f1" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GOA<sp/>0x00474f41</highlight></codeline>
+<codeline lineno="150" refid="sdsu__emir__interface_8h_1a53c70691ce2dc3e8f47abd5c7cb0b9b" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>STP<sp/>0x00535450</highlight></codeline>
+<codeline lineno="151" refid="sdsu__emir__interface_8h_1c5d957e4fd3dc11cd97a54cf9ca057a4" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>RST<sp/>0x00525354</highlight></codeline>
+<codeline lineno="152" refid="sdsu__emir__interface_8h_18a0d2564a5ab8fa0a8a0581fba5453e2" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CON<sp/>0x00434f4e</highlight></codeline>
+<codeline lineno="153" refid="sdsu__emir__interface_8h_18a443f21b05fcec0aeed412c7613750a" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HST<sp/>0x00485354</highlight></codeline>
+<codeline lineno="154" refid="sdsu__emir__interface_8h_1354b6e10a51da524fa55ca6cb093145c" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>RCO<sp/>0x0052434f</highlight></codeline>
+<codeline lineno="155" refid="sdsu__emir__interface_8h_138eb76aa0a9a1bb1dac30c75be4a05b6" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BIG<sp/>0x00424947</highlight></codeline>
+<codeline lineno="156" refid="sdsu__emir__interface_8h_15b820ad3e625617dc4019e74e390cfc2" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WEE<sp/>0x00574545</highlight></codeline>
+<codeline lineno="157" refid="sdsu__emir__interface_8h_16f6489887e08bff4887d0bc5dcf214d8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ACK<sp/>0x0041434b</highlight></codeline>
+<codeline lineno="158"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="sdsu__emir__interface_8h_1da396e85378682c45cb58341ba3ee99d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WM<sp/><sp/>0x4d570000</highlight></codeline>
+<codeline lineno="160" refid="sdsu__emir__interface_8h_14608958cdf4c8b8ff0a6e301c4c23ae1" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>RM<sp/><sp/>0x4d520000</highlight></codeline>
+<codeline lineno="161" refid="sdsu__emir__interface_8h_1277a950c725b69e43a1dae2993119fd4" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GO<sp/><sp/>0x4f470000</highlight></codeline>
+<codeline lineno="162" refid="sdsu__emir__interface_8h_1b52cdc475a6866d1be7b5807fb623f50" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ST<sp/><sp/>0x54530000</highlight></codeline>
+<codeline lineno="163" refid="sdsu__emir__interface_8h_1f8903d8eea3868940c60af887473b152" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>RS<sp/><sp/>0x53520000</highlight></codeline>
+<codeline lineno="164" refid="sdsu__emir__interface_8h_121151d72f7cc58ba09ce95ec2fdbfd14" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ER<sp/><sp/><sp/><sp/><sp/><sp/>0x00004355</highlight></codeline>
+<codeline lineno="165" refid="sdsu__emir__interface_8h_1059504a6b56c0504be28dab77899f27a" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TCMD_OK<sp/>0x00004b4f</highlight></codeline>
+<codeline lineno="166" refid="sdsu__emir__interface_8h_135beee7b0f2f3e294c4a4a69a5f02df4" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DUMMY<sp/><sp/><sp/>0x0000</highlight></codeline>
+<codeline lineno="167"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="sdsu__emir__interface_8h_1d76d1750a6cdeebd506bfcd6752554d2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ON<sp/><sp/>1</highlight></codeline>
+<codeline lineno="169" refid="sdsu__emir__interface_8h_129e413f6725b2ba32d165ffaa35b01e5" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>OFF<sp/>0</highlight></codeline>
+<codeline lineno="170"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="172"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>cmd;<sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>arg1;<sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>arg2;<sp/></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>arg3;<sp/></highlight></codeline>
+<codeline lineno="177"><highlight class="normal">}<sp/><ref refid="structSDSU__PCI__CMD" kindref="compound">SDSU_PCI_CMD</ref>;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>cmd;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>status;<sp/></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>data;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="184"><highlight class="normal">}<sp/><ref refid="structSDSU__PCI__REPLY" kindref="compound">SDSU_PCI_REPLY</ref>;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>cmd;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>arg1;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>arg2;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}<sp/><ref refid="structSDSU__TIME__CMD" kindref="compound">SDSU_TIME_CMD</ref>;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>cmd;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>data;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal">}<sp/><ref refid="structSDSU__TIME__REPLY" kindref="compound">SDSU_TIME_REPLY</ref>;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>bufphysadr;<sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/>bufsize;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>bufid;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="204"><highlight class="normal">}<sp/><ref refid="structSDSU__BUFFER" kindref="compound">SDSU_BUFFER</ref>;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>name[<ref refid="SDSUlcu_8l_2ct__interface_8h_1fe747636e3775a911fae186a17d492f5" kindref="member">SDSU_FIFO_LEN</ref>];<sp/></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>MSG_Q_ID<sp/>id;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">}<sp/><ref refid="structSDSU__FIFODEV" kindref="compound">SDSU_FIFODEV</ref>;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>frameGrabber<sp/>=<sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_129e413f6725b2ba32d165ffaa35b01e5" kindref="member">OFF</ref>;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fgStatus<sp/>=<sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_129e413f6725b2ba32d165ffaa35b01e5" kindref="member">OFF</ref>;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>controller<sp/><sp/><sp/>=<sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_129e413f6725b2ba32d165ffaa35b01e5" kindref="member">OFF</ref>;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cStatus<sp/>=<sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_129e413f6725b2ba32d165ffaa35b01e5" kindref="member">OFF</ref>;</highlight></codeline>
+<codeline lineno="218" refid="structSDSU__CONTEXT_114b8e524fca1f5dba22c6dfd5e4dc2d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/><sp/>mempos[3]<sp/>=<sp/>{<sp/>0,0,0<sp/>};</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structSDSU__FIFODEV" kindref="compound">SDSU_FIFODEV</ref><sp/>fifo[<ref refid="SDSUlcu_8l_2ct__interface_8h_1fe0511d9fa20f3db5917d19fca9c6e1a" kindref="member">SDSU_MAX_FIFO</ref>];<sp/></highlight></codeline>
+<codeline lineno="220"><highlight class="normal">}<sp/><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref>;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1928bb4410cfd346610898f534bb490be" kindref="member">sdsu_create</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*devname,<sp/><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>**con);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1001ee257999cea614b734c621fc4ca3f" kindref="member">sdsu_get_context</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*devname,<sp/><ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>**con);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_10652ef8ddd12ba44189a99e5e4aea975" kindref="member">sdsu_free_context</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1969e3d6ceba3a77d1100e1becd3d595d" kindref="member">sdsu_free</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1df21e3d12c564e47c074bc515cde96b4" kindref="member">sdsu_display</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1f11035f4bc31f46275548a8a3cf93cc7" kindref="member">sdsu_write_pci</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>memtype,</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>memadr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/>word);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_16b003e31d31d813bbbf58def5ca50d2b" kindref="member">sdsu_read_pci</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>memtype,</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>memadr,<sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/>*word);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_15118101422f966c4722755aacbb2dbfc" kindref="member">sdsu_start_pci</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_18f7a6dde25f25b63eaa4bfb357f4a103" kindref="member">sdsu_stop_pci</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_132e1b4ccb67a5864d6df37e487df590e" kindref="member">sdsu_reset_pci</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1546eb975ff7bda9d91c8302fce746d16" kindref="member">sdsu_rco_pci</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_15ffe01464fb78f5acf72ad6a3f77cf1e" kindref="member">sdsu_big_endian_pci</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1c9e289495dae5235cfde4450d9451764" kindref="member">sdsu_little_endian_pci</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1532f6cd6e72bf965e6e935cd46cde2f8" kindref="member">sdsu_write_sdsu</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>memtype,</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>memadr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/>word);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_104ca139fc07cefcc57077f2951ef5d94" kindref="member">sdsu_read_sdsu</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>memtype,</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>memadr,<sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/>*word);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_162218bf88b63dff839fed193d070bd9d" kindref="member">sdsu_start_sdsu</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1c84da8ee2786d3cd8508700d5ce86979" kindref="member">sdsu_stop_sdsu</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_11f42f362c220e2b4e402e3f77678d9d3" kindref="member">sdsu_reset_sdsu</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_1f30d040f0989bc074cb5d6579d98eb0e" kindref="member">sdsu_write_data</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con,</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>bufphysadr,</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/>bufsize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>bufid);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="sdsu__emir__interface_8h_18cc68c6c26c622db747130d5c07b8426" kindref="member">sdsu_read_data</ref>(<ref refid="structSDSU__CONTEXT" kindref="compound">SDSU_CONTEXT</ref><sp/>*con,<sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>*bufphysadr,</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" kindref="member">INT32</ref><sp/>*bufsize,<sp/><ref refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" kindref="member">UINT32</ref><sp/>*bufid);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__SDSU_INTERFACE_H__<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/sdsu_emir_interface.h"/>
+  </compounddef>
+</doxygen>

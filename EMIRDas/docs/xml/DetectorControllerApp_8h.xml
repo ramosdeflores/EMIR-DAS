@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="DetectorControllerApp_8h" kind="file">
+    <compoundname>DetectorControllerApp.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="yes">Trace.h</includes>
+    <includedby refid="DetectorControllerApp_8cpp" local="yes">DetectorControllerApp.cpp</includedby>
+    <includedby refid="EMIRDasControllerHw_8h" local="yes">EMIRDasControllerHw.h</includedby>
+    <includedby refid="EMIRDasControllerHw_8cpp" local="yes">EMIRDasControllerHw.cpp</includedby>
+    <incdepgraph>
+      <node id="822">
+        <label>string</label>
+      </node>
+      <node id="823">
+        <label>Trace.h</label>
+      </node>
+      <node id="821">
+        <label>DetectorControllerApp.h</label>
+        <link refid="DetectorControllerApp.h"/>
+        <childnode refid="822" relation="include">
+        </childnode>
+        <childnode refid="823" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="838">
+        <label>EMIRDasAdapter.cpp</label>
+        <link refid="old_2EMIRDasAdapter_8cpp"/>
+      </node>
+      <node id="826">
+        <label>EMIRDasControllerHw.h</label>
+        <link refid="EMIRDasControllerHw_8h"/>
+        <childnode refid="827" relation="include">
+        </childnode>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+      </node>
+      <node id="840">
+        <label>EMIRDasConfigAgent.cpp</label>
+        <link refid="old_2EMIRDasConfigAgent_8cpp"/>
+      </node>
+      <node id="831">
+        <label>EMIRDasAdapter.h</label>
+        <link refid="EMIRDasAdapter_8h"/>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+      </node>
+      <node id="836">
+        <label>EMIRDas.cpp</label>
+        <link refid="old_2EMIRDas_8cpp"/>
+      </node>
+      <node id="834">
+        <label>EMIRDasConfigAgent.cpp</label>
+        <link refid="EMIRDasConfigAgent_8cpp"/>
+      </node>
+      <node id="837">
+        <label>EMIRDasAdapter.h</label>
+        <link refid="old_2EMIRDasAdapter_8h"/>
+        <childnode refid="836" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+      </node>
+      <node id="839">
+        <label>EMIRDasConfigAgent.h</label>
+        <link refid="old_2EMIRDasConfigAgent_8h"/>
+        <childnode refid="836" relation="include">
+        </childnode>
+        <childnode refid="840" relation="include">
+        </childnode>
+      </node>
+      <node id="833">
+        <label>EMIRDasConfigAgent.h</label>
+        <link refid="EMIRDasConfigAgent_8h"/>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="834" relation="include">
+        </childnode>
+      </node>
+      <node id="841">
+        <label>dasApplication.cpp</label>
+        <link refid="examples_2runEMIRDas_8p_8old_2dasApplication_8cpp"/>
+      </node>
+      <node id="830">
+        <label>EMIRDas.cpp</label>
+        <link refid="EMIRDas_8cpp"/>
+      </node>
+      <node id="824">
+        <label>DetectorControllerApp.h</label>
+        <link refid="DetectorControllerApp.h"/>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="826" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+      </node>
+      <node id="829">
+        <label>EMIRDas.h</label>
+        <link refid="EMIRDas_8h"/>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="831" relation="include">
+        </childnode>
+        <childnode refid="833" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+      </node>
+      <node id="827">
+        <label>EMIRDasController.cpp</label>
+        <link refid="EMIRDasController_8cpp"/>
+      </node>
+      <node id="835">
+        <label>EMIRDas.h</label>
+        <link refid="old_2EMIRDas_8h"/>
+        <childnode refid="836" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+        <childnode refid="839" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="841" relation="include">
+        </childnode>
+        <childnode refid="842" relation="include">
+        </childnode>
+      </node>
+      <node id="832">
+        <label>EMIRDasAdapter.cpp</label>
+        <link refid="EMIRDasAdapter_8cpp"/>
+      </node>
+      <node id="843">
+        <label>EMIRDasControllerHw.cpp</label>
+        <link refid="EMIRDasControllerHw_8cpp"/>
+      </node>
+      <node id="828">
+        <label>EMIRDasController.h</label>
+        <link refid="EMIRDasController_8h"/>
+        <childnode refid="829" relation="include">
+        </childnode>
+        <childnode refid="835" relation="include">
+        </childnode>
+        <childnode refid="827" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+      </node>
+      <node id="825">
+        <label>DetectorControllerApp.cpp</label>
+        <link refid="DetectorControllerApp_8cpp"/>
+      </node>
+      <node id="842">
+        <label>dasApplication.cpp</label>
+        <link refid="runEMIRDas_8p_2dasApplication_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classDetectorControllerApp">DetectorControllerApp</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="DetectorControllerApp_8h_12aacaade92938b83866329525ab23689" prot="public" static="no">
+        <name>_BEGIN</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="10" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerApp_8h_1040d462ae108df7aeebed67a5ed5e6f4" prot="public" static="no">
+        <name>_DATA</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="11" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerApp_8h_1dbeb8c8ade13eabcede34ea234ebe1cf" prot="public" static="no">
+        <name>_SYMBOL</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="12" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerApp_8h_1484ccc8af4c825fd4897a25683e63745" prot="public" static="no">
+        <name>_START</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="13" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerApp_8h_13878801ea13a6fa07624f802383e6f46" prot="public" static="no">
+        <name>_END</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="14" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerApp_8h_1ef12f3ae010d5aab8a46e34584218093" prot="public" static="no">
+        <name>_ENDOFFILE</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="15" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerApp_8h_1aa4b33bfebb79eab0f51a1bd808797bb" prot="public" static="no">
+        <name>PARAM_FOUND</name>
+        <initializer>9999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="16" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>DetectorControllerApp.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_DetectorControllerApp_h_</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_DetectorControllerApp_h_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Trace.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="DetectorControllerApp_8h_12aacaade92938b83866329525ab23689" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_BEGIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="11" refid="DetectorControllerApp_8h_1040d462ae108df7aeebed67a5ed5e6f4" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="12" refid="DetectorControllerApp_8h_1dbeb8c8ade13eabcede34ea234ebe1cf" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_SYMBOL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="13" refid="DetectorControllerApp_8h_1484ccc8af4c825fd4897a25683e63745" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_START<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="14" refid="DetectorControllerApp_8h_13878801ea13a6fa07624f802383e6f46" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_END<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4</highlight></codeline>
+<codeline lineno="15" refid="DetectorControllerApp_8h_1ef12f3ae010d5aab8a46e34584218093" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_ENDOFFILE<sp/><sp/><sp/><sp/><sp/><sp/>5</highlight></codeline>
+<codeline lineno="16" refid="DetectorControllerApp_8h_1aa4b33bfebb79eab0f51a1bd808797bb" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PARAM_FOUND<sp/><sp/><sp/><sp/><sp/>9999</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classDetectorControllerApp" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classDetectorControllerApp" kindref="compound">DetectorControllerApp</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDetectorControllerApp_125661f6501ed709f310ce831312ee29b" kindref="member">DetectorControllerApp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>size_t);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_1bf898dc55f7741000cc0db1bd89bbc04" kindref="member">stop</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Stop<sp/>execution<sp/>of<sp/>the<sp/>application<sp/>on<sp/>the<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_10d2925c950db6dcbcf6b005440c8ca56" kindref="member">exec</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Execute<sp/>the<sp/>application.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_1c494d44968bad4695ae3c252ee12b950" kindref="member">startAqu</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Execute<sp/>the<sp/>application.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_12ca639a172ea2fa82575491785917348" kindref="member">load</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loads<sp/>the<sp/>application<sp/>into<sp/>the<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_1e57563b7157c66a6114c073b54f7d735" kindref="member">run</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loads<sp/>and<sp/>executes<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Write<sp/>a<sp/>value<sp/>on<sp/>the<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_1131773a74858125cb1d6f80d607cf75b" kindref="member">read</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>a<sp/>value<sp/>from<sp/>the<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_178bc4b941938cc941120eceb1e00d22f" kindref="member">getStat</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>application<sp/>status<sp/>(loaded,<sp/>running,<sp/>...)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_1a12b905b1ba701c3f647caa005985035" kindref="member">setStat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>stat);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="classDetectorControllerApp_1e57a11552c174f4d8e289317079106dc" kindref="member">getApp</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classDetectorControllerApp_1598139d44c93affc7c72fdcb2b9f88f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Trace<sp/>*<ref refid="classDetectorControllerApp_1598139d44c93affc7c72fdcb2b9f88f1" kindref="member">trace_</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Application<sp/>info</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>size_t<sp/>size;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*app;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*symbolStart;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>appStat;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>APP_IDLE,<sp/>...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cd;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Controller<sp/>descriptor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fg;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Controller<sp/>descriptor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parse(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>matchKeyWord(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>findKeyWord(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>loadData(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>loadSymbol(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>findSymbol(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h"/>
+  </compounddef>
+</doxygen>

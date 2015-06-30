@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="namespaceEMIRTYPES" kind="namespace">
+    <compoundname>EMIRTYPES</compoundname>
+    <innerclass refid="structEMIRTYPES_1_1NameValue">EMIRTYPES::NameValue</innerclass>
+    <innerclass refid="structEMIRTYPES_1_1AcquisitionConfiguration">EMIRTYPES::AcquisitionConfiguration</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceEMIRTYPES_17b54b23cf381ef104fe5b46616972002" prot="public" static="no">
+        <type>sequence&lt; <ref refid="structEMIRTYPES_1_1NameValue" kindref="compound">NameValue</ref> &gt;</type>
+        <definition>typedef sequence&lt;NameValue&gt; EMIRTYPES::ParamList</definition>
+        <argsstring></argsstring>
+        <name>ParamList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl" line="19" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceEMIRTYPES_17b54b23cf381ef104fe5b46616972002" prot="public" static="no">
+        <type>sequence&lt; <ref refid="structEMIRTYPES_1_1NameValue" kindref="compound">NameValue</ref> &gt;</type>
+        <definition>typedef sequence&lt;NameValue&gt; EMIRTYPES::ParamList</definition>
+        <argsstring></argsstring>
+        <name>ParamList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRTYPES.idl" line="19" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRTYPES.idl" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504" prot="public" static="no">
+        <name>ReadoutMode</name>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504943e2b464d9fba55c72974da430355ec" prot="public">
+          <name>SINGLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504943e2b464d9fba55c72974da430355ec" prot="public">
+          <name>SINGLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504b22487943d228983bcedd2150772ca89" prot="public">
+          <name>CDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504b22487943d228983bcedd2150772ca89" prot="public">
+          <name>CDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a650400dc9ab3e281b845b34d98cff5c0c0c4" prot="public">
+          <name>FOWLER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a650400dc9ab3e281b845b34d98cff5c0c0c4" prot="public">
+          <name>FOWLER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a65042ec7efebb0cb3cb0280572c400030508" prot="public">
+          <name>RAMP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a65042ec7efebb0cb3cb0280572c400030508" prot="public">
+          <name>RAMP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504f1653966ecfd93bd599d87b417f3b43e" prot="public">
+          <name>HDR_SIMPLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504f1653966ecfd93bd599d87b417f3b43e" prot="public">
+          <name>HDR_SIMPLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl" line="10" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab1" prot="public" static="no">
+        <name>SDSUControllerStatus</name>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab133366cc2e97a469d7898eebc20deee1e" prot="public">
+          <name>DETECTOR_IDLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab133366cc2e97a469d7898eebc20deee1e" prot="public">
+          <name>DETECTOR_IDLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab118d1afcd6be2704a4d0d18c954d79143" prot="public">
+          <name>DETECTOR_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab118d1afcd6be2704a4d0d18c954d79143" prot="public">
+          <name>DETECTOR_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab14557a26b126eac1387ae0ee5cf850a6f" prot="public">
+          <name>DETECTOR_RUNNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab14557a26b126eac1387ae0ee5cf850a6f" prot="public">
+          <name>DETECTOR_RUNNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab13a9be86228922a95968a3bd26ecfc629" prot="public">
+          <name>DETECTOR_ENDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab13a9be86228922a95968a3bd26ecfc629" prot="public">
+          <name>DETECTOR_ENDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl" line="12" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504" prot="public" static="no">
+        <name>ReadoutMode</name>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504943e2b464d9fba55c72974da430355ec" prot="public">
+          <name>SINGLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504943e2b464d9fba55c72974da430355ec" prot="public">
+          <name>SINGLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504b22487943d228983bcedd2150772ca89" prot="public">
+          <name>CDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504b22487943d228983bcedd2150772ca89" prot="public">
+          <name>CDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a650400dc9ab3e281b845b34d98cff5c0c0c4" prot="public">
+          <name>FOWLER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a650400dc9ab3e281b845b34d98cff5c0c0c4" prot="public">
+          <name>FOWLER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a65042ec7efebb0cb3cb0280572c400030508" prot="public">
+          <name>RAMP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a65042ec7efebb0cb3cb0280572c400030508" prot="public">
+          <name>RAMP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504f1653966ecfd93bd599d87b417f3b43e" prot="public">
+          <name>HDR_SIMPLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504f1653966ecfd93bd599d87b417f3b43e" prot="public">
+          <name>HDR_SIMPLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRTYPES.idl" line="10" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRTYPES.idl" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab1" prot="public" static="no">
+        <name>SDSUControllerStatus</name>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab133366cc2e97a469d7898eebc20deee1e" prot="public">
+          <name>DETECTOR_IDLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab133366cc2e97a469d7898eebc20deee1e" prot="public">
+          <name>DETECTOR_IDLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab118d1afcd6be2704a4d0d18c954d79143" prot="public">
+          <name>DETECTOR_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab118d1afcd6be2704a4d0d18c954d79143" prot="public">
+          <name>DETECTOR_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab14557a26b126eac1387ae0ee5cf850a6f" prot="public">
+          <name>DETECTOR_RUNNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab14557a26b126eac1387ae0ee5cf850a6f" prot="public">
+          <name>DETECTOR_RUNNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab13a9be86228922a95968a3bd26ecfc629" prot="public">
+          <name>DETECTOR_ENDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab13a9be86228922a95968a3bd26ecfc629" prot="public">
+          <name>DETECTOR_ENDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRTYPES.idl" line="12" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/EMIRTYPES.idl" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRTYPES.idl" line="8"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="EMIRDasControllerHw_8cpp" kind="file">
+    <compoundname>EMIRDasControllerHw.cpp</compoundname>
+    <includes refid="EMIRDasController_8h" local="yes">EMIRDasController.h</includes>
+    <includes refid="EMIRDasControllerHw_8h" local="yes">EMIRDasControllerHw.h</includes>
+    <includes refid="DetectorControllerApp_8h" local="yes">DetectorControllerApp.h</includes>
+    <includes local="yes">Trace.h</includes>
+    <includes refid="SDSUsim_8l_2ct__interface_8h" local="yes">../SDSUsim.l/ct_interface.h</includes>
+    <includes local="yes">DASException.h</includes>
+    <includes local="yes">ErrorCode.h</includes>
+    <incdepgraph>
+      <node id="1219">
+        <label>EMIRDasControllerHw.h</label>
+        <link refid="EMIRDasControllerHw_8h"/>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1212" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+      </node>
+      <node id="1226">
+        <label>ErrorCode.h</label>
+      </node>
+      <node id="1216">
+        <label>ace/Semaphore.h</label>
+      </node>
+      <node id="1212">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1222">
+        <label>EMIRDasConf.h</label>
+        <link refid="EMIRDasConf_8h"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1221">
+        <label>string</label>
+      </node>
+      <node id="1218">
+        <label>Trace.h</label>
+      </node>
+      <node id="1223">
+        <label>ace/Thread_Manager.h</label>
+      </node>
+      <node id="1213">
+        <label>TimeService.h</label>
+      </node>
+      <node id="1217">
+        <label>ace/Synch.h</label>
+      </node>
+      <node id="1225">
+        <label>DASException.h</label>
+      </node>
+      <node id="1220">
+        <label>DetectorControllerApp.h</label>
+        <link refid="DetectorControllerApp_8h"/>
+        <childnode refid="1221" relation="include">
+        </childnode>
+        <childnode refid="1218" relation="include">
+        </childnode>
+      </node>
+      <node id="1210">
+        <label>EMIRDasControllerHw.cpp</label>
+        <link refid="EMIRDasControllerHw.cpp"/>
+        <childnode refid="1211" relation="include">
+        </childnode>
+        <childnode refid="1219" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1224" relation="include">
+        </childnode>
+        <childnode refid="1225" relation="include">
+        </childnode>
+        <childnode refid="1226" relation="include">
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>SimpleMemoryManager.h</label>
+        <link refid="SimpleMemoryManager_8h"/>
+        <childnode refid="1215" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1217" relation="include">
+        </childnode>
+        <childnode refid="1218" relation="include">
+        </childnode>
+      </node>
+      <node id="1224">
+        <label>../SDSUsim.l/ct_interface.h</label>
+        <link refid="SDSUsim_8l_2ct__interface_8h"/>
+      </node>
+      <node id="1211">
+        <label>EMIRDasController.h</label>
+        <link refid="EMIRDasController_8h"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+        <childnode refid="1213" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+        <childnode refid="1219" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+        <childnode refid="1223" relation="include">
+        </childnode>
+      </node>
+      <node id="1215">
+        <label>ace/Mutex.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="EMIRDasControllerHw_8cpp_15c806da59879c51f17f1041febdc2056" prot="public" static="no">
+        <name>CPLUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" line="5" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="EMIRDasControllerHw_8cpp_1516a5468ff2b7bbc7de8da0eb6e415f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int loadLODFile</definition>
+        <argsstring>(const char *file, char *&amp;buff, size_t *filesize)</argsstring>
+        <name>loadLODFile</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>char *&amp;</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>filesize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" line="17" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp" bodystart="17" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="EMIRDasController_8h" kindref="compound">EMIRDasController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="EMIRDasControllerHw_8h" kindref="compound">EMIRDasControllerHw.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="DetectorControllerApp_8h" kindref="compound">DetectorControllerApp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Trace.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CPLUS</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#ifdef<sp/>VXWORKS</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;msgQLib.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../SDSUlcu.l/ct_interface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../SDSUlcu.l/sdsu_emir_driver.h&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>sdsu_init(),<sp/>sdsu_cleanup()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;../SDSUsim.l/ct_interface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;DASException.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ErrorCode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Trace.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="EMIRDasControllerHw_8cpp_1516a5468ff2b7bbc7de8da0eb6e415f1" kindref="member">loadLODFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*&amp;buff,<sp/>size_t<sp/>*filesize)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_HANDLE<sp/>fp;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>off_t<sp/>fileSize;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size_t<sp/>i;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//printf(&quot;loadLODfILE<sp/>-<sp/>loading<sp/>%s\n&quot;,<sp/>file);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ACE_OS::access<sp/>((</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)file,<sp/>R_OK)<sp/>==<sp/>-1)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buff<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATIONFAILED;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>ACE_OS::open<sp/>(file,<sp/>O_RDONLY);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fileSize<sp/>=<sp/>ACE_OS::lseek(fp,<sp/>0,<sp/>SEEK_END);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//printf(&quot;FILE:<sp/>%s<sp/>SIZE<sp/>=<sp/>%d\n&quot;,<sp/>file,<sp/>fileSize);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((buff<sp/>=<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)ACE_OS::malloc((size_t)fileSize))<sp/>==<sp/>NULL)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_OS::close(fp);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//printf(&quot;ERROR<sp/>LOADING<sp/>FILE\n&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buff<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATIONFAILED;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_OS::lseek(fp,<sp/>0,<sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_10d112bae8fd35be772185b6ec6bcbe64" kindref="member">SEEK_SET</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_OS::read(fp,<sp/>buff,<sp/>(size_t)fileSize);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_OS::close(fp);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*filesize<sp/>=<sp/>fileSize;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*printf(&quot;CLEANING<sp/>FILE\n&quot;);</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>buff;</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>fileSize;<sp/>++i,<sp/>++p)</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(<sp/>*p<sp/>==<sp/>&apos;\n&apos;<sp/>)</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*p<sp/>=<sp/>&apos;<sp/>&apos;;</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">printf(&quot;DONE<sp/>CLEANING<sp/>FILE\n&quot;);*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><ref refid="classEMIRDasControllerHw_1c42e1c1e7743b8f521c119a90d95c00d" kindref="member">EMIRDasControllerHw::EMIRDasControllerHw</ref>()</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEMIRDasControllerHw_12660236e26d8249ef21ce86afe43d539" kindref="member">trace_</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Trace(</highlight><highlight class="stringliteral">&quot;EMIRDasControllerHw&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><ref refid="classEMIRDasControllerHw_11a331ddae1797fa9325809c6f812640c" kindref="member">EMIRDasControllerHw::~EMIRDasControllerHw</ref>()</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/>{;}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Creates<sp/>internal<sp/>of<sp/>EMIRDasControllerHw</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasControllerHw_1afad173ac4f96eaae47d6794623a5907" kindref="member">EMIRDasControllerHw::create</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>printf(&quot;EMIRDasControllerHw::create()\n&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>if<sp/>(<sp/>copen(&quot;sdsu<sp/>controller&quot;,<sp/>0)<sp/>&lt;<sp/>0<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>DAS::OPERATIONFAILED;</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"></highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/>if<sp/>(<sp/>fgopen(&quot;sdsu<sp/>frame<sp/>grabber&quot;,<sp/>0)<sp/>&lt;<sp/>0<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cclose(0);</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>DAS::OPERATIONFAILED;</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/>}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Performs<sp/>initial<sp/>&quot;initialization<sp/>of<sp/>SDSUController&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1)<sp/>Loads<sp/>power<sp/>on<sp/>application.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2)<sp/>Executes<sp/>the<sp/>power<sp/>on<sp/>application.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>3)<sp/>Loads<sp/>the<sp/>acquisition<sp/>appliction.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>4)<sp/>Sets<sp/>the<sp/>default<sp/>parameters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasControllerHw_15bfad9f1136136a9d39d11149e77db67" kindref="member">EMIRDasControllerHw::init</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>powerOn,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>acqApp)<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>retVal;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buffer;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>size_t<sp/>sizeOfBuffer;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDetectorControllerApp" kindref="compound">DetectorControllerApp</ref><sp/>*powerOnCode;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;EMIRDasControllerHw::init()&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>retVal<sp/>=<sp/><ref refid="EMIRDasControllerHw_8cpp_1516a5468ff2b7bbc7de8da0eb6e415f1" kindref="member">loadLODFile</ref>(powerOn.c_str(),<sp/>buffer,<sp/>&amp;sizeOfBuffer);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>buffer<sp/>==<sp/>NULL<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retVal;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;EMIRDasControllerHw::After<sp/>powerOnCode&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>powerOnCode<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_125661f6501ed709f310ce831312ee29b" kindref="member">DetectorControllerApp::DetectorControllerApp</ref>(buffer,<sp/>sizeOfBuffer);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;EMIRDasControllerHw::init<sp/>-<sp/>running<sp/>Power<sp/>ON<sp/>application&quot;<sp/>&lt;&lt;<sp/>powerOn<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>powerOnCode-&gt;run();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;EMIRDasControllerHw::init<sp/>-<sp/>loading<sp/>Power<sp/>ON<sp/>application&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>powerOn<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>powerOnCode-&gt;<ref refid="classDetectorControllerApp_12ca639a172ea2fa82575491785917348" kindref="member">load</ref>();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;EMIRDasControllerHw::init<sp/>-<sp/>executing<sp/>Power<sp/>ON<sp/>application&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>powerOn<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>powerOnCode-&gt;<ref refid="classDetectorControllerApp_10d2925c950db6dcbcf6b005440c8ca56" kindref="member">exec</ref>();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>sleep(1);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_OS::free(buffer);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>retVal<sp/>=<sp/><ref refid="EMIRDasControllerHw_8cpp_1516a5468ff2b7bbc7de8da0eb6e415f1" kindref="member">loadLODFile</ref>(acqApp.c_str(),<sp/>buffer,<sp/>&amp;sizeOfBuffer);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>buffer<sp/>==<sp/>NULL<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retVal;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>EMIRDasControllerHw::aquisitionCode<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_125661f6501ed709f310ce831312ee29b" kindref="member">DetectorControllerApp::DetectorControllerApp</ref>(buffer,<sp/>sizeOfBuffer);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;EMIRDasControllerHw::init<sp/>-<sp/>loading<sp/>aquisition<sp/>application&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>acqApp<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>EMIRDasControllerHw::aquisitionCode-&gt;<ref refid="classDetectorControllerApp_12ca639a172ea2fa82575491785917348" kindref="member">load</ref>();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>EMIRDasControllerHw::aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;NROWS&quot;</highlight><highlight class="normal">,<sp/>1024);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>EMIRDasControllerHw::aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;X_START&quot;</highlight><highlight class="normal">,<sp/>1);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>EMIRDasControllerHw::aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;Y_START&quot;</highlight><highlight class="normal">,<sp/>1);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retVal;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Applies<sp/>configuration<sp/>for<sp/>current<sp/>acquisition<sp/>mode.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasControllerHw_1a3f0332ffd6c1cbfb12a76e8617f3b39" kindref="member">EMIRDasControllerHw::config</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAcqConfig" kindref="compound">AcqConfig</ref><sp/>&amp;<sp/>acqparameters)<sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>y_size_b;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>y_size_b<sp/>=<sp/>1024<sp/>-<sp/>acqparameters.<ref refid="structAcqConfig_1d21131ef3e30130010d22d63a5d8e735" kindref="member">y_size</ref>;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">/*printf(&quot;NSEC<sp/>%d\n&quot;,<sp/>acqparameters.nsec);</highlight></codeline>
+<codeline lineno="138"><highlight class="comment">printf(&quot;OPTRST<sp/>%d\n&quot;,<sp/>acqparameters.optrst);</highlight></codeline>
+<codeline lineno="139"><highlight class="comment">printf(&quot;NRST<sp/>%d\n&quot;,<sp/>acqparameters.nrst);</highlight></codeline>
+<codeline lineno="140"><highlight class="comment">printf(&quot;NRDBL<sp/>%d\n&quot;,<sp/>acqparameters.nrdbl);</highlight></codeline>
+<codeline lineno="141"><highlight class="comment">printf(&quot;NRDBL_ND<sp/>%d\n&quot;,<sp/>acqparameters.nrdbl_nd);</highlight></codeline>
+<codeline lineno="142"><highlight class="comment">printf(&quot;NO_EXPOSURES<sp/>%d\n&quot;,<sp/>acqparameters.numExp);</highlight></codeline>
+<codeline lineno="143"><highlight class="comment">printf(&quot;NRDIL<sp/>%d\n&quot;,<sp/>acqparameters.nrdil);</highlight></codeline>
+<codeline lineno="144"><highlight class="comment">printf(&quot;NRDIL_ND<sp/>%d\n&quot;,<sp/>acqparameters.nrdil_nd);</highlight></codeline>
+<codeline lineno="145"><highlight class="comment">printf(&quot;X_SIZE<sp/>%d\n&quot;,<sp/>acqparameters.x_size);</highlight></codeline>
+<codeline lineno="146"><highlight class="comment">printf(&quot;Y_SIZE<sp/>%d\n&quot;,<sp/>acqparameters.y_size);</highlight></codeline>
+<codeline lineno="147"><highlight class="comment">printf(&quot;Y_SIZE_B<sp/>%d\n&quot;,<sp/>y_size_b);</highlight></codeline>
+<codeline lineno="148"><highlight class="comment">printf(&quot;NPARAM_X<sp/>%d\n&quot;,<sp/>acqparameters.nparam_x);</highlight></codeline>
+<codeline lineno="149"><highlight class="comment">printf(&quot;EXPOSE_TIME<sp/>%d\n&quot;,<sp/>acqparameters.exposuretime);*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;NSEC&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_1c44793e66617edae53251ef6fdf54785" kindref="member">nsec</ref>);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;OPTRST&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_10db4974bcafed07072455dabb1a653e6" kindref="member">optrst</ref>);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;NRST&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_1cb16056966164b5b1e6db1991f912b5c" kindref="member">nrst</ref>);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;NRDBL&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_1e57bdb446ad38a3a2ea3e9b55b60c1e5" kindref="member">nrdbl</ref>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;NRDBL_ND&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_16468a428f6c3de68a19b39076e4e76d4" kindref="member">nrdbl_nd</ref>);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;NO_EXPOSURES&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_1c823a4ee8dd006c207335ddc051b1228" kindref="member">numExp</ref>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;NRDIL&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_1d9f67468389eaea7f34b4ec98fe2526e" kindref="member">nrdil</ref>);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;NRDIL_ND&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_176fe76edb4aaec1bb8234a74e3eb39f5" kindref="member">nrdil_nd</ref>);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;X_SIZE&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_1adbdf4d98c845ab81709d68c1e6dab88" kindref="member">x_size</ref>);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;Y_SIZE&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_1d21131ef3e30130010d22d63a5d8e735" kindref="member">y_size</ref>);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;Y_SIZE_B&quot;</highlight><highlight class="normal">,<sp/>y_size_b);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;NPARAM_X&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_1096e2737bb8546f3c5f5bdb709b7bd38" kindref="member">nparam_x</ref>);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" kindref="member">write</ref>(</highlight><highlight class="stringliteral">&quot;EXPOSE_TIME&quot;</highlight><highlight class="normal">,<sp/>acqparameters.<ref refid="structAcqConfig_160f4af9647028054c3af0ad5bcadbe6f" kindref="member">exposuretime</ref>);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>info<sp/>about<sp/>EMIRDasControllerHw</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="classEMIRDasControllerHw_19894db4e8e92a2020e9922a3ebdfc377" kindref="member">EMIRDasControllerHw::report</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>level)<sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;EMIRDasControllerHw::report()&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Reset<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasControllerHw_1b056ad124471e4738c0d9c18795cb01d" kindref="member">EMIRDasControllerHw::reset</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;EMIRDasControllerHw::abort()&quot;<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1734d691d64cc5dab9efb2acaf7bbf311" kindref="member">cioctl</ref>(0,<sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1b702106cf3b3e96750b6845ded4e0299" kindref="member">RESET</ref>,<sp/>NULL);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Aborts<sp/>the<sp/>acquisition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasControllerHw_17239004bc5ac9939d15b4340d0435924" kindref="member">EMIRDasControllerHw::abort</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;EMIRDasControllerHw::abort()&quot;<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Turns<sp/>off<sp/>the<sp/>SDSUcontroller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasControllerHw_14aff08e58b47c13925681c790136891c" kindref="member">EMIRDasControllerHw::shutdown</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>powerOff)<sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>retVal;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buffer;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>size_t<sp/>sizeOfBuffer;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDetectorControllerApp" kindref="compound">DetectorControllerApp</ref><sp/>*powerOffCode;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;EMIRDasControllerHw::shutdown()&quot;<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>retVal<sp/>=<sp/><ref refid="EMIRDasControllerHw_8cpp_1516a5468ff2b7bbc7de8da0eb6e415f1" kindref="member">loadLODFile</ref>(<ref refid="EMIRDasControllerHw_8h_1a7502455c229b24eb51d67f29160e40c" kindref="member">POWEROFF</ref>,<sp/>buffer,<sp/>&amp;sizeOfBuffer);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>buffer<sp/>==<sp/>NULL<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retVal;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>powerOffCode<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classDetectorControllerApp_125661f6501ed709f310ce831312ee29b" kindref="member">DetectorControllerApp::DetectorControllerApp</ref>(buffer,<sp/>sizeOfBuffer);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;EMIRDasControllerHw::shutdown<sp/>-<sp/>running<sp/>Power<sp/>OFF<sp/>application&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>powerOff<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>powerOffCode-&gt;<ref refid="classDetectorControllerApp_1e57563b7157c66a6114c073b54f7d735" kindref="member">run</ref>();</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_10625f7ca69bc6745410b48eee68786ec" kindref="member">fgclose</ref>(1);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="SDSUlcu_8l_2ct__interface_8h_1904279b18abec3c0affb82786648c1a9" kindref="member">cclose</ref>(0);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasControllerHw_13da77ed698433c42b5f1745d62dd26fd" kindref="member">EMIRDasControllerHw::startRead</ref>()</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;EMIRDasControllerHw::startRead()&quot;<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>EMIRDasControllerHw::aquisitionCode-&gt;<ref refid="classDetectorControllerApp_1c494d44968bad4695ae3c252ee12b950" kindref="member">startAqu</ref>();</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>EMIRDasControllerHw::readSynchro(AcquisitionParameters<sp/>&amp;<sp/>acqparameters,<sp/>Bucket<sp/>*<sp/>currentbucket,Bucket<sp/>*nextbucket,bool<sp/>appliesnextbucket,int<sp/>currentiteration)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="comment">/*void<sp/>EMIRDasControllerHw::read((void<sp/>*)<sp/>buffer,size_t<sp/>size)</highlight></codeline>
+<codeline lineno="229"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="230"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;EMIRDasControllerHw::readSynchro()&quot;<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"></highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>&quot;Waiting&quot;&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="233"><highlight class="comment">//<sp/><sp/>ACE_OS::sleep(1);<sp/>//1s</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"></highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fgread(1,<sp/>buffer,<sp/>size);</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"></highlight></codeline>
+<codeline lineno="237"><highlight class="comment">}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>operations<sp/>checks<sp/>the<sp/>correct<sp/>work<sp/>of<sp/>DC<sp/>and<sp/>returns<sp/>a<sp/>code<sp/>error<sp/>indicating</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>it<sp/>worked<sp/>or<sp/>if<sp/>some<sp/>fail<sp/>ocurred.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasControllerHw_14a85f8fea675388393b5148f74b01154" kindref="member">EMIRDasControllerHw::check</ref>()</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;EMIRDasControllerHw::check()&quot;<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DAS::OPERATION_OK;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasControllerHw.cpp"/>
+  </compounddef>
+</doxygen>

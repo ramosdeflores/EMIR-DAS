@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structEMIRFrame" kind="struct" prot="public">
+    <compoundname>EMIRFrame</compoundname>
+    <includes refid="EMIRDasFrame_8h" local="no">EMIRDasFrame.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structEMIRFrame_1ec163847a80ae1e7a52e74c0c1cb6502" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char EMIRFrame::imageName[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>imageName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="15" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_17a3c0ce9674a76252ea193061c20fdc4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EMIRFrame::readoutmodeval</definition>
+        <argsstring></argsstring>
+        <name>readoutmodeval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="16" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_1b2c5efde9da556c08af70ab901da518c" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::exposuretime</definition>
+        <argsstring></argsstring>
+        <name>exposuretime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="17" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_15fbd1725c1296c674143cd0ae01a7c55" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::x_size</definition>
+        <argsstring></argsstring>
+        <name>x_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="18" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_1d4ec436d41616ed15c240b25021c6ab9" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::y_size</definition>
+        <argsstring></argsstring>
+        <name>y_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="19" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_17af13317c1936036e0f8d676d1e9fe29" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EMIRFrame::windowMode</definition>
+        <argsstring></argsstring>
+        <name>windowMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="20" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_1400f9a72477e85b48b9dee100c3fcee2" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::nsec</definition>
+        <argsstring></argsstring>
+        <name>nsec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="21" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_14a817a526fbe151cab1ebe3a23ea2fb5" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::optrst</definition>
+        <argsstring></argsstring>
+        <name>optrst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="22" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_19ebee29afba17cc8b73a3b960e0d4555" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::nrst</definition>
+        <argsstring></argsstring>
+        <name>nrst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_179f6f02ed7d1d603332af95aae376b73" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::nrdbl</definition>
+        <argsstring></argsstring>
+        <name>nrdbl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="24" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_1d70a2e5d0cb5e2c49e3bd38ec95336b5" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::nrdbl_nd</definition>
+        <argsstring></argsstring>
+        <name>nrdbl_nd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_1fd99838252dc37d44be0df8c84a21e93" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::numExp</definition>
+        <argsstring></argsstring>
+        <name>numExp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_166de048958491d59b0cc9ec13293159f" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::nrdil</definition>
+        <argsstring></argsstring>
+        <name>nrdil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="27" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_15d0dee8463dceabd438678519cb5d75b" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::nrdil_nd</definition>
+        <argsstring></argsstring>
+        <name>nrdil_nd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="28" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_151803bfe5d7732b6d4cb084d5505ba54" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::nparam_x</definition>
+        <argsstring></argsstring>
+        <name>nparam_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="29" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_1110227b1020ffc3943f67b5c75970bed" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRFrame::currentFrame</definition>
+        <argsstring></argsstring>
+        <name>currentFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="30" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_13f62e57bc9cf889150ddf78019480a24" prot="public" static="no" mutable="no">
+        <type>time_t</type>
+        <definition>time_t EMIRFrame::timeStamp</definition>
+        <argsstring></argsstring>
+        <name>timeStamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="31" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRFrame_1f15b4a43f787755c1fd5588649709599" prot="public" static="no" mutable="no">
+        <type>INT16 *</type>
+        <definition>INT16* EMIRFrame::DetectorData</definition>
+        <argsstring></argsstring>
+        <name>DetectorData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="33" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" line="14" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasFrame.h" bodystart="14" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structEMIRFrame_1110227b1020ffc3943f67b5c75970bed" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>currentFrame</name></member>
+      <member refid="structEMIRFrame_1f15b4a43f787755c1fd5588649709599" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>DetectorData</name></member>
+      <member refid="structEMIRFrame_1b2c5efde9da556c08af70ab901da518c" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>exposuretime</name></member>
+      <member refid="structEMIRFrame_1ec163847a80ae1e7a52e74c0c1cb6502" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>imageName</name></member>
+      <member refid="structEMIRFrame_151803bfe5d7732b6d4cb084d5505ba54" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>nparam_x</name></member>
+      <member refid="structEMIRFrame_179f6f02ed7d1d603332af95aae376b73" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>nrdbl</name></member>
+      <member refid="structEMIRFrame_1d70a2e5d0cb5e2c49e3bd38ec95336b5" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>nrdbl_nd</name></member>
+      <member refid="structEMIRFrame_166de048958491d59b0cc9ec13293159f" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>nrdil</name></member>
+      <member refid="structEMIRFrame_15d0dee8463dceabd438678519cb5d75b" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>nrdil_nd</name></member>
+      <member refid="structEMIRFrame_19ebee29afba17cc8b73a3b960e0d4555" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>nrst</name></member>
+      <member refid="structEMIRFrame_1400f9a72477e85b48b9dee100c3fcee2" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>nsec</name></member>
+      <member refid="structEMIRFrame_1fd99838252dc37d44be0df8c84a21e93" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>numExp</name></member>
+      <member refid="structEMIRFrame_14a817a526fbe151cab1ebe3a23ea2fb5" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>optrst</name></member>
+      <member refid="structEMIRFrame_17a3c0ce9674a76252ea193061c20fdc4" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>readoutmodeval</name></member>
+      <member refid="structEMIRFrame_13f62e57bc9cf889150ddf78019480a24" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>timeStamp</name></member>
+      <member refid="structEMIRFrame_17af13317c1936036e0f8d676d1e9fe29" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>windowMode</name></member>
+      <member refid="structEMIRFrame_15fbd1725c1296c674143cd0ae01a7c55" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>x_size</name></member>
+      <member refid="structEMIRFrame_1d4ec436d41616ed15c240b25021c6ab9" prot="public" virt="non-virtual"><scope>EMIRFrame</scope><name>y_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="dir_00bf4ea056ac67ca70e68d75ad9a481a" kind="dir">
+    <compoundname>examples/useEMIRDas.p/</compoundname>
+    <innerfile refid="examples_2useEMIRDas_8p_2EMIRDAS_8idl">examples/useEMIRDas.p/EMIRDAS.idl</innerfile>
+    <innerfile refid="useEMIRDas_8cpp">useEMIRDas.cpp</innerfile>
+    <innerfile refid="useEMIRDas_8h">useEMIRDas.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/useEMIRDas.p/"/>
+  </compounddef>
+</doxygen>

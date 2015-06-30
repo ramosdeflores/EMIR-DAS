@@ -1,0 +1,10 @@
+# SIMULATED SDSU
+#LDLIBS += -lEMIRDas -lEMIRDasController -lSDSUsim -lDCF -lSK -lDAF -lDGCSTypes -lTS -lTK $(TAO_LIBS) -lArray -lBasicTypes -lConfigFileMgr -lOSWrappers -lTrace
+
+# REAL SDSU
+#LDLIBS += -lEMIRDas -lEMIRDasController -lSDSUlcu -lDCF -lSK -lDAF -lDGCSTypes -lTS -lTK $(TAO_LIBS) -lArray -lBasicTypes -lConfigFileMgr -lOSWrappers -lTrace
+
+#LDLIBS += -lEMIRDas -lEMIRDasController -lDCF -lSK -lDAF -lDGCSTypes -lTS -lTK $(TAO_LIBS) -lArray -lBasicTypes -lConfigFileMgr -lOSWrappers -lTrace ${XPA_LIBS} ${FITSIO_LIBS} ${WCS_LIBS} ${GSL_LIBS} $(TAO_LIBS) $(DSL_LIBS) -lEMIRDFAgent -lObservingEngineCorba -lsla -lDDPKF  -lDFAgent  -lcfitsio -lRF -lDPKF -lParserLibrary -lConfigFileMgr -lDPhysicalQuantity -lCatalog -lFilters -lDPKF_IO -lPhysicalQuantity -lDataDisplay -lTask $(SSL_LIBS) $(DSL_DEV_LIBS) -lTask -lPeriodicTask -lOECommonCorba
+
+#LDLIBS += -lEMIRDas -lEMIRDasController -lDCF -lSK -lDAF -lDGCSTypes -lTS -lTK $(TAO_LIBS) -lArray -lBasicTypes -lConfigFileMgr -lOSWrappers -lTrace ${XPA_LIBS} ${FITSIO_LIBS} ${WCS_LIBS} ${GSL_LIBS} $(TAO_LIBS) $(DSL_LIBS) -lEMIRDFAgent -lObservingEngineCorba -lsla -lDDPKF  -lDFAgent -lRF -lDPKF -lParserLibrary -lConfigFileMgr -lDPhysicalQuantity -lCatalog -lFilters -lDPKF_IO -lPhysicalQuantity -lDataDisplay -lTask $(SSL_LIBS) $(DSL_DEV_LIBS) -lTask -lPeriodicTask -lOECommonCorba
+LDLIBS += -lEMIRDas -lEMIRDasController -lDCF -lSK -lDAF -lDGCSTypes -lTS -lTK $(TAO_LIBS) -lArray -lBasicTypes -lConfigFileMgr -lOSWrappers -lTrace ${XPA_LIBS} ${WCS_LIBS} ${GSL_LIBS} $(TAO_LIBS) $(DSL_LIBS) -lEMIRDFAgentCorba -lObservingEngineCorba -lsla -lDDPKF  -lDFAgent -lRF -lDPKF -lParserLibrary -lConfigFileMgr -lDPhysicalQuantity -lCatalog -lFilters -lDPKF_IO -lPhysicalQuantity -lDataDisplay -lTask $(SSL_LIBS) $(DSL_DEV_LIBS) -lTask -lPeriodicTask -lOECommonCorba

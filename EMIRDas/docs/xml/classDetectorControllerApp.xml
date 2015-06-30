@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classDetectorControllerApp" kind="class" prot="public">
+    <compoundname>DetectorControllerApp</compoundname>
+    <includes refid="DetectorControllerApp_8h" local="no">DetectorControllerApp.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDetectorControllerApp_125661f6501ed709f310ce831312ee29b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DetectorControllerApp::DetectorControllerApp</definition>
+        <argsstring>(const void *, const size_t)</argsstring>
+        <name>DetectorControllerApp</name>
+        <param>
+          <type>const void *</type>
+          <defname>application</defname>
+        </param>
+        <param>
+          <type>const </type>
+          <declname>size_t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="274" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_1bf898dc55f7741000cc0db1bd89bbc04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::stop</definition>
+        <argsstring>(void)</argsstring>
+        <name>stop</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="288" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_10d2925c950db6dcbcf6b005440c8ca56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::exec</definition>
+        <argsstring>(void)</argsstring>
+        <name>exec</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="381" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_1c494d44968bad4695ae3c252ee12b950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::startAqu</definition>
+        <argsstring>(void)</argsstring>
+        <name>startAqu</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="27" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="396" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_12ca639a172ea2fa82575491785917348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::load</definition>
+        <argsstring>(void)</argsstring>
+        <name>load</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="28" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="312" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_1e57563b7157c66a6114c073b54f7d735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::run</definition>
+        <argsstring>(void)</argsstring>
+        <name>run</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="29" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="410" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::write</definition>
+        <argsstring>(const char *, int)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const char *</type>
+          <defname>paramName</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="30" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="426" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_1131773a74858125cb1d6f80d607cf75b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::read</definition>
+        <argsstring>(const char *, int *)</argsstring>
+        <name>read</name>
+        <param>
+          <type>const char *</type>
+          <defname>paramName</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="31" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="460" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_178bc4b941938cc941120eceb1e00d22f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::getStat</definition>
+        <argsstring>(void)</argsstring>
+        <name>getStat</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="32" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="494" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_1a12b905b1ba701c3f647caa005985035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::setStat</definition>
+        <argsstring>(int stat)</argsstring>
+        <name>setStat</name>
+        <param>
+          <type>int</type>
+          <declname>stat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="33" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="498" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_1e57a11552c174f4d8e289317079106dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * DetectorControllerApp::getApp</definition>
+        <argsstring>(void)</argsstring>
+        <name>getApp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="34" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="504" bodyend="506"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDetectorControllerApp_1598139d44c93affc7c72fdcb2b9f88f1" prot="public" static="no" mutable="no">
+        <type>Trace *</type>
+        <definition>Trace* DetectorControllerApp::trace_</definition>
+        <argsstring></argsstring>
+        <name>trace_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="36" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classDetectorControllerApp_141c3959738258c4223dfb9725a8f845c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::parse</definition>
+        <argsstring>(bool)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>bool</type>
+          <defname>wr</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="48" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="318" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_10354a972e56dd0f3938eab2338f34b47" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::matchKeyWord</definition>
+        <argsstring>(char *)</argsstring>
+        <name>matchKeyWord</name>
+        <param>
+          <type>char *</type>
+          <defname>keyWord</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="49" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="26" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_153f81749e1101d730a405987b49dbfe2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::findKeyWord</definition>
+        <argsstring>(char **, char *)</argsstring>
+        <name>findKeyWord</name>
+        <param>
+          <type>char **</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <defname>keyWord</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="50" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="50" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_1036a7727afcecc56709bc1bfb4d9a1dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::loadData</definition>
+        <argsstring>(char **, char *, bool)</argsstring>
+        <name>loadData</name>
+        <param>
+          <type>char **</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <defname>keyWord</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <defname>wr</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="51" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="82" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_173c4e53e34c656a33a404ce79d58f241" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::loadSymbol</definition>
+        <argsstring>(char **, char *)</argsstring>
+        <name>loadSymbol</name>
+        <param>
+          <type>char **</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <defname>keyWord</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="52" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="161" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classDetectorControllerApp_14482599c81a74a6a899ceff41d1a31fc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DetectorControllerApp::findSymbol</definition>
+        <argsstring>(char **, const char *, unsigned int *, int *)</argsstring>
+        <name>findSymbol</name>
+        <param>
+          <type>char **</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>keyWord</defname>
+        </param>
+        <param>
+          <type>unsigned int *</type>
+          <defname>address</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <defname>memType</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="53" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.cpp" bodystart="216" bodyend="272"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDetectorControllerApp_118c69b1161bf16757f75f554ac4c18b8" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t DetectorControllerApp::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="41" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDetectorControllerApp_119107bb1934d2df037d62a92e60f0af2" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* DetectorControllerApp::app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="42" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDetectorControllerApp_12c9b8c0bd38c0c58715bb89f9ab6bb32" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* DetectorControllerApp::symbolStart</definition>
+        <argsstring></argsstring>
+        <name>symbolStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="43" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDetectorControllerApp_1eb38b28dd6ea4e7761f5ad93bd6e6ee7" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int DetectorControllerApp::appStat</definition>
+        <argsstring></argsstring>
+        <name>appStat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="44" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDetectorControllerApp_1888a55a6d464a2000fb90da27ad4a332" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int DetectorControllerApp::cd</definition>
+        <argsstring></argsstring>
+        <name>cd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="45" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDetectorControllerApp_1a87a49033fb419cf2e4bb7cc18eb8277" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int DetectorControllerApp::fg</definition>
+        <argsstring></argsstring>
+        <name>fg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="46" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" line="19" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerApp.h" bodystart="19" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classDetectorControllerApp_119107bb1934d2df037d62a92e60f0af2" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>app</name></member>
+      <member refid="classDetectorControllerApp_1eb38b28dd6ea4e7761f5ad93bd6e6ee7" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>appStat</name></member>
+      <member refid="classDetectorControllerApp_1888a55a6d464a2000fb90da27ad4a332" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>cd</name></member>
+      <member refid="classDetectorControllerApp_125661f6501ed709f310ce831312ee29b" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>DetectorControllerApp</name></member>
+      <member refid="classDetectorControllerApp_10d2925c950db6dcbcf6b005440c8ca56" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>exec</name></member>
+      <member refid="classDetectorControllerApp_1a87a49033fb419cf2e4bb7cc18eb8277" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>fg</name></member>
+      <member refid="classDetectorControllerApp_153f81749e1101d730a405987b49dbfe2" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>findKeyWord</name></member>
+      <member refid="classDetectorControllerApp_14482599c81a74a6a899ceff41d1a31fc" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>findSymbol</name></member>
+      <member refid="classDetectorControllerApp_1e57a11552c174f4d8e289317079106dc" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>getApp</name></member>
+      <member refid="classDetectorControllerApp_178bc4b941938cc941120eceb1e00d22f" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>getStat</name></member>
+      <member refid="classDetectorControllerApp_12ca639a172ea2fa82575491785917348" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>load</name></member>
+      <member refid="classDetectorControllerApp_1036a7727afcecc56709bc1bfb4d9a1dc" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>loadData</name></member>
+      <member refid="classDetectorControllerApp_173c4e53e34c656a33a404ce79d58f241" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>loadSymbol</name></member>
+      <member refid="classDetectorControllerApp_10354a972e56dd0f3938eab2338f34b47" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>matchKeyWord</name></member>
+      <member refid="classDetectorControllerApp_141c3959738258c4223dfb9725a8f845c" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>parse</name></member>
+      <member refid="classDetectorControllerApp_1131773a74858125cb1d6f80d607cf75b" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>read</name></member>
+      <member refid="classDetectorControllerApp_1e57563b7157c66a6114c073b54f7d735" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>run</name></member>
+      <member refid="classDetectorControllerApp_1a12b905b1ba701c3f647caa005985035" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>setStat</name></member>
+      <member refid="classDetectorControllerApp_118c69b1161bf16757f75f554ac4c18b8" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>size</name></member>
+      <member refid="classDetectorControllerApp_1c494d44968bad4695ae3c252ee12b950" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>startAqu</name></member>
+      <member refid="classDetectorControllerApp_1bf898dc55f7741000cc0db1bd89bbc04" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>stop</name></member>
+      <member refid="classDetectorControllerApp_12c9b8c0bd38c0c58715bb89f9ab6bb32" prot="private" virt="non-virtual"><scope>DetectorControllerApp</scope><name>symbolStart</name></member>
+      <member refid="classDetectorControllerApp_1598139d44c93affc7c72fdcb2b9f88f1" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>trace_</name></member>
+      <member refid="classDetectorControllerApp_1dddc48decf76402154b055b36805da57" prot="public" virt="non-virtual"><scope>DetectorControllerApp</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

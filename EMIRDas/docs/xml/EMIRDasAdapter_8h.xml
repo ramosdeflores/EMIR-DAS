@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="EMIRDasAdapter_8h" kind="file">
+    <compoundname>EMIRDasAdapter.h</compoundname>
+    <includes local="yes">EMIRDASS.h</includes>
+    <includes local="yes">DeviceAdapter.h</includes>
+    <includes refid="EMIRDas_8h" local="yes">EMIRDas.h</includes>
+    <includedby refid="EMIRDas_8cpp" local="yes">EMIRDas.cpp</includedby>
+    <includedby refid="EMIRDasAdapter_8cpp" local="yes">EMIRDasAdapter.cpp</includedby>
+    <incdepgraph>
+      <node id="1016">
+        <label>EMIRDasControllerHw.h</label>
+        <link refid="EMIRDasControllerHw_8h"/>
+        <childnode refid="1015" relation="include">
+        </childnode>
+        <childnode refid="1009" relation="include">
+        </childnode>
+        <childnode refid="1017" relation="include">
+        </childnode>
+        <childnode refid="1019" relation="include">
+        </childnode>
+      </node>
+      <node id="1013">
+        <label>ace/Semaphore.h</label>
+      </node>
+      <node id="1009">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1002">
+        <label>EMIRDasAdapter.h</label>
+        <link refid="EMIRDasAdapter.h"/>
+        <childnode refid="1003" relation="include">
+        </childnode>
+        <childnode refid="1004" relation="include">
+        </childnode>
+        <childnode refid="1005" relation="include">
+        </childnode>
+      </node>
+      <node id="1019">
+        <label>EMIRDasConf.h</label>
+        <link refid="EMIRDasConf_8h"/>
+        <childnode refid="1009" relation="include">
+        </childnode>
+      </node>
+      <node id="1018">
+        <label>string</label>
+      </node>
+      <node id="1015">
+        <label>Trace.h</label>
+      </node>
+      <node id="1020">
+        <label>ace/Thread_Manager.h</label>
+      </node>
+      <node id="1010">
+        <label>TimeService.h</label>
+      </node>
+      <node id="1014">
+        <label>ace/Synch.h</label>
+      </node>
+      <node id="1006">
+        <label>Device.h</label>
+      </node>
+      <node id="1004">
+        <label>DeviceAdapter.h</label>
+      </node>
+      <node id="1017">
+        <label>DetectorControllerApp.h</label>
+        <link refid="DetectorControllerApp_8h"/>
+        <childnode refid="1018" relation="include">
+        </childnode>
+        <childnode refid="1015" relation="include">
+        </childnode>
+      </node>
+      <node id="1007">
+        <label>ConcreteArrays.h</label>
+      </node>
+      <node id="1005">
+        <label>EMIRDas.h</label>
+        <link refid="EMIRDas_8h"/>
+        <childnode refid="1006" relation="include">
+        </childnode>
+        <childnode refid="1007" relation="include">
+        </childnode>
+        <childnode refid="1008" relation="include">
+        </childnode>
+        <childnode refid="1019" relation="include">
+        </childnode>
+      </node>
+      <node id="1003">
+        <label>EMIRDASS.h</label>
+      </node>
+      <node id="1011">
+        <label>SimpleMemoryManager.h</label>
+        <link refid="SimpleMemoryManager_8h"/>
+        <childnode refid="1012" relation="include">
+        </childnode>
+        <childnode refid="1013" relation="include">
+        </childnode>
+        <childnode refid="1014" relation="include">
+        </childnode>
+        <childnode refid="1015" relation="include">
+        </childnode>
+      </node>
+      <node id="1008">
+        <label>EMIRDasController.h</label>
+        <link refid="EMIRDasController_8h"/>
+        <childnode refid="1009" relation="include">
+        </childnode>
+        <childnode refid="1010" relation="include">
+        </childnode>
+        <childnode refid="1011" relation="include">
+        </childnode>
+        <childnode refid="1016" relation="include">
+        </childnode>
+        <childnode refid="1019" relation="include">
+        </childnode>
+        <childnode refid="1020" relation="include">
+        </childnode>
+      </node>
+      <node id="1012">
+        <label>ace/Mutex.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1021">
+        <label>EMIRDasAdapter.h</label>
+        <link refid="EMIRDasAdapter.h"/>
+        <childnode refid="1022" relation="include">
+        </childnode>
+        <childnode refid="1023" relation="include">
+        </childnode>
+      </node>
+      <node id="1022">
+        <label>EMIRDas.cpp</label>
+        <link refid="EMIRDas_8cpp"/>
+      </node>
+      <node id="1023">
+        <label>EMIRDasAdapter.cpp</label>
+        <link refid="EMIRDasAdapter_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classEMIRDasAdapter">EMIRDasAdapter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2010<sp/>Gran<sp/>Telescopio<sp/>Canarias,<sp/>S.A.<sp/>(GRANTECAN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>Rights<sp/>Reserved</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_EMIRDasAdapter_h_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_EMIRDasAdapter_h_</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;EMIRDASS.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DeviceAdapter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="EMIRDas_8h" kindref="compound">EMIRDas.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//This<sp/>class<sp/>implements<sp/>the<sp/>IDL<sp/>interface<sp/>EMIRDas_ifce</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classEMIRDasAdapter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEMIRDasAdapter" kindref="compound">EMIRDasAdapter</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>POA_EMIRDAS::EMIRDas_ifce,<sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DeviceAdapter</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//--------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>public<sp/>section<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//--------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><ref refid="classEMIRDasAdapter_17c78965e864092e8084ffcbe730bef74" kindref="member">EMIRDasAdapter</ref>(<ref refid="classEMIRDas" kindref="compound">EMIRDas</ref>*<sp/>device);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Destructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="classEMIRDasAdapter_17e521d976c0c9ff0e31372f403754523" kindref="member">~EMIRDasAdapter</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Device<sp/>specific<sp/>operations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_19a483b282df3d3d7bb9b0b339af776c2" kindref="member">setupDetector</ref><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structEMIRTYPES_1_1AcquisitionConfiguration" kindref="compound">EMIRTYPES::AcquisitionConfiguration</ref>&amp;<sp/>acquisitionConfiguration);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1b4330b2faf29284ab18dc929ed4a43d8" kindref="member">expose</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_17af42f65a2d91b5589d80675ababd361" kindref="member">setupReadoutMode</ref><sp/>(<ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504" kindref="member">EMIRTYPES::ReadoutMode</ref><sp/>readoutmodeval);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1e8a43c5ecc658e5710801dffa0a6d53c" kindref="member">setupImageTitle</ref><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>exposureId);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1b529425e83c5e9bd88d84eedaa6693b2" kindref="member">setupExposureTime</ref>(CORBA::Long<sp/>exposureTime);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_10e0fb5dc2ea0f0827ce3e41d213e277d" kindref="member">setupWindowMode</ref><sp/><sp/>(CORBA::Boolean<sp/>windowmode);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_13c360f3ff270f4d4869209a1ccbbdebb" kindref="member">setupNSEC</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>nsec);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1d182fcd893f11a00df1df1347e65bcc3" kindref="member">setupNO_EXPOSURES</ref>(CORBA::Long<sp/>nexp);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_153ef9633b7df6cc707d5d504e24a9408" kindref="member">setupNRDBL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>nrdbl);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1ea7bc3cd99235d08874d82fd005b40eb" kindref="member">setupNRDBL_ND</ref><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>nrdbl_nd);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_174846b086785c36399bf60df8de39d54" kindref="member">setupNRST</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>nrst);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_130bdb2e659a81a6975ac10ce2ef3beb1" kindref="member">setupNPARAM_X</ref><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>nparam_x);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_14792cce84e5481696d71035b2c99f00f" kindref="member">setupNRDIL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>nrdil);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1ca65b38e47250aabb1c2ec9b572a03ab" kindref="member">setupNRDIL_ND</ref><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>nrdil_nd);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_134a1d062d04900b5b3a3e93db8c7735c" kindref="member">setupOPTRST</ref><sp/><sp/><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>optrst);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_128c994f414aaa43392f7d6c59d3d4281" kindref="member">setupX_SIZE</ref><sp/><sp/><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>x_size);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1dbcf973e7998c6d24d7fd6ea5d5e828b" kindref="member">setupY_SIZE</ref><sp/><sp/><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>y_size);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_13ef31c083e351d2e905b1774aae95a40" kindref="member">setupY_SIZE_B</ref><sp/><sp/><sp/><sp/>(CORBA::Long<sp/>y_size_b);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Monitorable<sp/>attributes<sp/>(device<sp/>magnitudes)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>CORBA::Boolean<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_149995293bff96c0c3eb9b254019f8876" kindref="member">isSettingup</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>CORBA::Boolean<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_186f62ffaa20bdaaac2641bb65a593bd8" kindref="member">isConfigurationDone</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>CORBA::Boolean<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1e69b0190c07b2bb10f2c952da29ef068" kindref="member">isExposing</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>CORBA::Boolean<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_169022b30a5ac35e3df2c086d609e8e30" kindref="member">isDetectorControllerIdle</ref><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>CORBA::Boolean<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1c67d8509621c60a98376c9741bd9ded2" kindref="member">currentWindowMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><ref refid="namespaceEMIRTYPES_19246deeb6e7f9f53b1a8ec6d076a6504" kindref="member">EMIRTYPES::ReadoutMode</ref><sp/><ref refid="classEMIRDasAdapter_1fb0bb5d7bda94c4ff09366a0987859c6" kindref="member">currentReadoutMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><ref refid="namespaceEMIRTYPES_1741b7f460d312b0261a9ee7ad4956ab1" kindref="member">EMIRTYPES::SDSUControllerStatus</ref><sp/><sp/><ref refid="classEMIRDasAdapter_1a1b66b7b9ef8f4cc707bb465a8389666" kindref="member">currentSDSUControllerStatus</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1dd68b5f048dade8e0c134bd3361d4461" kindref="member">currentElapsedTime</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_178b118b75ef1d7fda4263e037305a408" kindref="member">currentExposureTime</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_163ba8edf5afed1d78393b8bf4dc1e5b3" kindref="member">currentNumberOfImages</ref><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_12894c1b3a7250adf03da943697f5c8fb" kindref="member">currentNSEC</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1a21fa56ec55dc34e7f82a466b415a6aa" kindref="member">currentNO_EXPOSURES</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1aeb8c516512a468adbbc0b8bd3ebc6b7" kindref="member">currentNRDBL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1b4f77060f1933cf683471f4c21e835b5" kindref="member">currentNRDBL_ND</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1f638c6169de880f21d26f6d25f8f4b57" kindref="member">currentNPARAM_X</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1f072a49c4f9404ee05e27f93c897adda" kindref="member">currentNRST</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1df952c2799d185d8f636a23a34cdd9c8" kindref="member">currentNRDIL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1b9452d5f611c83a7f05766a12251ef24" kindref="member">currentNRDIL_ND</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1a6372c892016034f470a5bee38cbab9b" kindref="member">currentOPTRST</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1359248cfe19991feec589024a5c8c7ef" kindref="member">currentX_SIZE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_12bf12dd7347f43f92a9ea0183fbf5b0b" kindref="member">currentY_SIZE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>CORBA::Long<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_125f6d1e9e21fbe6dfca00e38d380f539" kindref="member">currentY_SIZE_B</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Configurable<sp/>attributes<sp/>(device<sp/>properties)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_160a2c747d7d7865c9281eb4494448226" kindref="member">poweronApp</ref><sp/>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_160a2c747d7d7865c9281eb4494448226" kindref="member">poweronApp</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>value);<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1a77b99137b49fceea7b2278470f8d1a5" kindref="member">poweroffApp</ref>();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1a77b99137b49fceea7b2278470f8d1a5" kindref="member">poweroffApp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>value);<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1b69351c7400230674ef9e7175ce0c902" kindref="member">adqApp</ref><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1b69351c7400230674ef9e7175ce0c902" kindref="member">adqApp</ref><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>value);<sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1dc3cf1aa350a51ffb0246ba73a226c04" kindref="member">imgDir</ref><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1dc3cf1aa350a51ffb0246ba73a226c04" kindref="member">imgDir</ref><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>value);<sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_11beb7bede45fd4190e06317dd8a7ba89" kindref="member">dataFactoryName</ref><sp/>();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_11beb7bede45fd4190e06317dd8a7ba89" kindref="member">dataFactoryName</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>value);<sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1743b2210376b8791fd25731cf0fb6127" kindref="member">isDataFactoryEnabled</ref><sp/>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEMIRDasAdapter_1743b2210376b8791fd25731cf0fb6127" kindref="member">isDataFactoryEnabled</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>value);<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//-----------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>protected<sp/>section<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//-----------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//--------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>private<sp/>section<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//--------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><ref refid="classEMIRDas" kindref="compound">EMIRDas</ref>*<sp/>device_;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>toIDL_(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structEMIRDas_1_1AcquisitionConfiguration" kindref="compound">EMIRDas::AcquisitionConfiguration</ref>&amp;<sp/>st,<sp/><ref refid="structEMIRTYPES_1_1AcquisitionConfiguration" kindref="compound">EMIRTYPES::AcquisitionConfiguration</ref>&amp;<sp/>idl_struct);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>fromIDL_(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><sp/><ref refid="structEMIRTYPES_1_1AcquisitionConfiguration" kindref="compound">EMIRTYPES::AcquisitionConfiguration</ref>&amp;<sp/>idl_struct,<sp/><ref refid="structEMIRDas_1_1AcquisitionConfiguration" kindref="compound">EMIRDas::AcquisitionConfiguration</ref>&amp;<sp/>st);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_EMIRDasAdapter_h_<sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDasAdapter.h"/>
+  </compounddef>
+</doxygen>

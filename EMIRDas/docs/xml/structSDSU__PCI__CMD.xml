@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structSDSU__PCI__CMD" kind="struct" prot="public">
+    <compoundname>SDSU_PCI_CMD</compoundname>
+    <includes refid="SDSUlcu_8l_2ct__interface_8h" local="no">ct_interface.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSDSU__PCI__CMD_10ddc66bdbfac978fa9f65e545101cf98" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_PCI_CMD::cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <briefdescription>
+<para>Three character command encoded as 24-bit word. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="211" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__PCI__CMD_1dc73a8ab26ebb8ed2e2ad702ac4fde93" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_PCI_CMD::arg1</definition>
+        <argsstring></argsstring>
+        <name>arg1</name>
+        <briefdescription>
+<para>First argument, usually required. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="212" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__PCI__CMD_14ed7479f9b88d1c8ee0693ede2aed3df" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_PCI_CMD::arg2</definition>
+        <argsstring></argsstring>
+        <name>arg2</name>
+        <briefdescription>
+<para>Second argument. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="213" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSDSU__PCI__CMD_19d06431a99c943a2bbd6b8d59e879323" prot="public" static="no" mutable="no">
+        <type>UINT32</type>
+        <definition>UINT32 SDSU_PCI_CMD::arg3</definition>
+        <argsstring></argsstring>
+        <name>arg3</name>
+        <briefdescription>
+<para>Third argument. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="214" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>PCI command data structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" line="210" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/ct_interface.h" bodystart="210" bodyend="215"/>
+    <listofallmembers>
+      <member refid="structSDSU__PCI__CMD_1dc73a8ab26ebb8ed2e2ad702ac4fde93" prot="public" virt="non-virtual"><scope>SDSU_PCI_CMD</scope><name>arg1</name></member>
+      <member refid="structSDSU__PCI__CMD_14ed7479f9b88d1c8ee0693ede2aed3df" prot="public" virt="non-virtual"><scope>SDSU_PCI_CMD</scope><name>arg2</name></member>
+      <member refid="structSDSU__PCI__CMD_19d06431a99c943a2bbd6b8d59e879323" prot="public" virt="non-virtual"><scope>SDSU_PCI_CMD</scope><name>arg3</name></member>
+      <member refid="structSDSU__PCI__CMD_10ddc66bdbfac978fa9f65e545101cf98" prot="public" virt="non-virtual"><scope>SDSU_PCI_CMD</scope><name>cmd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

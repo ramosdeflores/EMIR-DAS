@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="namespaceEMIRDAS" kind="namespace">
+    <compoundname>EMIRDAS</compoundname>
+    <innerclass refid="interfaceEMIRDAS_1_1EMIRDas__ifce">EMIRDAS::EMIRDas_ifce</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/EMIRDAS.idl" line="16"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration" kind="struct" prot="public">
+    <compoundname>EMIRDasAcqConfig::AcquisitionConfiguration</compoundname>
+    <includes refid="EMIRDasAcqConfig_8h" local="no">EMIRDasAcqConfig.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1b4bb36ef67f9bf4c56f0842a849ff549" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string EMIRDasAcqConfig::AcquisitionConfiguration::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="13" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1d9c6dda04aaa5c2f787591b07e98c623" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EMIRDasAcqConfig::AcquisitionConfiguration::readoutmodeval</definition>
+        <argsstring></argsstring>
+        <name>readoutmodeval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="14" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1a900118e118f33a4f52492d67467f35d" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::exposuretime</definition>
+        <argsstring></argsstring>
+        <name>exposuretime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="15" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1f989c0096e74da4638539bbb9320433d" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::x_size</definition>
+        <argsstring></argsstring>
+        <name>x_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="16" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_13351d4a6184fac33ff5522e3e9e96a08" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::y_size</definition>
+        <argsstring></argsstring>
+        <name>y_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="17" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_178f0779daa31647e58b87f08364f2a6e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EMIRDasAcqConfig::AcquisitionConfiguration::windowMode</definition>
+        <argsstring></argsstring>
+        <name>windowMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="18" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1cc6b930feb6474fe5d42693f89adf7e1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EMIRDasAcqConfig::AcquisitionConfiguration::applyConfiguration</definition>
+        <argsstring></argsstring>
+        <name>applyConfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="19" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1a425fef9b1f945ab46543e859332ec4d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EMIRDasAcqConfig::AcquisitionConfiguration::applySimulateImage</definition>
+        <argsstring></argsstring>
+        <name>applySimulateImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="20" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1d1225322d8a755b389d0a254cb2885aa" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EMIRDasAcqConfig::AcquisitionConfiguration::saveImages</definition>
+        <argsstring></argsstring>
+        <name>saveImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="21" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_182281e480cfdc86196f6cc06a3d90f76" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::nsec</definition>
+        <argsstring></argsstring>
+        <name>nsec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="22" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_190bbea7de129ee8072d5ea7b3c95a483" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::optrst</definition>
+        <argsstring></argsstring>
+        <name>optrst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_11e2c096fe6457487cf35e12570beb0cd" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::nrst</definition>
+        <argsstring></argsstring>
+        <name>nrst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="24" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1925a7399a297c82995bb18e07472409b" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::nrdbl</definition>
+        <argsstring></argsstring>
+        <name>nrdbl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="25" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1de8bf3030183ae6988ede03f742dcb35" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::nrdbl_nd</definition>
+        <argsstring></argsstring>
+        <name>nrdbl_nd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="26" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_14763a46e8c5f205a61849081e2264184" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::numExp</definition>
+        <argsstring></argsstring>
+        <name>numExp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="27" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_154bd9d41b0e43a82b4ccc3fc10ee15f7" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::nrdil</definition>
+        <argsstring></argsstring>
+        <name>nrdil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="28" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_12024a7e3f2902e010de896f30371da1a" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::nrdil_nd</definition>
+        <argsstring></argsstring>
+        <name>nrdil_nd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="29" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1442629f3936de5196628a5d68a837546" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EMIRDasAcqConfig::AcquisitionConfiguration::nparam_x</definition>
+        <argsstring></argsstring>
+        <name>nparam_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="30" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" line="12" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasAcqConfig.h" bodystart="11" bodyend="31"/>
+    <listofallmembers>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1cc6b930feb6474fe5d42693f89adf7e1" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>applyConfiguration</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1a425fef9b1f945ab46543e859332ec4d" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>applySimulateImage</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1a900118e118f33a4f52492d67467f35d" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>exposuretime</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1442629f3936de5196628a5d68a837546" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>nparam_x</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1925a7399a297c82995bb18e07472409b" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>nrdbl</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1de8bf3030183ae6988ede03f742dcb35" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>nrdbl_nd</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_154bd9d41b0e43a82b4ccc3fc10ee15f7" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>nrdil</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_12024a7e3f2902e010de896f30371da1a" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>nrdil_nd</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_11e2c096fe6457487cf35e12570beb0cd" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>nrst</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_182281e480cfdc86196f6cc06a3d90f76" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>nsec</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_14763a46e8c5f205a61849081e2264184" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>numExp</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_190bbea7de129ee8072d5ea7b3c95a483" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>optrst</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1d9c6dda04aaa5c2f787591b07e98c623" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>readoutmodeval</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1d1225322d8a755b389d0a254cb2885aa" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>saveImages</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1b4bb36ef67f9bf4c56f0842a849ff549" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>title</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_178f0779daa31647e58b87f08364f2a6e" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>windowMode</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_1f989c0096e74da4638539bbb9320433d" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>x_size</name></member>
+      <member refid="structEMIRDasAcqConfig_1_1AcquisitionConfiguration_13351d4a6184fac33ff5522e3e9e96a08" prot="public" virt="non-virtual"><scope>EMIRDasAcqConfig::AcquisitionConfiguration</scope><name>y_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

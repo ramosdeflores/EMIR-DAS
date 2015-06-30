@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="SimpleMemoryManager_8h" kind="file">
+    <compoundname>SimpleMemoryManager.h</compoundname>
+    <includes local="yes">ace/Mutex.h</includes>
+    <includes local="yes">ace/Semaphore.h</includes>
+    <includes local="yes">ace/Synch.h</includes>
+    <includes local="yes">Trace.h</includes>
+    <includedby refid="EMIRDasController_8cpp" local="yes">EMIRDasController.cpp</includedby>
+    <includedby refid="EMIRDasController_8h" local="yes">EMIRDasController.h</includedby>
+    <includedby refid="SimpleMemoryManager_8cpp" local="yes">SimpleMemoryManager.cpp</includedby>
+    <includedby refid="testMemMan_8cpp" local="yes">testMemMan.cpp</includedby>
+    <incdepgraph>
+      <node id="1300">
+        <label>ace/Semaphore.h</label>
+      </node>
+      <node id="1302">
+        <label>Trace.h</label>
+      </node>
+      <node id="1301">
+        <label>ace/Synch.h</label>
+      </node>
+      <node id="1298">
+        <label>SimpleMemoryManager.h</label>
+        <link refid="SimpleMemoryManager.h"/>
+        <childnode refid="1299" relation="include">
+        </childnode>
+        <childnode refid="1300" relation="include">
+        </childnode>
+        <childnode refid="1301" relation="include">
+        </childnode>
+        <childnode refid="1302" relation="include">
+        </childnode>
+      </node>
+      <node id="1299">
+        <label>ace/Mutex.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1315">
+        <label>EMIRDasAdapter.cpp</label>
+        <link refid="old_2EMIRDasAdapter_8cpp"/>
+      </node>
+      <node id="1317">
+        <label>EMIRDasConfigAgent.cpp</label>
+        <link refid="old_2EMIRDasConfigAgent_8cpp"/>
+      </node>
+      <node id="1308">
+        <label>EMIRDasAdapter.h</label>
+        <link refid="EMIRDasAdapter_8h"/>
+        <childnode refid="1307" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+      </node>
+      <node id="1313">
+        <label>EMIRDas.cpp</label>
+        <link refid="old_2EMIRDas_8cpp"/>
+      </node>
+      <node id="1321">
+        <label>SimpleMemoryManager.cpp</label>
+        <link refid="SimpleMemoryManager_8cpp"/>
+      </node>
+      <node id="1311">
+        <label>EMIRDasConfigAgent.cpp</label>
+        <link refid="EMIRDasConfigAgent_8cpp"/>
+      </node>
+      <node id="1314">
+        <label>EMIRDasAdapter.h</label>
+        <link refid="old_2EMIRDasAdapter_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1315" relation="include">
+        </childnode>
+      </node>
+      <node id="1316">
+        <label>EMIRDasConfigAgent.h</label>
+        <link refid="old_2EMIRDasConfigAgent_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1317" relation="include">
+        </childnode>
+      </node>
+      <node id="1310">
+        <label>EMIRDasConfigAgent.h</label>
+        <link refid="EMIRDasConfigAgent_8h"/>
+        <childnode refid="1307" relation="include">
+        </childnode>
+        <childnode refid="1311" relation="include">
+        </childnode>
+      </node>
+      <node id="1318">
+        <label>dasApplication.cpp</label>
+        <link refid="examples_2runEMIRDas_8p_8old_2dasApplication_8cpp"/>
+      </node>
+      <node id="1307">
+        <label>EMIRDas.cpp</label>
+        <link refid="EMIRDas_8cpp"/>
+      </node>
+      <node id="1306">
+        <label>EMIRDas.h</label>
+        <link refid="EMIRDas_8h"/>
+        <childnode refid="1307" relation="include">
+        </childnode>
+        <childnode refid="1308" relation="include">
+        </childnode>
+        <childnode refid="1310" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+      </node>
+      <node id="1304">
+        <label>EMIRDasController.cpp</label>
+        <link refid="EMIRDasController_8cpp"/>
+      </node>
+      <node id="1312">
+        <label>EMIRDas.h</label>
+        <link refid="old_2EMIRDas_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+        <childnode refid="1316" relation="include">
+        </childnode>
+        <childnode refid="1315" relation="include">
+        </childnode>
+        <childnode refid="1318" relation="include">
+        </childnode>
+        <childnode refid="1319" relation="include">
+        </childnode>
+      </node>
+      <node id="1309">
+        <label>EMIRDasAdapter.cpp</label>
+        <link refid="EMIRDasAdapter_8cpp"/>
+      </node>
+      <node id="1320">
+        <label>EMIRDasControllerHw.cpp</label>
+        <link refid="EMIRDasControllerHw_8cpp"/>
+      </node>
+      <node id="1303">
+        <label>SimpleMemoryManager.h</label>
+        <link refid="SimpleMemoryManager.h"/>
+        <childnode refid="1304" relation="include">
+        </childnode>
+        <childnode refid="1305" relation="include">
+        </childnode>
+        <childnode refid="1321" relation="include">
+        </childnode>
+        <childnode refid="1322" relation="include">
+        </childnode>
+      </node>
+      <node id="1322">
+        <label>testMemMan.cpp</label>
+        <link refid="testMemMan_8cpp"/>
+      </node>
+      <node id="1305">
+        <label>EMIRDasController.h</label>
+        <link refid="EMIRDasController_8h"/>
+        <childnode refid="1306" relation="include">
+        </childnode>
+        <childnode refid="1312" relation="include">
+        </childnode>
+        <childnode refid="1304" relation="include">
+        </childnode>
+        <childnode refid="1320" relation="include">
+        </childnode>
+      </node>
+      <node id="1319">
+        <label>dasApplication.cpp</label>
+        <link refid="runEMIRDas_8p_2dasApplication_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classSimpleMemoryManager">SimpleMemoryManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>SimpleMemoryManager.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_SimpleMemoryManager_h_</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_SimpleMemoryManager_h_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ace/Mutex.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ace/Semaphore.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ace/Synch.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Trace.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classSimpleMemoryManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSimpleMemoryManager" kindref="compound">SimpleMemoryManager</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSimpleMemoryManager_1eff6c756d8f4d66a11134a6b13495cff" kindref="member">SimpleMemoryManager</ref>(size_t<sp/>size,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>poolSize);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSimpleMemoryManager_1aa492310bdf8f421920594c7166260be" kindref="member">~SimpleMemoryManager</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="classSimpleMemoryManager_1d2fd83fde76e218a348d4647a5009589" kindref="member">getFreeBuffer</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>wait);<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Return<sp/>an<sp/>empty<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="classSimpleMemoryManager_12feb159fea934d91682c2661ccd7f34d" kindref="member">getFullBuffer</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>wait);<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Return<sp/>a<sp/>loaded<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_157fa404c6e19bebe963d70a4b2085ebd" kindref="member">putFullBuffer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Queue<sp/>a<sp/>loaded<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_11c167a14b6ed8b8f6d384006fc0577be" kindref="member">putFreeBuffer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Queue<sp/>an<sp/>empty<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1c94e4ebaea3bc04fc6e9c7d01b4356cb" kindref="member">getBufferCount</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>number<sp/>of<sp/>buffers<sp/>to<sp/>allocate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1b6e78519ed8a2a3af9d55e0c63aeed47" kindref="member">getBufferSize</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>number<sp/>of<sp/>buffers<sp/>to<sp/>allocate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_11394991301a4fa9674b605574655bb13" kindref="member">getFreeCount</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>number<sp/>of<sp/>free<sp/>buffers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1ee6a370f086d6421b47affb7ed8b2648" kindref="member">getFullCount</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>number<sp/>of<sp/>loaded<sp/>buffers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1c3464b914dfe6b0893125ca71e6c92a8" kindref="member">waitForFull</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Wait<sp/>until<sp/>all<sp/>loaded<sp/>buffers<sp/>have<sp/>been<sp/>process</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1cdf2cf0b1fa21570ec613e1046c308bb" kindref="member">waitForFree</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Wait<sp/>until<sp/>all<sp/>loaded<sp/>buffers<sp/>have<sp/>been<sp/>process</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSimpleMemoryManager_1eb596e40b3fcd62841e9c55e54f5ccb0" kindref="member">waitForEmpty</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classSimpleMemoryManager_1fb40deed804b321ec1d3741067d2b924" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Trace<sp/>*<ref refid="classSimpleMemoryManager_1fb40deed804b321ec1d3741067d2b924" kindref="member">trace_</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>size_t<sp/>buffSize;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pool_size;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>freeCount;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fullCount;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>freeHead,<sp/>freeTail;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fullHead,<sp/>fullTail;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**freeQueue,<sp/>**fullQueue;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_Thread_Mutex<sp/>fullMutex_;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_Thread_Mutex<sp/>freeMutex_;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_Thread_Mutex<sp/>emptyMutex_;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>ACE_Semaphore<sp/><sp/><sp/>*fullSema_;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>ACE_Semaphore<sp/><sp/><sp/>*freeSema_;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/SimpleMemoryManager.h"/>
+  </compounddef>
+</doxygen>

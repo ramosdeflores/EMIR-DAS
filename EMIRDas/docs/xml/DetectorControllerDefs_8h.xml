@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="DetectorControllerDefs_8h" kind="file">
+    <compoundname>DetectorControllerDefs.h</compoundname>
+    <includedby refid="DetectorControllerApp_8cpp" local="yes">DetectorControllerApp.cpp</includedby>
+    <invincdepgraph>
+      <node id="845">
+        <label>DetectorControllerDefs.h</label>
+        <link refid="DetectorControllerDefs.h"/>
+        <childnode refid="846" relation="include">
+        </childnode>
+      </node>
+      <node id="846">
+        <label>DetectorControllerApp.cpp</label>
+        <link refid="DetectorControllerApp_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="DetectorControllerDefs_8h_111bd872ec668129543d7eb0d64077b41" prot="public" static="no">
+        <name>MEMP</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="5" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_1f7a49163f08b9c50fbef9d517fd66480" prot="public" static="no">
+        <name>MEMX</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="6" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_11dc9b2e5e8f10c0ba775c5a3a8430995" prot="public" static="no">
+        <name>MEMY</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="7" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_1a1c2d957d03195043dc8a1b2b27b9a1a" prot="public" static="no">
+        <name>APP_IDLE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="9" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_1b5cb3daad4cc5aa6cb443f8137f6a4f3" prot="public" static="no">
+        <name>APP_LOADED</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="10" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_1bf86e661203178a0852ee259656ee420" prot="public" static="no">
+        <name>APP_RUNNING</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="11" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_159bf2009b268e9fb48f53a5b94ddac06" prot="public" static="no">
+        <name>APP_OK</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="12" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_1deb60ffe4132e169e4166005e09ee686" prot="public" static="no">
+        <name>APP_ABORT</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="13" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_1e7001fb90df348c6021590df8b289ec5" prot="public" static="no">
+        <name>APP_BAD</name>
+        <initializer>99995</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="14" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_174b2b6574b84acba24ee2cfe925c8c30" prot="public" static="no">
+        <name>APP_READONLY</name>
+        <initializer>99996</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="15" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_1be423dbe7caec38f392b41275954d5e8" prot="public" static="no">
+        <name>APP_MEMUNDEF</name>
+        <initializer>99997</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="16" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_152bd0f37bb5f1734e4b308df1c140c53" prot="public" static="no">
+        <name>APP_UNDEF</name>
+        <initializer>99998</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="17" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_10e2e4a8db1580e6a554c9105d1a421d9" prot="public" static="no">
+        <name>APP_ERROR</name>
+        <initializer>99999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="18" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_133bfc1f995233887a0414369c36936b8" prot="public" static="no">
+        <name>NOT_FOUND</name>
+        <initializer>-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="21" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" prot="public" static="no">
+        <name>INT32</name>
+        <initializer>int</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="23" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" prot="public" static="no">
+        <name>UINT32</name>
+        <initializer>unsigned int</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" line="24" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_DetectorControllerDefs_h_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_DetectorControllerDefs_h_</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="DetectorControllerDefs_8h_111bd872ec668129543d7eb0d64077b41" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MEMP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="6" refid="DetectorControllerDefs_8h_1f7a49163f08b9c50fbef9d517fd66480" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MEMX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="7" refid="DetectorControllerDefs_8h_11dc9b2e5e8f10c0ba775c5a3a8430995" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MEMY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="DetectorControllerDefs_8h_1a1c2d957d03195043dc8a1b2b27b9a1a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APP_IDLE<sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="10" refid="DetectorControllerDefs_8h_1b5cb3daad4cc5aa6cb443f8137f6a4f3" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APP_LOADED<sp/><sp/>1</highlight></codeline>
+<codeline lineno="11" refid="DetectorControllerDefs_8h_1bf86e661203178a0852ee259656ee420" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APP_RUNNING<sp/>2</highlight></codeline>
+<codeline lineno="12" refid="DetectorControllerDefs_8h_159bf2009b268e9fb48f53a5b94ddac06" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APP_OK<sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="13" refid="DetectorControllerDefs_8h_1deb60ffe4132e169e4166005e09ee686" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APP_ABORT<sp/><sp/><sp/>4</highlight></codeline>
+<codeline lineno="14" refid="DetectorControllerDefs_8h_1e7001fb90df348c6021590df8b289ec5" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APP_BAD<sp/><sp/><sp/><sp/><sp/>99995</highlight></codeline>
+<codeline lineno="15" refid="DetectorControllerDefs_8h_174b2b6574b84acba24ee2cfe925c8c30" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APP_READONLY<sp/><sp/><sp/><sp/>99996</highlight></codeline>
+<codeline lineno="16" refid="DetectorControllerDefs_8h_1be423dbe7caec38f392b41275954d5e8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APP_MEMUNDEF<sp/><sp/><sp/><sp/>99997</highlight></codeline>
+<codeline lineno="17" refid="DetectorControllerDefs_8h_152bd0f37bb5f1734e4b308df1c140c53" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APP_UNDEF<sp/><sp/><sp/>99998</highlight></codeline>
+<codeline lineno="18" refid="DetectorControllerDefs_8h_10e2e4a8db1580e6a554c9105d1a421d9" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APP_ERROR<sp/><sp/><sp/>99999</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="DetectorControllerDefs_8h_133bfc1f995233887a0414369c36936b8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOT_FOUND<sp/><sp/><sp/>-1</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="DetectorControllerDefs_8h_1ac92c5ec332dafe0abb24688dad1b795" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT32<sp/><sp/><sp/><sp/><sp/><sp/><sp/>int</highlight></codeline>
+<codeline lineno="24" refid="DetectorControllerDefs_8h_169afa2e50b905f4eab1f2df8a3fd9f23" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>UINT32<sp/><sp/><sp/><sp/><sp/><sp/>unsigned<sp/>int</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/DetectorControllerDefs.h"/>
+  </compounddef>
+</doxygen>

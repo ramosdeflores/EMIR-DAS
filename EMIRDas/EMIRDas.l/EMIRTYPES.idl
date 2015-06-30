@@ -1,0 +1,44 @@
+#ifndef _EMIRTYPES_
+#define _EMIRTYPES_
+
+#pragma prefix "gtc"
+
+#include "DGT.idl"
+
+module EMIRTYPES {
+
+        enum ReadoutMode { SINGLE, CDS, FOWLER, RAMP, HDR_SIMPLE, BIAS, MRAMP, UNDEFINED }; 
+
+        enum SDSUControllerStatus { DETECTOR_IDLE, DETECTOR_ERROR, DETECTOR_RUNNING, DETECTOR_ENDS };
+  
+
+        struct NameValue {
+                string name;
+                any value;
+        };
+        typedef sequence <NameValue> ParamList;
+
+        struct AcquisitionConfiguration {
+                string title;
+                ReadoutMode readoutmodeval;
+                long  exposuretime;
+                long  x_size;
+                long  y_size;
+                boolean windowMode;
+                boolean applyConfiguration;
+                boolean applySimulateImage;
+                boolean saveImages;
+		long nsec;                      // Number of sequences in an observation
+		long optrst;                    // Type of detector resets to be performed
+		long nrst;                      // Number of detector resets
+		long nrdbl;                     // Number of detector resets before loop
+		long nrdbl_nd;                  // Detectors resets before the loop with no data
+		long numExp;                    // Number of expositions per sequence
+		long nrdil;                     // Number of detector resets inside the loop
+		long nrdil_nd;                  // Detector resets inside the loop with no data
+		long nparam_x;                  // Number of dummy readouts of a line
+        };
+
+};
+
+#endif // _EMIRTYPES_ 

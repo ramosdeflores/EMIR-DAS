@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classEMIRDasController" kind="class" prot="public">
+    <compoundname>EMIRDasController</compoundname>
+    <includes refid="EMIRDasController_8h" local="no">EMIRDasController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEMIRDasController_1c1071c3fc072ad93985337bab9f3b578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EMIRDasController::EMIRDasController</definition>
+        <argsstring>(const String dataFactoryName, const String imgStorageDir, const String powerOn, const String acquisitionApp, const String powerOff)</argsstring>
+        <name>EMIRDasController</name>
+        <param>
+          <type>const String</type>
+          <declname>dataFactoryName</declname>
+        </param>
+        <param>
+          <type>const String</type>
+          <declname>imgStorageDir</declname>
+        </param>
+        <param>
+          <type>const String</type>
+          <declname>powerOn</declname>
+        </param>
+        <param>
+          <type>const String</type>
+          <declname>acquisitionApp</declname>
+        </param>
+        <param>
+          <type>const String</type>
+          <declname>powerOff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="39" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="70" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_1e2500f58d3cd53504cb5fc34d95a63d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EMIRDasController::~EMIRDasController</definition>
+        <argsstring>()</argsstring>
+        <name>~EMIRDasController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="41" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_1a2091be19a1833fc54527b080dfe3e84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * EMIRDasController::report</definition>
+        <argsstring>(const short level)</argsstring>
+        <name>report</name>
+        <param>
+          <type>const short</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Ioctl operation that allows managing the DC, indicating which kind of operation it is desired to perform with it. </para>        </briefdescription>
+        <detaileddescription>
+<para>The operations that can be performed by ioctl are encapsultated as private operations of this class. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cmd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Command to execute. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>arg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Operation parameters. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="51" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="272" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_1975b87e8f56180e263e8b1eaefa91194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+<para>Executes the init command on SDSUController. </para>        </briefdescription>
+        <detaileddescription>
+<para>This corresponds to send some initial commands to SDSUController so that it will be ready to receive configuration and start commands. The constants DETECTOR_CONTROLLER_INIT_BETWEEN_TIMEOUT and DETECTOR_CONTROLLER_INIT_TIMEOUT_WAITING_ANSWER are used in this operation.</para><para>Possible Returns sending initialization command.</para><para><simplesect kind="return"><para>DAS::TIMEOUT If the timeout expires.</para><para>DAS::OPERATIONFAILED Error in the answer of the DC. Indicates some problem in the communication.</para><para>DAS::OPERATION_OK All commands send correctly.</para></simplesect>
+No Exceptions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="78" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="213" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_184a2c200dce96885a3693fea3c88f5dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::halt</definition>
+        <argsstring>()</argsstring>
+        <name>halt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="80" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="105" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_13cc1efbd1d45ffd7499bb7a2c04a0a14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::config</definition>
+        <argsstring>(const AcqConfig &amp;acqparameters)</argsstring>
+        <name>config</name>
+        <param>
+          <type>const <ref refid="structAcqConfig" kindref="compound">AcqConfig</ref> &amp;</type>
+          <declname>acqparameters</declname>
+        </param>
+        <briefdescription>
+<para>Sends the configuration commands to SDSU Controller and configures the timeouts of the FrameGrabber. </para>        </briefdescription>
+        <detaileddescription>
+<para>This operation is needed to be set, always that the configuration of SDSU Controller changes. This is when the acquisition parameters changes between acquisition and acquisition. If the acquisition parameters are the same between acquisition and acquisition this operation is not needed to be called.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>acqparameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Acquisition parameters. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<xrefsect id="todo_1_todo000001"><xreftitle>Todo</xreftitle><xrefdescription><para>. In this function framegrabber timeouts are fixed. Change appropiately. </para><para>TimeoutBeforeCapture and TimeouDataTransfer. Possible Returns sending command.</para></xrefdescription></xrefsect><simplesect kind="return"><para>DAS::TIMEOUT If the timeout expires.</para><para>DAS::OPERATIONFAILED Error in the answer of the DC. Indicates some problem in the communication.</para><para>DAS::OPERATION_OK All commands send correctly. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="107" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="231" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_1cab75709be10b0f884aa7bdf2fdd5c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::start</definition>
+        <argsstring>(bool sendFrame)</argsstring>
+        <name>start</name>
+        <param>
+          <type>bool</type>
+          <declname>sendFrame</declname>
+        </param>
+        <briefdescription>
+<para>Precondition: Call before(once) &quot;configure&quot; operation. </para>        </briefdescription>
+        <detaileddescription>
+<para>Call before(once) &quot;read&quot; operation. This operation starts the acquisition operation in the controller command line, reads each of the frames through the data collector communication channel. Each time a frame is read provokes an event DataIsAvailable. This event is used by external entities to provide a new bucket for the next acquisition, if it is needed. The operation that is used to provide a new bucket is setMemory. Note: This method may be aborted by the operation abort. When this operation ends, a AcquisitionDoneDC event will be generated.</para><para><simplesect kind="return"><para>DAS::TIMEOUT If the timeout expires.</para><para>DAS::OPERATIONFAILED Error in the answer of the DC. Indicates some problem in the communication.</para><para>DAS::OPERATION_OK All commands send correctly. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="131" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="140" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_102a82e1fc1e01899fd0a71203a305da7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::abort</definition>
+        <argsstring>(void)</argsstring>
+        <name>abort</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>This operation starts the aborting mechanism. </para>        </briefdescription>
+        <detaileddescription>
+<para>This operation does not block the thread that calls it. This operation is called when the start operation is in progress. This operation is responsible for cancelling the current acquisition, its scope is limited by the start operation.</para><para>The operation start will be aborted sometime after this operation is called. We will know that the operation AcquisitionTask has been aborted because the event DetectorControllerAborted is launched by the aborting mechanism. <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>CannotProceed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if FrameGrabber LWDevice::CRITICAL_ </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CannotProceed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&quot;DIG16_capture_to_image&quot;, &quot;FrameGrabber::cancel&quot; * </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>DAS::TIMEOUT If the timeout expires.</para><para>DAS::OPERATIONFAILED Error in the answer of the DC. Indicates some problem in the communication.</para><para>DAS::OPERATION_OK All commands send correctly. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="157" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="250" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_1ff956348e8954957d4601fa500d623ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::check</definition>
+        <argsstring>()</argsstring>
+        <name>check</name>
+        <briefdescription>
+<para>Checks the detector controller devices. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a value different from 0 in case of error. 0: Ok -1: Sending commands to SDSU Fails -2: Sending acquisition configuraion to SDSU fails. -3: Executing capture frame fails. -4: Sending start command to SDSU fails -5: Wait acquisition ends with error. -6: Values received from SDSU controller are not correct. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="171" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="295" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_1f07a5a5c57fa768add28bb5dd68608a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="173" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="116" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_14e88713b462e25dee99d4215e56cb692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="175" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="90" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_104fdeacefcd578b195d548f1e6fefa07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::test</definition>
+        <argsstring>()</argsstring>
+        <name>test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="177" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="99" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classEMIRDasController_169a2f98b7be1b055556481806e949879" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::expose</definition>
+        <argsstring>(AcqConfig &amp;acqparameters)</argsstring>
+        <name>expose</name>
+        <param>
+          <type><ref refid="structAcqConfig" kindref="compound">AcqConfig</ref> &amp;</type>
+          <declname>acqparameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="179" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="367" bodyend="435"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEMIRDasController_1590228bb19129db6b3abb3f9a83ee719" prot="public" static="no" mutable="no">
+        <type>Trace *</type>
+        <definition>Trace* EMIRDasController::trace_</definition>
+        <argsstring></argsstring>
+        <name>trace_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="181" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classEMIRDasController_15e75539e44fc7c425f39522b862efeb4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EMIRDasController::readDetector</definition>
+        <argsstring>(void *dumpFrame, unsigned int iter, AcqConfig params)</argsstring>
+        <name>readDetector</name>
+        <param>
+          <type>void *</type>
+          <declname>dumpFrame</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iter</declname>
+        </param>
+        <param>
+          <type><ref refid="structAcqConfig" kindref="compound">AcqConfig</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="205" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.cpp" bodystart="304" bodyend="364"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEMIRDasController_1235236f2f446a43bcce7060fd5b51e1d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EMIRDasController::aborting_</definition>
+        <argsstring></argsstring>
+        <name>aborting_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="185" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_1f6909f7ea57815691de254db7fd9f5ef" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EMIRDasController::created_</definition>
+        <argsstring></argsstring>
+        <name>created_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="186" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_1c5618efbf39a4c75e27fd3826e3ab57b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EMIRDasController::continuereadexperimental_</definition>
+        <argsstring></argsstring>
+        <name>continuereadexperimental_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="187" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_19233a55633a8fa2c3de181762520c0e4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EMIRDasController::requirereleasebucket_</definition>
+        <argsstring></argsstring>
+        <name>requirereleasebucket_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="188" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_19752ebcec11ac3d0be2ad2c20a52d648" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String EMIRDasController::powOn</definition>
+        <argsstring></argsstring>
+        <name>powOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="190" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_1de018358e7a9b334a550ea63ccdd2b51" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String EMIRDasController::powOff</definition>
+        <argsstring></argsstring>
+        <name>powOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="191" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_15df273e4769912a6a062ccf6ce5e558a" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String EMIRDasController::acqApp</definition>
+        <argsstring></argsstring>
+        <name>acqApp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="192" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_146c47c14829a4f1f588be9a222873254" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string EMIRDasController::imgDir</definition>
+        <argsstring></argsstring>
+        <name>imgDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="193" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_186d9f02477c894e8beeee057578a7cfe" prot="private" static="no" mutable="no">
+        <type><ref refid="classEMIRDasControllerHw" kindref="compound">EMIRDasControllerHw</ref> *</type>
+        <definition>EMIRDasControllerHw* EMIRDasController::dchardwarefacade_</definition>
+        <argsstring></argsstring>
+        <name>dchardwarefacade_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="195" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_1e5f131f6509f3d18a11b62e266cfbf11" prot="private" static="no" mutable="no">
+        <type><ref refid="classSimpleMemoryManager" kindref="compound">SimpleMemoryManager</ref> *</type>
+        <definition>SimpleMemoryManager* EMIRDasController::memoryManager</definition>
+        <argsstring></argsstring>
+        <name>memoryManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="197" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEMIRDasController_1a18db248b3fc908259469682596c6b21" prot="private" static="no" mutable="no">
+        <type>ACE_thread_t</type>
+        <definition>ACE_thread_t EMIRDasController::threadId_</definition>
+        <argsstring></argsstring>
+        <name>threadId_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="202" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classEMIRDasController" kindref="compound">EMIRDasController</ref> class implements specific detector controller operations. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class follows the pimpl pattern.</para><para>It provides access to specific detector controller operations through the ioctl command.The operations provided by EMIR ,&quot;ioctl operations&quot; are: 1. DC_CREATE, Creates the Detector Controller Resources. Called only once. 2. DC_INIT, Performs the initial operations on system 3. DC_ABORT, Aborts the current operation. 4. DC_CONFIG, Applied before the DC_START command. It is used 5. DC_CHANNEL_NAME. Sets the name of the channel used to nofify events ocurred in the DC. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="170">
+        <label>DetectorControllerApp</label>
+        <link refid="classDetectorControllerApp"/>
+      </node>
+      <node id="168">
+        <label>EMIRDasController</label>
+        <link refid="classEMIRDasController"/>
+        <childnode refid="169" relation="usage">
+          <edgelabel>dchardwarefacade_</edgelabel>
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>memoryManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="171">
+        <label>SimpleMemoryManager</label>
+        <link refid="classSimpleMemoryManager"/>
+      </node>
+      <node id="169">
+        <label>EMIRDasControllerHw</label>
+        <link refid="classEMIRDasControllerHw"/>
+        <childnode refid="170" relation="usage">
+          <edgelabel>aquisitionCode</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="34" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="34" bodyend="207"/>
+    <listofallmembers>
+      <member refid="classEMIRDasController_102a82e1fc1e01899fd0a71203a305da7" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>abort</name></member>
+      <member refid="classEMIRDasController_1235236f2f446a43bcce7060fd5b51e1d" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>aborting_</name></member>
+      <member refid="classEMIRDasController_15df273e4769912a6a062ccf6ce5e558a" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>acqApp</name></member>
+      <member refid="classEMIRDasController_1ff956348e8954957d4601fa500d623ba" prot="public" virt="virtual"><scope>EMIRDasController</scope><name>check</name></member>
+      <member refid="classEMIRDasController_13cc1efbd1d45ffd7499bb7a2c04a0a14" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>config</name></member>
+      <member refid="classEMIRDasController_1c5618efbf39a4c75e27fd3826e3ab57b" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>continuereadexperimental_</name></member>
+      <member refid="classEMIRDasController_1f6909f7ea57815691de254db7fd9f5ef" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>created_</name></member>
+      <member refid="classEMIRDasController_186d9f02477c894e8beeee057578a7cfe" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>dchardwarefacade_</name></member>
+      <member refid="classEMIRDasController_1c1071c3fc072ad93985337bab9f3b578" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>EMIRDasController</name></member>
+      <member refid="classEMIRDasController_169a2f98b7be1b055556481806e949879" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>expose</name></member>
+      <member refid="classEMIRDasController_184a2c200dce96885a3693fea3c88f5dc" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>halt</name></member>
+      <member refid="classEMIRDasController_146c47c14829a4f1f588be9a222873254" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>imgDir</name></member>
+      <member refid="classEMIRDasController_1975b87e8f56180e263e8b1eaefa91194" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>init</name></member>
+      <member refid="classEMIRDasController_1e5f131f6509f3d18a11b62e266cfbf11" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>memoryManager</name></member>
+      <member refid="classEMIRDasController_1de018358e7a9b334a550ea63ccdd2b51" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>powOff</name></member>
+      <member refid="classEMIRDasController_19752ebcec11ac3d0be2ad2c20a52d648" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>powOn</name></member>
+      <member refid="classEMIRDasController_15e75539e44fc7c425f39522b862efeb4" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>readDetector</name></member>
+      <member refid="classEMIRDasController_1a2091be19a1833fc54527b080dfe3e84" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>report</name></member>
+      <member refid="classEMIRDasController_19233a55633a8fa2c3de181762520c0e4" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>requirereleasebucket_</name></member>
+      <member refid="classEMIRDasController_14e88713b462e25dee99d4215e56cb692" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>reset</name></member>
+      <member refid="classEMIRDasController_1f07a5a5c57fa768add28bb5dd68608a9" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>shutdown</name></member>
+      <member refid="classEMIRDasController_1cab75709be10b0f884aa7bdf2fdd5c6c" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>start</name></member>
+      <member refid="classEMIRDasController_104fdeacefcd578b195d548f1e6fefa07" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>test</name></member>
+      <member refid="classEMIRDasController_1a18db248b3fc908259469682596c6b21" prot="private" virt="non-virtual"><scope>EMIRDasController</scope><name>threadId_</name></member>
+      <member refid="classEMIRDasController_1590228bb19129db6b3abb3f9a83ee719" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>trace_</name></member>
+      <member refid="classEMIRDasController_1e2500f58d3cd53504cb5fc34d95a63d1" prot="public" virt="non-virtual"><scope>EMIRDasController</scope><name>~EMIRDasController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

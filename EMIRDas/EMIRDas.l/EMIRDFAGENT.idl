@@ -1,0 +1,158 @@
+// Copyright (c) 2010 Gran Telescopio Canarias, S.A. (GRANTECAN)
+// All Rights Reserved
+
+//$Log$
+
+
+#ifndef _EMIRDFAGENT_idl_
+#define _EMIRDFAGENT_idl_
+
+#include "DCF.idl"
+#include "DFAGENT.idl"
+
+#pragma prefix "gtc"
+
+module EMIRDFAGENT
+{
+//  enum ObservationMode
+//  {
+//    EMIR_DIRECT_IMAGE, EMIR_ACCUMULATE_IMAGE
+//  };
+  enum ObservationMode
+  {
+    IMAGE_BIAS, IMAGE_DARK, IMAGE_FLAT, IMAGE_SKY, DEAD_PX_MASK, IMAGE_FLAT_D,
+    MSM_SPECTRAL_FLAT_FIELD, SPEC_SKY, SPEC_DARK, SPEC_FLAT,
+    SLIT_TRANSM_CALIBR, WAVELENGTH_CALIBR, TS_ROUGH_FOCUS, TS_FINE_FOCUS,
+    EMIR_FOCUS_CTL, IMAGE_ACQUISTION, MOS_LONG_SLIT, TARGET_ACQUISITION,
+    MASK_IMAGING, MSM_LSM_CHECK, STARE_IMAGE, NODDED_BEAM_SWITCHED_IMAGE,
+    DITHERED_IMAGE,MICRODITHERED_IMAGE, MOSAICED_IMAGE,STARE_SPECTRA,
+    DITHERED_NODDED_SPECTRA_ALONG_SLIT, OFFSET_SPECTRA_BEYOND_SLIT,
+    RASTER_SPECTRA, DTU_X_Y_CALIBRATION, DTU_Z_CALIBRATION, DTU_FLEXURE_COMP,
+    CSU2DETECTOR_CALIBRATION, LATERAL_COLOUR, SPECTRAL_CHARACTERIZATION,
+    CENTRE_ROTATION, ASTROMETRIC_CALIBRATION, PHOTOMETRIC_CALIBRATION,
+    SPECTROPHOTOMETRIC_CALIBRATION, TEST0, TEST1, TEST2, TEST3, TEST4, TEST5, 
+    TEST6, TEST7
+  };
+
+  interface EMIRDFAgent_ifce : DFAGENT::DFAgent_ifce
+  {
+    // Specific EMIRDFAgent operations
+    void setObsMode(in ObservationMode obsMode) 
+			raises (DGT::GCSException); 
+
+    void setNumberOfImagesToCollect(in long value)
+			raises (DGT::GCSException); 
+
+    void setNumberOfReadsInAPoint(in long value)
+			raises (DGT::GCSException); 
+
+//    void setFilterName(in string filter)
+//			raises (DGT::GCSException); 
+
+    void setFilterName(in string filter, in short position)
+			raises (DGT::GCSException); 
+
+    void setGrismName(in string grism)
+			raises (DGT::GCSException); 
+
+    void setCSUConfFile(in string file)
+			raises (DGT::GCSException); 
+
+    void endSequence(in boolean value)
+			raises (DGT::GCSException); 
+
+    void setFlip(in boolean value)
+			raises (DGT::GCSException); 
+
+    void setRotatorOffset(in double value)
+			raises (DGT::GCSException); 
+
+    void setReferencePixel(in double pixelX, in double pixelY)
+			raises (DGT::GCSException); 
+
+    void setPlateScale(in double value)
+			raises (DGT::GCSException); 
+            
+    void setInstrumentPositionAngle(in double value)
+			  raises (DGT::GCSException); 
+
+    void setDetectorPositionAngle(in double value)
+			  raises (DGT::GCSException); 
+
+    void setDTUPositionAngle(in double value)      
+			  raises (DGT::GCSException); 
+
+    void setFocalPlanePositionAngle(in double value)
+			  raises (DGT::GCSException); 
+
+    void setPixelSizeAtDetector(in double value)   
+			  raises (DGT::GCSException); 
+
+    void setPixelSizeAtFocalPlane(in double value) 
+			  raises (DGT::GCSException); 
+
+    void setDTU_FOV(in long valueX, in long valueY, in long valueZ)               
+			  raises (DGT::GCSException); 
+
+    void setDTU_Factor(in long valueX, in long valueY, in long valueZ)               
+			  raises (DGT::GCSException); 
+
+    void setDTU_Commanded(in long valueX, in long valueY, in long valueZ)               
+			  raises (DGT::GCSException); 
+
+    void setCoordinateType(in string value)
+			  raises (DGT::GCSException); 
+
+    void setCRVAL(in double alfa, in double delta)      
+			  raises (DGT::GCSException); 
+
+    void setDetectorCenter(in long valueX, in long valueY)    
+			  raises (DGT::GCSException); 
+
+    void setNumberCycle(in string value)       
+			  raises (DGT::GCSException); 
+
+    void setCryiostateVersion(in string value)  
+			  raises (DGT::GCSException); 
+
+    void setNumObservingBlock(in long numTotalObservingBlocks, in long numActualObservingBlock, in long numTotalImagesInObsBlock, in long numActualImageInObsBlock)  
+			  raises (DGT::GCSException); 
+
+    void setNumTotalObservingBlocks(in long value)  
+			  raises (DGT::GCSException); 
+
+    void setNumActualObservingBlock(in long value)  
+			  raises (DGT::GCSException); 
+
+    void setNumTotalImagesInObsBlock(in long value)  
+			  raises (DGT::GCSException); 
+
+    void setNumActualImageInObsBlock(in long value)  
+			  raises (DGT::GCSException); 
+
+    // Monitorable attributes (device magnitudes)
+    readonly attribute ObservationMode      obsMode;
+    readonly attribute boolean              isReceivingImageFinished;
+    
+    // Configurable attributes (device properties)
+    attribute string               observingEngineInstanceName;
+    attribute string               dfManagerInstanceName;
+    attribute string               dtuInstanceName;
+    attribute string               emirInstanceName;
+    attribute string               flatsPath;
+    attribute string               biasPath;
+    attribute string               darksPath;
+    attribute string               skyPath;
+    attribute string               pinholesPath;
+    attribute string               latitude;
+    attribute string               longitude;
+    attribute string               telescopeName;
+    attribute string               originFITS;
+    attribute string               observatoryName;
+    attribute short                recenter;
+    attribute double               max_recenter_radius;
+    
+  };
+};
+#endif // _EMIRDFAGENT_idl_ 
+

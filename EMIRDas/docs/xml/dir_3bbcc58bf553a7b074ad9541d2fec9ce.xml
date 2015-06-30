@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="dir_3bbcc58bf553a7b074ad9541d2fec9ce" kind="dir">
+    <compoundname>examples/</compoundname>
+    <innerdir refid="dir_aa2852049b7a960f51708fcb478f2e0b">examples/runEMIRDas.p.old/</innerdir>
+    <innerdir refid="dir_138eafa10c1fc8d410f168daae00321f">examples/testMemMan.p/</innerdir>
+    <innerdir refid="dir_00bf4ea056ac67ca70e68d75ad9a481a">examples/useEMIRDas.p/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/examples/"/>
+  </compounddef>
+</doxygen>

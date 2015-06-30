@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="EMIRDasController_8h" kind="file">
+    <compoundname>EMIRDasController.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="yes">TimeService.h</includes>
+    <includes refid="SimpleMemoryManager_8h" local="yes">SimpleMemoryManager.h</includes>
+    <includes refid="EMIRDasControllerHw_8h" local="yes">EMIRDasControllerHw.h</includes>
+    <includes refid="EMIRDasConf_8h" local="yes">EMIRDasConf.h</includes>
+    <includes local="yes">ace/Thread_Manager.h</includes>
+    <includedby refid="EMIRDas_8h" local="yes">EMIRDas.h</includedby>
+    <includedby refid="old_2EMIRDas_8h" local="yes">EMIRDas.h</includedby>
+    <includedby refid="EMIRDasController_8cpp" local="yes">EMIRDasController.cpp</includedby>
+    <includedby refid="EMIRDasControllerHw_8cpp" local="yes">EMIRDasControllerHw.cpp</includedby>
+    <incdepgraph>
+      <node id="1188">
+        <label>EMIRDasControllerHw.h</label>
+        <link refid="EMIRDasControllerHw_8h"/>
+        <childnode refid="1187" relation="include">
+        </childnode>
+        <childnode refid="1181" relation="include">
+        </childnode>
+        <childnode refid="1189" relation="include">
+        </childnode>
+        <childnode refid="1191" relation="include">
+        </childnode>
+      </node>
+      <node id="1185">
+        <label>ace/Semaphore.h</label>
+      </node>
+      <node id="1181">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1191">
+        <label>EMIRDasConf.h</label>
+        <link refid="EMIRDasConf_8h"/>
+        <childnode refid="1181" relation="include">
+        </childnode>
+      </node>
+      <node id="1190">
+        <label>string</label>
+      </node>
+      <node id="1187">
+        <label>Trace.h</label>
+      </node>
+      <node id="1192">
+        <label>ace/Thread_Manager.h</label>
+      </node>
+      <node id="1182">
+        <label>TimeService.h</label>
+      </node>
+      <node id="1186">
+        <label>ace/Synch.h</label>
+      </node>
+      <node id="1189">
+        <label>DetectorControllerApp.h</label>
+        <link refid="DetectorControllerApp_8h"/>
+        <childnode refid="1190" relation="include">
+        </childnode>
+        <childnode refid="1187" relation="include">
+        </childnode>
+      </node>
+      <node id="1183">
+        <label>SimpleMemoryManager.h</label>
+        <link refid="SimpleMemoryManager_8h"/>
+        <childnode refid="1184" relation="include">
+        </childnode>
+        <childnode refid="1185" relation="include">
+        </childnode>
+        <childnode refid="1186" relation="include">
+        </childnode>
+        <childnode refid="1187" relation="include">
+        </childnode>
+      </node>
+      <node id="1180">
+        <label>EMIRDasController.h</label>
+        <link refid="EMIRDasController.h"/>
+        <childnode refid="1181" relation="include">
+        </childnode>
+        <childnode refid="1182" relation="include">
+        </childnode>
+        <childnode refid="1183" relation="include">
+        </childnode>
+        <childnode refid="1188" relation="include">
+        </childnode>
+        <childnode refid="1191" relation="include">
+        </childnode>
+        <childnode refid="1192" relation="include">
+        </childnode>
+      </node>
+      <node id="1184">
+        <label>ace/Mutex.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1203">
+        <label>EMIRDasAdapter.cpp</label>
+        <link refid="old_2EMIRDasAdapter_8cpp"/>
+      </node>
+      <node id="1205">
+        <label>EMIRDasConfigAgent.cpp</label>
+        <link refid="old_2EMIRDasConfigAgent_8cpp"/>
+      </node>
+      <node id="1196">
+        <label>EMIRDasAdapter.h</label>
+        <link refid="EMIRDasAdapter_8h"/>
+        <childnode refid="1195" relation="include">
+        </childnode>
+        <childnode refid="1197" relation="include">
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>EMIRDas.cpp</label>
+        <link refid="old_2EMIRDas_8cpp"/>
+      </node>
+      <node id="1199">
+        <label>EMIRDasConfigAgent.cpp</label>
+        <link refid="EMIRDasConfigAgent_8cpp"/>
+      </node>
+      <node id="1202">
+        <label>EMIRDasAdapter.h</label>
+        <link refid="old_2EMIRDasAdapter_8h"/>
+        <childnode refid="1201" relation="include">
+        </childnode>
+        <childnode refid="1203" relation="include">
+        </childnode>
+      </node>
+      <node id="1204">
+        <label>EMIRDasConfigAgent.h</label>
+        <link refid="old_2EMIRDasConfigAgent_8h"/>
+        <childnode refid="1201" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+      </node>
+      <node id="1198">
+        <label>EMIRDasConfigAgent.h</label>
+        <link refid="EMIRDasConfigAgent_8h"/>
+        <childnode refid="1195" relation="include">
+        </childnode>
+        <childnode refid="1199" relation="include">
+        </childnode>
+      </node>
+      <node id="1206">
+        <label>dasApplication.cpp</label>
+        <link refid="examples_2runEMIRDas_8p_8old_2dasApplication_8cpp"/>
+      </node>
+      <node id="1195">
+        <label>EMIRDas.cpp</label>
+        <link refid="EMIRDas_8cpp"/>
+      </node>
+      <node id="1194">
+        <label>EMIRDas.h</label>
+        <link refid="EMIRDas_8h"/>
+        <childnode refid="1195" relation="include">
+        </childnode>
+        <childnode refid="1196" relation="include">
+        </childnode>
+        <childnode refid="1198" relation="include">
+        </childnode>
+        <childnode refid="1197" relation="include">
+        </childnode>
+      </node>
+      <node id="1208">
+        <label>EMIRDasController.cpp</label>
+        <link refid="EMIRDasController_8cpp"/>
+      </node>
+      <node id="1200">
+        <label>EMIRDas.h</label>
+        <link refid="old_2EMIRDas_8h"/>
+        <childnode refid="1201" relation="include">
+        </childnode>
+        <childnode refid="1202" relation="include">
+        </childnode>
+        <childnode refid="1204" relation="include">
+        </childnode>
+        <childnode refid="1203" relation="include">
+        </childnode>
+        <childnode refid="1206" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+      </node>
+      <node id="1197">
+        <label>EMIRDasAdapter.cpp</label>
+        <link refid="EMIRDasAdapter_8cpp"/>
+      </node>
+      <node id="1209">
+        <label>EMIRDasControllerHw.cpp</label>
+        <link refid="EMIRDasControllerHw_8cpp"/>
+      </node>
+      <node id="1193">
+        <label>EMIRDasController.h</label>
+        <link refid="EMIRDasController.h"/>
+        <childnode refid="1194" relation="include">
+        </childnode>
+        <childnode refid="1200" relation="include">
+        </childnode>
+        <childnode refid="1208" relation="include">
+        </childnode>
+        <childnode refid="1209" relation="include">
+        </childnode>
+      </node>
+      <node id="1207">
+        <label>dasApplication.cpp</label>
+        <link refid="runEMIRDas_8p_2dasApplication_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classEMIRDasController">EMIRDasController</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="EMIRDasController_8h_1cb0676a77d8472d58f8caa2795d53045" prot="public" static="no">
+        <name>IMG_DIR</name>
+        <initializer>&quot;/scratch/EMIR/frames/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" line="14" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_EMIRDasController_h_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_EMIRDasController_h_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TimeService.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="SimpleMemoryManager_8h" kindref="compound">SimpleMemoryManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="EMIRDasControllerHw_8h" kindref="compound">EMIRDasControllerHw.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="EMIRDasConf_8h" kindref="compound">EMIRDasConf.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ace/Thread_Manager.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="EMIRDasController_8h_1cb0676a77d8472d58f8caa2795d53045" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IMG_DIR<sp/>&quot;/scratch/EMIR/frames/&quot;</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="34" refid="classEMIRDasController" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEMIRDasController" kindref="compound">EMIRDasController</ref><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEMIRDasController_1c1071c3fc072ad93985337bab9f3b578" kindref="member">EMIRDasController</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/><ref refid="EMIRDasController_8cpp_1d2778d85ce6368749a5eae3264047cc1" kindref="member">dataFactoryName</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>imgStorageDir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>powerOn,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>acquisitionApp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String<sp/>powerOff);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEMIRDasController_1e2500f58d3cd53504cb5fc34d95a63d1" kindref="member">~EMIRDasController</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="classEMIRDasController_1a2091be19a1833fc54527b080dfe3e84" kindref="member">report</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>level);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Functions<sp/>called<sp/>by<sp/>DetectorControllerEventInfo.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>handler_add_associate_data(Event<sp/>&amp;<sp/>evt);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_1975b87e8f56180e263e8b1eaefa91194" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_184a2c200dce96885a3693fea3c88f5dc" kindref="member">halt</ref>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_13cc1efbd1d45ffd7499bb7a2c04a0a14" kindref="member">config</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structAcqConfig" kindref="compound">AcqConfig</ref><sp/>&amp;acqparameters);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_1cab75709be10b0f884aa7bdf2fdd5c6c" kindref="member">start</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sendFrame);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_102a82e1fc1e01899fd0a71203a305da7" kindref="member">abort</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_1ff956348e8954957d4601fa500d623ba" kindref="member">check</ref>();</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_1f07a5a5c57fa768add28bb5dd68608a9" kindref="member">shutdown</ref>();</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_14e88713b462e25dee99d4215e56cb692" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_104fdeacefcd578b195d548f1e6fefa07" kindref="member">test</ref>();</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEMIRDasController_169a2f98b7be1b055556481806e949879" kindref="member">expose</ref>(<ref refid="structAcqConfig" kindref="compound">AcqConfig</ref><sp/>&amp;<sp/>acqparameters);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="classEMIRDasController_1590228bb19129db6b3abb3f9a83ee719" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Trace<sp/>*<ref refid="classEMIRDasController_1590228bb19129db6b3abb3f9a83ee719" kindref="member">trace_</ref>;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>aborting_;<sp/></highlight><highlight class="comment">//Indicates<sp/>that<sp/>aborting<sp/>is<sp/>in<sp/>progress.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>created_;<sp/></highlight><highlight class="comment">//<sp/>Indicates<sp/>if<sp/>detector<sp/>controller<sp/>has<sp/>been<sp/>created.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>continuereadexperimental_;</highlight><highlight class="comment">//<sp/>Indates<sp/>when<sp/>the<sp/>loop<sp/>of<sp/>read<sp/>experimental<sp/>must<sp/>be<sp/>broken.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>requirereleasebucket_;</highlight><highlight class="comment">//<sp/>Indicates<sp/>when<sp/>the<sp/>bucket<sp/>is<sp/>acquired.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>powOn;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>powOff;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>acqApp;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>string<sp/>imgDir;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEMIRDasControllerHw" kindref="compound">EMIRDasControllerHw</ref><sp/>*dchardwarefacade_;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSimpleMemoryManager" kindref="compound">SimpleMemoryManager</ref><sp/>*memoryManager;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>VXWORKS</highlight></codeline>
+<codeline lineno="200"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>threadId_;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="202"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACE_thread_t<sp/>threadId_;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="204"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>readDetector(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*dumpFrame,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter,<sp/><ref refid="structAcqConfig" kindref="compound">AcqConfig</ref><sp/>params);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_EMIRDasController_h_</highlight></codeline>
+    </programlisting>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDasController.l/EMIRDasController.h"/>
+  </compounddef>
+</doxygen>

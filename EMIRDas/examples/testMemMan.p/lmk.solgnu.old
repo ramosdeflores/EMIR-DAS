@@ -1,0 +1,2 @@
+#LDLIBS += -lEMIRDas -lEMIRDasController -lSDSUsim -lDCF -lSK -lDAF -lDGCSTypes -lTS -lTK $(TAO_LIBS) -lArray -lBasicTypes -lConfigFileMgr -lOSWrappers -lTrace
+LDLIBS += -lEMIRDas -lEMIRDasController -lDCF -lSK -lDAF -lDGCSTypes -lTS -lTK $(TAO_LIBS) -lArray -lBasicTypes -lConfigFileMgr -lOSWrappers -lTrace -lTask -lPeriodicTask

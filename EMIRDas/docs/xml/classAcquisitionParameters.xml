@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classAcquisitionParameters" kind="class" prot="public">
+    <compoundname>AcquisitionParameters</compoundname>
+    <includes refid="AcquisitionParameters_8h" local="no">AcquisitionParameters.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc" prot="public" static="no">
+        <name>ReadoutMode</name>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbcde9b25a536f6297de57b54c5c511844d" prot="public">
+          <name>SINGLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc9a0f8c01906c3dcea4468bf317dbc03e" prot="public">
+          <name>CDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbcde7fbfb5f7ef12a3ddfea3aa90c447ae" prot="public">
+          <name>FOWLER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc838607f7fbf24d539949105a8eab12f1" prot="public">
+          <name>RAMP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc0b44751e5e857f3de9b1df526d68b217" prot="public">
+          <name>HDR_SIMPLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="49" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="enum" id="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab46c93170d8da26499fbb81677040f673" prot="public">
+          <name>DEVICE_REPORT_SIZE_</name>
+          <initializer> 32*1024</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab172c096d54244cf6269da536a000e175" prot="public">
+          <name>DEVICE_INTERNAL_SIZE_</name>
+          <initializer>32*1024</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="86" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="enum" id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc" prot="public" static="no">
+        <name>ReadoutMode</name>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbcde9b25a536f6297de57b54c5c511844d" prot="public">
+          <name>SINGLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc9a0f8c01906c3dcea4468bf317dbc03e" prot="public">
+          <name>CDS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbcde7fbfb5f7ef12a3ddfea3aa90c447ae" prot="public">
+          <name>FOWLER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc838607f7fbf24d539949105a8eab12f1" prot="public">
+          <name>RAMP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc0b44751e5e857f3de9b1df526d68b217" prot="public">
+          <name>HDR_SIMPLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/AcquisitionParameters.h" line="49" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/AcquisitionParameters.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="enum" id="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab46c93170d8da26499fbb81677040f673" prot="public">
+          <name>DEVICE_REPORT_SIZE_</name>
+          <initializer> 32*1024</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab172c096d54244cf6269da536a000e175" prot="public">
+          <name>DEVICE_INTERNAL_SIZE_</name>
+          <initializer>32*1024</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/AcquisitionParameters.h" line="86" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/AcquisitionParameters.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAcquisitionParameters_1d372db6bad5a2b9e691693dcd0e29e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AcquisitionParameters::AcquisitionParameters</definition>
+        <argsstring>()</argsstring>
+        <name>AcquisitionParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classAcquisitionParameters_110fef7ccf5b3f979575c0f7ad762f4c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AcquisitionParameters::~AcquisitionParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~AcquisitionParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classAcquisitionParameters_16aad748ee98e9fe1bfa19d9c575f9cd7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int AcquisitionParameters::acquisitionMode</definition>
+        <argsstring>() const </argsstring>
+        <name>acquisitionMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns current Acquisition mode </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classAcquisitionParameters_19239d640e6bc65798341a21d687dbd70" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int AcquisitionParameters::coordId</definition>
+        <argsstring>() const </argsstring>
+        <name>coordId</name>
+        <briefdescription>
+<para>return Returns current Acquisition mode </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classAcquisitionParameters_1cd97d5a4c89c640b50375b669feaad18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* AcquisitionParameters::report</definition>
+        <argsstring>()</argsstring>
+        <name>report</name>
+        <briefdescription>
+<para>Returns an string with internal information about this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classAcquisitionParameters_1d372db6bad5a2b9e691693dcd0e29e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AcquisitionParameters::AcquisitionParameters</definition>
+        <argsstring>()</argsstring>
+        <name>AcquisitionParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/AcquisitionParameters.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classAcquisitionParameters_110fef7ccf5b3f979575c0f7ad762f4c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AcquisitionParameters::~AcquisitionParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~AcquisitionParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/AcquisitionParameters.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classAcquisitionParameters_16aad748ee98e9fe1bfa19d9c575f9cd7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int AcquisitionParameters::acquisitionMode</definition>
+        <argsstring>() const </argsstring>
+        <name>acquisitionMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns current Acquisition mode </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/AcquisitionParameters.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classAcquisitionParameters_19239d640e6bc65798341a21d687dbd70" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int AcquisitionParameters::coordId</definition>
+        <argsstring>() const </argsstring>
+        <name>coordId</name>
+        <briefdescription>
+<para>return Returns current Acquisition mode </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/AcquisitionParameters.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classAcquisitionParameters_1cd97d5a4c89c640b50375b669feaad18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* AcquisitionParameters::report</definition>
+        <argsstring>()</argsstring>
+        <name>report</name>
+        <briefdescription>
+<para>Returns an string with internal information about this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l.old/AcquisitionParameters.h" line="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classAcquisitionParameters_11769713cc644da1da31404d191e2edeb" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string AcquisitionParameters::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="46" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1f18ef57f47ea5ffde10975d2d63efff4" prot="public" static="no" mutable="no">
+        <type><ref refid="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc" kindref="member">ReadoutMode</ref></type>
+        <definition>ReadoutMode AcquisitionParameters::acquisitionmode</definition>
+        <argsstring></argsstring>
+        <name>acquisitionmode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="50" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1c5388111c6defda71c8eaff62591f5b3" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short AcquisitionParameters::pixelSize</definition>
+        <argsstring></argsstring>
+        <name>pixelSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="51" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_19e7e3cab6f8eb4ba6b76c0f6b84ea755" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionParameters::exposureTime</definition>
+        <argsstring></argsstring>
+        <name>exposureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="54" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_16d9a672b1a880b0151fd3aa75ff185f7" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionParameters::nparam_x</definition>
+        <argsstring></argsstring>
+        <name>nparam_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="55" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_15656ed53fbd60421753a822539f89647" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AcquisitionParameters::nsec</definition>
+        <argsstring></argsstring>
+        <name>nsec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="59" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_111c9375f87f9f7c1f1c411b874e4be85" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AcquisitionParameters::optrst</definition>
+        <argsstring></argsstring>
+        <name>optrst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="60" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1968c6d10b1e71d531f6e0f97f7f18d32" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AcquisitionParameters::nrst</definition>
+        <argsstring></argsstring>
+        <name>nrst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="61" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1c25df17e52305699f438e8145a738290" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AcquisitionParameters::nrdbl</definition>
+        <argsstring></argsstring>
+        <name>nrdbl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="62" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1213d045e00d4aec4765bd2aa6c98f9b2" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AcquisitionParameters::nrdbl_nd</definition>
+        <argsstring></argsstring>
+        <name>nrdbl_nd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="63" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_134d1c144769c77862281015e6ad6ee33" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AcquisitionParameters::nexp</definition>
+        <argsstring></argsstring>
+        <name>nexp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="64" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1b394f50748f3e3b66c223390577eced5" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AcquisitionParameters::nrdil</definition>
+        <argsstring></argsstring>
+        <name>nrdil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="65" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1180ba90baca427d90627a74492d17bc0" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AcquisitionParameters::nrdil_nd</definition>
+        <argsstring></argsstring>
+        <name>nrdil_nd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="66" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_12c5243688b101f311626ed80cadf499a" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int AcquisitionParameters::numReads</definition>
+        <argsstring></argsstring>
+        <name>numReads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="67" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_18209cf96aeafe154ea282b9cddb990a0" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short AcquisitionParameters::x_size</definition>
+        <argsstring></argsstring>
+        <name>x_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="70" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_191423e650cf0119d81fab7e46130b5d3" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short AcquisitionParameters::y_size</definition>
+        <argsstring></argsstring>
+        <name>y_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="71" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1a50238dce6c2f9eb93e731dbed8a8264" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short AcquisitionParameters::y_size_b</definition>
+        <argsstring></argsstring>
+        <name>y_size_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="72" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1fa695aaefb31086100bbe3d6127dcbeb" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short AcquisitionParameters::x_start</definition>
+        <argsstring></argsstring>
+        <name>x_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="73" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_116a2e9fc6d7c9c91631a3472076c6860" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short AcquisitionParameters::y_start</definition>
+        <argsstring></argsstring>
+        <name>y_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="74" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_14c1f29d7ffb5995d39a3a9291d7896e8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AcquisitionParameters::simulateImage</definition>
+        <argsstring></argsstring>
+        <name>simulateImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="76" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1bf807a5c863ea2153759bc5fb8163b79" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AcquisitionParameters::applyconfiguration</definition>
+        <argsstring></argsstring>
+        <name>applyconfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="77" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1a7408cae6d4e9af4b6845a8feba17982" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AcquisitionParameters::applysaveimages</definition>
+        <argsstring></argsstring>
+        <name>applysaveimages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="78" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_18347e80d179da28917116f3bcf4cf7cb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AcquisitionParameters::windowmode</definition>
+        <argsstring></argsstring>
+        <name>windowmode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="79" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_125972c70e887b2ea9fc968d45660d504" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AcquisitionParameters::acquisitionId</definition>
+        <argsstring></argsstring>
+        <name>acquisitionId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="81" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1297b038ba9cdd31058cfae5c70e2f163" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short AcquisitionParameters::coordid</definition>
+        <argsstring></argsstring>
+        <name>coordid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="83" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_1d13e38484851643e8f66ad5af7583077" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char AcquisitionParameters::dev_reply_</definition>
+        <argsstring>[DEVICE_REPORT_SIZE_]</argsstring>
+        <name>dev_reply_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="87" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAcquisitionParameters_16ffb1d6035b10ed4b9b553a19f953f82" prot="public" static="no" mutable="no">
+        <type>timespec</type>
+        <definition>timespec AcquisitionParameters::acquisitionStartTime</definition>
+        <argsstring></argsstring>
+        <name>acquisitionStartTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="88" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a data structure that contains the parameters for an acquisition. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" line="18" bodyfile="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/EMIRDas.l/AcquisitionParameters.h" bodystart="18" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>@0</name></member>
+      <member refid="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>@0</name></member>
+      <member refid="classAcquisitionParameters_125972c70e887b2ea9fc968d45660d504" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>acquisitionId</name></member>
+      <member refid="classAcquisitionParameters_16aad748ee98e9fe1bfa19d9c575f9cd7" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>acquisitionMode</name></member>
+      <member refid="classAcquisitionParameters_16aad748ee98e9fe1bfa19d9c575f9cd7" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>acquisitionMode</name></member>
+      <member refid="classAcquisitionParameters_1f18ef57f47ea5ffde10975d2d63efff4" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>acquisitionmode</name></member>
+      <member refid="classAcquisitionParameters_1d372db6bad5a2b9e691693dcd0e29e32" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>AcquisitionParameters</name></member>
+      <member refid="classAcquisitionParameters_1d372db6bad5a2b9e691693dcd0e29e32" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>AcquisitionParameters</name></member>
+      <member refid="classAcquisitionParameters_16ffb1d6035b10ed4b9b553a19f953f82" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>acquisitionStartTime</name></member>
+      <member refid="classAcquisitionParameters_1bf807a5c863ea2153759bc5fb8163b79" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>applyconfiguration</name></member>
+      <member refid="classAcquisitionParameters_1a7408cae6d4e9af4b6845a8feba17982" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>applysaveimages</name></member>
+      <member refid="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc9a0f8c01906c3dcea4468bf317dbc03e" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>CDS</name></member>
+      <member refid="classAcquisitionParameters_19239d640e6bc65798341a21d687dbd70" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>coordId</name></member>
+      <member refid="classAcquisitionParameters_19239d640e6bc65798341a21d687dbd70" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>coordId</name></member>
+      <member refid="classAcquisitionParameters_1297b038ba9cdd31058cfae5c70e2f163" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>coordid</name></member>
+      <member refid="classAcquisitionParameters_1d13e38484851643e8f66ad5af7583077" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>dev_reply_</name></member>
+      <member refid="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab172c096d54244cf6269da536a000e175" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>DEVICE_INTERNAL_SIZE_</name></member>
+      <member refid="classAcquisitionParameters_151f6eac870df3515666bb659484d5cab46c93170d8da26499fbb81677040f673" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>DEVICE_REPORT_SIZE_</name></member>
+      <member refid="classAcquisitionParameters_19e7e3cab6f8eb4ba6b76c0f6b84ea755" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>exposureTime</name></member>
+      <member refid="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbcde7fbfb5f7ef12a3ddfea3aa90c447ae" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>FOWLER</name></member>
+      <member refid="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc0b44751e5e857f3de9b1df526d68b217" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>HDR_SIMPLE</name></member>
+      <member refid="classAcquisitionParameters_134d1c144769c77862281015e6ad6ee33" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>nexp</name></member>
+      <member refid="classAcquisitionParameters_16d9a672b1a880b0151fd3aa75ff185f7" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>nparam_x</name></member>
+      <member refid="classAcquisitionParameters_1c25df17e52305699f438e8145a738290" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>nrdbl</name></member>
+      <member refid="classAcquisitionParameters_1213d045e00d4aec4765bd2aa6c98f9b2" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>nrdbl_nd</name></member>
+      <member refid="classAcquisitionParameters_1b394f50748f3e3b66c223390577eced5" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>nrdil</name></member>
+      <member refid="classAcquisitionParameters_1180ba90baca427d90627a74492d17bc0" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>nrdil_nd</name></member>
+      <member refid="classAcquisitionParameters_1968c6d10b1e71d531f6e0f97f7f18d32" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>nrst</name></member>
+      <member refid="classAcquisitionParameters_15656ed53fbd60421753a822539f89647" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>nsec</name></member>
+      <member refid="classAcquisitionParameters_12c5243688b101f311626ed80cadf499a" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>numReads</name></member>
+      <member refid="classAcquisitionParameters_111c9375f87f9f7c1f1c411b874e4be85" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>optrst</name></member>
+      <member refid="classAcquisitionParameters_1c5388111c6defda71c8eaff62591f5b3" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>pixelSize</name></member>
+      <member refid="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc838607f7fbf24d539949105a8eab12f1" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>RAMP</name></member>
+      <member refid="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>ReadoutMode</name></member>
+      <member refid="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbc" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>ReadoutMode</name></member>
+      <member refid="classAcquisitionParameters_1cd97d5a4c89c640b50375b669feaad18" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>report</name></member>
+      <member refid="classAcquisitionParameters_1cd97d5a4c89c640b50375b669feaad18" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>report</name></member>
+      <member refid="classAcquisitionParameters_14c1f29d7ffb5995d39a3a9291d7896e8" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>simulateImage</name></member>
+      <member refid="classAcquisitionParameters_1d20e4fefb6669b69680c346816a0dcbcde9b25a536f6297de57b54c5c511844d" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>SINGLE</name></member>
+      <member refid="classAcquisitionParameters_11769713cc644da1da31404d191e2edeb" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>title</name></member>
+      <member refid="classAcquisitionParameters_18347e80d179da28917116f3bcf4cf7cb" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>windowmode</name></member>
+      <member refid="classAcquisitionParameters_18209cf96aeafe154ea282b9cddb990a0" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>x_size</name></member>
+      <member refid="classAcquisitionParameters_1fa695aaefb31086100bbe3d6127dcbeb" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>x_start</name></member>
+      <member refid="classAcquisitionParameters_191423e650cf0119d81fab7e46130b5d3" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>y_size</name></member>
+      <member refid="classAcquisitionParameters_1a50238dce6c2f9eb93e731dbed8a8264" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>y_size_b</name></member>
+      <member refid="classAcquisitionParameters_116a2e9fc6d7c9c91631a3472076c6860" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>y_start</name></member>
+      <member refid="classAcquisitionParameters_110fef7ccf5b3f979575c0f7ad762f4c7" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>~AcquisitionParameters</name></member>
+      <member refid="classAcquisitionParameters_110fef7ccf5b3f979575c0f7ad762f4c7" prot="public" virt="non-virtual"><scope>AcquisitionParameters</scope><name>~AcquisitionParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

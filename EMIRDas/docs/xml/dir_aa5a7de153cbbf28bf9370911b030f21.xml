@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="dir_aa5a7de153cbbf28bf9370911b030f21" kind="dir">
+    <compoundname>SDSUlcu.l/</compoundname>
+    <innerfile refid="copyright_8h">copyright.h</innerfile>
+    <innerfile refid="SDSUlcu_8l_2ct__interface_8h">SDSUlcu.l/ct_interface.h</innerfile>
+    <innerfile refid="SDSUlcu_8l_2fg__interface_8h">SDSUlcu.l/fg_interface.h</innerfile>
+    <innerfile refid="sdsu__emir__driver_8h">sdsu_emir_driver.h</innerfile>
+    <innerfile refid="sdsu__emir__interface_8h">sdsu_emir_interface.h</innerfile>
+    <innerfile refid="sdsu__emir__platform_8h">sdsu_emir_platform.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/scratch/gcs/plopez/src_c++/gtc/AL/ECM/EMIR/DAS/EMIRDas/SDSUlcu.l/"/>
+  </compounddef>
+</doxygen>
